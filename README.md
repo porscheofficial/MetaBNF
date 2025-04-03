@@ -97,5 +97,5 @@ We welcome contributions! Here's how you can help:\
 
 ## 📜 License
 
-MetaBNF is **open-source** under the [MIT License](LICENSE).
+MetaBNF is **open-source** under the [Apache 2.0](LICENSE).
 
