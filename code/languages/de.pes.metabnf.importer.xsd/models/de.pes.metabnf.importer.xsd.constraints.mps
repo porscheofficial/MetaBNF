@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:8713a036-5bb1-4933-ac31-818da355a16c(MetaBNF.constraints)">
+<model ref="r:9eb4fba5-f11b-4792-8743-a3886ee97aa0(de.pes.metabnf.importer.xsd.constraints)">
   <persistence version="9" />
   <languages>
     <use id="5dae8159-ab99-46bb-a40d-0cee30ee7018" name="jetbrains.mps.lang.constraints.rules.kinds" version="0" />

@@ -52,6 +52,7 @@ A simple expression language using MetaBNF:
 - JetBrains **MPS 2023.2.2 or newer**
 - Java **17+**
 - (Optional) Git for cloning the repo
+- mbeddr.core available due to some dependencies
 
 ### 2️⃣ Clone the Repo & Import into MPS
 

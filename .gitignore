@@ -1,0 +1,16 @@
+
+# -----------------------------------------------------------
+# General
+
+*.class
+*.jar
+!gradle-wrapper.jar
+
+doc_gen
+classes_gen
+source_gen
+source_gen.caches
+
+
+# Logger output
+code/languages/*/logs/*

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:436fb0a9-83eb-41b0-877b-b512c6681f76(MetaBNF.generator.templates@generator)">
+<model ref="r:d456b32c-ce08-420e-ae6b-e32e34e6a514(de.pes.metabnf.importer.xsd.generator.templates@generator)">
   <persistence version="9" />
   <languages>
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
   </languages>
   <imports>
-    <import index="gnyy" ref="r:ac9279e7-575d-4f43-a8ae-56ec7a1f5b12(MetaBNF.structure)" />
+    <import index="sjue" ref="r:f27bdbe3-d582-425f-a49d-e6eefd361f24(de.pes.metabnf.importer.xsd.structure)" />
   </imports>
   <registry>
     <language id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator">
@@ -17,7 +17,7 @@
       </concept>
     </language>
   </registry>
-  <node concept="bUwia" id="2HQFNDoLsuO">
+  <node concept="bUwia" id="1EU0USVev8F">
     <property role="TrG5h" value="main" />
   </node>
 </model>

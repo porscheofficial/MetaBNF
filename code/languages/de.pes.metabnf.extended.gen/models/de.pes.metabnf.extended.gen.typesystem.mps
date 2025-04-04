@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:c9a4a05e-bd32-4283-8aa2-3321c1a3106c(MetaBNF.typesystem)">
+<model ref="r:193d6dc1-5680-4c7d-8174-461271843de3(de.pes.metabnf.extended.gen.typesystem)">
   <persistence version="9" />
   <languages>
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="5" />
