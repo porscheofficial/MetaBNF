@@ -6,6 +6,7 @@
       <modulePath path="$PROJECT_DIR$/languages/de.pes.metabnf.extended.gen/de.pes.metabnf.extended.gen.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/de.pes.metabnf.extended/de.pes.metabnf.extended.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/de.pes.metabnf.importer.xsd/de.pes.metabnf.importer.xsd.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/de.pes.MetaBNF.build/de.pes.MetaBNF.build.msd" folder="build" />
     </projectModules>
   </component>
 </project>
