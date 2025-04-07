@@ -277,64 +277,10 @@
       <fileset dir="${metaBNF.home}/languages/de.pes.metabnf.basic/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
       <fileset dir="${build.tmp}/default/de.pes.metabnf.basic.jar" />
     </jar>
-    <mkdir dir="${build.tmp}/default/de.pes.metabnf.basic-generator.jar" />
-    <mkdir dir="${build.tmp}/default/de.pes.metabnf.basic-generator.jar/META-INF" />
-    <echoxml file="${build.tmp}/default/de.pes.metabnf.basic-generator.jar/META-INF/module.xml">
-      <module namespace="de.pes.metabnf.basic.generator" type="generator" uuid="962a81fd-812e-4a23-a745-bde18e72c3be">
-        <dependencies>
-          <module ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" kind="rt" />
-          <module ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" kind="rt" />
-          <module ref="215c4c45-ba99-49f5-9ab7-4b6901a63cfd(MPS.Generator)" kind="rt" />
-          <module ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" kind="rt" />
-          <module ref="4c6a28d1-2c60-478d-b36e-db9b3cbb21fb(closures.runtime)" kind="rt" />
-          <module ref="9b80526e-f0bf-4992-bdf5-cee39c1833f3(collections.runtime)" kind="rt" />
-          <module ref="a3e4657f-a76c-45bb-bbda-c764596ecc65(jetbrains.mps.baseLanguage.logging.runtime)" kind="rt" />
-          <module ref="52b81ac7-93fd-4e9e-b972-4995882da6d4(jetbrains.mps.baseLanguage.references.runtime)" kind="rt" />
-          <module ref="d44dab97-aaac-44cb-9745-8a14db674c03(jetbrains.mps.baseLanguage.tuples.runtime)" kind="rt" />
-          <module ref="d936855b-48da-4812-a8a0-2bfddd633ac5(jetbrains.mps.lang.behavior.api)" kind="rt" />
-          <module ref="d936855b-48da-4812-a8a0-2bfddd633ac4(jetbrains.mps.lang.behavior.runtime)" kind="rt" />
-          <module ref="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" kind="rt" />
-          <module ref="926d63aa-027c-47a4-939e-98f42e63df1a(de.pes.metabnf.basic)" kind="cl" />
-        </dependencies>
-        <uses>
-          <language id="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" />
-          <language id="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" />
-          <language id="l:83888646-71ce-4f1c-9c53-c54016f6ad4f:jetbrains.mps.baseLanguage.collections" />
-          <language id="l:f2801650-65d5-424e-bb1b-463a8781b786:jetbrains.mps.baseLanguage.javadoc" />
-          <language id="l:760a0a8c-eabb-4521-8bfd-65db761a9ba3:jetbrains.mps.baseLanguage.logging" />
-          <language id="l:a247e09e-2435-45ba-b8d2-07e93feba96a:jetbrains.mps.baseLanguage.tuples" />
-          <language id="l:b401a680-8325-4110-8fd3-84331ff25bef:jetbrains.mps.lang.generator" />
-          <language id="l:d7706f63-9be2-479c-a3da-ae92af1e64d5:jetbrains.mps.lang.generator.generationContext" />
-          <language id="l:289fcc83-6543-41e8-a5ca-768235715ce4:jetbrains.mps.lang.generator.generationParameters" />
-          <language id="l:3a13115c-633c-4c5c-bbcc-75c4219e9555:jetbrains.mps.lang.quotation" />
-          <language id="l:13744753-c81f-424a-9c1b-cf8943bf4e86:jetbrains.mps.lang.sharedConcepts" />
-          <language id="l:7866978e-a0f0-4cc7-81bc-4d213d9375e1:jetbrains.mps.lang.smodel" />
-          <language id="l:c7fb639f-be78-4307-89b0-b5959c3fa8c8:jetbrains.mps.lang.text" />
-        </uses>
-        <classpath>
-          <entry path="." />
-        </classpath>
-        <sources jar="de.pes.metabnf.basic-src.jar" descriptor="de.pes.metabnf.basic.mpl" />
-      </module>
-    </echoxml>
-    <jar destfile="${build.tmp}/default/MetaBNF.jar/MetaBNF/languages/metaBNF/de.pes.metabnf.basic-generator.jar" duplicate="preserve">
-      <fileset dir="${build.tmp}/java/out/de.pes.metabnf.basic.generator" />
-      <fileset dir="${metaBNF.home}/languages/de.pes.metabnf.basic/generator/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
-      <fileset dir="${build.tmp}/default/de.pes.metabnf.basic-generator.jar" />
-    </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-de.pes.metabnf.basic-models">
       <fileset dir="${metaBNF.home}/languages/de.pes.metabnf.basic/models" includes="**/*.mps, **/*.mpsr, **/.model" />
     </copyModels>
-    <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-de.pes.metabnf.basic-generator-templates">
-      <fileset dir="${metaBNF.home}/languages/de.pes.metabnf.basic/generator/templates" includes="**/*.mps, **/*.mpsr, **/.model" />
-    </copyModels>
     <jar destfile="${build.tmp}/default/MetaBNF.jar/MetaBNF/languages/metaBNF/de.pes.metabnf.basic-src.jar" duplicate="preserve">
-      <fileset dir="${metaBNF.home}/languages/de.pes.metabnf.basic/generator/source_gen">
-        <exclude name="**/trace.info" />
-        <exclude name="**/exports" />
-        <exclude name="**/checkpoints" />
-        <exclude name="**/*.mps" />
-      </fileset>
       <fileset dir="${metaBNF.home}/languages/de.pes.metabnf.basic/source_gen">
         <exclude name="**/trace.info" />
         <exclude name="**/exports" />
@@ -343,7 +289,6 @@
       </fileset>
       <zipfileset file="${basedir}/languages/de.pes.metabnf.basic/de.pes.metabnf.basic.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-de.pes.metabnf.basic-models" prefix="module/models" />
-      <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-de.pes.metabnf.basic-generator-templates" prefix="module/generator/templates" />
     </jar>
     <mkdir dir="${build.tmp}/default/de.pes.metabnf.extended.jar" />
     <mkdir dir="${build.tmp}/default/de.pes.metabnf.extended.jar/META-INF" />
@@ -665,64 +610,10 @@
       <fileset dir="${metaBNF.home}/languages/de.pes.metabnf.importer.xsd/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
       <fileset dir="${build.tmp}/default/de.pes.metabnf.importer.xsd.jar" />
     </jar>
-    <mkdir dir="${build.tmp}/default/de.pes.metabnf.importer.xsd-generator.jar" />
-    <mkdir dir="${build.tmp}/default/de.pes.metabnf.importer.xsd-generator.jar/META-INF" />
-    <echoxml file="${build.tmp}/default/de.pes.metabnf.importer.xsd-generator.jar/META-INF/module.xml">
-      <module namespace="de.pes.metabnf.importer.xsd.generator" type="generator" uuid="596751de-4894-4e51-8898-966bc0bdd476">
-        <dependencies>
-          <module ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" kind="rt" />
-          <module ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" kind="rt" />
-          <module ref="215c4c45-ba99-49f5-9ab7-4b6901a63cfd(MPS.Generator)" kind="rt" />
-          <module ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" kind="rt" />
-          <module ref="4c6a28d1-2c60-478d-b36e-db9b3cbb21fb(closures.runtime)" kind="rt" />
-          <module ref="9b80526e-f0bf-4992-bdf5-cee39c1833f3(collections.runtime)" kind="rt" />
-          <module ref="a3e4657f-a76c-45bb-bbda-c764596ecc65(jetbrains.mps.baseLanguage.logging.runtime)" kind="rt" />
-          <module ref="52b81ac7-93fd-4e9e-b972-4995882da6d4(jetbrains.mps.baseLanguage.references.runtime)" kind="rt" />
-          <module ref="d44dab97-aaac-44cb-9745-8a14db674c03(jetbrains.mps.baseLanguage.tuples.runtime)" kind="rt" />
-          <module ref="d936855b-48da-4812-a8a0-2bfddd633ac5(jetbrains.mps.lang.behavior.api)" kind="rt" />
-          <module ref="d936855b-48da-4812-a8a0-2bfddd633ac4(jetbrains.mps.lang.behavior.runtime)" kind="rt" />
-          <module ref="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" kind="rt" />
-          <module ref="97ffe80d-dc46-4f8f-8809-6a50ddfc0686(de.pes.metabnf.importer.xsd)" kind="cl" />
-        </dependencies>
-        <uses>
-          <language id="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" />
-          <language id="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" />
-          <language id="l:83888646-71ce-4f1c-9c53-c54016f6ad4f:jetbrains.mps.baseLanguage.collections" />
-          <language id="l:f2801650-65d5-424e-bb1b-463a8781b786:jetbrains.mps.baseLanguage.javadoc" />
-          <language id="l:760a0a8c-eabb-4521-8bfd-65db761a9ba3:jetbrains.mps.baseLanguage.logging" />
-          <language id="l:a247e09e-2435-45ba-b8d2-07e93feba96a:jetbrains.mps.baseLanguage.tuples" />
-          <language id="l:b401a680-8325-4110-8fd3-84331ff25bef:jetbrains.mps.lang.generator" />
-          <language id="l:d7706f63-9be2-479c-a3da-ae92af1e64d5:jetbrains.mps.lang.generator.generationContext" />
-          <language id="l:289fcc83-6543-41e8-a5ca-768235715ce4:jetbrains.mps.lang.generator.generationParameters" />
-          <language id="l:3a13115c-633c-4c5c-bbcc-75c4219e9555:jetbrains.mps.lang.quotation" />
-          <language id="l:13744753-c81f-424a-9c1b-cf8943bf4e86:jetbrains.mps.lang.sharedConcepts" />
-          <language id="l:7866978e-a0f0-4cc7-81bc-4d213d9375e1:jetbrains.mps.lang.smodel" />
-          <language id="l:c7fb639f-be78-4307-89b0-b5959c3fa8c8:jetbrains.mps.lang.text" />
-        </uses>
-        <classpath>
-          <entry path="." />
-        </classpath>
-        <sources jar="de.pes.metabnf.importer.xsd-src.jar" descriptor="de.pes.metabnf.importer.xsd.mpl" />
-      </module>
-    </echoxml>
-    <jar destfile="${build.tmp}/default/MetaBNF.jar/MetaBNF/languages/metaBNF/de.pes.metabnf.importer.xsd-generator.jar" duplicate="preserve">
-      <fileset dir="${build.tmp}/java/out/de.pes.metabnf.importer.xsd.generator" />
-      <fileset dir="${metaBNF.home}/languages/de.pes.metabnf.importer.xsd/generator/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
-      <fileset dir="${build.tmp}/default/de.pes.metabnf.importer.xsd-generator.jar" />
-    </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-de.pes.metabnf.importer.xsd-models">
       <fileset dir="${metaBNF.home}/languages/de.pes.metabnf.importer.xsd/models" includes="**/*.mps, **/*.mpsr, **/.model" />
     </copyModels>
-    <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-de.pes.metabnf.importer.xsd-generator-templates">
-      <fileset dir="${metaBNF.home}/languages/de.pes.metabnf.importer.xsd/generator/templates" includes="**/*.mps, **/*.mpsr, **/.model" />
-    </copyModels>
     <jar destfile="${build.tmp}/default/MetaBNF.jar/MetaBNF/languages/metaBNF/de.pes.metabnf.importer.xsd-src.jar" duplicate="preserve">
-      <fileset dir="${metaBNF.home}/languages/de.pes.metabnf.importer.xsd/generator/source_gen">
-        <exclude name="**/trace.info" />
-        <exclude name="**/exports" />
-        <exclude name="**/checkpoints" />
-        <exclude name="**/*.mps" />
-      </fileset>
       <fileset dir="${metaBNF.home}/languages/de.pes.metabnf.importer.xsd/source_gen">
         <exclude name="**/trace.info" />
         <exclude name="**/exports" />
@@ -731,7 +622,6 @@
       </fileset>
       <zipfileset file="${basedir}/languages/de.pes.metabnf.importer.xsd/de.pes.metabnf.importer.xsd.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-de.pes.metabnf.importer.xsd-models" prefix="module/models" />
-      <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-de.pes.metabnf.importer.xsd-generator-templates" prefix="module/generator/templates" />
     </jar>
     <jar destfile="${build.layout}/MetaBNF.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/default/MetaBNF.jar" />
@@ -750,7 +640,7 @@
     <delete dir="${build.layout}" />
   </target>
   
-  <target name="compileJava" depends="java.compile.de.pes.metabnf.basic, java.compile.de.pes.metabnf.basic.generator, java.compile.de.pes.metabnf.extended, java.compile.de.pes.metabnf.extended.gen, java.compile.de.pes.metabnf.importer.xsd, java.compile.de.pes.metabnf.importer.xsd.generator, java.compile.de.pes.metaBNF.build" />
+  <target name="compileJava" depends="java.compile.de.pes.metabnf.basic, java.compile.de.pes.metabnf.extended, java.compile.de.pes.metabnf.extended.gen, java.compile.de.pes.metabnf.importer.xsd, java.compile.de.pes.metaBNF.build" />
   
   <target name="processResources" />
   
@@ -837,7 +727,6 @@
       <library file="${artifacts.mps}/languages/devkits/jetbrains.mps.devkit.aspect.typesystem.jar" />
       <library file="${artifacts.mps}/languages/devkits/jetbrains.mps.devkit.general-purpose.jar" />
       <library file="${artifacts.mps}/languages/devkits/jetbrains.mps.devkit.language-descriptor.jar" />
-      <library file="${artifacts.mps}/languages/devkits/jetbrains.mps.devkit.templates.jar" />
       <library file="${artifacts.mps}/languages/editor/jetbrains.mps.editing.runtime.jar" />
       <library file="${artifacts.mps}/languages/editor/jetbrains.mps.editor.runtime.jar" />
       <library file="${artifacts.mps}/languages/editor/jetbrains.mps.editorlang.runtime.jar" />
@@ -871,7 +760,6 @@
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.feedback.skeleton.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.findUsages.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.generator.generationContext.jar" />
-      <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.generator.generationParameters.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.generator.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.intentions.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.messages.jar" />
@@ -1032,83 +920,6 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.scopes.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.smodel.jar" />
         <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.lang.smodel.query.runtime.jar" />
-        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
-        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
-        <fileset dir="${artifacts.com.mbeddr.platform}/mps-multiline/lib" includes="diff_match_patch.jar" />
-      </classpath>
-    </javac>
-  </target>
-  
-  <target name="java.compile.de.pes.metabnf.basic.generator" depends="java.compile.de.pes.metabnf.basic, fetchDependencies">
-    <mkdir dir="${metaBNF.home}/languages/de.pes.metabnf.basic/generator/source_gen" />
-    <mkdir dir="${build.tmp}/java/out/de.pes.metabnf.basic.generator" />
-    <javac destdir="${build.tmp}/java/out/de.pes.metabnf.basic.generator" fork="true" encoding="utf8" includeantruntime="false" debug="true">
-      <compilerarg value="-Xlint:none" />
-      <src>
-        <path location="${metaBNF.home}/languages/de.pes.metabnf.basic/generator/source_gen" />
-      </src>
-      <classpath>
-        <fileset file="${artifacts.mps}/lib/mps-annotations.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-context.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-constraints-runtime.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-problem.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-feedback-api.jar" />
-        <fileset file="${artifacts.mps}/plugins/mps-httpsupport/lib/httpsupport.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-messages-api.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-messages-for-rules.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-behavior-api.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-behavior-runtime.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-references.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-persistence.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-generator.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
-        <pathelement path="${build.tmp}/java/out/de.pes.metabnf.basic" />
-        <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/lib/app.jar" />
-        <fileset file="${artifacts.IDEA}/lib/app-client.jar" />
-        <fileset file="${artifacts.IDEA}/lib/lib.jar" />
-        <fileset file="${artifacts.IDEA}/lib/lib-client.jar" />
-        <fileset file="${artifacts.IDEA}/lib/util.jar" />
-        <fileset file="${artifacts.IDEA}/lib/util_rt.jar" />
-        <fileset file="${artifacts.IDEA}/lib/util-8.jar" />
-        <fileset file="${artifacts.IDEA}/lib/forms_rt.jar" />
-        <fileset file="${artifacts.IDEA}/lib/java-impl.jar" />
-        <fileset file="${artifacts.IDEA}/lib/jps-model.jar" />
-        <fileset file="${artifacts.IDEA}/lib/testFramework.jar" />
-        <fileset file="${artifacts.IDEA}/lib/stats.jar" />
-        <fileset file="${artifacts.IDEA}/lib/platform-loader.jar" />
-        <fileset file="${artifacts.com.mbeddr.platform}/mbeddr.platform/languages/com.mbeddr.platform/com.mbeddr.core.base.jar" />
-        <fileset file="${artifacts.com.mbeddr.platform}/de.itemis.mps.blutil/languages/de.itemis.mps.blutil/com.mbeddr.mpsutil.blutil.jar" />
-        <fileset file="${artifacts.com.mbeddr.platform}/com.mbeddr.mpsutil.filepicker/languages/group.filepicker/com.mbeddr.mpsutil.filepicker.jar" />
-        <fileset file="${artifacts.com.mbeddr.platform}/com.mbeddr.mpsutil.jung/languages/group.jung/com.mbeddr.mpsutil.jung.jar" />
-        <fileset file="${artifacts.com.mbeddr.platform}/com.mbeddr.mpsutil.plantuml/languages/group.plantuml/com.mbeddr.mpsutil.plantuml.node.jar" />
-        <fileset file="${artifacts.com.mbeddr.platform}/de.itemis.mps.celllayout/languages/de.itemis.mps.celllayout/de.itemis.mps.editor.celllayout.runtime.jar" />
-        <fileset file="${artifacts.com.mbeddr.platform}/de.itemis.mps.celllayout/languages/de.itemis.mps.celllayout/de.itemis.mps.editor.celllayout.styles.jar" />
-        <fileset file="${artifacts.com.mbeddr.platform}/de-itemis-mps-selection/languages/de.itemis.mps.selection/de.itemis.mps.selection.runtime.jar" />
-        <fileset file="${artifacts.com.mbeddr.platform}/mps-multiline/languages/mps-multiline/de.slisson.mps.editor.multiline.runtime.jar" />
-        <fileset file="${artifacts.com.mbeddr.platform}/de.slisson.mps.hacks/languages/de.slisson.mps.hacks/de.slisson.mps.hacks.editor.jar" />
-        <fileset file="${artifacts.com.mbeddr.platform}/mps-richtext/languages/mps-richtext/de.slisson.mps.richtext.jar" />
-        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
-        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.closures.jar" />
-        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.collections.jar" />
-        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
-        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.regexp.jar" />
-        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
-        <fileset file="${artifacts.mps}/plugins/mps-httpsupport/solutions/jetbrains.mps.ide.httpsupport.runtime.jar" />
-        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
-        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.modelapi.jar" />
-        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.scopes.runtime.jar" />
-        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.smodel.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
         <fileset dir="${artifacts.com.mbeddr.platform}/mps-multiline/lib" includes="diff_match_patch.jar" />
@@ -1374,62 +1185,6 @@
     </javac>
   </target>
   
-  <target name="java.compile.de.pes.metabnf.importer.xsd.generator" depends="java.compile.de.pes.metabnf.importer.xsd, fetchDependencies">
-    <mkdir dir="${metaBNF.home}/languages/de.pes.metabnf.importer.xsd/generator/source_gen" />
-    <mkdir dir="${build.tmp}/java/out/de.pes.metabnf.importer.xsd.generator" />
-    <javac destdir="${build.tmp}/java/out/de.pes.metabnf.importer.xsd.generator" fork="true" encoding="utf8" includeantruntime="false" debug="true">
-      <compilerarg value="-Xlint:none" />
-      <src>
-        <path location="${metaBNF.home}/languages/de.pes.metabnf.importer.xsd/generator/source_gen" />
-      </src>
-      <classpath>
-        <fileset file="${artifacts.mps}/lib/mps-annotations.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-context.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-constraints-runtime.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-problem.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-feedback-api.jar" />
-        <fileset file="${artifacts.mps}/plugins/mps-httpsupport/lib/httpsupport.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-messages-api.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-messages-for-rules.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-behavior-api.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-behavior-runtime.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-references.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-persistence.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-generator.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-icons.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
-        <pathelement path="${build.tmp}/java/out/de.pes.metabnf.importer.xsd" />
-        <fileset file="${artifacts.IDEA}/lib/annotations.jar" />
-        <fileset file="${artifacts.IDEA}/lib/app.jar" />
-        <fileset file="${artifacts.IDEA}/lib/app-client.jar" />
-        <fileset file="${artifacts.IDEA}/lib/lib.jar" />
-        <fileset file="${artifacts.IDEA}/lib/lib-client.jar" />
-        <fileset file="${artifacts.IDEA}/lib/util.jar" />
-        <fileset file="${artifacts.IDEA}/lib/util_rt.jar" />
-        <fileset file="${artifacts.IDEA}/lib/util-8.jar" />
-        <fileset file="${artifacts.IDEA}/lib/forms_rt.jar" />
-        <fileset file="${artifacts.IDEA}/lib/java-impl.jar" />
-        <fileset file="${artifacts.IDEA}/lib/jps-model.jar" />
-        <fileset file="${artifacts.IDEA}/lib/testFramework.jar" />
-        <fileset file="${artifacts.IDEA}/lib/stats.jar" />
-        <fileset file="${artifacts.IDEA}/lib/platform-loader.jar" />
-        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
-        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
-      </classpath>
-    </javac>
-  </target>
-  
   <target name="java.compile.de.pes.metaBNF.build">
     <mkdir dir="${metaBNF.home}/solutions/de.pes.MetaBNF.build/source_gen" />
     <mkdir dir="${build.tmp}/java/out/de.pes.metaBNF.build" />
@@ -1448,10 +1203,8 @@
   <target name="cleanSources">
     <delete dir="${metaBNF.home}/solutions/de.pes.MetaBNF.build/source_gen" />
     <delete dir="${metaBNF.home}/languages/de.pes.metabnf.basic/source_gen" />
-    <delete dir="${metaBNF.home}/languages/de.pes.metabnf.basic/generator/source_gen" />
     <delete dir="${metaBNF.home}/languages/de.pes.metabnf.extended/source_gen" />
     <delete dir="${metaBNF.home}/languages/de.pes.metabnf.extended.gen/source_gen" />
     <delete dir="${metaBNF.home}/languages/de.pes.metabnf.importer.xsd/source_gen" />
-    <delete dir="${metaBNF.home}/languages/de.pes.metabnf.importer.xsd/generator/source_gen" />
   </target>
 </project>

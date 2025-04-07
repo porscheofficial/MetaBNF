@@ -124,7 +124,6 @@
       <concept id="5253498789149585690" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyOnModule" flags="ng" index="3bR9La">
         <reference id="5253498789149547705" name="module" index="3bR37D" />
       </concept>
-      <concept id="5507251971038816436" name="jetbrains.mps.build.mps.structure.BuildMps_Generator" flags="ng" index="1yeLz9" />
       <concept id="4278635856200817744" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleModelRoot" flags="ng" index="1BupzO">
         <property id="8137134783396907368" name="convert2binary" index="1Hdu6h" />
         <property id="8137134783396676838" name="extracted" index="1HemKv" />
@@ -135,9 +134,7 @@
         <reference id="4278635856200794928" name="language" index="1Busuk" />
       </concept>
       <concept id="3189788309731840247" name="jetbrains.mps.build.mps.structure.BuildMps_Solution" flags="ng" index="1E1JtA" />
-      <concept id="3189788309731840248" name="jetbrains.mps.build.mps.structure.BuildMps_Language" flags="ng" index="1E1JtD">
-        <child id="9200313594498201639" name="generator" index="1TViLv" />
-      </concept>
+      <concept id="3189788309731840248" name="jetbrains.mps.build.mps.structure.BuildMps_Language" flags="ng" index="1E1JtD" />
       <concept id="322010710375871467" name="jetbrains.mps.build.mps.structure.BuildMps_AbstractModule" flags="ng" index="3LEN3z">
         <property id="8369506495128725901" name="compact" index="BnDLt" />
         <property id="322010710375892619" name="uuid" index="3LESm3" />
@@ -362,35 +359,6 @@
         <node concept="1SiIV0" id="1VxB7yjIwpg" role="3bR37C">
           <node concept="1Busua" id="1VxB7yjIwph" role="1SiIV1">
             <ref role="1Busuk" to="ffeo:7Kfy9QB6LaO" resolve="jetbrains.mps.lang.structure" />
-          </node>
-        </node>
-        <node concept="1yeLz9" id="1VxB7yjIwpi" role="1TViLv">
-          <property role="TrG5h" value="de.pes.metabnf.basic.generator" />
-          <property role="3LESm3" value="962a81fd-812e-4a23-a745-bde18e72c3be" />
-          <node concept="1BupzO" id="1VxB7yjIwpt" role="3bR31x">
-            <property role="3ZfqAx" value="generator/templates" />
-            <property role="1Hdu6h" value="true" />
-            <property role="1HemKv" value="true" />
-            <node concept="3LXTmp" id="1VxB7yjIwpu" role="1HemKq">
-              <node concept="398BVA" id="1VxB7yjIwpj" role="3LXTmr">
-                <ref role="398BVh" node="7vSfl_Uu_x3" resolve="metaBNF.home" />
-                <node concept="2Ry0Ak" id="1VxB7yjIwpk" role="iGT6I">
-                  <property role="2Ry0Am" value="languages" />
-                  <node concept="2Ry0Ak" id="1VxB7yjIwpl" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.pes.metabnf.basic" />
-                    <node concept="2Ry0Ak" id="1VxB7yjIwpm" role="2Ry0An">
-                      <property role="2Ry0Am" value="generator" />
-                      <node concept="2Ry0Ak" id="1VxB7yjIwpn" role="2Ry0An">
-                        <property role="2Ry0Am" value="templates" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="3qWCbU" id="1VxB7yjIwpv" role="3LXTna">
-                <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
-              </node>
-            </node>
           </node>
         </node>
       </node>
@@ -624,35 +592,6 @@
             </node>
             <node concept="3qWCbU" id="1VxB7yjIwqD" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
-            </node>
-          </node>
-        </node>
-        <node concept="1yeLz9" id="7vSfl_Uu_$p" role="1TViLv">
-          <property role="TrG5h" value="de.pes.metabnf.importer.xsd.generator" />
-          <property role="3LESm3" value="596751de-4894-4e51-8898-966bc0bdd476" />
-          <node concept="1BupzO" id="7vSfl_Uu_$v" role="3bR31x">
-            <property role="3ZfqAx" value="generator/templates" />
-            <property role="1Hdu6h" value="true" />
-            <property role="1HemKv" value="true" />
-            <node concept="3LXTmp" id="1VxB7yjIwqO" role="1HemKq">
-              <node concept="398BVA" id="1VxB7yjIwqE" role="3LXTmr">
-                <ref role="398BVh" node="7vSfl_Uu_x3" resolve="metaBNF.home" />
-                <node concept="2Ry0Ak" id="1VxB7yjIwqF" role="iGT6I">
-                  <property role="2Ry0Am" value="languages" />
-                  <node concept="2Ry0Ak" id="1VxB7yjIwqG" role="2Ry0An">
-                    <property role="2Ry0Am" value="de.pes.metabnf.importer.xsd" />
-                    <node concept="2Ry0Ak" id="1VxB7yjIwqH" role="2Ry0An">
-                      <property role="2Ry0Am" value="generator" />
-                      <node concept="2Ry0Ak" id="1VxB7yjIwqI" role="2Ry0An">
-                        <property role="2Ry0Am" value="templates" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="3qWCbU" id="1VxB7yjIwqP" role="3LXTna">
-                <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
-              </node>
             </node>
           </node>
         </node>

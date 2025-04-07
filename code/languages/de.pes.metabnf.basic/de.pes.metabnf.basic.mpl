@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="de.pes.metabnf.basic" uuid="926d63aa-027c-47a4-939e-98f42e63df1a" languageVersion="1" moduleVersion="0">
+<language namespace="de.pes.metabnf.basic" uuid="926d63aa-027c-47a4-939e-98f42e63df1a" languageVersion="0" moduleVersion="0">
   <models>
     <modelRoot type="default" contentPath="${module}">
       <sourceRoot location="models" />
