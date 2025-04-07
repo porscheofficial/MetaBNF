@@ -793,11 +793,6 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="7LoZJl0udRa" role="3bR37C">
-          <node concept="3bR9La" id="7LoZJl0udRb" role="1SiIV1">
-            <ref role="3bR37D" to="p6ld:3Ry9rm0zlo1" resolve="com.mbeddr.allScripts" />
-          </node>
-        </node>
       </node>
     </node>
     <node concept="55IIr" id="4w7l5_xbiAh" role="auvoZ">
