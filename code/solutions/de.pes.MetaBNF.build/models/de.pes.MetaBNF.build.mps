@@ -671,6 +671,10 @@
       <node concept="m$_yC" id="7LoZJl0utPZ" role="m$_yJ">
         <ref role="m$_y1" to="p6ld:4zLxxnPtA$p" resolve="com.mbeddr.build" />
       </node>
+      <node concept="2iUeEo" id="1_KnmTiePt3" role="2iVFfd">
+        <property role="2iUeEt" value="Porsche Engineering" />
+        <property role="2iUeEu" value="https://www.porscheengineering.com/" />
+      </node>
     </node>
     <node concept="2G$12M" id="7LoZJl0udEw" role="3989C9">
       <property role="TrG5h" value="de.pes.metaBNF.build" />
