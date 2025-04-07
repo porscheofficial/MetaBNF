@@ -8761,15 +8761,23 @@
                           <node concept="3cpWsn" id="1tjurooBva7" role="3cpWs9">
                             <property role="TrG5h" value="attrGroupRef" />
                             <node concept="17QB3L" id="1tjurooBva8" role="1tU5fm" />
-                            <node concept="1rXfSq" id="1tjurooBva9" role="33vP2m">
-                              <ref role="37wK5l" node="4sCs7MiyCwr" resolve="bnfTagName" />
-                              <node concept="1rXfSq" id="1tjurooBvaa" role="37wK5m">
-                                <ref role="37wK5l" node="4sCs7MiL5Zq" resolve="getTagAttributeValueByName" />
-                                <node concept="37vLTw" id="1tjurooBvab" role="37wK5m">
-                                  <ref role="3cqZAo" node="6cg8O7PUxbr" resolve="it" />
-                                </node>
-                                <node concept="Xl_RD" id="1tjurooBvac" role="37wK5m">
-                                  <property role="Xl_RC" value="ref" />
+                            <node concept="3cpWs3" id="2TZ$uoVHuto" role="33vP2m">
+                              <node concept="Xl_RD" id="2TZ$uoVHzVs" role="3uHU7B">
+                                <property role="Xl_RC" value="I" />
+                              </node>
+                              <node concept="1rXfSq" id="2TZ$uoVGCxo" role="3uHU7w">
+                                <ref role="37wK5l" node="4sCs7Mj0s6f" resolve="getNamePreFixForXSDGroup" />
+                                <node concept="1rXfSq" id="1tjurooBva9" role="37wK5m">
+                                  <ref role="37wK5l" node="4sCs7MiyCwr" resolve="bnfTagName" />
+                                  <node concept="1rXfSq" id="1tjurooBvaa" role="37wK5m">
+                                    <ref role="37wK5l" node="4sCs7MiL5Zq" resolve="getTagAttributeValueByName" />
+                                    <node concept="37vLTw" id="1tjurooBvab" role="37wK5m">
+                                      <ref role="3cqZAo" node="6cg8O7PUxbr" resolve="it" />
+                                    </node>
+                                    <node concept="Xl_RD" id="1tjurooBvac" role="37wK5m">
+                                      <property role="Xl_RC" value="ref" />
+                                    </node>
+                                  </node>
                                 </node>
                               </node>
                             </node>
