@@ -52,6 +52,7 @@ A simple expression language using MetaBNF:
 - JetBrains **MPS 2023.2.2 or newer**
 - Java **17+**
 - (Optional) Git for cloning the repo
+- mbeddr.core available due to some dependencies
 
 ### 2️⃣ Clone the Repo & Import into MPS
 
@@ -80,7 +81,7 @@ cd MetaBNF
 - **Custom Syntax Extensions**
 - **Improved Error Checking & Validation**
 
-Check out our [Wiki](https://github.com/your-org/meta-bnf/wiki) for more details!
+Check out our [Wiki](https://github.com/porscheofficial/MetaBNF/wiki) for more details!
 
 ---
 
@@ -91,7 +92,7 @@ We welcome contributions! Here's how you can help:\
 ✅ **Fork & create pull requests** with improvements\
 ✅ **Join the discussion** in our community
 
-🔗 **Check out our **[**Contribution Guide**](https://github.com/your-org/meta-bnf/CONTRIBUTING.md)
+🔗 **Check out our** [**Contribution Guide**](CONTRIBUTING.md)
 
 ---
 
