@@ -350,13 +350,6 @@
       <concept id="1178894719932" name="jetbrains.mps.baseLanguage.collections.structure.DistinctOperation" flags="nn" index="1VAtEI" />
     </language>
   </registry>
-  <node concept="13h7C7" id="fbptcj9ghG">
-    <property role="3GE5qa" value="rvalue.structured.binaries" />
-    <ref role="13h7C2" to="p1cl:fbptcj2sPj" resolve="BNFBinaryExpression" />
-    <node concept="13hLZK" id="fbptcj9ghH" role="13h7CW">
-      <node concept="3clFbS" id="fbptcj9ghI" role="2VODD2" />
-    </node>
-  </node>
   <node concept="13h7C7" id="T845Yry1oZ">
     <property role="3GE5qa" value="rvalue" />
     <ref role="13h7C2" to="p1cl:fbptcj23AU" resolve="BNFStringLiteral" />

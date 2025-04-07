@@ -13,18 +13,7 @@
     <use id="ad93155d-79b2-4759-b10c-55123e763903" name="jetbrains.mps.lang.messages" version="0" />
     <devkit ref="00000000-0000-4000-0000-5604ebd4f22c(jetbrains.mps.devkit.aspect.constraints)" />
   </languages>
-  <imports>
-    <import index="x0c1" ref="r:f078e044-b0d4-44cb-91f8-029a056aafe4(de.pes.metabnf.extended.gen.structure)" implicit="true" />
-  </imports>
-  <registry>
-    <language id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints">
-      <concept id="1213093968558" name="jetbrains.mps.lang.constraints.structure.ConceptConstraints" flags="ng" index="1M2fIO">
-        <reference id="1213093996982" name="concept" index="1M2myG" />
-      </concept>
-    </language>
-  </registry>
-  <node concept="1M2fIO" id="1FmrBQwvc_3">
-    <ref role="1M2myG" to="x0c1:5NkIe3AeyZh" resolve="BNFExportConfig" />
-  </node>
+  <imports />
+  <registry />
 </model>
 

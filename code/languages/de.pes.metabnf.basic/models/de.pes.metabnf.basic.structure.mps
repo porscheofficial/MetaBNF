@@ -20,7 +20,6 @@
       <concept id="3348158742936976479" name="jetbrains.mps.lang.structure.structure.EnumerationDeclaration" flags="ng" index="25R3W">
         <child id="3348158742936976577" name="members" index="25R1y" />
       </concept>
-      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
       <concept id="6054523464627964745" name="jetbrains.mps.lang.structure.structure.AttributeInfo_AttributedConcept" flags="ng" index="trNpa">
         <reference id="6054523464627965081" name="concept" index="trN6q" />
       </concept>
@@ -114,13 +113,6 @@
     <property role="34LRSv" value="BNF Term" />
     <property role="R4oN_" value="BNF Definition Term" />
     <ref role="1TJDcQ" node="1nL_s$DdmcT" resolve="BNFDefinitionTermBase" />
-    <node concept="1TJgyj" id="fbptcj1GUy" role="1TKVEi">
-      <property role="IQ2ns" value="273424159617765026" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="expr_old" />
-      <ref role="20lvS9" node="fbptcj1GUz" resolve="BNFExpression" />
-      <node concept="asaX9" id="1nL_s$Dfb60" role="lGtFl" />
-    </node>
   </node>
   <node concept="1TIwiD" id="fbptcj1GUz">
     <property role="EcuMT" value="273424159617765027" />
@@ -228,13 +220,6 @@
     <property role="34LRSv" value="[" />
     <property role="R4oN_" value="Reference to an optional BNF Term" />
     <ref role="1TJDcQ" node="fbptcj1GUz" resolve="BNFExpression" />
-    <node concept="1TJgyj" id="fbptcjfuCs" role="1TKVEi">
-      <property role="IQ2ns" value="273424159621376540" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="expr_old" />
-      <ref role="20lvS9" node="fbptcj1GUz" resolve="BNFExpression" />
-      <node concept="asaX9" id="2$KK347jeUj" role="lGtFl" />
-    </node>
     <node concept="PrWs8" id="1EU0USR5JrU" role="PzmwI">
       <ref role="PrY4T" node="1EU0USR5JrS" resolve="IBNFGroupElements" />
     </node>
@@ -245,13 +230,6 @@
     <property role="TrG5h" value="ListTermDefinitions" />
     <property role="34LRSv" value="{" />
     <ref role="1TJDcQ" node="fbptcj1GUz" resolve="BNFExpression" />
-    <node concept="1TJgyj" id="fbptcjfuCr" role="1TKVEi">
-      <property role="IQ2ns" value="273424159621376539" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="expr_old" />
-      <ref role="20lvS9" node="fbptcj1GUz" resolve="BNFExpression" />
-      <node concept="asaX9" id="2$KK347jpqn" role="lGtFl" />
-    </node>
     <node concept="PrWs8" id="1EU0USR5JrT" role="PzmwI">
       <ref role="PrY4T" node="1EU0USR5JrS" resolve="IBNFGroupElements" />
     </node>
@@ -273,13 +251,6 @@
     <property role="TrG5h" value="ParentheseDefinitions" />
     <property role="34LRSv" value="(" />
     <ref role="1TJDcQ" node="fbptcj1GUz" resolve="BNFExpression" />
-    <node concept="1TJgyj" id="fbptcjhaht" role="1TKVEi">
-      <property role="IQ2ns" value="273424159621817437" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="expr_old" />
-      <ref role="20lvS9" node="fbptcj1GUz" resolve="BNFExpression" />
-      <node concept="asaX9" id="2$KK347jswo" role="lGtFl" />
-    </node>
     <node concept="PrWs8" id="1EU0USR5JrV" role="PzmwI">
       <ref role="PrY4T" node="1EU0USR5JrS" resolve="IBNFGroupElements" />
     </node>
@@ -341,14 +312,6 @@
     </node>
     <node concept="PrWs8" id="7A0qgabvebi" role="PzmwI">
       <ref role="PrY4T" to="kwxp:2N1CSrzPN_8" resolve="IVisualizable" />
-    </node>
-    <node concept="1TJgyj" id="1nL_s$DfpSP" role="1TKVEi">
-      <property role="IQ2ns" value="1581209635396623925" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="expr_oldBase" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="fbptcj1GUz" resolve="BNFExpression" />
-      <node concept="asaX9" id="7egTi9LqYdV" role="lGtFl" />
     </node>
   </node>
   <node concept="PlHQZ" id="T845YsR94I">

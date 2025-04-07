@@ -15,7 +15,6 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
-      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
       <concept id="7862711839422615209" name="jetbrains.mps.lang.structure.structure.DocumentedNodeAnnotation" flags="ng" index="t5JxF">
         <property id="7862711839422615217" name="text" index="t5JxN" />
       </concept>
@@ -82,14 +81,6 @@
       <property role="20kJfa" value="implements" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="4novjIaNn1X" resolve="EBNFIFaceDefinitionTermRef" />
-    </node>
-    <node concept="1TJgyj" id="6EgVrkeoo9j" role="1TKVEi">
-      <property role="IQ2ns" value="7678898726552830547" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="expr_old" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" to="p1cl:fbptcj1GUz" resolve="BNFExpression" />
-      <node concept="asaX9" id="7egTi9LqXSU" role="lGtFl" />
     </node>
     <node concept="PrWs8" id="4j82FZZahYR" role="PzmwI">
       <ref role="PrY4T" to="p1cl:4novjIaNO23" resolve="ISupportNodeAnnotationAttribute" />

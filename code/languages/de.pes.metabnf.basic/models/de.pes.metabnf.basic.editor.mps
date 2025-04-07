@@ -200,7 +200,6 @@
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
-      <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
@@ -214,6 +213,7 @@
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
+      <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
@@ -547,26 +547,18 @@
       <node concept="16NL3D" id="fbptcj42bC" role="upBLP">
         <node concept="16Na2f" id="fbptcj42bD" role="16NL3A">
           <node concept="3clFbS" id="fbptcj42bE" role="2VODD2">
-            <node concept="3cpWs8" id="fbptcj5aRu" role="3cqZAp">
-              <node concept="3cpWsn" id="fbptcj5aRv" role="3cpWs9">
-                <property role="TrG5h" value="b" />
-                <node concept="10P_77" id="fbptcj5aMB" role="1tU5fm" />
-                <node concept="2OqwBi" id="fbptcj5aR_" role="33vP2m">
-                  <node concept="ub8z3" id="fbptcj5aRA" role="2Oq$k0" />
-                  <node concept="liA8E" id="fbptcj5aRB" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
-                    <node concept="Xl_RD" id="fbptcj5aRC" role="37wK5m">
-                      <property role="Xl_RC" value="[\\w-]+[\\s]" />
-                    </node>
+            <node concept="3clFbF" id="1_KnmTi0m5M" role="3cqZAp">
+              <node concept="2OqwBi" id="fbptcj5aR_" role="3clFbG">
+                <node concept="ub8z3" id="fbptcj5aRA" role="2Oq$k0" />
+                <node concept="liA8E" id="fbptcj5aRB" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
+                  <node concept="Xl_RD" id="fbptcj5aRC" role="37wK5m">
+                    <property role="Xl_RC" value="[\\w-]+[\\s]" />
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="3clFbF" id="fbptcj42q1" role="3cqZAp">
-              <node concept="37vLTw" id="fbptcj5aRD" role="3clFbG">
-                <ref role="3cqZAo" node="fbptcj5aRv" resolve="b" />
-              </node>
-            </node>
+            <node concept="3clFbH" id="1_KnmTi0m58" role="3cqZAp" />
           </node>
         </node>
       </node>

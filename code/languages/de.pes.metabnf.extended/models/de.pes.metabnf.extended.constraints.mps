@@ -369,10 +369,6 @@
       </node>
     </node>
   </node>
-  <node concept="1M2fIO" id="T845Ysedor">
-    <property role="3GE5qa" value="Attributes.Behavior" />
-    <ref role="1M2myG" to="gm16:T845Ys8PlK" resolve="EBNFAttributeBehaviorDeclaration" />
-  </node>
   <node concept="1M2fIO" id="T845YrsIOd">
     <property role="3GE5qa" value="Attributes" />
     <ref role="1M2myG" to="gm16:T845Yrqx5_" resolve="EBNFExpressionRef" />
@@ -615,10 +611,6 @@
         </node>
       </node>
     </node>
-  </node>
-  <node concept="1M2fIO" id="T845YrsA69">
-    <property role="3GE5qa" value="Attributes" />
-    <ref role="1M2myG" to="gm16:T845Yrq8Yj" resolve="EBNFAttributeValueProperty" />
   </node>
   <node concept="1M2fIO" id="T845Ysedpj">
     <property role="3GE5qa" value="Attributes.Behavior" />
