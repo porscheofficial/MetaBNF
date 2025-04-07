@@ -350,7 +350,9 @@
       <concept id="1140131837776" name="jetbrains.mps.lang.smodel.structure.Node_ReplaceWithAnotherOperation" flags="nn" index="1P9Npp">
         <child id="1140131861877" name="replacementNode" index="1P9ThW" />
       </concept>
-      <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI" />
+      <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI">
+        <property id="1238684351431" name="asCast" index="1BlNFB" />
+      </concept>
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
       </concept>
@@ -1914,7 +1916,7 @@
     </node>
     <node concept="2tJIrI" id="27zB$OF0e3E" role="jymVt" />
     <node concept="2YIFZL" id="4sCs7MizxNL" role="jymVt">
-      <property role="TrG5h" value="getStatementByName" />
+      <property role="TrG5h" value="getStatementByXmlElement" />
       <node concept="3clFbS" id="4sCs7MizxNO" role="3clF47">
         <node concept="2xdQw9" id="2$KK3476DlH" role="3cqZAp">
           <node concept="Xl_RD" id="2$KK3476DlI" role="9lYJi">
@@ -2033,9 +2035,23 @@
         <node concept="3clFbH" id="4sCs7MiZ_GT" role="3cqZAp" />
         <node concept="3cpWs6" id="4sCs7MizPXH" role="3cqZAp">
           <node concept="1rXfSq" id="27zB$OEXm7j" role="3cqZAk">
-            <ref role="37wK5l" node="4sCs7MizxNL" resolve="getStatementByName" />
-            <node concept="37vLTw" id="27zB$OEXtAO" role="37wK5m">
-              <ref role="3cqZAo" node="4sCs7Mizywn" resolve="wb" />
+            <ref role="37wK5l" node="4sCs7MjC6Az" resolve="getStatementByName" />
+            <node concept="1PxgMI" id="3d81nm__PF9" role="37wK5m">
+              <property role="1BlNFB" value="true" />
+              <node concept="chp4Y" id="3d81nm__X1_" role="3oSUPX">
+                <ref role="cht4Q" to="p1cl:1nL_s$DdmcT" resolve="BNFDefinitionTermBase" />
+              </node>
+              <node concept="2OqwBi" id="3d81nm__zSt" role="1m5AlR">
+                <node concept="2OqwBi" id="3d81nm__gaK" role="2Oq$k0">
+                  <node concept="37vLTw" id="27zB$OEXtAO" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4sCs7Mizywn" resolve="wb" />
+                  </node>
+                  <node concept="3Tsc0h" id="3d81nm__pw_" role="2OqNvi">
+                    <ref role="3TtcxE" to="p1cl:fbptcj1wVe" resolve="content" />
+                  </node>
+                </node>
+                <node concept="1uHKPH" id="3d81nm__HB6" role="2OqNvi" />
+              </node>
             </node>
             <node concept="37vLTw" id="27zB$OEXLYi" role="37wK5m">
               <ref role="3cqZAo" node="4sCs7MiZKf3" resolve="attrName" />
