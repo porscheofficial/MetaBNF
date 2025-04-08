@@ -116,9 +116,6 @@
       <concept id="1500819558095907805" name="jetbrains.mps.build.mps.structure.BuildMps_Group" flags="ng" index="2G$12M">
         <child id="1500819558095907806" name="modules" index="2G$12L" />
       </concept>
-      <concept id="8971171305100238972" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyTargetLanguage" flags="ng" index="Rbm2T">
-        <reference id="3189788309731922643" name="language" index="1E1Vl2" />
-      </concept>
       <concept id="868032131020265945" name="jetbrains.mps.build.mps.structure.BuildMPSPlugin" flags="ng" index="3b7kt6" />
       <concept id="5253498789149381388" name="jetbrains.mps.build.mps.structure.BuildMps_Module" flags="ng" index="3bQrTs">
         <child id="5253498789149547825" name="sources" index="3bR31x" />
@@ -425,11 +422,6 @@
         <node concept="1SiIV0" id="1VxB7yjIwrq" role="3bR37C">
           <node concept="1Busua" id="1VxB7yjIwrr" role="1SiIV1">
             <ref role="1Busuk" node="7vSfl_Uu_x9" resolve="de.pes.metabnf.basic" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="7ijLAu_rVOy" role="3bR37C">
-          <node concept="Rbm2T" id="7ijLAu_rVOz" role="1SiIV1">
-            <ref role="1E1Vl2" to="ffeo:3ZgZ1njKuFL" resolve="jetbrains.mps.lang.smodel.query" />
           </node>
         </node>
       </node>
