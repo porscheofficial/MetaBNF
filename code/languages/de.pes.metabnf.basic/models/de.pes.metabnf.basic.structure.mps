@@ -44,9 +44,6 @@
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
-      <concept id="8842732777748207592" name="jetbrains.mps.lang.structure.structure.SmartReferenceAttribute" flags="ng" index="RPilO">
-        <reference id="8842732777748207597" name="charactersticReference" index="RPilL" />
-      </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
         <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
@@ -511,9 +508,6 @@
       <property role="20kJfa" value="bnfRef" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="fbptcj1GUu" resolve="BNFDefinitionTerm" />
-    </node>
-    <node concept="RPilO" id="7ijLAu_NM6z" role="lGtFl">
-      <ref role="RPilL" node="7ijLAu_HPPO" resolve="bnfRef" />
     </node>
   </node>
 </model>
