@@ -53,7 +53,6 @@
       <concept id="3547227755871693971" name="jetbrains.mps.lang.editor.structure.PredefinedSelector" flags="ng" index="2B6iha">
         <property id="2162403111523065396" name="cellId" index="1lyBwo" />
       </concept>
-      <concept id="8383079901754291618" name="jetbrains.mps.lang.editor.structure.CellModel_NextEditor" flags="ng" index="B$lHz" />
       <concept id="3473224453637651916" name="jetbrains.mps.lang.editor.structure.TransformationLocation_SideTransform_PlaceInCellHolder" flags="ng" index="CtIbL">
         <property id="3473224453637651917" name="placeInCell" index="CtIbK" />
       </concept>
@@ -1031,11 +1030,20 @@
         <property role="3F0ifm" value=":" />
       </node>
       <node concept="2iRfu4" id="7ijLAu_HPPU" role="2iSdaV" />
+      <node concept="3F0ifn" id="7ijLAu_QB5T" role="3EZMnx">
+        <property role="3F0ifm" value="&lt;" />
+      </node>
       <node concept="1iCGBv" id="7ijLAu_HQ3p" role="3EZMnx">
         <ref role="1NtTu8" to="p1cl:7ijLAu_HPPO" resolve="bnfRef" />
         <node concept="1sVBvm" id="7ijLAu_HQ3r" role="1sWHZn">
-          <node concept="B$lHz" id="7ijLAu_HQ3A" role="2wV5jI" />
+          <node concept="3F0A7n" id="7ijLAu_PEoH" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
         </node>
+      </node>
+      <node concept="3F0ifn" id="7ijLAu_QB5W" role="3EZMnx">
+        <property role="3F0ifm" value="&gt;" />
       </node>
       <node concept="PMmxH" id="7ijLAu_HQjZ" role="3EZMnx">
         <ref role="PMmxG" node="4j82FZZ8kx0" resolve="EditorBreakPoint" />
