@@ -493,5 +493,22 @@
     <property role="3GE5qa" value="visualize" />
     <property role="TrG5h" value="ISupportPlantUML" />
   </node>
+  <node concept="1TIwiD" id="T845YshmEx">
+    <property role="EcuMT" value="1029090517683890849" />
+    <property role="3GE5qa" value="Attributes" />
+    <property role="TrG5h" value="BNFAttributeConceptAlias" />
+    <property role="34LRSv" value="Relates To" />
+    <property role="R4oN_" value="Define specific relation ship" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="T845YshmEy" role="PzmwI">
+      <ref role="PrY4T" node="4novjIaNO1Z" resolve="INodeAnnotationAttribute" />
+    </node>
+    <node concept="1TJgyj" id="7ijLAu_HPPO" role="1TKVEi">
+      <property role="IQ2ns" value="8400275878440295796" />
+      <property role="20kJfa" value="bnfRef" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="fbptcj2IO2" resolve="BNFDefinitionTermRef" />
+    </node>
+  </node>
 </model>
 

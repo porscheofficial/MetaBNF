@@ -53,6 +53,7 @@
       <concept id="3547227755871693971" name="jetbrains.mps.lang.editor.structure.PredefinedSelector" flags="ng" index="2B6iha">
         <property id="2162403111523065396" name="cellId" index="1lyBwo" />
       </concept>
+      <concept id="8383079901754291618" name="jetbrains.mps.lang.editor.structure.CellModel_NextEditor" flags="ng" index="B$lHz" />
       <concept id="3473224453637651916" name="jetbrains.mps.lang.editor.structure.TransformationLocation_SideTransform_PlaceInCellHolder" flags="ng" index="CtIbL">
         <property id="3473224453637651917" name="placeInCell" index="CtIbK" />
       </concept>
@@ -429,6 +430,12 @@
       </node>
       <node concept="Vb9p2" id="4novjIaNqER" role="3F10Kt">
         <property role="Vbekb" value="g1_kEg4/ITALIC" />
+      </node>
+    </node>
+    <node concept="14StLt" id="4j82FZZ71NE" role="V601i">
+      <property role="TrG5h" value="NodeAttributeDefault" />
+      <node concept="VechU" id="4j82FZZ71NF" role="3F10Kt">
+        <property role="Vb096" value="fLwANPr/green" />
       </node>
     </node>
   </node>
@@ -1011,6 +1018,37 @@
     <property role="3GE5qa" value="base.attribute" />
     <ref role="aqKnT" to="p1cl:4novjIaNO21" resolve="EmptyNodeAnnotationAttribute" />
     <node concept="22hDWj" id="4j82FZZ8Nk$" role="22hAXT" />
+  </node>
+  <node concept="24kQdi" id="7ijLAu_HPPP">
+    <property role="3GE5qa" value="Attributes" />
+    <ref role="1XX52x" to="p1cl:T845YshmEx" resolve="BNFAttributeConceptAlias" />
+    <node concept="3EZMnI" id="7ijLAu_HPPR" role="2wV5jI">
+      <ref role="1k5W1q" node="4j82FZZ71NE" resolve="NodeAttributeDefault" />
+      <node concept="PMmxH" id="7ijLAu_HPPV" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="3F0ifn" id="7ijLAu_HPQ6" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+      </node>
+      <node concept="2iRfu4" id="7ijLAu_HPPU" role="2iSdaV" />
+      <node concept="1iCGBv" id="7ijLAu_HQ3p" role="3EZMnx">
+        <ref role="1NtTu8" to="p1cl:7ijLAu_HPPO" resolve="bnfRef" />
+        <node concept="1sVBvm" id="7ijLAu_HQ3r" role="1sWHZn">
+          <node concept="B$lHz" id="7ijLAu_HQ3A" role="2wV5jI" />
+        </node>
+      </node>
+      <node concept="PMmxH" id="7ijLAu_HQjZ" role="3EZMnx">
+        <ref role="PMmxG" node="4j82FZZ8kx0" resolve="EditorBreakPoint" />
+      </node>
+    </node>
+  </node>
+  <node concept="PKFIW" id="4j82FZZ8kx0">
+    <property role="TrG5h" value="EditorBreakPoint" />
+    <ref role="1XX52x" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="3F0ifn" id="4j82FZZ8kx2" role="2wV5jI">
+      <property role="3F0ifm" value=";" />
+      <ref role="1k5W1q" node="2CEi94e3iKI" resolve="PassiveTextStyle" />
+    </node>
   </node>
 </model>
 
