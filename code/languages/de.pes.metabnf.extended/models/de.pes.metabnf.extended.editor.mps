@@ -526,12 +526,6 @@
         <property role="Vbekb" value="g1_kEg4/ITALIC" />
       </node>
     </node>
-    <node concept="14StLt" id="4j82FZZ71NE" role="V601i">
-      <property role="TrG5h" value="NodeAttributeDefault" />
-      <node concept="VechU" id="4j82FZZ71NF" role="3F10Kt">
-        <property role="Vb096" value="fLwANPr/green" />
-      </node>
-    </node>
   </node>
   <node concept="24kQdi" id="4novjIaOJN9">
     <property role="3GE5qa" value="Attributes.Interface" />
@@ -541,7 +535,7 @@
         <node concept="VPM3Z" id="4novjIaOJNh" role="3F10Kt" />
         <node concept="3F0ifn" id="4novjIaOJNn" role="3EZMnx">
           <property role="3F0ifm" value="Implements Interfaces:" />
-          <ref role="1k5W1q" node="4j82FZZ71NE" resolve="NodeAttributeDefault" />
+          <ref role="1k5W1q" to="1mfk:4j82FZZ71NE" resolve="NodeAttributeDefault" />
         </node>
         <node concept="2iRfu4" id="4novjIaOJNk" role="2iSdaV" />
         <node concept="3F1sOY" id="1nL_s$DkAmE" role="3EZMnx">
@@ -549,7 +543,7 @@
           <ref role="1k5W1q" node="4novjIaNqEI" resolve="InterfaceRepresentationRef" />
         </node>
         <node concept="PMmxH" id="4j82FZZ8uFI" role="3EZMnx">
-          <ref role="PMmxG" node="4j82FZZ8kx0" resolve="EditorBreakPoint" />
+          <ref role="PMmxG" to="1mfk:4j82FZZ8kx0" resolve="EditorBreakPoint" />
         </node>
       </node>
       <node concept="2iRkQZ" id="4novjIaOJNe" role="2iSdaV" />
@@ -580,10 +574,10 @@
         <node concept="2iRfu4" id="4j82FZZ7G27" role="2iSdaV" />
         <node concept="3F0ifn" id="4j82FZZ71NB" role="3EZMnx">
           <property role="3F0ifm" value="Type Constrained:" />
-          <ref role="1k5W1q" node="4j82FZZ71NE" resolve="NodeAttributeDefault" />
+          <ref role="1k5W1q" to="1mfk:4j82FZZ71NE" resolve="NodeAttributeDefault" />
         </node>
         <node concept="PMmxH" id="4j82FZZ8kx5" role="3EZMnx">
-          <ref role="PMmxG" node="4j82FZZ8kx0" resolve="EditorBreakPoint" />
+          <ref role="PMmxG" to="1mfk:4j82FZZ8kx0" resolve="EditorBreakPoint" />
         </node>
       </node>
       <node concept="3EZMnI" id="4j82FZZ71Oh" role="3EZMnx">
@@ -598,7 +592,7 @@
             </node>
             <node concept="3F0A7n" id="4j82FZZ71OJ" role="3EZMnx">
               <ref role="1NtTu8" to="gm16:4j82FZZ71NI" resolve="primitiveType" />
-              <ref role="1k5W1q" node="4j82FZZ71NE" resolve="NodeAttributeDefault" />
+              <ref role="1k5W1q" to="1mfk:4j82FZZ71NE" resolve="NodeAttributeDefault" />
             </node>
             <node concept="2iRfu4" id="4j82FZZ71OD" role="2iSdaV" />
           </node>
@@ -610,7 +604,7 @@
             <node concept="3F0A7n" id="4j82FZZ71OV" role="3EZMnx">
               <property role="1$x2rV" value=" " />
               <ref role="1NtTu8" to="gm16:4j82FZZ71NJ" resolve="pattern" />
-              <ref role="1k5W1q" node="4j82FZZ71NE" resolve="NodeAttributeDefault" />
+              <ref role="1k5W1q" to="1mfk:4j82FZZ71NE" resolve="NodeAttributeDefault" />
             </node>
             <node concept="2iRfu4" id="4j82FZZ71OR" role="2iSdaV" />
           </node>
@@ -622,7 +616,7 @@
             <node concept="3F0A7n" id="1KDIWmiDkSE" role="3EZMnx">
               <property role="1O74Pk" value="true" />
               <ref role="1NtTu8" to="gm16:1KDIWmiDkSz" resolve="value" />
-              <ref role="1k5W1q" node="4j82FZZ71NE" resolve="NodeAttributeDefault" />
+              <ref role="1k5W1q" to="1mfk:4j82FZZ71NE" resolve="NodeAttributeDefault" />
             </node>
             <node concept="2iRfu4" id="1KDIWmiDkSC" role="2iSdaV" />
           </node>
@@ -631,14 +625,6 @@
         <node concept="2iRfu4" id="4j82FZZ71Om" role="2iSdaV" />
       </node>
       <node concept="2iRkQZ" id="4j82FZZ71NA" role="2iSdaV" />
-    </node>
-  </node>
-  <node concept="PKFIW" id="4j82FZZ8kx0">
-    <property role="TrG5h" value="EditorBreakPoint" />
-    <ref role="1XX52x" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="3F0ifn" id="4j82FZZ8kx2" role="2wV5jI">
-      <property role="3F0ifm" value=";" />
-      <ref role="1k5W1q" to="1mfk:2CEi94e3iKI" resolve="PassiveTextStyle" />
     </node>
   </node>
   <node concept="24kQdi" id="1nL_s$DhG0p">
@@ -680,7 +666,7 @@
     <node concept="3EZMnI" id="1nL_s$Di$5z" role="2wV5jI">
       <node concept="3F0ifn" id="1nL_s$Di$5D" role="3EZMnx">
         <property role="3F0ifm" value="BNF extends:" />
-        <ref role="1k5W1q" node="4j82FZZ71NE" resolve="NodeAttributeDefault" />
+        <ref role="1k5W1q" to="1mfk:4j82FZZ71NE" resolve="NodeAttributeDefault" />
       </node>
       <node concept="3F1sOY" id="1nL_s$DmS$q" role="3EZMnx">
         <ref role="1NtTu8" to="gm16:1nL_s$Di$5w" resolve="extends" />
@@ -688,7 +674,7 @@
       </node>
       <node concept="2iRfu4" id="1nL_s$Di$5A" role="2iSdaV" />
       <node concept="PMmxH" id="7egTi9LSCvh" role="3EZMnx">
-        <ref role="PMmxG" node="4j82FZZ8kx0" resolve="EditorBreakPoint" />
+        <ref role="PMmxG" to="1mfk:4j82FZZ8kx0" resolve="EditorBreakPoint" />
       </node>
     </node>
   </node>
@@ -773,7 +759,7 @@
         </node>
       </node>
       <node concept="PMmxH" id="1EU0USSUUcm" role="3EZMnx">
-        <ref role="PMmxG" node="4j82FZZ8kx0" resolve="EditorBreakPoint" />
+        <ref role="PMmxG" to="1mfk:4j82FZZ8kx0" resolve="EditorBreakPoint" />
       </node>
       <node concept="_tjkj" id="T845YsR96M" role="3EZMnx">
         <node concept="3EZMnI" id="T845YsR96Q" role="_tjki">
@@ -807,7 +793,7 @@
           <property role="3F0ifm" value="Behavior Declaration:" />
         </node>
         <node concept="PMmxH" id="T845Ys8Pm3" role="3EZMnx">
-          <ref role="PMmxG" node="4j82FZZ8kx0" resolve="EditorBreakPoint" />
+          <ref role="PMmxG" to="1mfk:4j82FZZ8kx0" resolve="EditorBreakPoint" />
         </node>
         <node concept="2iRfu4" id="T845Ys8PlZ" role="2iSdaV" />
       </node>
@@ -826,7 +812,7 @@
     <property role="3GE5qa" value="Attributes.Behavior" />
     <ref role="1XX52x" to="gm16:T845Ysdjil" resolve="EBNFMethodReferenceToExpressions" />
     <node concept="3EZMnI" id="T845YsdjUV" role="2wV5jI">
-      <ref role="1k5W1q" node="4j82FZZ71NE" resolve="NodeAttributeDefault" />
+      <ref role="1k5W1q" to="1mfk:4j82FZZ71NE" resolve="NodeAttributeDefault" />
       <node concept="3F0ifn" id="T845YsdjUZ" role="3EZMnx">
         <property role="3F0ifm" value="@" />
         <node concept="11LMrY" id="T845YsdjVc" role="3F10Kt">
@@ -942,7 +928,7 @@
     <ref role="1XX52x" to="gm16:7egTi9LFaPK" resolve="IImplementsExternalConcepts" />
     <node concept="3EZMnI" id="7egTi9LFbln" role="2wV5jI">
       <node concept="3EZMnI" id="7egTi9LFblr" role="3EZMnx">
-        <ref role="1k5W1q" node="4j82FZZ71NE" resolve="NodeAttributeDefault" />
+        <ref role="1k5W1q" to="1mfk:4j82FZZ71NE" resolve="NodeAttributeDefault" />
         <node concept="VPM3Z" id="7egTi9LFblt" role="3F10Kt" />
         <node concept="PMmxH" id="7egTi9Mheiv" role="3EZMnx">
           <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
@@ -957,7 +943,7 @@
           <ref role="1NtTu8" to="gm16:7egTi9LFblj" resolve="concept" />
         </node>
         <node concept="PMmxH" id="7egTi9LFblA" role="3EZMnx">
-          <ref role="PMmxG" node="4j82FZZ8kx0" resolve="EditorBreakPoint" />
+          <ref role="PMmxG" to="1mfk:4j82FZZ8kx0" resolve="EditorBreakPoint" />
         </node>
         <node concept="2iRfu4" id="7egTi9LFblw" role="2iSdaV" />
       </node>
@@ -969,7 +955,7 @@
     <ref role="1XX52x" to="gm16:4novjIaPPSm" resolve="InterfaceImplementation" />
     <node concept="3EZMnI" id="XpLSzgKCgB" role="2wV5jI">
       <node concept="3EZMnI" id="XpLSzgKCgC" role="3EZMnx">
-        <ref role="1k5W1q" node="4j82FZZ71NE" resolve="NodeAttributeDefault" />
+        <ref role="1k5W1q" to="1mfk:4j82FZZ71NE" resolve="NodeAttributeDefault" />
         <node concept="VPM3Z" id="XpLSzgKCgD" role="3F10Kt" />
         <node concept="PMmxH" id="7egTi9MqJhp" role="3EZMnx">
           <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
@@ -986,7 +972,7 @@
           <ref role="1k5W1q" node="4novjIaNqEI" resolve="InterfaceRepresentationRef" />
         </node>
         <node concept="PMmxH" id="XpLSzgKCgG" role="3EZMnx">
-          <ref role="PMmxG" node="4j82FZZ8kx0" resolve="EditorBreakPoint" />
+          <ref role="PMmxG" to="1mfk:4j82FZZ8kx0" resolve="EditorBreakPoint" />
         </node>
       </node>
       <node concept="2iRkQZ" id="XpLSzgKCgH" role="2iSdaV" />
@@ -997,7 +983,7 @@
     <ref role="1XX52x" to="gm16:7egTi9Mifxa" resolve="IExternalImplements" />
     <node concept="3EZMnI" id="7egTi9Mig4O" role="2wV5jI">
       <node concept="3EZMnI" id="7egTi9Mig4P" role="3EZMnx">
-        <ref role="1k5W1q" node="4j82FZZ71NE" resolve="NodeAttributeDefault" />
+        <ref role="1k5W1q" to="1mfk:4j82FZZ71NE" resolve="NodeAttributeDefault" />
         <node concept="VPM3Z" id="7egTi9Mig4Q" role="3F10Kt" />
         <node concept="PMmxH" id="7egTi9Mig4R" role="3EZMnx">
           <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
@@ -1012,7 +998,7 @@
           <ref role="1NtTu8" to="gm16:7egTi9Mifxf" resolve="implements" />
         </node>
         <node concept="PMmxH" id="7egTi9Mig4V" role="3EZMnx">
-          <ref role="PMmxG" node="4j82FZZ8kx0" resolve="EditorBreakPoint" />
+          <ref role="PMmxG" to="1mfk:4j82FZZ8kx0" resolve="EditorBreakPoint" />
         </node>
         <node concept="2iRfu4" id="7egTi9Mig4W" role="2iSdaV" />
       </node>
@@ -1039,7 +1025,7 @@
     <property role="3GE5qa" value="Attributes" />
     <ref role="1XX52x" to="gm16:T845Yrq8Yj" resolve="EBNFAttributeValueProperty" />
     <node concept="3EZMnI" id="T845Yrq8Yn" role="2wV5jI">
-      <ref role="1k5W1q" node="4j82FZZ71NE" resolve="NodeAttributeDefault" />
+      <ref role="1k5W1q" to="1mfk:4j82FZZ71NE" resolve="NodeAttributeDefault" />
       <node concept="PMmxH" id="T845Yrq8Yr" role="3EZMnx">
         <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
       </node>
@@ -1050,7 +1036,7 @@
         <ref role="1NtTu8" to="gm16:T845YrqDLj" resolve="namedValue" />
       </node>
       <node concept="PMmxH" id="T845Yrq8Yz" role="3EZMnx">
-        <ref role="PMmxG" node="4j82FZZ8kx0" resolve="EditorBreakPoint" />
+        <ref role="PMmxG" to="1mfk:4j82FZZ8kx0" resolve="EditorBreakPoint" />
       </node>
       <node concept="2iRfu4" id="T845Yrq8Yq" role="2iSdaV" />
     </node>
@@ -1059,7 +1045,7 @@
     <property role="3GE5qa" value="Attributes" />
     <ref role="1XX52x" to="gm16:T845YrpKWW" resolve="EBNFAttributeBuildEditor" />
     <node concept="3EZMnI" id="T845YrpKX0" role="2wV5jI">
-      <ref role="1k5W1q" node="4j82FZZ71NE" resolve="NodeAttributeDefault" />
+      <ref role="1k5W1q" to="1mfk:4j82FZZ71NE" resolve="NodeAttributeDefault" />
       <node concept="PMmxH" id="T845YrpKX4" role="3EZMnx">
         <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
       </node>
@@ -1070,7 +1056,7 @@
         <ref role="1NtTu8" to="gm16:T845YrpKX9" resolve="buildEditor" />
       </node>
       <node concept="PMmxH" id="T845YrpKXd" role="3EZMnx">
-        <ref role="PMmxG" node="4j82FZZ8kx0" resolve="EditorBreakPoint" />
+        <ref role="PMmxG" to="1mfk:4j82FZZ8kx0" resolve="EditorBreakPoint" />
       </node>
       <node concept="2iRfu4" id="T845YrpKX3" role="2iSdaV" />
     </node>
@@ -1081,18 +1067,18 @@
     <node concept="3EZMnI" id="7egTi9L2p8c" role="2wV5jI">
       <node concept="PMmxH" id="7egTi9L2p8g" role="3EZMnx">
         <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-        <ref role="1k5W1q" node="4j82FZZ71NE" resolve="NodeAttributeDefault" />
+        <ref role="1k5W1q" to="1mfk:4j82FZZ71NE" resolve="NodeAttributeDefault" />
       </node>
       <node concept="3F0ifn" id="7egTi9L2p8i" role="3EZMnx">
         <property role="3F0ifm" value=":" />
-        <ref role="1k5W1q" node="4j82FZZ71NE" resolve="NodeAttributeDefault" />
+        <ref role="1k5W1q" to="1mfk:4j82FZZ71NE" resolve="NodeAttributeDefault" />
       </node>
       <node concept="3F0A7n" id="7egTi9L2p8l" role="3EZMnx">
         <ref role="1NtTu8" to="gm16:7egTi9L2p89" resolve="asRoot" />
       </node>
       <node concept="2iRfu4" id="7egTi9L2p8f" role="2iSdaV" />
       <node concept="PMmxH" id="7egTi9L2p8o" role="3EZMnx">
-        <ref role="PMmxG" node="4j82FZZ8kx0" resolve="EditorBreakPoint" />
+        <ref role="PMmxG" to="1mfk:4j82FZZ8kx0" resolve="EditorBreakPoint" />
       </node>
     </node>
   </node>
@@ -1100,7 +1086,7 @@
     <property role="3GE5qa" value="Attributes" />
     <ref role="1XX52x" to="gm16:T845YshmEx" resolve="EBNFAttributeConceptAlias" />
     <node concept="3EZMnI" id="T845YshmE_" role="2wV5jI">
-      <ref role="1k5W1q" node="4j82FZZ71NE" resolve="NodeAttributeDefault" />
+      <ref role="1k5W1q" to="1mfk:4j82FZZ71NE" resolve="NodeAttributeDefault" />
       <node concept="PMmxH" id="T845YshmED" role="3EZMnx">
         <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
       </node>
@@ -1115,7 +1101,7 @@
         </node>
       </node>
       <node concept="PMmxH" id="T845YshmEO" role="3EZMnx">
-        <ref role="PMmxG" node="4j82FZZ8kx0" resolve="EditorBreakPoint" />
+        <ref role="PMmxG" to="1mfk:4j82FZZ8kx0" resolve="EditorBreakPoint" />
       </node>
       <node concept="2iRfu4" id="T845YshmEC" role="2iSdaV" />
     </node>
@@ -1229,7 +1215,7 @@
     <property role="3GE5qa" value="Attributes" />
     <ref role="1XX52x" to="gm16:1EU0USQwkkZ" resolve="EBNFAttributePopertySpecialize" />
     <node concept="3EZMnI" id="1EU0USQwkl4" role="2wV5jI">
-      <ref role="1k5W1q" node="4j82FZZ71NE" resolve="NodeAttributeDefault" />
+      <ref role="1k5W1q" to="1mfk:4j82FZZ71NE" resolve="NodeAttributeDefault" />
       <node concept="PMmxH" id="1EU0USQwk$2" role="3EZMnx">
         <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
       </node>
@@ -1240,7 +1226,7 @@
         <ref role="1NtTu8" to="gm16:1EU0USQwk$9" resolve="specialize" />
       </node>
       <node concept="PMmxH" id="1EU0USQwk$8" role="3EZMnx">
-        <ref role="PMmxG" node="4j82FZZ8kx0" resolve="EditorBreakPoint" />
+        <ref role="PMmxG" to="1mfk:4j82FZZ8kx0" resolve="EditorBreakPoint" />
       </node>
       <node concept="2iRfu4" id="1EU0USQwkl7" role="2iSdaV" />
     </node>
@@ -1328,7 +1314,7 @@
     <property role="3GE5qa" value="Attributes" />
     <ref role="1XX52x" to="gm16:1EU0USSSP9n" resolve="EBNFAttributeAttachSmartReference" />
     <node concept="3EZMnI" id="1EU0USSSP9s" role="2wV5jI">
-      <ref role="1k5W1q" node="4j82FZZ71NE" resolve="NodeAttributeDefault" />
+      <ref role="1k5W1q" to="1mfk:4j82FZZ71NE" resolve="NodeAttributeDefault" />
       <node concept="PMmxH" id="1EU0USSSP9w" role="3EZMnx">
         <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
       </node>
@@ -1339,9 +1325,16 @@
         <ref role="1NtTu8" to="gm16:1EU0USSSP9p" resolve="value" />
       </node>
       <node concept="PMmxH" id="1EU0USSSP9C" role="3EZMnx">
-        <ref role="PMmxG" node="4j82FZZ8kx0" resolve="EditorBreakPoint" />
+        <ref role="PMmxG" to="1mfk:4j82FZZ8kx0" resolve="EditorBreakPoint" />
       </node>
       <node concept="2iRfu4" id="1EU0USSSP9v" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="PKFIW" id="7ijLAu_LH57">
+    <property role="TrG5h" value="DummyForGrammarCells" />
+    <ref role="1XX52x" to="tpck:gw2VY9q" />
+    <node concept="3F0ifn" id="7ijLAu_LH58" role="2wV5jI">
+      <property role="3F0ifm" value="Workaround to fix contributions to BaseConcept generated by grammarCells." />
     </node>
   </node>
 </model>
