@@ -23,3 +23,4 @@ jobs:
           ort-aws-secret-access-key: ${{ secrets.ANALYZER_AWS_ACCESS_KEY }}
           container-repository: ${{ secrets.ANALYZER_DOCKER_IMAGE }}
           container-registry: ${{ secrets.ANALYZER_DOCKER_REGISTRY }}
+          container-image-tag: latest
