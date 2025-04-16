@@ -17,7 +17,7 @@ plugins {
 }
 
 group = "de.pes.MetaBNF"
-version = "0.1"
+version = "0.2"
 description = "MetaBNF provides MPS-based languages for working with Backus-Naur Form (BNF). It enables users to define, edit, and analyze BNF grammars directly in JetBrains MPS, facilitating language design, parsing, and formal grammar processing."
 
 val projectName = "MetaBNF"
@@ -147,7 +147,14 @@ val buildBNF = tasks.register<BuildLanguages>("buildBNF") {
 tasks.named("build"){
     dependsOn(buildBNF)
 }
-defaultTasks("build")
+
+val zipPackage = tasks.register<Zip>("zipPackage") {
+    dependsOn(buildBNF)
+    from("$artifactsDir/") 
+    destinationDirectory.set(file("$buildDir/package")) 
+    archiveFileName.set("de.pes.metaBNF.zip") 
+}
+defaultTasks("zipPackage")
 
 publishing {
     repositories {
@@ -168,7 +175,7 @@ publishing {
     publications {
         create<MavenPublication>("MetaBNF") {
             groupId = project.group.toString().lowercase()
-            artifact ("$artifactsDir/de.pes.metaBNF.build/MetaBNF.jar") {
+            artifact ("$buildDir/package/de.pes.metaBNF.zip") {
                 artifactId = project.name.lowercase()
                 version = project.version.toString()
             }
