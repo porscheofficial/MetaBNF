@@ -22,7 +22,6 @@
     <language slang="l:ceab5195-25ea-4f22-9b92-103b95ca8c0c:jetbrains.mps.lang.core" version="2" />
   </languageVersions>
   <dependencyVersions>
-    <module reference="752496a0-da43-4b5e-bd15-ea1a5aa211f6(com.mbeddr.allScripts)" version="0" />
     <module reference="7ac0dfb8-7d5f-4573-ab80-81af2106ce03(com.mbeddr.build)" version="0" />
     <module reference="3ae9cfda-f938-4524-b4ca-fbcba3b0525b(com.mbeddr.platform)" version="0" />
     <module reference="f1fb7b1c-ce0d-423c-9369-4a661d600029(de.itemis.mps.extensions.build)" version="0" />

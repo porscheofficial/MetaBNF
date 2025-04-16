@@ -30,6 +30,12 @@
         <reference id="5617550519002745380" name="script" index="1l3spb" />
         <child id="4129895186893471026" name="artifacts" index="2JcizS" />
       </concept>
+      <concept id="927724900262033858" name="jetbrains.mps.build.structure.BuildSource_JavaOptions" flags="ng" index="2_Ic$z">
+        <property id="927724900262398947" name="heapSize" index="2_GNG2" />
+        <property id="927724900262033861" name="generateDebugInfo" index="2_Ic$$" />
+        <property id="927724900262033862" name="copyResources" index="2_Ic$B" />
+        <property id="6998860900671147996" name="javaLevel" index="TZNOO" />
+      </concept>
       <concept id="4380385936562003279" name="jetbrains.mps.build.structure.BuildString" flags="ng" index="NbPM2">
         <child id="4903714810883783243" name="parts" index="3MwsjC" />
       </concept>
@@ -41,10 +47,6 @@
       <concept id="7181125477683417252" name="jetbrains.mps.build.structure.BuildExternalLayoutDependency" flags="ng" index="13uUGR">
         <reference id="7181125477683417255" name="layout" index="13uUGO" />
         <child id="7181125477683417254" name="artifacts" index="13uUGP" />
-      </concept>
-      <concept id="7389400916848050074" name="jetbrains.mps.build.structure.BuildLayout_Jar" flags="ng" index="3981dx" />
-      <concept id="7389400916848050060" name="jetbrains.mps.build.structure.BuildLayout_NamedContainer" flags="ng" index="3981dR">
-        <child id="4380385936562148502" name="containerName" index="Nbhlr" />
       </concept>
       <concept id="7389400916848136194" name="jetbrains.mps.build.structure.BuildFolderMacro" flags="ng" index="398rNT">
         <child id="7389400916848144618" name="defaultPath" index="398pKh" />
@@ -86,6 +88,7 @@
     </language>
     <language id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps">
       <concept id="6503355885715333289" name="jetbrains.mps.build.mps.structure.BuildMpsAspect" flags="ng" index="2igEWh">
+        <property id="6503355885715353788" name="bootstrap" index="2igJW4" />
         <property id="7981469545489178349" name="generationMaxHeapSizeInMb" index="3UIfUI" />
       </concept>
       <concept id="7832771629084799699" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPluginVendor" flags="ng" index="2iUeEo">
@@ -124,6 +127,13 @@
       <concept id="5253498789149585690" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyOnModule" flags="ng" index="3bR9La">
         <reference id="5253498789149547705" name="module" index="3bR37D" />
       </concept>
+      <concept id="4297162197620964123" name="jetbrains.mps.build.mps.structure.BuildMps_GeneratorOptions" flags="ng" index="1wNqPr">
+        <property id="4297162197620978188" name="strict" index="1wNuhc" />
+        <property id="4297162197620978190" name="parallel" index="1wNuhe" />
+        <property id="4297162197620978193" name="parallelThreads" index="1wNuhh" />
+        <property id="4297162197621031140" name="inplace" index="1wOHq$" />
+        <property id="6535001758416941941" name="createStaticRefs" index="3Ej$Sc" />
+      </concept>
       <concept id="4278635856200817744" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleModelRoot" flags="ng" index="1BupzO">
         <property id="8137134783396907368" name="convert2binary" index="1Hdu6h" />
         <property id="8137134783396676838" name="extracted" index="1HemKv" />
@@ -146,7 +156,7 @@
     </language>
   </registry>
   <node concept="1l3spW" id="7vSfl_Uu_wX">
-    <property role="TrG5h" value="de.pes.metaBNF.build" />
+    <property role="TrG5h" value="de.pes.metaBNF" />
     <property role="2DA0ip" value="../.." />
     <property role="turDy" value="buildMetaBNF.xml" />
     <node concept="10PD9b" id="7vSfl_Uu_wY" role="10PD9s" />
@@ -238,20 +248,13 @@
       </node>
     </node>
     <node concept="1l3spV" id="7vSfl_Uu_yk" role="1l3spN">
-      <node concept="3981dx" id="7ICvlLZcxq9" role="39821P">
-        <node concept="m$_wl" id="7LoZJl0utQ4" role="39821P">
-          <ref role="m_rDy" node="7LoZJl0udGv" resolve="de.pes.metaBNF.build" />
-          <node concept="pUk6x" id="7LoZJl0utQ8" role="pUk7w" />
-        </node>
-        <node concept="m$_wl" id="7LoZJl0utQb" role="39821P">
-          <ref role="m_rDy" node="7vSfl_Uu_y7" resolve="de.pes.metaBNF" />
-          <node concept="pUk6x" id="7LoZJl0utQf" role="pUk7w" />
-        </node>
-        <node concept="3_J27D" id="7ICvlLZcxqb" role="Nbhlr">
-          <node concept="3Mxwew" id="7ICvlLZcxqd" role="3MwsjC">
-            <property role="3MwjfP" value="MetaBNF.jar" />
-          </node>
-        </node>
+      <node concept="m$_wl" id="6z5XizpPxKQ" role="39821P">
+        <ref role="m_rDy" node="7LoZJl0udGv" resolve="de.pes.metaBNF.build" />
+        <node concept="pUk6x" id="6z5XizpPxKR" role="pUk7w" />
+      </node>
+      <node concept="m$_wl" id="6z5XizpPxKS" role="39821P">
+        <ref role="m_rDy" node="7vSfl_Uu_y7" resolve="de.pes.metaBNF" />
+        <node concept="pUk6x" id="6z5XizpPxKT" role="pUk7w" />
       </node>
     </node>
     <node concept="m$_wf" id="7vSfl_Uu_y7" role="3989C9">
@@ -738,6 +741,19 @@
         </node>
       </node>
     </node>
+    <node concept="2_Ic$z" id="7OyG8hrcgea" role="3989C9">
+      <property role="2_Ic$$" value="true" />
+      <property role="2_GNG2" value="2048" />
+      <property role="TZNOO" value="9" />
+      <property role="2_Ic$B" value="true" />
+    </node>
+    <node concept="1wNqPr" id="3AVJcIMlF8m" role="3989C9">
+      <property role="1wNuhc" value="true" />
+      <property role="1wNuhe" value="true" />
+      <property role="1wNuhh" value="4" />
+      <property role="1wOHq$" value="true" />
+      <property role="3Ej$Sc" value="true" />
+    </node>
     <node concept="55IIr" id="4w7l5_xbiAh" role="auvoZ">
       <node concept="2Ry0Ak" id="4w7l5_xbiAt" role="iGT6I">
         <property role="2Ry0Am" value=".." />
@@ -748,6 +764,7 @@
     </node>
     <node concept="2igEWh" id="4XId1G7nHtf" role="1hWBAP">
       <property role="3UIfUI" value="4096" />
+      <property role="2igJW4" value="true" />
     </node>
   </node>
 </model>
