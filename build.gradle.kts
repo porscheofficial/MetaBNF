@@ -27,10 +27,10 @@ val buildDir  = "$rootDir/build"
 repositories {
     fun ExtraPropertiesExtension.getStringOrNull(key: String): String? = if (has(key)) get(key) as String else null
     val repoUser = project.extra.getStringOrNull("gpr.user")
-        ?: System.getenv("GITHUB_USER")
+        ?: System.getenv("USER")
 
     val repoPassword = project.extra.getStringOrNull("gpr.key")
-        ?: System.getenv("GITHUB_TOKEN")
+        ?: System.getenv("TOKEN")
         
     maven(url = "https://maven.pkg.github.com/mbeddr/mbeddr.core") {
         credentials(PasswordCredentials::class) {
