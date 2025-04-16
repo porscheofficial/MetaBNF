@@ -23,4 +23,7 @@ jobs:
           distribution: 'adopt'
 
       - name: Build with Gradle
+        env: 
+          USER: ${{ secrets.USER }}
+          TOKEN: ${{ secrets.TOKEN }}
         run: ./gradlew --info
