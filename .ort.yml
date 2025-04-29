@@ -1,17 +1,6 @@
 # See: https://github.com/oss-review-toolkit/ort/blob/main/docs/config-file-ort-yml.md
 analyzer:
   skip_excluded: true
-  pkg:
-    manager: gradle
-    dependencies:
-      - de.itemis.mps:mps-gradle-plugin:1.28.0.441.896925d
-      - com.jetbrains:mps:2023.2
-      - org.apache.ant:ant-junit:1.10.15
-      - com.mbeddr:mbeddr:2023.2.25122.63b5071
-      - org.jetbrains.kotlin:kotlin-stdlib:1.8.10
-      - org.jetbrains.kotlin:kotlin-reflect:1.8.10
-      - org.jetbrains.kotlin:kotlin-maven-plugin:1.8.10
-      - org.gradle.plugins:maven-publish
 excludes:
   paths:
     - pattern: ".github/**"
