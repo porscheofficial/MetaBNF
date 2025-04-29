@@ -17,7 +17,7 @@ plugins {
 }
 
 group = "de.pes.MetaBNF"
-version = "0.1"
+version = "0.2"
 description = "MetaBNF provides MPS-based languages for working with Backus-Naur Form (BNF). It enables users to define, edit, and analyze BNF grammars directly in JetBrains MPS, facilitating language design, parsing, and formal grammar processing."
 
 val projectName = "MetaBNF"
@@ -27,10 +27,10 @@ val buildDir  = "$rootDir/build"
 repositories {
     fun ExtraPropertiesExtension.getStringOrNull(key: String): String? = if (has(key)) get(key) as String else null
     val repoUser = project.extra.getStringOrNull("gpr.user")
-        ?: System.getenv("USER")
+        ?: System.getenv("GITHUB_USER")
 
     val repoPassword = project.extra.getStringOrNull("gpr.key")
-        ?: System.getenv("TOKEN")
+        ?: System.getenv("GITHUB_TOKEN")
         
     maven(url = "https://maven.pkg.github.com/mbeddr/mbeddr.core") {
         credentials(PasswordCredentials::class) {
@@ -39,6 +39,8 @@ repositories {
         }
     }
     mavenCentral()
+    // added itemis maven to satisfy GradleInspector for ORT 
+    maven(url = "https://artifacts.itemis.cloud/repository/maven-mps")
 }
 
 buildscript {
@@ -147,7 +149,14 @@ val buildBNF = tasks.register<BuildLanguages>("buildBNF") {
 tasks.named("build"){
     dependsOn(buildBNF)
 }
-defaultTasks("build")
+
+val zipPackage = tasks.register<Zip>("zipPackage") {
+    dependsOn(buildBNF)
+    from("$artifactsDir/") 
+    destinationDirectory.set(file("$buildDir/package")) 
+    archiveFileName.set("de.pes.metaBNF.zip") 
+}
+defaultTasks("zipPackage")
 
 publishing {
     repositories {
@@ -168,7 +177,7 @@ publishing {
     publications {
         create<MavenPublication>("MetaBNF") {
             groupId = project.group.toString().lowercase()
-            artifact ("$artifactsDir/de.pes.metaBNF.build/MetaBNF.jar") {
+            artifact ("$buildDir/package/de.pes.metaBNF.zip") {
                 artifactId = project.name.lowercase()
                 version = project.version.toString()
             }
