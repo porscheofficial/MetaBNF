@@ -1,0 +1,11 @@
+# See: https://github.com/oss-review-toolkit/ort/blob/main/docs/config-file-ort-yml.md
+analyzer:
+  skip_excluded: true
+excludes:
+  paths:
+    - pattern: ".github/**"
+      reason: "BUILD_TOOL_OF"
+      comment: "Github Action Definitions"
+    - pattern: "gradle/**"
+      reason: "OTHER"
+      comment: "Gradle settings"

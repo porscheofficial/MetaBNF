@@ -39,6 +39,8 @@ repositories {
         }
     }
     mavenCentral()
+    // added itemis maven to satisfy GradleInspector for ORT 
+    maven(url = "https://artifacts.itemis.cloud/repository/maven-mps")
 }
 
 buildscript {
