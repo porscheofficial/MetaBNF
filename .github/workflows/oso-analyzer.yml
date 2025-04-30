@@ -16,6 +16,7 @@ jobs:
   analyzer:
     runs-on: ubuntu-latest
     name: OSO ORT
+    continue-on-error: false
     steps:
       - uses: actions/checkout@v3
       - name: Run OSO ORT Analyzer
