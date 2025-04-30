@@ -17,7 +17,7 @@ plugins {
 }
 
 group = "de.pes.MetaBNF"
-version = "0.2"
+version = "2024.1.0"
 description = "MetaBNF provides MPS-based languages for working with Backus-Naur Form (BNF). It enables users to define, edit, and analyze BNF grammars directly in JetBrains MPS, facilitating language design, parsing, and formal grammar processing."
 
 val projectName = "MetaBNF"
@@ -84,7 +84,7 @@ logger.info("Using JDK at {}", jdk_home)
 ext.set("jdk_home", jdk_home)
 
 // Variable declarations
-var mpsVersion = "2023.2.2"
+var mpsVersion = "2024.1.3"
 
 val mpsConfiguration = configurations.create("mpsConfiguration")
 val dependencies = configurations.create("dependencies")
@@ -109,7 +109,7 @@ dependencies {
     mpsConfiguration("com.jetbrains:mps:$mpsVersion")
     junitAnt("org.apache.ant:ant-junit:1.10.15")
     implementation("de.itemis.mps:mps-gradle-plugin:1.28.0.441.896925d")
-    dependencies("com.mbeddr:mbeddr:2023.2.25122.63b5071")
+    dependencies("com.mbeddr:mbeddr:2024.1.25363.4bdfeb3")
 }
 
 ext["itemis.mps.gradle.ant.defaultScriptArgs"] = listOf("-DMetaBNF.home=$projectDir", "-Dmps_home=$mpsHomeDir", "-Dartifacts.root=$artifactsDir", "-Dbuild.dir=$buildDir", "-Dmps.generator.skipUnmodifiedModels=true","-Dmbeddr.home=$mbeddrhomeDir","-DmbeddrPlatform.home=$mbeddrPlatformhomeDir")

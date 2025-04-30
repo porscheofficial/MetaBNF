@@ -3,6 +3,8 @@
   <component name="MigrationProperties">
     <entry key="com.cso.enabler.base.migration.MigrateAutosarContentOutOfBehaviorAspect" value="executed" />
     <entry key="com.cso.enabler.base.migration.MigrateOldUnitLanguage" value="executed" />
+    <entry key="jetbrains.mps.ide.mpsmigration.v_2023_3.CleanStubForeignMethodIds" value="executed" />
     <entry key="project.baseline.version" value="232" />
+    <entry key="project.migrated.version" value="241" />
   </component>
 </project>

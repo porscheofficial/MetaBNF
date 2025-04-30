@@ -1423,7 +1423,7 @@
               </node>
             </node>
             <node concept="2YIFZM" id="211WYHD1N4D" role="33vP2m">
-              <ref role="37wK5l" to="yrpt:211WYHCOWD1" resolve="buildVisialize" />
+              <ref role="37wK5l" to="yrpt:211WYHCOWD1" resolve="buildVisualize" />
               <ref role="1Pybhc" to="yrpt:211WYHCOWAQ" resolve="VisualizerHelper" />
               <node concept="13iPFW" id="211WYHD1N4E" role="37wK5m" />
               <node concept="2OqwBi" id="211WYHD1N4F" role="37wK5m">

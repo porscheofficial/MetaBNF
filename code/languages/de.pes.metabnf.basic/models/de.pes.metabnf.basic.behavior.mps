@@ -3802,7 +3802,7 @@
                               <property role="Xl_RC" value="\&quot;" />
                             </node>
                             <node concept="37vLTw" id="211WYHD3zSB" role="3uHU7w">
-                              <ref role="3cqZAo" node="211WYHD3zGN" resolve="objectName" />
+                              <ref role="3cqZAo" node="211WYHD3zGN" resolve="objectNameA" />
                             </node>
                           </node>
                         </node>
@@ -4457,7 +4457,7 @@
               </node>
               <node concept="1Wc70l" id="4aKsqC9VjrR" role="3clFbw">
                 <node concept="2YIFZM" id="4aKsqC9VoU2" role="3uHU7w">
-                  <ref role="37wK5l" node="4aKsqC9T60N" resolve="isExpressionAllowed" />
+                  <ref role="37wK5l" node="4aKsqC9T60N" resolve="isCheckAndAddAllowed" />
                   <ref role="1Pybhc" node="211WYHCOWAQ" resolve="VisualizerHelper" />
                   <node concept="2OqwBi" id="4aKsqC9VrHm" role="37wK5m">
                     <node concept="37vLTw" id="4aKsqC9VqUU" role="2Oq$k0">
@@ -4526,7 +4526,7 @@
       <node concept="3clFbS" id="211WYHCXqQC" role="3clF47">
         <node concept="3cpWs6" id="211WYHEaP$L" role="3cqZAp">
           <node concept="1rXfSq" id="211WYHEaR8p" role="3cqZAk">
-            <ref role="37wK5l" node="7A0qgaaQM$A" resolve="buildUMLObject" />
+            <ref role="37wK5l" node="7A0qgaaQM$A" resolve="buildUMLObjectWithColor" />
             <node concept="37vLTw" id="211WYHEaTwu" role="37wK5m">
               <ref role="3cqZAo" node="211WYHCXxjj" resolve="node" />
             </node>
