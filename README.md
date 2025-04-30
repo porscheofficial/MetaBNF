@@ -100,3 +100,12 @@ We welcome contributions! Here's how you can help:\
 
 MetaBNF is **open-source** under the [Apache 2.0](LICENSE).
 
+## 🔗 Dependency
+
+Dependency to included packages into project:
+
+- com.mbeddr:mbeddr
+- com.mbeddr:platform
+- de.itemis.mps:mps-gradle-plugin
+- com.jetbrains:mps
+- org.apache.ant:ant-junit
