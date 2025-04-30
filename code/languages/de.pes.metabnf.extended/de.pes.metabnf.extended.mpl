@@ -15,7 +15,7 @@
     <dependency reexport="false">2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)</dependency>
     <dependency reexport="false">18bc6592-03a6-4e29-a83a-7ff23bde13ba(jetbrains.mps.lang.editor)</dependency>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
-    <dependency reexport="false">926d63aa-027c-47a4-939e-98f42e63df1a(de.pes.bnfSimple)</dependency>
+    <dependency reexport="false">926d63aa-027c-47a4-939e-98f42e63df1a(de.pes.metabnf.basic)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:9d69e719-78c8-4286-90db-fb19c107d049:com.mbeddr.mpsutil.grammarcells" version="2" />
@@ -94,7 +94,7 @@
     <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
   </dependencyVersions>
   <extendedLanguages>
-    <extendedLanguage>926d63aa-027c-47a4-939e-98f42e63df1a(de.pes.bnfSimple)</extendedLanguage>
+    <extendedLanguage>926d63aa-027c-47a4-939e-98f42e63df1a(de.pes.metabnf.basic)</extendedLanguage>
   </extendedLanguages>
 </language>
 

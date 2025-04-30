@@ -1203,7 +1203,7 @@
           </node>
           <node concept="2OqwBi" id="1XSPyLZrOyf" role="3clFbw">
             <node concept="37vLTw" id="1XSPyLZrNM4" role="2Oq$k0">
-              <ref role="3cqZAo" node="1XSPyLZrN_P" resolve="file" />
+              <ref role="3cqZAo" node="1XSPyLZrN_P" resolve="fileRoot" />
             </node>
             <node concept="liA8E" id="1XSPyLZrP7p" role="2OqNvi">
               <ref role="37wK5l" to="guwi:~File.isDirectory()" resolve="isDirectory" />
@@ -2904,7 +2904,7 @@
               <ref role="ehGHo" to="p1cl:1nL_s$DdmcT" resolve="BNFDefinitionTermBase" />
             </node>
             <node concept="1rXfSq" id="4sCs7MizU_d" role="33vP2m">
-              <ref role="37wK5l" node="4sCs7MizxNL" resolve="getStatementByName" />
+              <ref role="37wK5l" node="4sCs7MizxNL" resolve="getStatementByXmlElement" />
               <node concept="37vLTw" id="4sCs7MizU_e" role="37wK5m">
                 <ref role="3cqZAo" node="4sCs7MizbQ0" resolve="wb" />
               </node>
@@ -5767,7 +5767,7 @@
                     <ref role="3cqZAo" node="1KDIWmiXYcT" resolve="wb" />
                   </node>
                   <node concept="37vLTw" id="1KDIWmiYOTt" role="37wK5m">
-                    <ref role="3cqZAo" node="1KDIWmiXkGz" resolve="elm" />
+                    <ref role="3cqZAo" node="1KDIWmiXkGz" resolve="elmTag" />
                   </node>
                 </node>
               </node>
@@ -8063,7 +8063,7 @@
         <node concept="2xdQw9" id="1tjurooY60d" role="3cqZAp">
           <node concept="3cpWs3" id="1tjurooYoAc" role="9lYJi">
             <node concept="37vLTw" id="1tjurooYuQC" role="3uHU7w">
-              <ref role="3cqZAo" node="1tjurooP6sN" resolve="IFaceName" />
+              <ref role="3cqZAo" node="1tjurooP6sN" resolve="IFaceNameFull" />
             </node>
             <node concept="Xl_RD" id="1tjurooY60f" role="3uHU7B">
               <property role="Xl_RC" value="***createInterimsInterfaceToWB: " />
@@ -8083,7 +8083,7 @@
                   <property role="Xl_RC" value="I" />
                 </node>
                 <node concept="37vLTw" id="1tjurooPnaJ" role="3uHU7w">
-                  <ref role="3cqZAo" node="1tjurooP6sN" resolve="IFaceName" />
+                  <ref role="3cqZAo" node="1tjurooP6sN" resolve="IFaceNameFull" />
                 </node>
               </node>
             </node>
@@ -8625,12 +8625,12 @@
           <node concept="3y3z36" id="6cg8O7PUx9F" role="1gVkn0">
             <node concept="10Nm6u" id="6cg8O7PUx9G" role="3uHU7B" />
             <node concept="37vLTw" id="6cg8O7PUx9H" role="3uHU7w">
-              <ref role="3cqZAo" node="6cg8O7PUx9C" resolve="IFaceName" />
+              <ref role="3cqZAo" node="6cg8O7PUx9C" resolve="IFaceNameFull" />
             </node>
           </node>
           <node concept="3cpWs3" id="6cg8O7PUx9I" role="1gVpfI">
             <node concept="37vLTw" id="6cg8O7PUx9J" role="3uHU7w">
-              <ref role="3cqZAo" node="6cg8O7PUx9C" resolve="IFaceName" />
+              <ref role="3cqZAo" node="6cg8O7PUx9C" resolve="IFaceNameFull" />
             </node>
             <node concept="Xl_RD" id="6cg8O7PUx9K" role="3uHU7B">
               <property role="Xl_RC" value="Parent Name: " />
@@ -8660,7 +8660,7 @@
                     <ref role="3cqZAo" node="1tjurop2Jxu" resolve="workElement" />
                   </node>
                   <node concept="37vLTw" id="1tjurooR0oA" role="37wK5m">
-                    <ref role="3cqZAo" node="6cg8O7PUx9C" resolve="IFaceName" />
+                    <ref role="3cqZAo" node="6cg8O7PUx9C" resolve="IFaceNameFull" />
                   </node>
                   <node concept="37vLTw" id="270m8sGK2ji" role="37wK5m">
                     <ref role="3cqZAo" node="270m8sGJEQB" resolve="IFaceMemName" />
@@ -10263,7 +10263,7 @@
                       <node concept="3clFbS" id="7lnkoHvez1Y" role="3Kbo56">
                         <node concept="3clFbF" id="7lnkoHvez1Z" role="3cqZAp">
                           <node concept="1rXfSq" id="7lnkoHvez20" role="3clFbG">
-                            <ref role="37wK5l" node="7lnkoHvfqrx" resolve="addMembersToBNFTermRestriction" />
+                            <ref role="37wK5l" node="7lnkoHvfqrx" resolve="addMembersToBNFTermChoice" />
                             <node concept="37vLTw" id="7lnkoHvez21" role="37wK5m">
                               <ref role="3cqZAo" node="4sCs7Mj1r07" resolve="term" />
                             </node>
@@ -10526,7 +10526,7 @@
                                 <ref role="ehGHo" to="p1cl:1nL_s$DdmcT" resolve="BNFDefinitionTermBase" />
                               </node>
                               <node concept="1rXfSq" id="4sCs7Mj1d7P" role="33vP2m">
-                                <ref role="37wK5l" node="4sCs7MizxNL" resolve="getStatementByName" />
+                                <ref role="37wK5l" node="4sCs7MizxNL" resolve="getStatementByXmlElement" />
                                 <node concept="37vLTw" id="4sCs7Mj1d7Q" role="37wK5m">
                                   <ref role="3cqZAo" node="4sCs7Mj13Rr" resolve="wb" />
                                 </node>
@@ -10600,7 +10600,7 @@
                                     <ref role="3cqZAo" node="4sCs7Mj1d7N" resolve="stmt" />
                                   </node>
                                   <node concept="1rXfSq" id="4sCs7MjJZXd" role="37vLTx">
-                                    <ref role="37wK5l" node="4sCs7MizxNL" resolve="getStatementByName" />
+                                    <ref role="37wK5l" node="4sCs7MizxNL" resolve="getStatementByXmlElement" />
                                     <node concept="37vLTw" id="4sCs7MjJZXe" role="37wK5m">
                                       <ref role="3cqZAo" node="4sCs7Mj13Rr" resolve="wb" />
                                     </node>
