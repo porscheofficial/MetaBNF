@@ -209,11 +209,17 @@
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1143226024141" name="jetbrains.mps.lang.smodel.structure.SModelType" flags="in" index="H_c77" />
+      <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS">
+        <reference id="1145383142433" name="elementConcept" index="2I9WkF" />
+      </concept>
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
       </concept>
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
+      </concept>
+      <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
+        <reference id="1138056546658" name="link" index="3TtcxE" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -551,6 +557,15 @@
                                   </node>
                                 </node>
                               </node>
+                              <node concept="3cpWs8" id="7OXTsFiDvit" role="3cqZAp">
+                                <node concept="3cpWsn" id="7OXTsFiDviw" role="3cpWs9">
+                                  <property role="TrG5h" value="declarationToSkip" />
+                                  <node concept="2I9FWS" id="7OXTsFiDvir" role="1tU5fm">
+                                    <ref role="2I9WkF" to="x0c1:1FmrBQwsG5T" resolve="conceptDeclarationRef" />
+                                  </node>
+                                  <node concept="10Nm6u" id="7OXTsFiDxsN" role="33vP2m" />
+                                </node>
+                              </node>
                               <node concept="3cpWs8" id="1nlIT1LMgTD" role="3cqZAp">
                                 <node concept="3cpWsn" id="2Th5te3K1MO" role="3cpWs9">
                                   <property role="TrG5h" value="m" />
@@ -622,7 +637,19 @@
                                         </node>
                                       </node>
                                     </node>
-                                    <node concept="3clFbH" id="1nlIT1LM4Ak" role="3cqZAp" />
+                                    <node concept="3clFbF" id="7OXTsFiDxPm" role="3cqZAp">
+                                      <node concept="37vLTI" id="7OXTsFiD_3P" role="3clFbG">
+                                        <node concept="2OqwBi" id="7OXTsFiDARz" role="37vLTx">
+                                          <node concept="pncrf" id="7OXTsFiDA3R" role="2Oq$k0" />
+                                          <node concept="3Tsc0h" id="7OXTsFiDBjW" role="2OqNvi">
+                                            <ref role="3TtcxE" to="x0c1:1FmrBQwsGbz" resolve="conceptToSkipGenerateTemplate" />
+                                          </node>
+                                        </node>
+                                        <node concept="37vLTw" id="7OXTsFiDxPk" role="37vLTJ">
+                                          <ref role="3cqZAo" node="7OXTsFiDviw" resolve="declarationToSkip" />
+                                        </node>
+                                      </node>
+                                    </node>
                                   </node>
                                 </node>
                                 <node concept="2OqwBi" id="1nlIT1LCpxC" role="ukAjM">
@@ -649,6 +676,9 @@
                                       </node>
                                       <node concept="37vLTw" id="1nlIT1LLXNS" role="37wK5m">
                                         <ref role="3cqZAo" node="2Th5te3K1MO" resolve="m" />
+                                      </node>
+                                      <node concept="37vLTw" id="7OXTsFiDBOm" role="37wK5m">
+                                        <ref role="3cqZAo" node="7OXTsFiDviw" resolve="declarationToSkip" />
                                       </node>
                                     </node>
                                   </node>
