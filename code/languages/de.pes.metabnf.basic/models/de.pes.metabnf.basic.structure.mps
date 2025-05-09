@@ -9,6 +9,7 @@
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
     <import index="kwxp" ref="b4d28e19-7d2d-47e9-943e-3a41f97a0e52/r:4903509f-5416-46ff-9a8b-44b5a178b568(com.mbeddr.mpsutil.plantuml.node/com.mbeddr.mpsutil.plantuml.node.structure)" />
+    <import index="vx0f" ref="r:105f8bd2-defa-49dc-bec4-da777784dea6(de.pes.metabnf.utils.editor)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -122,6 +123,9 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="211WYHCjlI0" role="PzmwI">
       <ref role="PrY4T" node="211WYHCjlHs" resolve="IVisualizePlantUMLParticipent" />
+    </node>
+    <node concept="PrWs8" id="7aaqmzloaPd" role="PzmwI">
+      <ref role="PrY4T" node="7aaqmzlmc9L" resolve="IBNFEditorReprensentation" />
     </node>
   </node>
   <node concept="1TIwiD" id="fbptcj1Kf7">
@@ -277,6 +281,9 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="fbptcj1GUz" resolve="BNFExpression" />
     </node>
+    <node concept="PrWs8" id="7aaqmzmE735" role="PzmwI">
+      <ref role="PrY4T" node="7aaqmzlmc9L" resolve="IBNFEditorReprensentation" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1R2v1LqWEhP">
     <property role="EcuMT" value="2144412833808557173" />
@@ -313,6 +320,9 @@
     <node concept="PrWs8" id="7A0qgabvebi" role="PzmwI">
       <ref role="PrY4T" to="kwxp:2N1CSrzPN_8" resolve="IVisualizable" />
     </node>
+    <node concept="PrWs8" id="7aaqmzlmrcC" role="PzmwI">
+      <ref role="PrY4T" node="7aaqmzlmc9L" resolve="IBNFEditorReprensentation" />
+    </node>
   </node>
   <node concept="PlHQZ" id="T845YsR94I">
     <property role="EcuMT" value="1029090517693796654" />
@@ -347,6 +357,9 @@
     <node concept="PrWs8" id="4aKsqC9Ofc3" role="PrDN$">
       <ref role="PrY4T" node="6BkCOo7fKKv" resolve="ISupportPlantUMLObjectDiagram" />
     </node>
+    <node concept="PrWs8" id="7aaqmzmE2Ke" role="PrDN$">
+      <ref role="PrY4T" node="7aaqmzlmc9L" resolve="IBNFEditorReprensentation" />
+    </node>
   </node>
   <node concept="PlHQZ" id="6HVmriMlqlW">
     <property role="EcuMT" value="7744882616814642556" />
@@ -359,6 +372,9 @@
     <property role="TrG5h" value="INodeAnnotationAttribute" />
     <node concept="PrWs8" id="211WYHDltos" role="PrDN$">
       <ref role="PrY4T" node="211WYHCjlHs" resolve="IVisualizePlantUMLParticipent" />
+    </node>
+    <node concept="PrWs8" id="7aaqmzmH_wm" role="PrDN$">
+      <ref role="PrY4T" node="7aaqmzlmc9L" resolve="IBNFEditorReprensentation" />
     </node>
   </node>
   <node concept="PlHQZ" id="4novjIaNO23">
@@ -509,6 +525,16 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="fbptcj1GUu" resolve="BNFDefinitionTerm" />
     </node>
+  </node>
+  <node concept="PlHQZ" id="7aaqmzlmc9L">
+    <property role="EcuMT" value="8253525166086734449" />
+    <property role="3GE5qa" value="base" />
+    <property role="TrG5h" value="IBNFEditorReprensentation" />
+  </node>
+  <node concept="PlHQZ" id="7aaqmzmRqQF">
+    <property role="EcuMT" value="8253525166112222635" />
+    <property role="3GE5qa" value="Attributes" />
+    <property role="TrG5h" value="IBNFEditorRepresentationConfig" />
   </node>
 </model>
 

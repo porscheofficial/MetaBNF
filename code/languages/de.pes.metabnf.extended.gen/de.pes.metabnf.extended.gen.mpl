@@ -31,6 +31,7 @@
     <dependency reexport="false">446c26eb-2b7b-4bf0-9b35-f83fa582753e(jetbrains.mps.lang.modelapi)</dependency>
     <dependency reexport="false">303ca9b8-0d32-4b0f-bc34-d1ebf972bfac(de.pes.metabnf.extended)</dependency>
     <dependency reexport="false">990507d3-3527-4c54-bfe9-0ca3c9c6247a(com.dslfoundry.plaintextgen)</dependency>
+    <dependency reexport="false">4755f87e-2a4b-42d9-9618-31bc36f204af(de.pes.metabnf.utils)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="12" />
@@ -88,6 +89,7 @@
     <module reference="926d63aa-027c-47a4-939e-98f42e63df1a(de.pes.metabnf.basic)" version="0" />
     <module reference="303ca9b8-0d32-4b0f-bc34-d1ebf972bfac(de.pes.metabnf.extended)" version="0" />
     <module reference="aba1faaf-a5a0-44ea-8178-aed1dd3e1944(de.pes.metabnf.extended.gen)" version="0" />
+    <module reference="4755f87e-2a4b-42d9-9618-31bc36f204af(de.pes.metabnf.utils)" version="0" />
     <module reference="dc038ceb-b7ea-4fea-ac12-55f7400e97ba(de.slisson.mps.editor.multiline.runtime)" version="0" />
     <module reference="92d2ea16-5a42-4fdf-a676-c7604efe3504(de.slisson.mps.richtext)" version="0" />
     <module reference="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" version="0" />
