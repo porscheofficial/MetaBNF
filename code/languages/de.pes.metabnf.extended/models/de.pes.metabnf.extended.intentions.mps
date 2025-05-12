@@ -144,7 +144,7 @@
       <node concept="3clFbS" id="4j82FZZ0zwO" role="2VODD2">
         <node concept="3clFbF" id="4j82FZZ0zL_" role="3cqZAp">
           <node concept="Xl_RD" id="4j82FZZ0zL$" role="3clFbG">
-            <property role="Xl_RC" value="Add implements option of BNF Interfaces" />
+            <property role="Xl_RC" value="Add Implements Option of BNF Interfaces" />
           </node>
         </node>
       </node>
@@ -370,7 +370,7 @@
       <node concept="3clFbS" id="7egTi9LGpdX" role="2VODD2">
         <node concept="3clFbF" id="7egTi9LGpuJ" role="3cqZAp">
           <node concept="Xl_RD" id="7egTi9LGpuI" role="3clFbG">
-            <property role="Xl_RC" value="Add implementation of External Interface" />
+            <property role="Xl_RC" value="Add Implementation of External Interface" />
           </node>
         </node>
       </node>

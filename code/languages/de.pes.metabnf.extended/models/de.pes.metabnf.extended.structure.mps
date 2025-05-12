@@ -364,7 +364,6 @@
       <property role="IQ2ns" value="1029090517668092349" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="editor" />
-      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
     </node>
     <node concept="PrWs8" id="T845YrpKWX" role="PzmwI">

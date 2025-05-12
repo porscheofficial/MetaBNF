@@ -323,6 +323,9 @@
     <node concept="PrWs8" id="7aaqmzlmrcC" role="PzmwI">
       <ref role="PrY4T" node="7aaqmzlmc9L" resolve="IBNFEditorReprensentation" />
     </node>
+    <node concept="PrWs8" id="7aaqmzorNkK" role="PzmwI">
+      <ref role="PrY4T" node="7aaqmzorFAg" resolve="ISupportEditorRepresentation" />
+    </node>
   </node>
   <node concept="PlHQZ" id="T845YsR94I">
     <property role="EcuMT" value="1029090517693796654" />
@@ -535,6 +538,14 @@
     <property role="EcuMT" value="8253525166112222635" />
     <property role="3GE5qa" value="Attributes" />
     <property role="TrG5h" value="IBNFEditorRepresentationConfig" />
+    <node concept="PrWs8" id="7aaqmzorSYp" role="PrDN$">
+      <ref role="PrY4T" node="7aaqmzorFAg" resolve="ISupportEditorRepresentation" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="7aaqmzorFAg">
+    <property role="EcuMT" value="8253525166138505616" />
+    <property role="3GE5qa" value="Attributes" />
+    <property role="TrG5h" value="ISupportEditorRepresentation" />
   </node>
 </model>
 

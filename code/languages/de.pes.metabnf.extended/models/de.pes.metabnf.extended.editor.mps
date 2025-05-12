@@ -169,9 +169,6 @@
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
       </concept>
-      <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
-        <reference id="1107535924139" name="classifier" index="3uigEE" />
-      </concept>
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
@@ -372,9 +369,7 @@
                   <node concept="3cpWs8" id="7egTi9LMdIN" role="3cqZAp">
                     <node concept="3cpWsn" id="7egTi9LMdIO" role="3cpWs9">
                       <property role="TrG5h" value="moduleName" />
-                      <node concept="3uibUv" id="7egTi9LMdBp" role="1tU5fm">
-                        <ref role="3uigEE" to="wyt6:~String" resolve="String" />
-                      </node>
+                      <node concept="17QB3L" id="7aaqmzoEZYO" role="1tU5fm" />
                       <node concept="2OqwBi" id="7egTi9LMAh5" role="33vP2m">
                         <node concept="2OqwBi" id="7egTi9LM_4H" role="2Oq$k0">
                           <node concept="2OqwBi" id="7egTi9LMdIT" role="2Oq$k0">

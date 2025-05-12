@@ -20439,16 +20439,16 @@
         <node concept="3clFbH" id="7aaqmzkhq8H" role="3cqZAp" />
         <node concept="3cpWs8" id="7aaqmzlxmOh" role="3cqZAp">
           <node concept="3cpWsn" id="7aaqmzlxmOi" role="3cpWs9">
-            <property role="TrG5h" value="editor" />
+            <property role="TrG5h" value="cellModel" />
             <node concept="3Tqbb2" id="7aaqmzlxmIy" role="1tU5fm">
-              <ref role="ehGHo" to="tpc2:fA4kQeF" resolve="ConceptEditorDeclaration" />
+              <ref role="ehGHo" to="tpc2:fBEZMkn" resolve="CellModel_Collection" />
             </node>
             <node concept="2OqwBi" id="7aaqmzlxmOj" role="33vP2m">
               <node concept="37vLTw" id="7aaqmzlxmOk" role="2Oq$k0">
                 <ref role="3cqZAo" node="7aaqmzkf3Gr" resolve="bnf" />
               </node>
               <node concept="2qgKlT" id="7aaqmzlxmOl" role="2OqNvi">
-                <ref role="37wK5l" to="yrpt:7aaqmznjNzP" resolve="buildConceptEditorDeclaration" />
+                <ref role="37wK5l" to="yrpt:7aaqmzlmca5" resolve="getEditorRepresentation" />
                 <node concept="2OqwBi" id="7aaqmznjOVn" role="37wK5m">
                   <node concept="37vLTw" id="7aaqmznjOVo" role="2Oq$k0">
                     <ref role="3cqZAo" node="7aaqmzk8jGS" resolve="mModel" />
@@ -20457,6 +20457,7 @@
                     <ref role="2Oxat5" node="7egTi9LBUeo" resolve="mLanguageEditor" />
                   </node>
                 </node>
+                <node concept="10Nm6u" id="7aaqmzo$1li" role="37wK5m" />
               </node>
             </node>
           </node>
