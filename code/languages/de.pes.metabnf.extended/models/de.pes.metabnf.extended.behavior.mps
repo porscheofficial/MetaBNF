@@ -866,20 +866,26 @@
       <node concept="3Tm1VV" id="7aaqmzo3JSs" role="1B3o_S" />
       <node concept="3clFbS" id="7aaqmzo3JSz" role="3clF47">
         <node concept="3cpWs6" id="7aaqmzm_j5J" role="3cqZAp">
-          <node concept="2YIFZM" id="7aaqmzo45T0" role="3cqZAk">
-            <ref role="37wK5l" to="vx0f:7aaqmzo3SNE" resolve="getLinkDeclarationRepresentation" />
-            <ref role="1Pybhc" to="vx0f:7aaqmzlgUpO" resolve="BNFEditorHelper" />
-            <node concept="37vLTw" id="7aaqmzo464S" role="37wK5m">
+          <node concept="2YIFZM" id="39om$44kjlD" role="3cqZAk">
+            <ref role="37wK5l" to="yrpt:39om$42prZF" resolve="buildLinkedDeclarationsRepresentation" />
+            <ref role="1Pybhc" to="yrpt:7aaqmzmSMQV" resolve="BasicEditorUtils" />
+            <node concept="37vLTw" id="39om$44kjlE" role="37wK5m">
               <ref role="3cqZAo" node="7aaqmzo3JS$" resolve="editor" />
             </node>
-            <node concept="2YIFZM" id="39om$4437zi" role="37wK5m">
+            <node concept="2YIFZM" id="39om$44kjlF" role="37wK5m">
               <ref role="37wK5l" to="ms2z:7egTi9Lq0I0" resolve="normalizeName" />
               <ref role="1Pybhc" to="ms2z:7aaqmznbwEM" resolve="BNFUtils" />
-              <node concept="2OqwBi" id="7aaqmzo46TN" role="37wK5m">
-                <node concept="13iPFW" id="7aaqmzo46e5" role="2Oq$k0" />
-                <node concept="2qgKlT" id="7aaqmzo47xh" role="2OqNvi">
+              <node concept="2OqwBi" id="39om$44kjlG" role="37wK5m">
+                <node concept="13iPFW" id="39om$44kjlH" role="2Oq$k0" />
+                <node concept="2qgKlT" id="39om$44kjlI" role="2OqNvi">
                   <ref role="37wK5l" to="yrpt:1EU0USSpIAN" resolve="getName" />
                 </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="39om$44kjlJ" role="37wK5m">
+              <node concept="13iPFW" id="39om$44kjlK" role="2Oq$k0" />
+              <node concept="3TrEf2" id="39om$44kjlL" role="2OqNvi">
+                <ref role="3Tt5mk" to="gm16:4novjIaNn1Y" resolve="iface" />
               </node>
             </node>
           </node>

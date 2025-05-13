@@ -7092,8 +7092,12 @@
                   <node concept="37vLTw" id="7aaqmzo464S" role="37wK5m">
                     <ref role="3cqZAo" node="39om$42putC" resolve="editor" />
                   </node>
-                  <node concept="37vLTw" id="39om$42puUZ" role="37wK5m">
-                    <ref role="3cqZAo" node="39om$42pu$E" resolve="name" />
+                  <node concept="2YIFZM" id="39om$44kcFt" role="37wK5m">
+                    <ref role="37wK5l" to="ms2z:7egTi9Lq0I0" resolve="normalizeName" />
+                    <ref role="1Pybhc" to="ms2z:7aaqmznbwEM" resolve="BNFUtils" />
+                    <node concept="37vLTw" id="39om$44kcS$" role="37wK5m">
+                      <ref role="3cqZAo" node="39om$42pu$E" resolve="name" />
+                    </node>
                   </node>
                 </node>
               </node>
