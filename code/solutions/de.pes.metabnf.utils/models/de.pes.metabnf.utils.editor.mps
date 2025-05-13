@@ -91,6 +91,10 @@
         <child id="1206060619838" name="condition" index="3eO9$A" />
         <child id="1206060644605" name="statementList" index="3eOfB_" />
       </concept>
+      <concept id="1160998861373" name="jetbrains.mps.baseLanguage.structure.AssertStatement" flags="nn" index="1gVbGN">
+        <child id="1160998896846" name="condition" index="1gVkn0" />
+        <child id="1160998916832" name="message" index="1gVpfI" />
+      </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
@@ -103,6 +107,7 @@
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
+      <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ngI" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
@@ -1378,7 +1383,42 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="39om$42pJfr" role="3cqZAp" />
+        <node concept="1gVbGN" id="39om$442ETO" role="3cqZAp">
+          <node concept="3y3z36" id="39om$442FS5" role="1gVkn0">
+            <node concept="37vLTw" id="39om$442GjV" role="3uHU7w">
+              <ref role="3cqZAo" node="39om$42pJf7" resolve="node" />
+            </node>
+            <node concept="10Nm6u" id="39om$442FrH" role="3uHU7B" />
+          </node>
+          <node concept="3cpWs3" id="39om$442OH8" role="1gVpfI">
+            <node concept="2OqwBi" id="39om$442R0e" role="3uHU7w">
+              <node concept="2OqwBi" id="39om$442PGc" role="2Oq$k0">
+                <node concept="37vLTw" id="39om$442P9w" role="2Oq$k0">
+                  <ref role="3cqZAo" node="39om$42pJfx" resolve="editor" />
+                </node>
+                <node concept="3TrEf2" id="39om$442QpJ" role="2OqNvi">
+                  <ref role="3Tt5mk" to="tpc2:gXXX56I" resolve="conceptDeclaration" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="39om$442SbF" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+            <node concept="3cpWs3" id="39om$442M92" role="3uHU7B">
+              <node concept="3cpWs3" id="39om$442L33" role="3uHU7B">
+                <node concept="Xl_RD" id="39om$442HeC" role="3uHU7B">
+                  <property role="Xl_RC" value="ERROR: Link Declaration not found: " />
+                </node>
+                <node concept="37vLTw" id="39om$442Lxa" role="3uHU7w">
+                  <ref role="3cqZAo" node="39om$42pJfz" resolve="nameOfLink" />
+                </node>
+              </node>
+              <node concept="Xl_RD" id="39om$442Mxc" role="3uHU7w">
+                <property role="Xl_RC" value=" in node: " />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs6" id="39om$42pJfs" role="3cqZAp">
           <node concept="37vLTw" id="39om$42pNbw" role="3cqZAk">
             <ref role="3cqZAo" node="39om$42pJf7" resolve="node" />
