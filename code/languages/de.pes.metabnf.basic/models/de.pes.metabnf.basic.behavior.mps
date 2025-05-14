@@ -6895,6 +6895,44 @@
             <node concept="3clFbH" id="39om$43vOj5" role="3cqZAp" />
             <node concept="3clFbJ" id="39om$43vSuu" role="3cqZAp">
               <node concept="3clFbS" id="39om$43vSuw" role="3clFbx">
+                <node concept="3cpWs8" id="39om$44OAVf" role="3cqZAp">
+                  <node concept="3cpWsn" id="39om$44OAVi" role="3cpWs9">
+                    <property role="TrG5h" value="blockName" />
+                    <node concept="17QB3L" id="39om$44OAVd" role="1tU5fm" />
+                    <node concept="10Nm6u" id="39om$44OOk5" role="33vP2m" />
+                  </node>
+                </node>
+                <node concept="3clFbJ" id="39om$44OCD5" role="3cqZAp">
+                  <node concept="3clFbS" id="39om$44OCD7" role="3clFbx">
+                    <node concept="3clFbF" id="39om$44OFZg" role="3cqZAp">
+                      <node concept="37vLTI" id="39om$44OIEB" role="3clFbG">
+                        <node concept="2OqwBi" id="39om$44OJHd" role="37vLTx">
+                          <node concept="37vLTw" id="39om$44OJbO" role="2Oq$k0">
+                            <ref role="3cqZAo" node="7aaqmznmO7q" resolve="bnf" />
+                          </node>
+                          <node concept="3TrcHB" id="39om$44OKpz" role="2OqNvi">
+                            <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                          </node>
+                        </node>
+                        <node concept="37vLTw" id="39om$44OFZe" role="37vLTJ">
+                          <ref role="3cqZAo" node="39om$44OAVi" resolve="blockName" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3fqX7Q" id="39om$44OFIc" role="3clFbw">
+                    <node concept="2OqwBi" id="39om$44OFIe" role="3fr31v">
+                      <node concept="37vLTw" id="39om$44OFIf" role="2Oq$k0">
+                        <ref role="3cqZAo" node="7aaqmznmO7q" resolve="bnf" />
+                      </node>
+                      <node concept="1mIQ4w" id="39om$44OFIg" role="2OqNvi">
+                        <node concept="chp4Y" id="39om$44OFIh" role="cj9EA">
+                          <ref role="cht4Q" to="gm16:4novjIaMRH2" resolve="EBNFIFaceDefinitionTermBase" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
                 <node concept="3clFbF" id="7aaqmznmOk$" role="3cqZAp">
                   <node concept="37vLTI" id="7aaqmznmOk_" role="3clFbG">
                     <node concept="2OqwBi" id="7aaqmznmOkA" role="37vLTJ">
@@ -6908,13 +6946,8 @@
                     <node concept="2YIFZM" id="7aaqmznmOkD" role="37vLTx">
                       <ref role="37wK5l" to="vx0f:7aaqmzlmD0B" resolve="getBaseConceptCellLayout" />
                       <ref role="1Pybhc" to="vx0f:7aaqmzlgUpO" resolve="BNFEditorHelper" />
-                      <node concept="2OqwBi" id="7aaqmznmOkE" role="37wK5m">
-                        <node concept="37vLTw" id="7aaqmznmT1h" role="2Oq$k0">
-                          <ref role="3cqZAo" node="7aaqmznmO7q" resolve="bnf" />
-                        </node>
-                        <node concept="3TrcHB" id="7aaqmznmOkG" role="2OqNvi">
-                          <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                        </node>
+                      <node concept="37vLTw" id="39om$44OLld" role="37wK5m">
+                        <ref role="3cqZAo" node="39om$44OAVi" resolve="blockName" />
                       </node>
                       <node concept="37vLTw" id="39om$43vWsY" role="37wK5m">
                         <ref role="3cqZAo" node="39om$43vH4j" resolve="buildEditorComponentDetailsCellModel" />

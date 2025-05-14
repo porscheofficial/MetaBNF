@@ -20539,6 +20539,13 @@
                           </node>
                         </node>
                       </node>
+                      <node concept="3SKdUt" id="39om$44Or4K" role="3cqZAp">
+                        <node concept="1PaTwC" id="39om$44Or4L" role="1aUNEU">
+                          <node concept="3oM_SD" id="39om$44Or4M" role="1PaTwD">
+                            <property role="3oM_SC" value="ToDo" />
+                          </node>
+                        </node>
+                      </node>
                     </node>
                     <node concept="17R0WA" id="7aaqmzkfefa" role="3eO9$A">
                       <node concept="2OqwBi" id="7aaqmzkfefb" role="3uHU7w">
@@ -20647,11 +20654,90 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="39om$44Ouz1" role="3cqZAp">
+          <node concept="1rXfSq" id="39om$44OuyZ" role="3clFbG">
+            <ref role="37wK5l" node="39om$44OslQ" resolve="optimizeCellModellPost" />
+            <node concept="37vLTw" id="39om$44OvcY" role="37wK5m">
+              <ref role="3cqZAo" node="7aaqmzkf3Gr" resolve="bnf" />
+            </node>
+            <node concept="37vLTw" id="39om$44Ovy0" role="37wK5m">
+              <ref role="3cqZAo" node="7aaqmzlxmOi" resolve="cellModel" />
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="3Tm6S6" id="7aaqmzkf2HX" role="1B3o_S" />
       <node concept="3cqZAl" id="7aaqmzkf31r" role="3clF45" />
     </node>
     <node concept="2tJIrI" id="7aaqmzk8j$L" role="jymVt" />
+    <node concept="3clFb_" id="39om$44OslQ" role="jymVt">
+      <property role="TrG5h" value="optimizeCellModellPost" />
+      <node concept="37vLTG" id="39om$44OsZe" role="3clF46">
+        <property role="TrG5h" value="bnf" />
+        <node concept="3Tqbb2" id="39om$44OsZf" role="1tU5fm">
+          <ref role="ehGHo" to="p1cl:1nL_s$DdmcT" resolve="BNFDefinitionTermBase" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="39om$44OtbO" role="3clF46">
+        <property role="TrG5h" value="cell" />
+        <node concept="3Tqbb2" id="39om$44OtNv" role="1tU5fm">
+          <ref role="ehGHo" to="tpc2:fBEZMkn" resolve="CellModel_Collection" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="39om$44OslT" role="3clF47">
+        <node concept="3SKdUt" id="39om$44OtSK" role="3cqZAp">
+          <node concept="1PaTwC" id="39om$44OtSL" role="1aUNEU">
+            <node concept="3oM_SD" id="39om$44OtSM" role="1PaTwD">
+              <property role="3oM_SC" value="TODO" />
+            </node>
+            <node concept="3oM_SD" id="39om$44OwSJ" role="1PaTwD">
+              <property role="3oM_SC" value="Check" />
+            </node>
+            <node concept="3oM_SD" id="39om$44OwT1" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="39om$44OwTi" role="1PaTwD">
+              <property role="3oM_SC" value="model" />
+            </node>
+            <node concept="3oM_SD" id="39om$44OwTj" role="1PaTwD">
+              <property role="3oM_SC" value="for" />
+            </node>
+            <node concept="3oM_SD" id="39om$44OwTk" role="1PaTwD">
+              <property role="3oM_SC" value="value" />
+            </node>
+            <node concept="3oM_SD" id="39om$44OwT_" role="1PaTwD">
+              <property role="3oM_SC" value="declaration" />
+            </node>
+            <node concept="3oM_SD" id="39om$44OwTA" role="1PaTwD">
+              <property role="3oM_SC" value="and" />
+            </node>
+            <node concept="3oM_SD" id="39om$44OwTB" role="1PaTwD">
+              <property role="3oM_SC" value="optimize" />
+            </node>
+            <node concept="3oM_SD" id="39om$44OwU8" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="39om$44OwU9" role="1PaTwD">
+              <property role="3oM_SC" value="editor" />
+            </node>
+            <node concept="3oM_SD" id="39om$44OwUq" role="1PaTwD">
+              <property role="3oM_SC" value="generation" />
+            </node>
+            <node concept="3oM_SD" id="39om$44OwUF" role="1PaTwD">
+              <property role="3oM_SC" value="to" />
+            </node>
+            <node concept="3oM_SD" id="39om$44OwUW" role="1PaTwD">
+              <property role="3oM_SC" value="reduce" />
+            </node>
+            <node concept="3oM_SD" id="39om$44OwW1" role="1PaTwD">
+              <property role="3oM_SC" value="complexity" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm6S6" id="39om$44Os6n" role="1B3o_S" />
+      <node concept="3cqZAl" id="39om$44OskE" role="3clF45" />
+    </node>
     <node concept="3Tm1VV" id="7aaqmzk8hJR" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="7aaqmzk8SE8">
