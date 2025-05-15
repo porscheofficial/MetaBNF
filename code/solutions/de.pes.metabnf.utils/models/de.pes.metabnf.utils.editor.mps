@@ -1583,7 +1583,7 @@
     </node>
     <node concept="2tJIrI" id="7aaqmzmQr8V" role="jymVt" />
     <node concept="2YIFZL" id="39om$42pJf4" role="jymVt">
-      <property role="TrG5h" value="getLinkDeclaration" />
+      <property role="TrG5h" value="getLinkDeclarationFromEditorModel" />
       <node concept="3clFbS" id="39om$42pJf5" role="3clF47">
         <node concept="3cpWs8" id="39om$42pJf6" role="3cqZAp">
           <node concept="3cpWsn" id="39om$42pJf7" role="3cpWs9">
