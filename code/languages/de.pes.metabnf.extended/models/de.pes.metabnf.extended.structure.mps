@@ -237,6 +237,9 @@
     <node concept="PrWs8" id="1nL_s$DiyZS" role="PzmwI">
       <ref role="PrY4T" to="p1cl:4novjIaNO1Z" resolve="INodeAnnotationAttribute" />
     </node>
+    <node concept="PrWs8" id="39om$46Rwx1" role="PzmwI">
+      <ref role="PrY4T" node="T845Ys479E" resolve="IBNFExpressionReference" />
+    </node>
     <node concept="1TJgyj" id="1nL_s$Di$5w" role="1TKVEi">
       <property role="IQ2ns" value="1581209635397452128" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -283,6 +286,9 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1nL_s$Dm0KC" role="PzmwI">
       <ref role="PrY4T" node="1nL_s$DlNQ9" resolve="IConceptExtendsConceptRef" />
+    </node>
+    <node concept="PrWs8" id="39om$4724Wd" role="PzmwI">
+      <ref role="PrY4T" node="T845Ys479E" resolve="IBNFExpressionReference" />
     </node>
     <node concept="1TJgyj" id="7egTi9KQJcQ" role="1TKVEi">
       <property role="IQ2ns" value="8327407647093093174" />
@@ -572,6 +578,23 @@
     <node concept="25R33" id="7aaqmzkcjlr" role="25R1y">
       <property role="3tVfz5" value="8253525166067365211" />
       <property role="TrG5h" value="custom" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="39om$47rzaQ">
+    <property role="EcuMT" value="3627748735190971062" />
+    <property role="TrG5h" value="EBNFAttributeDefaultInstance" />
+    <property role="3GE5qa" value="Attributes.Interface" />
+    <property role="34LRSv" value="Define Default Instance" />
+    <property role="R4oN_" value="Default Instance for Abstract or Interfaces" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="39om$47sxH6" role="1TKVEi">
+      <property role="IQ2ns" value="3627748735191227206" />
+      <property role="20kJfa" value="ref" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="p1cl:fbptcj1GUu" resolve="BNFDefinitionTerm" />
+    </node>
+    <node concept="PrWs8" id="39om$47rzGO" role="PzmwI">
+      <ref role="PrY4T" to="p1cl:4novjIaNO1Z" resolve="INodeAnnotationAttribute" />
     </node>
   </node>
 </model>
