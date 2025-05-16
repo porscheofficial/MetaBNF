@@ -3,11 +3,15 @@
   <persistence version="9" />
   <languages>
     <use id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions" version="1" />
+    <use id="c7d5b9dd-a05f-4be2-bc73-f2e16994cc67" name="jetbrains.mps.baseLanguage.lightweightdsl" version="1" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
     <import index="gm16" ref="r:1329ba0c-7632-46ba-9d9e-25ae5ff7e792(de.pes.metabnf.extended.structure)" />
-    <import index="p1cl" ref="r:8b943911-36fd-4a56-afe7-9288fd5710da(de.pes.metabnf.basic.structure)" implicit="true" />
+    <import index="6bz1" ref="r:d3905048-7598-4a84-931a-cbbcbcda146d(jetbrains.mps.lang.intentions.methods)" />
+    <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
+    <import index="p1cl" ref="r:8b943911-36fd-4a56-afe7-9288fd5710da(de.pes.metabnf.basic.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -29,7 +33,6 @@
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
-      <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
@@ -70,19 +73,11 @@
       </concept>
     </language>
     <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
-      <concept id="5455284157994012186" name="jetbrains.mps.lang.quotation.structure.NodeBuilderInitLink" flags="ng" index="2pIpSj">
-        <reference id="5455284157994012188" name="link" index="2pIpSl" />
-        <child id="1595412875168045827" name="initValue" index="28nt2d" />
-      </concept>
       <concept id="5455284157993863837" name="jetbrains.mps.lang.quotation.structure.NodeBuilder" flags="nn" index="2pJPEk">
         <child id="5455284157993863838" name="quotedNode" index="2pJPEn" />
       </concept>
       <concept id="5455284157993863840" name="jetbrains.mps.lang.quotation.structure.NodeBuilderNode" flags="nn" index="2pJPED">
         <reference id="5455284157993910961" name="concept" index="2pJxaS" />
-        <child id="5455284157993911099" name="values" index="2pJxcM" />
-      </concept>
-      <concept id="8182547171709752110" name="jetbrains.mps.lang.quotation.structure.NodeBuilderExpression" flags="nn" index="36biLy">
-        <child id="8182547171709752112" name="expression" index="36biLW" />
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
@@ -131,7 +126,6 @@
       <concept id="540871147943773365" name="jetbrains.mps.baseLanguage.collections.structure.SingleArgumentSequenceOperation" flags="nn" index="25WWJ4">
         <child id="540871147943773366" name="argument" index="25WWJ7" />
       </concept>
-      <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
       <concept id="1160666733551" name="jetbrains.mps.baseLanguage.collections.structure.AddAllElementsOperation" flags="nn" index="X8dFx" />
       <concept id="1165530316231" name="jetbrains.mps.baseLanguage.collections.structure.IsEmptyOperation" flags="nn" index="1v1jN8" />
     </language>
@@ -144,7 +138,7 @@
       <node concept="3clFbS" id="4j82FZZ0zwO" role="2VODD2">
         <node concept="3clFbF" id="4j82FZZ0zL_" role="3cqZAp">
           <node concept="Xl_RD" id="4j82FZZ0zL$" role="3clFbG">
-            <property role="Xl_RC" value="Add implements option of BNF Interfaces" />
+            <property role="Xl_RC" value="Add Implements Option of BNF Interfaces" />
           </node>
         </node>
       </node>
@@ -152,25 +146,15 @@
     <node concept="2Sbjvc" id="4j82FZZ0zwP" role="2ZfgGD">
       <node concept="3clFbS" id="4j82FZZ0zwQ" role="2VODD2">
         <node concept="3clFbF" id="4j82FZZ0G5D" role="3cqZAp">
-          <node concept="2OqwBi" id="4j82FZZ0GLj" role="3clFbG">
-            <node concept="2OqwBi" id="4j82FZZ0G8F" role="2Oq$k0">
-              <node concept="2Sf5sV" id="4j82FZZ0G5C" role="2Oq$k0" />
-              <node concept="3Tsc0h" id="4j82FZZ0Gb0" role="2OqNvi">
-                <ref role="3TtcxE" to="gm16:4novjIaMS3c" resolve="implements" />
+          <node concept="2OqwBi" id="39om$448Z7n" role="3clFbG">
+            <node concept="2OqwBi" id="39om$448Z7o" role="2Oq$k0">
+              <node concept="2Sf5sV" id="39om$448Z7p" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="39om$448Z7q" role="2OqNvi">
+                <ref role="3TtcxE" to="p1cl:4novjIaNO24" />
               </node>
             </node>
-            <node concept="TSZUe" id="4j82FZZ0K58" role="2OqNvi">
-              <node concept="2pJPEk" id="4j82FZZ0K6n" role="25WWJ7">
-                <node concept="2pJPED" id="4j82FZZ0K6p" role="2pJPEn">
-                  <ref role="2pJxaS" to="gm16:4novjIaNn1X" resolve="EBNFIFaceDefinitionTermRef" />
-                  <node concept="2pIpSj" id="4j82FZZ0TJd" role="2pJxcM">
-                    <ref role="2pIpSl" to="gm16:4novjIaNn1Y" resolve="iface" />
-                    <node concept="36biLy" id="4j82FZZ0TKo" role="28nt2d">
-                      <node concept="10Nm6u" id="4j82FZZ0TKm" role="36biLW" />
-                    </node>
-                  </node>
-                </node>
-              </node>
+            <node concept="WFELt" id="39om$448Z7r" role="2OqNvi">
+              <ref role="1A0vxQ" to="gm16:4novjIaPPSm" resolve="InterfaceImplementation" />
             </node>
           </node>
         </node>
@@ -179,14 +163,21 @@
     <node concept="2SaL7w" id="4j82FZZ0$4Z" role="2ZfVeh">
       <node concept="3clFbS" id="4j82FZZ0$50" role="2VODD2">
         <node concept="3clFbF" id="4j82FZZ0$iA" role="3cqZAp">
-          <node concept="2OqwBi" id="4j82FZZ0CEz" role="3clFbG">
-            <node concept="2OqwBi" id="4j82FZZ0$Jh" role="2Oq$k0">
-              <node concept="2Sf5sV" id="4j82FZZ0$i_" role="2Oq$k0" />
-              <node concept="3Tsc0h" id="4j82FZZ0_1n" role="2OqNvi">
-                <ref role="3TtcxE" to="gm16:4novjIaMS3c" resolve="implements" />
+          <node concept="2OqwBi" id="39om$448WJ0" role="3clFbG">
+            <node concept="2OqwBi" id="39om$448WJ1" role="2Oq$k0">
+              <node concept="2OqwBi" id="39om$448WJ2" role="2Oq$k0">
+                <node concept="2Sf5sV" id="39om$448WJ3" role="2Oq$k0" />
+                <node concept="3Tsc0h" id="39om$448WJ4" role="2OqNvi">
+                  <ref role="3TtcxE" to="p1cl:4novjIaNO24" />
+                </node>
+              </node>
+              <node concept="v3k3i" id="39om$448WJ5" role="2OqNvi">
+                <node concept="chp4Y" id="39om$4490z_" role="v3oSu">
+                  <ref role="cht4Q" to="gm16:4novjIaPPSm" resolve="InterfaceImplementation" />
+                </node>
               </node>
             </node>
-            <node concept="1v1jN8" id="4j82FZZ0G4e" role="2OqNvi" />
+            <node concept="1v1jN8" id="39om$448WJ7" role="2OqNvi" />
           </node>
         </node>
       </node>
@@ -370,7 +361,7 @@
       <node concept="3clFbS" id="7egTi9LGpdX" role="2VODD2">
         <node concept="3clFbF" id="7egTi9LGpuJ" role="3cqZAp">
           <node concept="Xl_RD" id="7egTi9LGpuI" role="3clFbG">
-            <property role="Xl_RC" value="Add implementation of External Interface" />
+            <property role="Xl_RC" value="Add Implementation of External Interface" />
           </node>
         </node>
       </node>
