@@ -864,6 +864,86 @@
         </node>
       </node>
     </node>
+    <node concept="2YIFZL" id="7LcVVIMYrS9" role="jymVt">
+      <property role="TrG5h" value="getHorizontalPropertyCollection" />
+      <node concept="3clFbS" id="7LcVVIMYrSa" role="3clF47">
+        <node concept="3cpWs8" id="7LcVVIMYrSb" role="3cqZAp">
+          <node concept="3cpWsn" id="7LcVVIMYrSc" role="3cpWs9">
+            <property role="TrG5h" value="cellCollection" />
+            <node concept="3Tqbb2" id="7LcVVIMYrSd" role="1tU5fm">
+              <ref role="ehGHo" to="tpc2:fBEZMkn" resolve="CellModel_Collection" />
+            </node>
+            <node concept="1rXfSq" id="7LcVVIMYrSe" role="33vP2m">
+              <ref role="37wK5l" node="7aaqmzlgWVD" resolve="getCellCollection" />
+              <node concept="35c_gC" id="7LcVVIMYrSf" role="37wK5m">
+                <ref role="35c_gD" to="tpc2:g6iRfq5" resolve="CellLayout_Horizontal" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7LcVVIMYrSg" role="3cqZAp">
+          <node concept="2OqwBi" id="7LcVVIMYrSh" role="3clFbG">
+            <node concept="2OqwBi" id="7LcVVIMYrSi" role="2Oq$k0">
+              <node concept="37vLTw" id="7LcVVIMYrSj" role="2Oq$k0">
+                <ref role="3cqZAo" node="7LcVVIMYrSc" resolve="cellCollection" />
+              </node>
+              <node concept="3Tsc0h" id="7LcVVIMYrSk" role="2OqNvi">
+                <ref role="3TtcxE" to="tpc2:fBEZMko" resolve="childCellModel" />
+              </node>
+            </node>
+            <node concept="TSZUe" id="7LcVVIMYrSl" role="2OqNvi">
+              <node concept="1rXfSq" id="7LcVVIMYrSm" role="25WWJ7">
+                <ref role="37wK5l" node="7aaqmzlhDk9" resolve="getCellModel_Constant" />
+                <node concept="37vLTw" id="7LcVVIMYwG4" role="37wK5m">
+                  <ref role="3cqZAo" node="7LcVVIMYtIm" resolve="cellName" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7LcVVIMYrSq" role="3cqZAp">
+          <node concept="2OqwBi" id="7LcVVIMYrSr" role="3clFbG">
+            <node concept="2OqwBi" id="7LcVVIMYrSs" role="2Oq$k0">
+              <node concept="37vLTw" id="7LcVVIMYrSt" role="2Oq$k0">
+                <ref role="3cqZAo" node="7LcVVIMYrSc" resolve="cellCollection" />
+              </node>
+              <node concept="3Tsc0h" id="7LcVVIMYrSu" role="2OqNvi">
+                <ref role="3TtcxE" to="tpc2:fBEZMko" resolve="childCellModel" />
+              </node>
+            </node>
+            <node concept="TSZUe" id="7LcVVIMYrSv" role="2OqNvi">
+              <node concept="1rXfSq" id="7LcVVIMYrSw" role="25WWJ7">
+                <ref role="37wK5l" node="7aaqmzlhDP0" resolve="getCellModel_Property" />
+                <node concept="37vLTw" id="7LcVVIMYrSx" role="37wK5m">
+                  <ref role="3cqZAo" node="7LcVVIMYrSA" resolve="prop" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="7LcVVIMYrSy" role="3cqZAp">
+          <node concept="37vLTw" id="7LcVVIMYrSz" role="3cqZAk">
+            <ref role="3cqZAo" node="7LcVVIMYrSc" resolve="cellCollection" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="7LcVVIMYrS$" role="1B3o_S" />
+      <node concept="3Tqbb2" id="7LcVVIMYrS_" role="3clF45">
+        <ref role="ehGHo" to="tpc2:fBEZMkn" resolve="CellModel_Collection" />
+      </node>
+      <node concept="37vLTG" id="7LcVVIMYrSA" role="3clF46">
+        <property role="3TUv4t" value="true" />
+        <property role="TrG5h" value="prop" />
+        <node concept="3Tqbb2" id="7LcVVIMYrSB" role="1tU5fm">
+          <ref role="ehGHo" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="7LcVVIMYtIm" role="3clF46">
+        <property role="3TUv4t" value="true" />
+        <property role="TrG5h" value="cellName" />
+        <node concept="17QB3L" id="7LcVVIMYuYi" role="1tU5fm" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="7aaqmzm_8jH" role="jymVt" />
     <node concept="2YIFZL" id="7aaqmzm_84K" role="jymVt">
       <property role="TrG5h" value="getHorizontalLinkDeclarationCollection" />

@@ -63,6 +63,12 @@
       <concept id="8327407647096148485" name="de.pes.metabnf.extended.structure.EBNFDefinitionTermAsRoot" flags="ng" index="2AnsB">
         <property id="8327407647096148489" name="asRoot" index="2AnsF" />
       </concept>
+      <concept id="1029090517669416851" name="de.pes.metabnf.extended.structure.EBNFAttributeValueProperty" flags="ng" index="2l89Zc">
+        <child id="1029090517669551187" name="namedValue" index="2l8CKc" />
+      </concept>
+      <concept id="1029090517669515621" name="de.pes.metabnf.extended.structure.EBNFExpressionRef" flags="ng" index="2l8w4U">
+        <reference id="1029090517669515622" name="ref" index="2l8w4T" />
+      </concept>
       <concept id="5032910278272491642" name="de.pes.metabnf.extended.structure.EBNFIFaceAttributeImplementationRef" flags="ng" index="3f05P1" />
       <concept id="5032910278272154822" name="de.pes.metabnf.extended.structure.ISupportInterfaceImplementation" flags="ngI" index="3f2C7X">
         <child id="5032910278272154824" name="irefs" index="3f2C7N" />
@@ -121,6 +127,11 @@
       <node concept="3f3McH" id="3gySEDtGS9v" role="3f5NQZ">
         <node concept="3f05P1" id="3gySEDtGS9w" role="3f2C7N">
           <ref role="3f0eYx" node="3gySEDtGS9j" resolve="ISomeIdentiferConcept" />
+        </node>
+      </node>
+      <node concept="2l89Zc" id="7LcVVIMZOAV" role="3f5NQZ">
+        <node concept="2l8w4U" id="7LcVVIMZOAX" role="2l8CKc">
+          <ref role="2l8w4T" node="3gySEDtGS9x" />
         </node>
       </node>
       <node concept="gKPLD" id="3gySEDtGS9x" role="2YAOa">
