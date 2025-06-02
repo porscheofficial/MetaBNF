@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model ref="r:ec2f36bc-1ed4-4fb8-bacd-5a5b7003226a(de.pes.metabnf.sandbox.sample.structure)">
+  <persistence version="9" />
+  <languages>
+    <use id="aba1faaf-a5a0-44ea-8178-aed1dd3e1944" name="de.pes.metabnf.extended.gen" version="0" />
+    <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
+  </languages>
+  <imports>
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+  </imports>
+  <registry>
+    <language id="aba1faaf-a5a0-44ea-8178-aed1dd3e1944" name="de.pes.metabnf.extended.gen">
+      <concept id="4368249043795677204" name="de.pes.metabnf.extended.gen.structure.NodeAttributeLinkToBNF" flags="ng" index="2XvFd8">
+        <property id="4368249043817574811" name="url" index="2ZG9b7" />
+      </concept>
+    </language>
+    <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
+        <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
+        <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
+        <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
+      </concept>
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
+      <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
+        <reference id="1169127628841" name="intfc" index="PrY4T" />
+      </concept>
+      <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
+        <property id="1096454100552" name="rootable" index="19KtqR" />
+        <reference id="1071489389519" name="extends" index="1TJDcQ" />
+        <child id="1169129564478" name="implements" index="PzmwI" />
+      </concept>
+      <concept id="1071489288299" name="jetbrains.mps.lang.structure.structure.PropertyDeclaration" flags="ig" index="1TJgyi">
+        <property id="241647608299431129" name="propertyId" index="IQ2nx" />
+        <reference id="1082985295845" name="dataType" index="AX2Wp" />
+      </concept>
+      <concept id="1071489288298" name="jetbrains.mps.lang.structure.structure.LinkDeclaration" flags="ig" index="1TJgyj">
+        <property id="1071599776563" name="role" index="20kJfa" />
+        <property id="1071599893252" name="sourceCardinality" index="20lbJX" />
+        <property id="1071599937831" name="metaClass" index="20lmBu" />
+        <property id="241647608299431140" name="linkId" index="IQ2ns" />
+        <reference id="1071599976176" name="target" index="20lvS9" />
+      </concept>
+    </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
+        <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+  </registry>
+  <node concept="PlHQZ" id="3gySEDtMZBp">
+    <property role="TrG5h" value="IRootConceptContent" />
+    <property role="3GE5qa" value="SampleRootStructure" />
+    <property role="EcuMT" value="3756814260526381529" />
+    <node concept="2XvFd8" id="3gySEDtMZBq" role="lGtFl">
+      <property role="TrG5h" value="de.pes.metabnf.sandbox.sandbox:IRootConceptContent" />
+      <property role="2ZG9b7" value="http://127.0.0.1:63320/node?ref=r%3Aaa10b937-6663-4fbb-a477-bb95e5211cd6%28de.pes.metabnf.sandbox.sandbox%29%2F3756814260524778057" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3gySEDtMZBr">
+    <property role="TrG5h" value="IIdent" />
+    <property role="3GE5qa" value="SampleRootStructure" />
+    <property role="EcuMT" value="3756814260526381531" />
+    <node concept="2XvFd8" id="3gySEDtMZBs" role="lGtFl">
+      <property role="TrG5h" value="de.pes.metabnf.sandbox.sandbox:IIdent" />
+      <property role="2ZG9b7" value="http://127.0.0.1:63320/node?ref=r%3Aaa10b937-6663-4fbb-a477-bb95e5211cd6%28de.pes.metabnf.sandbox.sandbox%29%2F3756814260524778093" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3gySEDtMZBt">
+    <property role="TrG5h" value="ISomeIdentiferConcept" />
+    <property role="3GE5qa" value="SampleRootStructure" />
+    <property role="EcuMT" value="3756814260526381533" />
+    <node concept="2XvFd8" id="3gySEDtMZBu" role="lGtFl">
+      <property role="TrG5h" value="de.pes.metabnf.sandbox.sandbox:ISomeIdentiferConcept" />
+      <property role="2ZG9b7" value="http://127.0.0.1:63320/node?ref=r%3Aaa10b937-6663-4fbb-a477-bb95e5211cd6%28de.pes.metabnf.sandbox.sandbox%29%2F3756814260524778067" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3gySEDtMZBv">
+    <property role="TrG5h" value="RootConcept" />
+    <property role="34LRSv" value="RootConcept" />
+    <property role="3GE5qa" value="SampleRootStructure" />
+    <property role="EcuMT" value="3756814260526381535" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="2XvFd8" id="3gySEDtMZBw" role="lGtFl">
+      <property role="TrG5h" value="de.pes.metabnf.sandbox.sandbox:RootConcept" />
+      <property role="2ZG9b7" value="http://127.0.0.1:63320/node?ref=r%3Aaa10b937-6663-4fbb-a477-bb95e5211cd6%28de.pes.metabnf.sandbox.sandbox%29%2F3756814260524778054" />
+    </node>
+    <node concept="1TJgyj" id="3gySEDtMZBB" role="1TKVEi">
+      <property role="TrG5h" value="IRootConceptContent" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <property role="20kJfa" value="content" />
+      <property role="IQ2ns" value="3756814260526381543" />
+      <ref role="20lvS9" node="3gySEDtMZBp" resolve="IRootConceptContent" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3gySEDtMZBx">
+    <property role="TrG5h" value="SomeIdentifier" />
+    <property role="34LRSv" value="SomeIdentifier" />
+    <property role="3GE5qa" value="SampleRootStructure" />
+    <property role="EcuMT" value="3756814260526381537" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="2XvFd8" id="3gySEDtMZBy" role="lGtFl">
+      <property role="TrG5h" value="de.pes.metabnf.sandbox.sandbox:SomeIdentifier" />
+      <property role="2ZG9b7" value="http://127.0.0.1:63320/node?ref=r%3Aaa10b937-6663-4fbb-a477-bb95e5211cd6%28de.pes.metabnf.sandbox.sandbox%29%2F3756814260524778065" />
+    </node>
+    <node concept="PrWs8" id="3gySEDtMZBC" role="PzmwI">
+      <ref role="PrY4T" node="3gySEDtMZBr" resolve="IIdent" />
+    </node>
+    <node concept="1TJgyj" id="3gySEDtMZBD" role="1TKVEi">
+      <property role="TrG5h" value="ISomeIdentiferConcept" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="ISomeIdentiferConcept" />
+      <property role="IQ2ns" value="3756814260526381545" />
+      <ref role="20lvS9" node="3gySEDtMZBt" resolve="ISomeIdentiferConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3gySEDtMZBz">
+    <property role="TrG5h" value="IdentifierDef" />
+    <property role="34LRSv" value="IdentifierDef" />
+    <property role="3GE5qa" value="SampleRootStructure" />
+    <property role="EcuMT" value="3756814260526381539" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="2XvFd8" id="3gySEDtMZB$" role="lGtFl">
+      <property role="TrG5h" value="de.pes.metabnf.sandbox.sandbox:IdentifierDef" />
+      <property role="2ZG9b7" value="http://127.0.0.1:63320/node?ref=r%3Aaa10b937-6663-4fbb-a477-bb95e5211cd6%28de.pes.metabnf.sandbox.sandbox%29%2F3756814260524778078" />
+    </node>
+    <node concept="PrWs8" id="3gySEDtMZBE" role="PzmwI">
+      <ref role="PrY4T" node="3gySEDtMZBt" resolve="ISomeIdentiferConcept" />
+    </node>
+    <node concept="1TJgyi" id="3gySEDtMZBF" role="1TKVEl">
+      <property role="TrG5h" value="ID_Name" />
+      <property role="IQ2nx" value="3756814260526381547" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3gySEDtMZB_">
+    <property role="TrG5h" value="SomeConceptContent" />
+    <property role="34LRSv" value="SomeConceptContent" />
+    <property role="3GE5qa" value="SampleRootStructure" />
+    <property role="EcuMT" value="3756814260526381541" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="2XvFd8" id="3gySEDtMZBA" role="lGtFl">
+      <property role="TrG5h" value="de.pes.metabnf.sandbox.sandbox:SomeConceptContent" />
+      <property role="2ZG9b7" value="http://127.0.0.1:63320/node?ref=r%3Aaa10b937-6663-4fbb-a477-bb95e5211cd6%28de.pes.metabnf.sandbox.sandbox%29%2F3756814260524778086" />
+    </node>
+    <node concept="PrWs8" id="3gySEDtMZBG" role="PzmwI">
+      <ref role="PrY4T" node="3gySEDtMZBp" resolve="IRootConceptContent" />
+    </node>
+    <node concept="1TJgyj" id="3gySEDtMZBH" role="1TKVEi">
+      <property role="TrG5h" value="IIdent" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="IIdent" />
+      <property role="IQ2ns" value="3756814260526381549" />
+      <ref role="20lvS9" node="3gySEDtMZBr" resolve="IIdent" />
+    </node>
+  </node>
+</model>
+
