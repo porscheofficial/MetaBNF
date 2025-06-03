@@ -152,6 +152,9 @@
     <node concept="PrWs8" id="211WYHDrAaO" role="PrDN$">
       <ref role="PrY4T" to="p1cl:211WYHCjlHs" resolve="IVisualizePlantUMLParticipent" />
     </node>
+    <node concept="PrWs8" id="7LcVVINuOx6" role="PrDN$">
+      <ref role="PrY4T" to="p1cl:7aaqmzlmc9L" resolve="IBNFEditorReprensentation" />
+    </node>
   </node>
   <node concept="PlHQZ" id="4novjIaP1oQ">
     <property role="EcuMT" value="5032910278272226870" />
@@ -239,6 +242,9 @@
     </node>
     <node concept="PrWs8" id="39om$46Rwx1" role="PzmwI">
       <ref role="PrY4T" node="T845Ys479E" resolve="IBNFExpressionReference" />
+    </node>
+    <node concept="PrWs8" id="7LcVVINuQ5m" role="PzmwI">
+      <ref role="PrY4T" to="p1cl:7aaqmzlmc9L" resolve="IBNFEditorReprensentation" />
     </node>
     <node concept="1TJgyj" id="1nL_s$Di$5w" role="1TKVEi">
       <property role="IQ2ns" value="1581209635397452128" />

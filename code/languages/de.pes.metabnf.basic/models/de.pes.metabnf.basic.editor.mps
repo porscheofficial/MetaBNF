@@ -766,6 +766,9 @@
       </node>
       <node concept="2iRfu4" id="fbptcjfjF7" role="2iSdaV" />
     </node>
+    <node concept="PMmxH" id="7LcVVINotpF" role="6VMZX">
+      <ref role="PMmxG" node="4novjIaNOkX" resolve="ISupportNodeAnnotationAttribute" />
+    </node>
   </node>
   <node concept="24kQdi" id="fbptcjfuCw">
     <property role="3GE5qa" value="rvalue.structured" />

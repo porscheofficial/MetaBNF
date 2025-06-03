@@ -363,6 +363,9 @@
     <node concept="PrWs8" id="7aaqmzmE2Ke" role="PrDN$">
       <ref role="PrY4T" node="7aaqmzlmc9L" resolve="IBNFEditorReprensentation" />
     </node>
+    <node concept="PrWs8" id="7LcVVINmo7H" role="PrDN$">
+      <ref role="PrY4T" node="4novjIaNO23" resolve="ISupportNodeAnnotationAttribute" />
+    </node>
   </node>
   <node concept="PlHQZ" id="6HVmriMlqlW">
     <property role="EcuMT" value="7744882616814642556" />
@@ -375,9 +378,6 @@
     <property role="TrG5h" value="INodeAnnotationAttribute" />
     <node concept="PrWs8" id="211WYHDltos" role="PrDN$">
       <ref role="PrY4T" node="211WYHCjlHs" resolve="IVisualizePlantUMLParticipent" />
-    </node>
-    <node concept="PrWs8" id="7aaqmzmH_wm" role="PrDN$">
-      <ref role="PrY4T" node="7aaqmzlmc9L" resolve="IBNFEditorReprensentation" />
     </node>
   </node>
   <node concept="PlHQZ" id="4novjIaNO23">
@@ -537,7 +537,7 @@
   <node concept="PlHQZ" id="7aaqmzmRqQF">
     <property role="EcuMT" value="8253525166112222635" />
     <property role="3GE5qa" value="Attributes" />
-    <property role="TrG5h" value="IBNFEditorRepresentationConfig" />
+    <property role="TrG5h" value="IBNFAttributeEditorRepresentationConfig" />
     <node concept="PrWs8" id="7aaqmzorSYp" role="PrDN$">
       <ref role="PrY4T" node="7aaqmzorFAg" resolve="ISupportEditorRepresentation" />
     </node>

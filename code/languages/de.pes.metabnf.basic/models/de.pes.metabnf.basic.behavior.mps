@@ -6006,7 +6006,7 @@
           <node concept="3cpWsn" id="7aaqmzorQV4" role="3cpWs9">
             <property role="TrG5h" value="node" />
             <node concept="3Tqbb2" id="7aaqmzorQV5" role="1tU5fm">
-              <ref role="ehGHo" to="p1cl:7aaqmzmRqQF" resolve="IBNFEditorRepresentationConfig" />
+              <ref role="ehGHo" to="p1cl:7aaqmzmRqQF" resolve="IBNFAttributeEditorRepresentationConfig" />
             </node>
             <node concept="2OqwBi" id="7aaqmzorQV6" role="33vP2m">
               <node concept="2OqwBi" id="7aaqmzorQV7" role="2Oq$k0">
@@ -6018,7 +6018,7 @@
                 </node>
                 <node concept="v3k3i" id="7aaqmzorQVb" role="2OqNvi">
                   <node concept="chp4Y" id="7aaqmzorQVc" role="v3oSu">
-                    <ref role="cht4Q" to="p1cl:7aaqmzmRqQF" resolve="IBNFEditorRepresentationConfig" />
+                    <ref role="cht4Q" to="p1cl:7aaqmzmRqQF" resolve="IBNFAttributeEditorRepresentationConfig" />
                   </node>
                 </node>
               </node>
