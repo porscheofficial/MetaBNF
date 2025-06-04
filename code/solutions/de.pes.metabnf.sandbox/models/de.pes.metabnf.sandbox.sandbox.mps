@@ -160,6 +160,9 @@
       <node concept="gX_XH" id="3gySEDtGS9m" role="2YAOa">
         <node concept="3f5gP6" id="3gySEDtGS9o" role="Iv2U_">
           <ref role="3f5gP5" node="3gySEDtGS9j" resolve="ISomeIdentiferConcept" />
+          <node concept="2lbLXz" id="7LcVVIPH$jh" role="3f5NQZ">
+            <property role="2lbLWm" value="7LcVVIP_rFE/showIf" />
+          </node>
         </node>
       </node>
       <node concept="3f3McH" id="3gySEDtGS9J" role="3f5NQZ">

@@ -7,9 +7,25 @@
   <imports />
   <registry>
     <language id="f8634ac8-e358-4fe1-bbe2-4240dda0ce40" name="de.pes.metabnf.sandbox.sample">
-      <concept id="3756814260526381535" name="de.pes.metabnf.sandbox.sample.structure.RootConcept" flags="ng" index="1DUhHP" />
+      <concept id="8956797348379922927" name="de.pes.metabnf.sandbox.sample.structure.SimpleTerm" flags="ng" index="3f57Tk" />
+      <concept id="3756814260526381537" name="de.pes.metabnf.sandbox.sample.structure.SomeIdentifier" flags="ng" index="1DUhHb" />
+      <concept id="3756814260526381541" name="de.pes.metabnf.sandbox.sample.structure.SomeConceptContent" flags="ng" index="1DUhHf">
+        <child id="3756814260526381549" name="IIdent" index="1DUhH7" />
+      </concept>
+      <concept id="3756814260526381531" name="de.pes.metabnf.sandbox.sample.structure.IIdent" flags="ngI" index="1DUhHL">
+        <child id="8956797348379939960" name="Name" index="3f53J3" />
+      </concept>
+      <concept id="3756814260526381535" name="de.pes.metabnf.sandbox.sample.structure.RootConcept" flags="ng" index="1DUhHP">
+        <child id="3756814260526381543" name="content" index="1DUhHd" />
+      </concept>
     </language>
   </registry>
-  <node concept="1DUhHP" id="7LcVVINm97j" />
+  <node concept="1DUhHP" id="7LcVVINm97j">
+    <node concept="1DUhHf" id="7LcVVIQ19dR" role="1DUhHd">
+      <node concept="1DUhHb" id="7LcVVIQ19dS" role="1DUhH7">
+        <node concept="3f57Tk" id="7LcVVIQ19dT" role="3f53J3" />
+      </node>
+    </node>
+  </node>
 </model>
 

@@ -18,6 +18,7 @@
     <import index="31cb" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.extapi.module(MPS.Core/)" />
     <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
     <import index="1i04" ref="r:3270011d-8b2d-4938-8dff-d256a759e017(jetbrains.mps.lang.behavior.structure)" />
+    <import index="tp3j" ref="r:00000000-0000-4000-0000-011c89590353(jetbrains.mps.lang.intentions.structure)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="tpcn" ref="r:00000000-0000-4000-0000-011c8959028b(jetbrains.mps.lang.structure.behavior)" implicit="true" />
   </imports>
@@ -246,6 +247,15 @@
         <property role="Xl_RC" value=".editor" />
       </node>
     </node>
+    <node concept="Wx3nA" id="7LcVVIPNgDS" role="jymVt">
+      <property role="TrG5h" value="INTENTIONS" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tm6S6" id="7LcVVIPNgDT" role="1B3o_S" />
+      <node concept="17QB3L" id="7LcVVIPNgDU" role="1tU5fm" />
+      <node concept="Xl_RD" id="7LcVVIPNgDV" role="33vP2m">
+        <property role="Xl_RC" value=".intentions" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="39om$45BfFJ" role="jymVt" />
     <node concept="Wx3nA" id="39om$45Bkev" role="jymVt">
       <property role="TrG5h" value="EDITOR_COMPONENT_POSTFIX" />
@@ -333,6 +343,7 @@
         <node concept="H_c77" id="39om$43dBWX" role="1tU5fm" />
       </node>
     </node>
+    <node concept="2tJIrI" id="7LcVVIPO0Dq" role="jymVt" />
     <node concept="2YIFZL" id="39om$43PEuz" role="jymVt">
       <property role="TrG5h" value="getEditorModelFromModuleModel" />
       <node concept="3clFbS" id="39om$43PEu$" role="3clF47">
@@ -353,6 +364,29 @@
       <node concept="37vLTG" id="39om$43PEuF" role="3clF46">
         <property role="TrG5h" value="model" />
         <node concept="H_c77" id="39om$43PEuG" role="1tU5fm" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="7LcVVIPNVeA" role="jymVt" />
+    <node concept="2YIFZL" id="7LcVVIPNnnt" role="jymVt">
+      <property role="TrG5h" value="getIntentionsModelFromModuleModel" />
+      <node concept="3clFbS" id="7LcVVIPNnnu" role="3clF47">
+        <node concept="3cpWs6" id="7LcVVIPNnnv" role="3cqZAp">
+          <node concept="1rXfSq" id="7LcVVIPNnnw" role="3cqZAk">
+            <ref role="37wK5l" node="39om$43Pna2" resolve="getModelFromModuleModelByName" />
+            <node concept="37vLTw" id="7LcVVIPNnnx" role="37wK5m">
+              <ref role="3cqZAo" node="7LcVVIPNnn_" resolve="model" />
+            </node>
+            <node concept="37vLTw" id="7LcVVIPNnny" role="37wK5m">
+              <ref role="3cqZAo" node="7LcVVIPNgDS" resolve="INTENTIONS" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm6S6" id="7LcVVIPNYBN" role="1B3o_S" />
+      <node concept="H_c77" id="7LcVVIPNnn$" role="3clF45" />
+      <node concept="37vLTG" id="7LcVVIPNnn_" role="3clF46">
+        <property role="TrG5h" value="model" />
+        <node concept="H_c77" id="7LcVVIPNnnA" role="1tU5fm" />
       </node>
     </node>
     <node concept="2tJIrI" id="39om$43PDSb" role="jymVt" />
@@ -638,6 +672,97 @@
         <property role="3TUv4t" value="true" />
         <property role="TrG5h" value="name" />
         <node concept="17QB3L" id="39om$47E_Vo" role="1tU5fm" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="7LcVVIPOrHn" role="jymVt" />
+    <node concept="2YIFZL" id="7LcVVIPObBl" role="jymVt">
+      <property role="TrG5h" value="getIntentionsDeclarationFromModel" />
+      <node concept="3clFbS" id="7LcVVIPObBm" role="3clF47">
+        <node concept="3clFbH" id="7LcVVIPObBn" role="3cqZAp" />
+        <node concept="3cpWs8" id="7LcVVIPObBo" role="3cqZAp">
+          <node concept="3cpWsn" id="7LcVVIPObBp" role="3cpWs9">
+            <property role="TrG5h" value="node" />
+            <node concept="3Tqbb2" id="7LcVVIPObBq" role="1tU5fm">
+              <ref role="ehGHo" to="tp3j:hmS6QkF" resolve="IntentionDeclaration" />
+            </node>
+            <node concept="10Nm6u" id="7LcVVIPObBr" role="33vP2m" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="7LcVVIPObBs" role="3cqZAp">
+          <node concept="37vLTI" id="7LcVVIPObBt" role="3clFbG">
+            <node concept="2OqwBi" id="7LcVVIPObBu" role="37vLTx">
+              <node concept="2OqwBi" id="7LcVVIPObBv" role="2Oq$k0">
+                <node concept="37vLTw" id="7LcVVIPObBw" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7LcVVIPObBV" resolve="model" />
+                </node>
+                <node concept="2SmgA7" id="7LcVVIPObBx" role="2OqNvi">
+                  <node concept="chp4Y" id="7LcVVIPObBy" role="1dBWTz">
+                    <ref role="cht4Q" to="tp3j:hmS6QkF" resolve="IntentionDeclaration" />
+                  </node>
+                </node>
+              </node>
+              <node concept="1z4cxt" id="7LcVVIPObBz" role="2OqNvi">
+                <node concept="1bVj0M" id="7LcVVIPObB$" role="23t8la">
+                  <node concept="3clFbS" id="7LcVVIPObB_" role="1bW5cS">
+                    <node concept="3clFbJ" id="7LcVVIPObBA" role="3cqZAp">
+                      <node concept="3clFbS" id="7LcVVIPObBB" role="3clFbx">
+                        <node concept="3cpWs6" id="7LcVVIPObBC" role="3cqZAp">
+                          <node concept="3clFbT" id="7LcVVIPObBD" role="3cqZAk">
+                            <property role="3clFbU" value="true" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="2OqwBi" id="7LcVVIPObBE" role="3clFbw">
+                        <node concept="37vLTw" id="7LcVVIPObBF" role="2Oq$k0">
+                          <ref role="3cqZAo" node="7LcVVIPObBX" resolve="name" />
+                        </node>
+                        <node concept="liA8E" id="7LcVVIPObBG" role="2OqNvi">
+                          <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
+                          <node concept="2OqwBi" id="7LcVVIPObBH" role="37wK5m">
+                            <node concept="37vLTw" id="7LcVVIPObBJ" role="2Oq$k0">
+                              <ref role="3cqZAo" node="7LcVVIPObBO" resolve="it" />
+                            </node>
+                            <node concept="3TrcHB" id="7LcVVIPObBL" role="2OqNvi">
+                              <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3cpWs6" id="7LcVVIPObBM" role="3cqZAp">
+                      <node concept="3clFbT" id="7LcVVIPObBN" role="3cqZAk" />
+                    </node>
+                  </node>
+                  <node concept="gl6BB" id="7LcVVIPObBO" role="1bW2Oz">
+                    <property role="TrG5h" value="it" />
+                    <node concept="2jxLKc" id="7LcVVIPObBP" role="1tU5fm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="37vLTw" id="7LcVVIPObBQ" role="37vLTJ">
+              <ref role="3cqZAo" node="7LcVVIPObBp" resolve="node" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="7LcVVIPObBR" role="3cqZAp">
+          <node concept="37vLTw" id="7LcVVIPObBS" role="3cqZAk">
+            <ref role="3cqZAo" node="7LcVVIPObBp" resolve="node" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="7LcVVIPObBT" role="1B3o_S" />
+      <node concept="3Tqbb2" id="7LcVVIPObBU" role="3clF45">
+        <ref role="ehGHo" to="tp3j:hmS6QkF" resolve="IntentionDeclaration" />
+      </node>
+      <node concept="37vLTG" id="7LcVVIPObBV" role="3clF46">
+        <property role="TrG5h" value="model" />
+        <node concept="H_c77" id="7LcVVIPObBW" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="7LcVVIPObBX" role="3clF46">
+        <property role="3TUv4t" value="true" />
+        <property role="TrG5h" value="name" />
+        <node concept="17QB3L" id="7LcVVIPObBY" role="1tU5fm" />
       </node>
     </node>
     <node concept="2tJIrI" id="39om$45AnRP" role="jymVt" />
@@ -1415,6 +1540,121 @@
         <node concept="3Tqbb2" id="39om$47G1By" role="1tU5fm">
           <ref role="ehGHo" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
         </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="7LcVVIPNDKi" role="jymVt" />
+    <node concept="2YIFZL" id="7LcVVIPNA6N" role="jymVt">
+      <property role="TrG5h" value="getOrCreateConceptIntentions" />
+      <node concept="3clFbS" id="7LcVVIPNA6O" role="3clF47">
+        <node concept="3clFbH" id="7LcVVIPO4vp" role="3cqZAp" />
+        <node concept="3cpWs8" id="7LcVVIPO3a0" role="3cqZAp">
+          <node concept="3cpWsn" id="7LcVVIPO3a1" role="3cpWs9">
+            <property role="TrG5h" value="modIntent" />
+            <node concept="H_c77" id="7LcVVIPO3a2" role="1tU5fm" />
+            <node concept="1rXfSq" id="7LcVVIPO3a3" role="33vP2m">
+              <ref role="37wK5l" node="7LcVVIPNnnt" resolve="getIntentionsModelFromModuleModel" />
+              <node concept="37vLTw" id="7LcVVIPO8hC" role="37wK5m">
+                <ref role="3cqZAo" node="7LcVVIPNA7I" resolve="model" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7LcVVIPVqaA" role="3cqZAp" />
+        <node concept="3cpWs8" id="7LcVVIPNA6Q" role="3cqZAp">
+          <node concept="3cpWsn" id="7LcVVIPNA6R" role="3cpWs9">
+            <property role="TrG5h" value="nodeIntention" />
+            <node concept="3Tqbb2" id="7LcVVIPNA6S" role="1tU5fm">
+              <ref role="ehGHo" to="tp3j:hmS6QkF" resolve="IntentionDeclaration" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7LcVVIPNA6T" role="3cqZAp">
+          <node concept="37vLTI" id="7LcVVIPNA6U" role="3clFbG">
+            <node concept="1rXfSq" id="7LcVVIPNA6V" role="37vLTx">
+              <ref role="37wK5l" node="7LcVVIPObBl" resolve="getBehaviorDeclarationFromModel" />
+              <node concept="37vLTw" id="7LcVVIPNA6W" role="37wK5m">
+                <ref role="3cqZAo" node="7LcVVIPO3a1" resolve="modIntent" />
+              </node>
+              <node concept="37vLTw" id="7LcVVIPNA6Y" role="37wK5m">
+                <ref role="3cqZAo" node="7LcVVIPNA7K" resolve="intentionName" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="7LcVVIPNA70" role="37vLTJ">
+              <ref role="3cqZAo" node="7LcVVIPNA6R" resolve="nodeBehavior" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7LcVVIPNA71" role="3cqZAp" />
+        <node concept="3clFbJ" id="7LcVVIPNA72" role="3cqZAp">
+          <node concept="3clFbS" id="7LcVVIPNA73" role="3clFbx">
+            <node concept="3clFbF" id="7LcVVIPNA74" role="3cqZAp">
+              <node concept="37vLTI" id="7LcVVIPNA75" role="3clFbG">
+                <node concept="37vLTw" id="7LcVVIPNA76" role="37vLTJ">
+                  <ref role="3cqZAo" node="7LcVVIPNA6R" resolve="nodeBehavior" />
+                </node>
+                <node concept="2ShNRf" id="7LcVVIPNA77" role="37vLTx">
+                  <node concept="3zrR0B" id="7LcVVIPNA78" role="2ShVmc">
+                    <node concept="3Tqbb2" id="7LcVVIPNA79" role="3zrR0E">
+                      <ref role="ehGHo" to="tp3j:hmS6QkF" resolve="IntentionDeclaration" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7LcVVIPOFua" role="3cqZAp">
+              <node concept="37vLTI" id="7LcVVIPOL1P" role="3clFbG">
+                <node concept="37vLTw" id="7LcVVIPON6Y" role="37vLTx">
+                  <ref role="3cqZAo" node="7LcVVIPNA7K" resolve="intentionName" />
+                </node>
+                <node concept="2OqwBi" id="7LcVVIPOH44" role="37vLTJ">
+                  <node concept="37vLTw" id="7LcVVIPOFu8" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7LcVVIPNA6R" resolve="nodeIntention" />
+                  </node>
+                  <node concept="3TrcHB" id="7LcVVIPOIPd" role="2OqNvi">
+                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7LcVVIPNA7p" role="3cqZAp">
+              <node concept="2OqwBi" id="7LcVVIPNA7q" role="3clFbG">
+                <node concept="37vLTw" id="7LcVVIPNA7r" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7LcVVIPO3a1" resolve="modIntent" />
+                </node>
+                <node concept="3BYIHo" id="7LcVVIPNA7s" role="2OqNvi">
+                  <node concept="37vLTw" id="7LcVVIPNA7t" role="3BYIHq">
+                    <ref role="3cqZAo" node="7LcVVIPNA6R" resolve="nodeBehavior" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="7LcVVIPNA7u" role="3clFbw">
+            <node concept="37vLTw" id="7LcVVIPNA7v" role="2Oq$k0">
+              <ref role="3cqZAo" node="7LcVVIPNA6R" resolve="nodeBehavior" />
+            </node>
+            <node concept="3w_OXm" id="7LcVVIPNA7w" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="7LcVVIPNA7x" role="3cqZAp" />
+        <node concept="3cpWs6" id="7LcVVIPNA7E" role="3cqZAp">
+          <node concept="37vLTw" id="7LcVVIPNA7F" role="3cqZAk">
+            <ref role="3cqZAo" node="7LcVVIPNA6R" resolve="nodeBehavior" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="7LcVVIPNA7G" role="1B3o_S" />
+      <node concept="3Tqbb2" id="7LcVVIPNA7H" role="3clF45">
+        <ref role="ehGHo" to="tp3j:hmS6QkF" resolve="IntentionDeclaration" />
+      </node>
+      <node concept="37vLTG" id="7LcVVIPNA7I" role="3clF46">
+        <property role="TrG5h" value="editor" />
+        <node concept="H_c77" id="7LcVVIPNA7J" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="7LcVVIPNA7K" role="3clF46">
+        <property role="3TUv4t" value="true" />
+        <property role="TrG5h" value="intentionName" />
+        <node concept="17QB3L" id="7LcVVIPOS$C" role="1tU5fm" />
       </node>
     </node>
     <node concept="2tJIrI" id="7aaqmzo3NUs" role="jymVt" />
