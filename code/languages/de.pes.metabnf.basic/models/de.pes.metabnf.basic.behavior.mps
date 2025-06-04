@@ -489,7 +489,22 @@
       <ref role="13i0hy" node="7aaqmzlmca5" resolve="getEditorRepresentation" />
       <node concept="3Tm1VV" id="7aaqmzmvf89" role="1B3o_S" />
       <node concept="3clFbS" id="7aaqmzmvf8g" role="3clF47">
-        <node concept="3clFbH" id="7aaqmzmvfov" role="3cqZAp" />
+        <node concept="3cpWs8" id="5j5iOiIMG2I" role="3cqZAp">
+          <node concept="3cpWsn" id="5j5iOiIMG2J" role="3cpWs9">
+            <property role="TrG5h" value="normalizeName" />
+            <node concept="17QB3L" id="5j5iOiIMFGS" role="1tU5fm" />
+            <node concept="2YIFZM" id="5j5iOiIMG2K" role="33vP2m">
+              <ref role="37wK5l" to="ms2z:7egTi9Lq0I0" resolve="normalizeName" />
+              <ref role="1Pybhc" to="ms2z:7aaqmznbwEM" resolve="BNFUtils" />
+              <node concept="2OqwBi" id="5j5iOiIMG2L" role="37wK5m">
+                <node concept="13iPFW" id="5j5iOiIMG2M" role="2Oq$k0" />
+                <node concept="3TrcHB" id="5j5iOiIMG2N" role="2OqNvi">
+                  <ref role="3TsBF5" to="p1cl:fbptcj23AV" resolve="value" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="7aaqmzmx_Qq" role="3cqZAp">
           <node concept="3cpWsn" id="7aaqmzmx_Qr" role="3cpWs9">
             <property role="TrG5h" value="nodeProp" />
@@ -525,11 +540,8 @@
                         </node>
                         <node concept="liA8E" id="7aaqmzmx_QE" role="2OqNvi">
                           <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
-                          <node concept="2OqwBi" id="7aaqmzmx_QF" role="37wK5m">
-                            <node concept="13iPFW" id="7aaqmzmx_QG" role="2Oq$k0" />
-                            <node concept="3TrcHB" id="7aaqmzmx_QH" role="2OqNvi">
-                              <ref role="3TsBF5" to="p1cl:fbptcj23AV" resolve="value" />
-                            </node>
+                          <node concept="37vLTw" id="5j5iOiIMGnP" role="37wK5m">
+                            <ref role="3cqZAo" node="5j5iOiIMG2J" resolve="normalizeName" />
                           </node>
                         </node>
                       </node>
