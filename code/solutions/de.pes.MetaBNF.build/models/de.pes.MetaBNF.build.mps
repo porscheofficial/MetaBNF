@@ -410,6 +410,11 @@
             <ref role="3bR37D" node="7hex6wUv$mQ" resolve="de.pes.metabnf.utils" />
           </node>
         </node>
+        <node concept="1SiIV0" id="7LcVVIQ1iGq" role="3bR37C">
+          <node concept="3bR9La" id="7LcVVIQ1iGr" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L7y" resolve="jetbrains.mps.lang.intentions" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="7vSfl_Uu_xf" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -760,6 +765,16 @@
         <node concept="1SiIV0" id="7LcVVIPHncB" role="3bR37C">
           <node concept="3bR9La" id="7LcVVIPHncC" role="1SiIV1">
             <ref role="3bR37D" node="7LcVVIPHnaA" resolve="de.pes.metabnf.base" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7LcVVIQ1iGW" role="3bR37C">
+          <node concept="3bR9La" id="7LcVVIQ1iGX" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L7y" resolve="jetbrains.mps.lang.intentions" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7LcVVIQ1iGY" role="3bR37C">
+          <node concept="3bR9La" id="7LcVVIQ1iGZ" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L9I" resolve="jetbrains.mps.lang.sharedConcepts" />
           </node>
         </node>
       </node>
