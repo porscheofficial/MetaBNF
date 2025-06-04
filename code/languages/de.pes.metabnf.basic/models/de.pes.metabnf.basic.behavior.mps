@@ -7322,47 +7322,6 @@
                       </node>
                     </node>
                     <node concept="3clFbH" id="7LcVVIPYoR3" role="3cqZAp" />
-                    <node concept="3clFbF" id="7LcVVIP_8Fv" role="3cqZAp">
-                      <node concept="2OqwBi" id="7LcVVIP_gbd" role="3clFbG">
-                        <node concept="2OqwBi" id="7LcVVIP_9ac" role="2Oq$k0">
-                          <node concept="37vLTw" id="7LcVVIP_8Ft" role="2Oq$k0">
-                            <ref role="3cqZAo" node="39om$42pt5D" resolve="cm" />
-                          </node>
-                          <node concept="3TrEf2" id="7LcVVIP_fhb" role="2OqNvi">
-                            <ref role="3Tt5mk" to="tpc2:gCpqm6p" resolve="renderingCondition" />
-                          </node>
-                        </node>
-                        <node concept="2oxUTD" id="7LcVVIP_hpN" role="2OqNvi">
-                          <node concept="2YIFZM" id="7LcVVIP_iLU" role="2oxUTC">
-                            <ref role="37wK5l" to="vx0f:7LcVVINWoET" resolve="getQueryFunctionNodeCondition" />
-                            <ref role="1Pybhc" to="vx0f:7aaqmzlgUpO" resolve="BNFEditorHelper" />
-                            <node concept="37vLTw" id="7LcVVIPYrzx" role="37wK5m">
-                              <ref role="3cqZAo" node="7LcVVIPYpQn" resolve="ldfrm" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="3clFbH" id="7LcVVIPN6IB" role="3cqZAp" />
-                    <node concept="3SKdUt" id="7LcVVIPN7tX" role="3cqZAp">
-                      <node concept="1PaTwC" id="7LcVVIPN7tY" role="1aUNEU">
-                        <node concept="3oM_SD" id="7LcVVIPN7tZ" role="1PaTwD">
-                          <property role="3oM_SC" value="ToDo" />
-                        </node>
-                        <node concept="3oM_SD" id="7LcVVIPN7HX" role="1PaTwD">
-                          <property role="3oM_SC" value="create" />
-                        </node>
-                        <node concept="3oM_SD" id="7LcVVIPN7If" role="1PaTwD">
-                          <property role="3oM_SC" value="intention" />
-                        </node>
-                        <node concept="3oM_SD" id="7LcVVIPN7Iw" role="1PaTwD">
-                          <property role="3oM_SC" value="as" />
-                        </node>
-                        <node concept="3oM_SD" id="7LcVVIPN7Ix" role="1PaTwD">
-                          <property role="3oM_SC" value="well" />
-                        </node>
-                      </node>
-                    </node>
                     <node concept="3cpWs8" id="7LcVVIPPmAW" role="3cqZAp">
                       <node concept="3cpWsn" id="7LcVVIPPmAZ" role="3cpWs9">
                         <property role="TrG5h" value="iName" />
@@ -7393,6 +7352,50 @@
                               <ref role="3cqZAo" node="39om$42pu$E" resolve="name" />
                             </node>
                           </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbF" id="7LcVVIP_8Fv" role="3cqZAp">
+                      <node concept="2OqwBi" id="7LcVVIP_gbd" role="3clFbG">
+                        <node concept="2OqwBi" id="7LcVVIP_9ac" role="2Oq$k0">
+                          <node concept="37vLTw" id="7LcVVIP_8Ft" role="2Oq$k0">
+                            <ref role="3cqZAo" node="39om$42pt5D" resolve="cm" />
+                          </node>
+                          <node concept="3TrEf2" id="7LcVVIP_fhb" role="2OqNvi">
+                            <ref role="3Tt5mk" to="tpc2:gCpqm6p" resolve="renderingCondition" />
+                          </node>
+                        </node>
+                        <node concept="2oxUTD" id="7LcVVIP_hpN" role="2OqNvi">
+                          <node concept="2YIFZM" id="7LcVVIP_iLU" role="2oxUTC">
+                            <ref role="37wK5l" to="vx0f:7LcVVINWoET" resolve="getQueryFunctionNodeCondition" />
+                            <ref role="1Pybhc" to="vx0f:7aaqmzlgUpO" resolve="BNFEditorHelper" />
+                            <node concept="37vLTw" id="7LcVVIPYrzx" role="37wK5m">
+                              <ref role="3cqZAo" node="7LcVVIPYpQn" resolve="ldfrm" />
+                            </node>
+                            <node concept="37vLTw" id="7LcVVIQ8Zey" role="37wK5m">
+                              <ref role="3cqZAo" node="39om$42pu$E" resolve="name" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbH" id="7LcVVIPN6IB" role="3cqZAp" />
+                    <node concept="3SKdUt" id="7LcVVIPN7tX" role="3cqZAp">
+                      <node concept="1PaTwC" id="7LcVVIPN7tY" role="1aUNEU">
+                        <node concept="3oM_SD" id="7LcVVIPN7tZ" role="1PaTwD">
+                          <property role="3oM_SC" value="ToDo" />
+                        </node>
+                        <node concept="3oM_SD" id="7LcVVIPN7HX" role="1PaTwD">
+                          <property role="3oM_SC" value="create" />
+                        </node>
+                        <node concept="3oM_SD" id="7LcVVIPN7If" role="1PaTwD">
+                          <property role="3oM_SC" value="intention" />
+                        </node>
+                        <node concept="3oM_SD" id="7LcVVIPN7Iw" role="1PaTwD">
+                          <property role="3oM_SC" value="as" />
+                        </node>
+                        <node concept="3oM_SD" id="7LcVVIPN7Ix" role="1PaTwD">
+                          <property role="3oM_SC" value="well" />
                         </node>
                       </node>
                     </node>
