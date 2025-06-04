@@ -14,6 +14,14 @@
       <concept id="8327407647102502951" name="de.pes.metabnf.basic.structure.IBNFBaseStatementConcept" flags="ngI" index="2YAO5">
         <child id="8327407647102502952" name="expr" index="2YAOa" />
       </concept>
+      <concept id="273424159618034946" name="de.pes.metabnf.basic.structure.BNFDefinitionTermRef" flags="ng" index="gKozh">
+        <reference id="273424159618034947" name="ref" index="gKozg" />
+      </concept>
+      <concept id="273424159617961299" name="de.pes.metabnf.basic.structure.BNFBinaryExpression" flags="ng" index="gKEy0">
+        <child id="273424159617961307" name="rvalue" index="gKEy8" />
+        <child id="273424159617961306" name="lvalue" index="gKEy9" />
+      </concept>
+      <concept id="273424159617961297" name="de.pes.metabnf.basic.structure.CommaExpression" flags="ng" index="gKEy2" />
       <concept id="273424159617857978" name="de.pes.metabnf.basic.structure.BNFStringLiteral" flags="ng" index="gKPLD">
         <property id="273424159617857979" name="value" index="gKPLC" />
       </concept>
@@ -69,6 +77,9 @@
       <concept id="1029090517669515621" name="de.pes.metabnf.extended.structure.EBNFExpressionRef" flags="ng" index="2l8w4U">
         <reference id="1029090517669515622" name="ref" index="2l8w4T" />
       </concept>
+      <concept id="1029090517669318460" name="de.pes.metabnf.extended.structure.EBNFAttributeBuildEditor" flags="ng" index="2lbLXz">
+        <property id="1029090517669318473" name="buildEditor" index="2lbLWm" />
+      </concept>
       <concept id="5032910278272491642" name="de.pes.metabnf.extended.structure.EBNFIFaceAttributeImplementationRef" flags="ng" index="3f05P1" />
       <concept id="5032910278272154822" name="de.pes.metabnf.extended.structure.ISupportInterfaceImplementation" flags="ngI" index="3f2C7X">
         <child id="5032910278272154824" name="irefs" index="3f2C7N" />
@@ -94,6 +105,9 @@
         <node concept="3f5gP6" id="3gySEDtGS9b" role="Iv2U_">
           <property role="TrG5h" value="content" />
           <ref role="3f5gP5" node="3gySEDtGS99" resolve="IRootConceptContent" />
+          <node concept="2lbLXz" id="7LcVVIPChaC" role="3f5NQZ">
+            <property role="2lbLWm" value="7LcVVIP_rFE/showIf" />
+          </node>
         </node>
       </node>
     </node>
@@ -103,8 +117,44 @@
     <node concept="gNmGs" id="3gySEDtGS9d" role="gNmGt" />
     <node concept="3f4ZRK" id="3gySEDtGS9H" role="gNmGt">
       <property role="TrG5h" value="IIdent" />
+      <node concept="gKEy2" id="7LcVVINGpYs" role="2YAOa">
+        <node concept="gKozh" id="7LcVVINm97t" role="gKEy9">
+          <property role="TrG5h" value="Name" />
+          <ref role="gKozg" node="7LcVVINm97r" resolve="SimpleTerm" />
+        </node>
+        <node concept="gX_XH" id="7LcVVINGpYw" role="gKEy8">
+          <node concept="3f5gP6" id="7LcVVINGpY$" role="Iv2U_">
+            <ref role="3f5gP5" node="7LcVVINmhrt" resolve="IdentAddition" />
+            <node concept="2lbLXz" id="7LcVVINGpYA" role="3f5NQZ">
+              <property role="2lbLWm" value="7aaqmzkcjlq/skip" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
-    <node concept="gNmGs" id="3gySEDtGS9G" role="gNmGt" />
+    <node concept="gNmGs" id="7LcVVINm97v" role="gNmGt" />
+    <node concept="gNqHd" id="7LcVVINm97r" role="gNmGt">
+      <property role="TrG5h" value="SimpleTerm" />
+      <node concept="gKPLD" id="7LcVVINm97s" role="2YAOa">
+        <property role="gKPLC" value="value" />
+      </node>
+    </node>
+    <node concept="gNmGs" id="7LcVVINmhrr" role="gNmGt" />
+    <node concept="3f4ZRK" id="7LcVVINmhrt" role="gNmGt">
+      <property role="TrG5h" value="IdentAddition" />
+    </node>
+    <node concept="gNqHd" id="7LcVVINmhr$" role="gNmGt">
+      <property role="TrG5h" value="someAdditionIdent" />
+      <node concept="gKPLD" id="7LcVVINmhr_" role="2YAOa">
+        <property role="gKPLC" value="SomeIdentAdd" />
+      </node>
+      <node concept="3f3McH" id="7LcVVINzBh0" role="3f5NQZ">
+        <node concept="3f05P1" id="7LcVVINzBh2" role="3f2C7N">
+          <ref role="3f0eYx" node="7LcVVINmhrt" resolve="IdentAddition" />
+        </node>
+      </node>
+    </node>
+    <node concept="gNmGs" id="7LcVVINm97o" role="gNmGt" />
     <node concept="gNqHd" id="3gySEDtGS9h" role="gNmGt">
       <property role="TrG5h" value="SomeIdentifier" />
       <node concept="gX_XH" id="3gySEDtGS9m" role="2YAOa">

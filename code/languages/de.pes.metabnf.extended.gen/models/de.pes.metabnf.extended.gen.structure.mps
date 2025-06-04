@@ -20,6 +20,9 @@
         <reference id="1075010451642646892" name="defaultMember" index="1H5jkz" />
         <child id="3348158742936976577" name="members" index="25R1y" />
       </concept>
+      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9">
+        <property id="1225118933224" name="comment" index="YLQ7P" />
+      </concept>
       <concept id="6054523464627964745" name="jetbrains.mps.lang.structure.structure.AttributeInfo_AttributedConcept" flags="ng" index="trNpa">
         <reference id="6054523464627965081" name="concept" index="trN6q" />
       </concept>
@@ -145,7 +148,7 @@
   </node>
   <node concept="1TIwiD" id="3Mv8PM1Sp0k">
     <property role="EcuMT" value="4368249043795677204" />
-    <property role="TrG5h" value="NodeAttributeLinkToBNF" />
+    <property role="TrG5h" value="NodeAttributeLinkToBNF_old" />
     <property role="3GE5qa" value="NodeAttribute" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="PrWs8" id="3Mv8PM1Sr9T" role="PzmwI">
@@ -159,8 +162,14 @@
     </node>
     <node concept="1TJgyi" id="3Mv8PM3bV6r" role="1TKVEl">
       <property role="IQ2nx" value="4368249043817574811" />
-      <property role="TrG5h" value="url" />
+      <property role="TrG5h" value="url_old" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <node concept="asaX9" id="7LcVVIPsBiT" role="lGtFl">
+        <property role="YLQ7P" value="The property was moved to concept &quot;de.pes.metabnf.base.structure.NodeAttributeLinkToBNF&quot;" />
+      </node>
+    </node>
+    <node concept="asaX9" id="7LcVVIPsBiF" role="lGtFl">
+      <property role="YLQ7P" value="The concept was moved to language &quot;de.pes.metabnf.base&quot;" />
     </node>
   </node>
 </model>

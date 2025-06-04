@@ -5,6 +5,11 @@
     <use id="f8634ac8-e358-4fe1-bbe2-4240dda0ce40" name="de.pes.metabnf.sandbox.sample" version="0" />
   </languages>
   <imports />
-  <registry />
+  <registry>
+    <language id="f8634ac8-e358-4fe1-bbe2-4240dda0ce40" name="de.pes.metabnf.sandbox.sample">
+      <concept id="3756814260526381535" name="de.pes.metabnf.sandbox.sample.structure.RootConcept" flags="ng" index="1DUhHP" />
+    </language>
+  </registry>
+  <node concept="1DUhHP" id="7LcVVINm97j" />
 </model>
 

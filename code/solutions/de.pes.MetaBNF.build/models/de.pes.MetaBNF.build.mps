@@ -137,6 +137,7 @@
         <property id="4297162197621031140" name="inplace" index="1wOHq$" />
         <property id="6535001758416941941" name="createStaticRefs" index="3Ej$Sc" />
       </concept>
+      <concept id="5507251971038816436" name="jetbrains.mps.build.mps.structure.BuildMps_Generator" flags="ng" index="1yeLz9" />
       <concept id="4278635856200817744" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleModelRoot" flags="ng" index="1BupzO">
         <property id="8137134783396907368" name="convert2binary" index="1Hdu6h" />
         <property id="8137134783396676838" name="extracted" index="1HemKv" />
@@ -147,7 +148,9 @@
         <reference id="4278635856200794928" name="language" index="1Busuk" />
       </concept>
       <concept id="3189788309731840247" name="jetbrains.mps.build.mps.structure.BuildMps_Solution" flags="ng" index="1E1JtA" />
-      <concept id="3189788309731840248" name="jetbrains.mps.build.mps.structure.BuildMps_Language" flags="ng" index="1E1JtD" />
+      <concept id="3189788309731840248" name="jetbrains.mps.build.mps.structure.BuildMps_Language" flags="ng" index="1E1JtD">
+        <child id="9200313594498201639" name="generator" index="1TViLv" />
+      </concept>
       <concept id="322010710375871467" name="jetbrains.mps.build.mps.structure.BuildMps_AbstractModule" flags="ng" index="3LEN3z">
         <property id="8369506495128725901" name="compact" index="BnDLt" />
         <property id="322010710375892619" name="uuid" index="3LESm3" />
@@ -618,6 +621,11 @@
             <ref role="3bR37D" node="7hex6wUv$mQ" resolve="de.pes.metabnf.utils" />
           </node>
         </node>
+        <node concept="1SiIV0" id="7LcVVIPHncl" role="3bR37C">
+          <node concept="3bR9La" id="7LcVVIPHncm" role="1SiIV1">
+            <ref role="3bR37D" node="7LcVVIPHnaA" resolve="de.pes.metabnf.base" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="7vSfl_Uu_xB" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -722,19 +730,9 @@
             <ref role="3bR37D" to="ffeo:7Kfy9QB6L4X" resolve="jetbrains.mps.lang.editor" />
           </node>
         </node>
-        <node concept="1SiIV0" id="7hex6wUv$n_" role="3bR37C">
-          <node concept="3bR9La" id="7hex6wUv$nA" role="1SiIV1">
-            <ref role="3bR37D" node="7vSfl_Uu_x9" resolve="de.pes.metabnf.basic" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="7hex6wUv$nB" role="3bR37C">
           <node concept="3bR9La" id="7hex6wUv$nC" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:7Kfy9QB6L4p" resolve="jetbrains.mps.lang.behavior" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="7hex6wUv$nD" role="3bR37C">
-          <node concept="3bR9La" id="7hex6wUv$nE" role="1SiIV1">
-            <ref role="3bR37D" node="7vSfl_Uu_xx" resolve="de.pes.metabnf.extended.gen" />
           </node>
         </node>
         <node concept="1BupzO" id="7hex6wUv$nN" role="3bR31x">
@@ -756,6 +754,98 @@
             </node>
             <node concept="3qWCbU" id="7hex6wUv$nP" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7LcVVIPHncB" role="3bR37C">
+          <node concept="3bR9La" id="7LcVVIPHncC" role="1SiIV1">
+            <ref role="3bR37D" node="7LcVVIPHnaA" resolve="de.pes.metabnf.base" />
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtD" id="7LcVVIPHnaA" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="de.pes.metabnf.base" />
+        <property role="3LESm3" value="fcef6129-077e-482d-b29d-d74df3291d94" />
+        <node concept="55IIr" id="7LcVVIPHnaD" role="3LF7KH">
+          <node concept="2Ry0Ak" id="7LcVVIPHnaH" role="iGT6I">
+            <property role="2Ry0Am" value="languages" />
+            <node concept="2Ry0Ak" id="7LcVVIPHnaK" role="2Ry0An">
+              <property role="2Ry0Am" value="de.pes.metabnf.base" />
+              <node concept="2Ry0Ak" id="7LcVVIPHnaN" role="2Ry0An">
+                <property role="2Ry0Am" value="de.pes.metabnf.base.mpl" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7LcVVIPHnbs" role="3bR37C">
+          <node concept="3bR9La" id="7LcVVIPHnbt" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7LcVVIPHnbu" role="3bR37C">
+          <node concept="3bR9La" id="7LcVVIPHnbv" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7LcVVIPHnbw" role="3bR37C">
+          <node concept="3bR9La" id="7LcVVIPHnbx" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6LaO" resolve="jetbrains.mps.lang.structure" />
+          </node>
+        </node>
+        <node concept="1BupzO" id="7LcVVIPHnbE" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="7LcVVIPHnbF" role="1HemKq">
+            <node concept="398BVA" id="7LcVVIPHnby" role="3LXTmr">
+              <ref role="398BVh" node="7vSfl_Uu_x3" resolve="metaBNF.home" />
+              <node concept="2Ry0Ak" id="7LcVVIPHnbz" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="7LcVVIPHnb$" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.pes.metabnf.base" />
+                  <node concept="2Ry0Ak" id="7LcVVIPHnb_" role="2Ry0An">
+                    <property role="2Ry0Am" value="models" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="7LcVVIPHnbG" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7LcVVIPHnbH" role="3bR37C">
+          <node concept="1Busua" id="7LcVVIPHnbI" role="1SiIV1">
+            <ref role="1Busuk" node="7vSfl_Uu_xx" resolve="de.pes.metabnf.extended.gen" />
+          </node>
+        </node>
+        <node concept="1yeLz9" id="7LcVVIPHnbJ" role="1TViLv">
+          <property role="TrG5h" value="de.pes.metabnf.base.generator" />
+          <property role="3LESm3" value="41b0e427-10e5-437c-a8ad-a611e77a87cc" />
+          <node concept="1BupzO" id="7LcVVIPHnbU" role="3bR31x">
+            <property role="3ZfqAx" value="generator/templates" />
+            <property role="1Hdu6h" value="true" />
+            <property role="1HemKv" value="true" />
+            <node concept="3LXTmp" id="7LcVVIPHnbV" role="1HemKq">
+              <node concept="398BVA" id="7LcVVIPHnbK" role="3LXTmr">
+                <ref role="398BVh" node="7vSfl_Uu_x3" resolve="metaBNF.home" />
+                <node concept="2Ry0Ak" id="7LcVVIPHnbL" role="iGT6I">
+                  <property role="2Ry0Am" value="languages" />
+                  <node concept="2Ry0Ak" id="7LcVVIPHnbM" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.pes.metabnf.base" />
+                    <node concept="2Ry0Ak" id="7LcVVIPHnbN" role="2Ry0An">
+                      <property role="2Ry0Am" value="generator" />
+                      <node concept="2Ry0Ak" id="7LcVVIPHnbO" role="2Ry0An">
+                        <property role="2Ry0Am" value="templates" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3qWCbU" id="7LcVVIPHnbW" role="3LXTna">
+                <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+              </node>
             </node>
           </node>
         </node>

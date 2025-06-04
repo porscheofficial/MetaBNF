@@ -2,6 +2,7 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/de.pes.metabnf.base/de.pes.metabnf.base.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/de.pes.metabnf.basic/de.pes.metabnf.basic.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/de.pes.metabnf.extended.gen/de.pes.metabnf.extended.gen.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/de.pes.metabnf.extended/de.pes.metabnf.extended.mpl" folder="" />
