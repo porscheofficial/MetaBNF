@@ -2899,15 +2899,8 @@
         </node>
         <node concept="3clFbH" id="7aaqmzmEcAm" role="3cqZAp" />
         <node concept="3cpWs6" id="7aaqmzmEcAn" role="3cqZAp">
-          <node concept="2YIFZM" id="7aaqmzmEcAo" role="3cqZAk">
-            <ref role="37wK5l" to="vx0f:7aaqmzlmD0B" resolve="getBaseConceptCellLayout" />
-            <ref role="1Pybhc" to="vx0f:7aaqmzlgUpO" resolve="BNFEditorHelper" />
-            <node concept="Xl_RD" id="7aaqmzmEot$" role="37wK5m">
-              <property role="Xl_RC" value="MultiLine:" />
-            </node>
-            <node concept="37vLTw" id="7aaqmzmEcAs" role="37wK5m">
-              <ref role="3cqZAo" node="7aaqmzmEcA5" resolve="cellCollection" />
-            </node>
+          <node concept="37vLTw" id="5j5iOiIUCVn" role="3cqZAk">
+            <ref role="3cqZAo" node="7aaqmzmEcA5" resolve="cellCollection" />
           </node>
         </node>
       </node>
