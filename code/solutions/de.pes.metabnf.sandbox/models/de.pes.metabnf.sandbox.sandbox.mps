@@ -80,6 +80,13 @@
       <concept id="1029090517669318460" name="de.pes.metabnf.extended.structure.EBNFAttributeBuildEditor" flags="ng" index="2lbLXz">
         <property id="1029090517669318473" name="buildEditor" index="2lbLWm" />
       </concept>
+      <concept id="1581209635398197448" name="de.pes.metabnf.extended.structure.EBNFConceptExtendsConceptRef" flags="ng" index="WD3k1">
+        <reference id="1581209635398197449" name="ref" index="WD3k0" />
+      </concept>
+      <concept id="1581209635397447671" name="de.pes.metabnf.extended.structure.EBNFConceptExtendsConcept" flags="ng" index="WIVCY">
+        <child id="1581209635397452128" name="extends" index="WIXiD" />
+      </concept>
+      <concept id="1581209635396084534" name="de.pes.metabnf.extended.structure.EBNFAbstractDefinitonTerm" flags="ng" index="WLfrZ" />
       <concept id="5032910278272491642" name="de.pes.metabnf.extended.structure.EBNFIFaceAttributeImplementationRef" flags="ng" index="3f05P1" />
       <concept id="5032910278272154822" name="de.pes.metabnf.extended.structure.ISupportInterfaceImplementation" flags="ngI" index="3f2C7X">
         <child id="5032910278272154824" name="irefs" index="3f2C7N" />
@@ -202,6 +209,44 @@
       <node concept="gX_XH" id="3gySEDtGS9D" role="2YAOa">
         <node concept="3f5gP6" id="3gySEDtGS9L" role="Iv2U_">
           <ref role="3f5gP5" node="3gySEDtGS9H" resolve="IIdent" />
+        </node>
+      </node>
+    </node>
+    <node concept="gNmGs" id="6yiLroY2Wro" role="gNmGt" />
+    <node concept="3f4ZRK" id="6yiLroY2Wrq" role="gNmGt">
+      <property role="TrG5h" value="IIDentTwo" />
+      <node concept="3f3McH" id="6yiLroY2Wrs" role="3f5NQZ">
+        <node concept="3f05P1" id="6yiLroY2Wrt" role="3f2C7N">
+          <ref role="3f0eYx" node="3gySEDtGS9H" resolve="IIdent" />
+        </node>
+      </node>
+    </node>
+    <node concept="gNqHd" id="6yiLroY2Wr$" role="gNmGt">
+      <property role="TrG5h" value="seeInterfaceCalue" />
+      <node concept="3f3McH" id="6yiLroY2WrA" role="3f5NQZ">
+        <node concept="3f05P1" id="6yiLroY2WrB" role="3f2C7N">
+          <ref role="3f0eYx" node="6yiLroY2Wrq" resolve="IIDentTwo" />
+        </node>
+      </node>
+    </node>
+    <node concept="gNmGs" id="6yiLroY6_4A" role="gNmGt" />
+    <node concept="gNqHd" id="6yiLroY6_4P" role="gNmGt">
+      <property role="TrG5h" value="valueList" />
+    </node>
+    <node concept="WLfrZ" id="6yiLroY6_ae" role="gNmGt">
+      <property role="TrG5h" value="baseconcepIF" />
+      <node concept="gXCZ9" id="6yiLroY6_4F" role="2YAOa">
+        <node concept="gKozh" id="6yiLroY6_4Q" role="Iv2U_">
+          <ref role="gKozg" node="6yiLroY6_4P" resolve="valueList" />
+        </node>
+      </node>
+    </node>
+    <node concept="gNmGs" id="6yiLroY6_4S" role="gNmGt" />
+    <node concept="gNqHd" id="6yiLroY6_4W" role="gNmGt">
+      <property role="TrG5h" value="implConceptIF" />
+      <node concept="WIVCY" id="6yiLroY6_4X" role="3f5NQZ">
+        <node concept="WD3k1" id="6yiLroY6_af" role="WIXiD">
+          <ref role="WD3k0" node="6yiLroY6_ae" resolve="baseconcepIF" />
         </node>
       </node>
     </node>
