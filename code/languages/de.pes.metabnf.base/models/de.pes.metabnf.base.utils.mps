@@ -202,7 +202,7 @@
                       <node concept="liA8E" id="7LcVVIO1LRN" role="2OqNvi">
                         <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                         <node concept="37vLTw" id="7LcVVIO1Pi7" role="37wK5m">
-                          <ref role="3cqZAo" node="7LcVVIO1MCP" resolve="childName" />
+                          <ref role="3cqZAo" node="6yiLrp19jJp" resolve="childName" />
                         </node>
                       </node>
                     </node>
@@ -225,16 +225,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="7LcVVIOD$_$" role="3cqZAp" />
-        <node concept="3cpWs8" id="7LcVVIO1c1u" role="3cqZAp">
-          <node concept="3cpWsn" id="7LcVVIO1c1s" role="3cpWs9">
-            <property role="3TUv4t" value="true" />
-            <property role="TrG5h" value="userObjectName" />
-            <node concept="17QB3L" id="7LcVVIO1c1N" role="1tU5fm" />
-            <node concept="37vLTw" id="7LcVVIO2oT6" role="33vP2m">
-              <ref role="3cqZAo" node="7LcVVIO1MCP" resolve="childName" />
-            </node>
-          </node>
-        </node>
         <node concept="3cpWs8" id="7LcVVIOD_Ny" role="3cqZAp">
           <node concept="3cpWsn" id="7LcVVIOD_Nz" role="3cpWs9">
             <property role="TrG5h" value="userObject" />
@@ -255,7 +245,7 @@
               <node concept="liA8E" id="7LcVVIOD_ND" role="2OqNvi">
                 <ref role="37wK5l" to="mhbf:~SNode.getUserObject(java.lang.Object)" resolve="getUserObject" />
                 <node concept="37vLTw" id="7LcVVIOD_NE" role="37wK5m">
-                  <ref role="3cqZAo" node="7LcVVIO1c1s" resolve="userObjectName" />
+                  <ref role="3cqZAo" node="7LcVVIO1MCP" resolve="userObjectName" />
                 </node>
               </node>
             </node>
@@ -305,8 +295,13 @@
       </node>
       <node concept="37vLTG" id="7LcVVIO1MCP" role="3clF46">
         <property role="3TUv4t" value="true" />
-        <property role="TrG5h" value="childName" />
+        <property role="TrG5h" value="userObjectName" />
         <node concept="17QB3L" id="7LcVVIO1NBS" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="6yiLrp19jJp" role="3clF46">
+        <property role="3TUv4t" value="true" />
+        <property role="TrG5h" value="childName" />
+        <node concept="17QB3L" id="6yiLrp19ljZ" role="1tU5fm" />
       </node>
     </node>
     <node concept="2tJIrI" id="7LcVVIPsDCd" role="jymVt" />
@@ -437,7 +432,7 @@
       </node>
       <node concept="37vLTG" id="7LcVVIP$1le" role="3clF46">
         <property role="3TUv4t" value="true" />
-        <property role="TrG5h" value="childName" />
+        <property role="TrG5h" value="userObjectName" />
         <node concept="17QB3L" id="7LcVVIP$1nv" role="1tU5fm" />
       </node>
       <node concept="37vLTG" id="7LcVVIP$1C6" role="3clF46">
