@@ -9,7 +9,6 @@
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
     <import index="kwxp" ref="b4d28e19-7d2d-47e9-943e-3a41f97a0e52/r:4903509f-5416-46ff-9a8b-44b5a178b568(com.mbeddr.mpsutil.plantuml.node/com.mbeddr.mpsutil.plantuml.node.structure)" />
-    <import index="vx0f" ref="r:105f8bd2-defa-49dc-bec4-da777784dea6(de.pes.metabnf.utils.editor)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -376,9 +375,6 @@
     <node concept="PrWs8" id="211WYHDltos" role="PrDN$">
       <ref role="PrY4T" node="211WYHCjlHs" resolve="IVisualizePlantUMLParticipent" />
     </node>
-    <node concept="PrWs8" id="7aaqmzmH_wm" role="PrDN$">
-      <ref role="PrY4T" node="7aaqmzlmc9L" resolve="IBNFEditorReprensentation" />
-    </node>
   </node>
   <node concept="PlHQZ" id="4novjIaNO23">
     <property role="EcuMT" value="5032910278271910019" />
@@ -537,7 +533,7 @@
   <node concept="PlHQZ" id="7aaqmzmRqQF">
     <property role="EcuMT" value="8253525166112222635" />
     <property role="3GE5qa" value="Attributes" />
-    <property role="TrG5h" value="IBNFEditorRepresentationConfig" />
+    <property role="TrG5h" value="IBNFAttributeEditorRepresentationConfig" />
     <node concept="PrWs8" id="7aaqmzorSYp" role="PrDN$">
       <ref role="PrY4T" node="7aaqmzorFAg" resolve="ISupportEditorRepresentation" />
     </node>
