@@ -714,6 +714,11 @@
             <ref role="3bR37D" to="al5i:4mEgncq6XK3" resolve="com.mbeddr.mpsutil.xmlImport" />
           </node>
         </node>
+        <node concept="1SiIV0" id="7ynLH_byFMG" role="3bR37C">
+          <node concept="3bR9La" id="7ynLH_byFMH" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L2l" resolve="jetbrains.mps.baseLanguage.logging" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="7hex6wUv$mQ" role="2G$12L">
         <property role="BnDLt" value="true" />
