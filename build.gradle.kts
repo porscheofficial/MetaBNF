@@ -140,11 +140,18 @@ val dependenciesDownload = tasks.register<Copy>("dependenciesDownload") {
     into("$buildDir/dependencies")
 }
 
+val buildBNFAllScript = tasks.register<BuildLanguages>("buildBNFAllScript") {
+    description = "Builds all script for build all languages."
+    group = TASK_GROUP_BUILD
+    dependsOn(setup)
+    script = file("$rootDir/scripts/buildMetaBNFAll.xml")
+}
+
 val buildBNF = tasks.register<BuildLanguages>("buildBNF") {
     description = "Builds MetaBNF all languages."
     group = TASK_GROUP_BUILD
-    dependsOn(setup)
-    script = file("$rootDir/scripts/buildMetaBNF.xml")
+    dependsOn(buildBNFAllScript)
+    script = file("$buildDir/scripts/buildMetaBNF.xml")
 }
 tasks.named("build"){
     dependsOn(buildBNF)
