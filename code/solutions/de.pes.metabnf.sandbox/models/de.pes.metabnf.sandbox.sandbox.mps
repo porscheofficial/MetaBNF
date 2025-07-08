@@ -8,7 +8,9 @@
     <use id="97ffe80d-dc46-4f8f-8809-6a50ddfc0686" name="de.pes.metabnf.importer.xsd" version="0" />
     <use id="926d63aa-027c-47a4-939e-98f42e63df1a" name="de.pes.metabnf.basic" version="0" />
   </languages>
-  <imports />
+  <imports>
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+  </imports>
   <registry>
     <language id="926d63aa-027c-47a4-939e-98f42e63df1a" name="de.pes.metabnf.basic">
       <concept id="8327407647102502951" name="de.pes.metabnf.basic.structure.IBNFBaseStatementConcept" flags="ngI" index="2YAO5">
@@ -58,6 +60,9 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
+        <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
+      </concept>
       <concept id="1863527487546129879" name="jetbrains.mps.lang.smodel.structure.ModelPointerExpression" flags="ng" index="1Xw6AR">
         <child id="1863527487546132519" name="modelRef" index="1XwpL7" />
       </concept>
@@ -68,6 +73,10 @@
       </concept>
     </language>
     <language id="303ca9b8-0d32-4b0f-bc34-d1ebf972bfac" name="de.pes.metabnf.extended">
+      <concept id="8327407647117080650" name="de.pes.metabnf.extended.structure.IExternalImplements" flags="ngI" index="1Q1PC">
+        <child id="8327407647117080655" name="implements" index="1Q1PH" />
+      </concept>
+      <concept id="8327407647117082945" name="de.pes.metabnf.extended.structure.ExternalImplements" flags="ng" index="1Quhz" />
       <concept id="8327407647096148485" name="de.pes.metabnf.extended.structure.EBNFDefinitionTermAsRoot" flags="ng" index="2AnsB">
         <property id="8327407647096148489" name="asRoot" index="2AnsF" />
       </concept>
@@ -247,6 +256,15 @@
       <node concept="WIVCY" id="6yiLroY6_4X" role="3f5NQZ">
         <node concept="WD3k1" id="6yiLroY6_af" role="WIXiD">
           <ref role="WD3k0" node="6yiLroY6_ae" resolve="baseconcepIF" />
+        </node>
+      </node>
+    </node>
+    <node concept="gNmGs" id="17LkRRaFLRQ" role="gNmGt" />
+    <node concept="3f4ZRK" id="17LkRRaFLRW" role="gNmGt">
+      <property role="TrG5h" value="IInterfaceNamedConcept" />
+      <node concept="1Quhz" id="17LkRRaFSi9" role="3f5NQZ">
+        <node concept="35c_gC" id="17LkRRaFSia" role="1Q1PH">
+          <ref role="35c_gD" to="tpck:h0TrEE$" resolve="INamedConcept" />
         </node>
       </node>
     </node>
