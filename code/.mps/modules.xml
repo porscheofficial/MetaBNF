@@ -9,6 +9,7 @@
       <modulePath path="$PROJECT_DIR$/languages/de.pes.metabnf.importer.xsd/de.pes.metabnf.importer.xsd.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/de.pes.metabnf.sandbox.sample/de.pes.metabnf.sandbox.sample.mpl" folder="de.pes.metabnf.sandbox" />
       <modulePath path="$PROJECT_DIR$/solutions/de.pes.MetaBNF.build/de.pes.MetaBNF.build.msd" folder="build" />
+      <modulePath path="$PROJECT_DIR$/solutions/de.pes.metaBNF.buildAll/de.pes.metaBNF.buildAll.msd" folder="build" />
       <modulePath path="$PROJECT_DIR$/solutions/de.pes.metabnf.sandbox/de.pes.metabnf.sandbox.msd" folder="de.pes.metabnf.sandbox" />
       <modulePath path="$PROJECT_DIR$/solutions/de.pes.metabnf.utils/de.pes.metabnf.utils.msd" folder="" />
     </projectModules>
