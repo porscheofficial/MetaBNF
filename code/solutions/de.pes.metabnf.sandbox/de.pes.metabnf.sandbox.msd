@@ -19,6 +19,7 @@
     <language slang="l:d3a0fd26-445a-466c-900e-10444ddfed52:com.mbeddr.mpsutil.filepicker" version="0" />
     <language slang="l:d09a16fb-1d68-4a92-a5a4-20b4b2f86a62:com.mbeddr.mpsutil.jung" version="0" />
     <language slang="l:b4d28e19-7d2d-47e9-943e-3a41f97a0e52:com.mbeddr.mpsutil.plantuml.node" version="0" />
+    <language slang="l:fcef6129-077e-482d-b29d-d74df3291d94:de.pes.metabnf.base" version="0" />
     <language slang="l:926d63aa-027c-47a4-939e-98f42e63df1a:de.pes.metabnf.basic" version="0" />
     <language slang="l:303ca9b8-0d32-4b0f-bc34-d1ebf972bfac:de.pes.metabnf.extended" version="0" />
     <language slang="l:aba1faaf-a5a0-44ea-8178-aed1dd3e1944:de.pes.metabnf.extended.gen" version="0" />
