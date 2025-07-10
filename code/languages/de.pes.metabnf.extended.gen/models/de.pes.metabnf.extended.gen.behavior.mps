@@ -21680,6 +21680,14 @@
                     <node concept="37vLTw" id="39om$45GwcM" role="37wK5m">
                       <ref role="3cqZAo" node="39om$45Gosx" resolve="editCompName" />
                     </node>
+                    <node concept="2OqwBi" id="1EPqwt0d8st" role="37wK5m">
+                      <node concept="37vLTw" id="1EPqwt0d5HW" role="2Oq$k0">
+                        <ref role="3cqZAo" node="39om$45AgT$" resolve="editor" />
+                      </node>
+                      <node concept="3TrcHB" id="1EPqwt0d9KR" role="2OqNvi">
+                        <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
@@ -22491,6 +22499,14 @@
                 </node>
                 <node concept="37vLTw" id="7LcVVINaCDO" role="37wK5m">
                   <ref role="3cqZAo" node="7LcVVINaCDz" resolve="editCompName" />
+                </node>
+                <node concept="2OqwBi" id="1EPqwt0bzng" role="37wK5m">
+                  <node concept="37vLTw" id="1EPqwt0bt0Y" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7LcVVINaCDr" resolve="editor" />
+                  </node>
+                  <node concept="3TrcHB" id="1EPqwt0b$Fu" role="2OqNvi">
+                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                  </node>
                 </node>
               </node>
             </node>
