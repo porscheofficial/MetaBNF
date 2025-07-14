@@ -8,7 +8,9 @@
     <use id="fcef6129-077e-482d-b29d-d74df3291d94" name="de.pes.metabnf.base" version="0" />
     <use id="926d63aa-027c-47a4-939e-98f42e63df1a" name="de.pes.metabnf.basic" version="0" />
   </languages>
-  <imports />
+  <imports>
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+  </imports>
   <registry>
     <language id="926d63aa-027c-47a4-939e-98f42e63df1a" name="de.pes.metabnf.basic">
       <concept id="8327407647102502951" name="de.pes.metabnf.basic.structure.IBNFBaseStatementConcept" flags="ngI" index="2YAO5">
@@ -49,6 +51,9 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
+        <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
+      </concept>
       <concept id="1863527487546129879" name="jetbrains.mps.lang.smodel.structure.ModelPointerExpression" flags="ng" index="1Xw6AR">
         <child id="1863527487546132519" name="modelRef" index="1XwpL7" />
       </concept>
@@ -59,6 +64,11 @@
       </concept>
     </language>
     <language id="303ca9b8-0d32-4b0f-bc34-d1ebf972bfac" name="de.pes.metabnf.extended">
+      <concept id="8327407647106837872" name="de.pes.metabnf.extended.structure.IImplementsExternalConcepts" flags="ngI" index="2f4xi">
+        <child id="8327407647106839891" name="concept" index="2f51L" />
+        <child id="1924560995156726252" name="representation" index="1qlJJF" />
+      </concept>
+      <concept id="8327407647106839958" name="de.pes.metabnf.extended.structure.ImplementsExternalConcepts" flags="ng" index="2f52O" />
       <concept id="1581209635398197448" name="de.pes.metabnf.extended.structure.EBNFConceptExtendsConceptRef" flags="ng" index="WD3k1">
         <reference id="1581209635398197449" name="ref" index="WD3k0" />
       </concept>
@@ -69,6 +79,7 @@
         <child id="1581209635397452128" name="extends" index="WIXiD" />
       </concept>
       <concept id="1581209635396084534" name="de.pes.metabnf.extended.structure.EBNFAbstractDefinitonTerm" flags="ng" index="WLfrZ" />
+      <concept id="1924560995157474295" name="de.pes.metabnf.extended.structure.EBNFExtendEditorFromProperty" flags="ng" index="1qmT7K" />
     </language>
   </registry>
   <node concept="2UVDsL" id="3gySEDtGS9N">
@@ -115,6 +126,12 @@
         <node concept="WD3k1" id="1EPqwt0xDjD" role="WIXiD">
           <ref role="WD3k0" node="1EPqwt0xDjn" resolve="baseconceptIF" />
         </node>
+      </node>
+      <node concept="2f52O" id="r82NTO6nIa" role="3f5NQZ">
+        <node concept="35c_gC" id="r82NTO6nIc" role="2f51L">
+          <ref role="35c_gD" to="tpck:gw2VY9q" resolve="BaseConcept" />
+        </node>
+        <node concept="1qmT7K" id="r82NTO6nIk" role="1qlJJF" />
       </node>
       <node concept="gXCZ9" id="1EPqwt0xDjE" role="2YAOa">
         <node concept="gKozh" id="1EPqwt0xDjG" role="Iv2U_">
