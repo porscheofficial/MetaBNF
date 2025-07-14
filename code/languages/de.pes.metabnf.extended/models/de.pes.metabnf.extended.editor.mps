@@ -1918,6 +1918,9 @@
         </node>
       </node>
       <node concept="2iRfu4" id="1EPqwt1aCGx" role="2iSdaV" />
+      <node concept="PMmxH" id="r82NTO7XtI" role="3EZMnx">
+        <ref role="PMmxG" node="7ijLAu_LH57" resolve="DummyForGrammarCells" />
+      </node>
     </node>
   </node>
   <node concept="312cEu" id="r82NTMW4_q">
@@ -2312,6 +2315,26 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="r82NTMW4_r" role="1B3o_S" />
+  </node>
+  <node concept="24kQdi" id="r82NTO6nIn">
+    <property role="3GE5qa" value="Attributes.extend.editor" />
+    <ref role="1XX52x" to="gm16:r82NTO6nIl" resolve="EBNFExtendEditorFromComponent" />
+    <node concept="3EZMnI" id="r82NTO6oa1" role="2wV5jI">
+      <node concept="PMmxH" id="r82NTO6oa5" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="3EZMnI" id="r82NTO9v6M" role="3EZMnx">
+        <node concept="VPM3Z" id="r82NTO9v6O" role="3F10Kt" />
+        <node concept="Vb9p2" id="r82NTO9v6V" role="3F10Kt">
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
+        </node>
+        <node concept="3F1sOY" id="r82NTO9v6S" role="3EZMnx">
+          <ref role="1NtTu8" to="gm16:r82NTO7XJ$" resolve="component" />
+        </node>
+        <node concept="2iRfu4" id="r82NTO9v6R" role="2iSdaV" />
+      </node>
+      <node concept="2iRfu4" id="r82NTO6oa4" role="2iSdaV" />
+    </node>
   </node>
 </model>
 

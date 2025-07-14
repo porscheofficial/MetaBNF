@@ -374,6 +374,9 @@
     <node concept="PrWs8" id="7egTi9LFbmn" role="PzmwI">
       <ref role="PrY4T" node="7egTi9LFaPK" resolve="IImplementsExternalConcepts" />
     </node>
+    <node concept="PrWs8" id="r82NTOeiHi" role="PzmwI">
+      <ref role="PrY4T" to="p1cl:7aaqmzlmc9L" resolve="IBNFEditorReprensentation" />
+    </node>
   </node>
   <node concept="1TIwiD" id="T845YrpKWW">
     <property role="EcuMT" value="1029090517669318460" />
@@ -691,6 +694,22 @@
     </node>
     <node concept="PrWs8" id="r82NTNL3u0" role="PzmwI">
       <ref role="PrY4T" node="r82NTNJmvW" resolve="IAbstractConceptDeclarationMembersRef" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="r82NTO6nIl">
+    <property role="EcuMT" value="488652922433403797" />
+    <property role="3GE5qa" value="Attributes.extend.editor" />
+    <property role="TrG5h" value="EBNFExtendEditorFromComponent" />
+    <property role="34LRSv" value="From Editor Component" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="r82NTO6oaq" role="PzmwI">
+      <ref role="PrY4T" node="1EPqwt0ST7H" resolve="IExtendEditorRepresentation" />
+    </node>
+    <node concept="1TJgyj" id="r82NTO7XJ$" role="1TKVEi">
+      <property role="IQ2ns" value="488652922433821668" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="component" />
+      <ref role="20lvS9" to="tpc2:66t_lskdtZC" resolve="EditorComponentDeclarationReference" />
     </node>
   </node>
 </model>
