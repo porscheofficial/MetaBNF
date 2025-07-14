@@ -13,9 +13,9 @@
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="slm6" ref="90746344-04fd-4286-97d5-b46ae6a81709/r:52a3d974-bd4f-4651-ba6e-a2de5e336d95(jetbrains.mps.lang.migration/jetbrains.mps.lang.migration.methods)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
-    <import index="gm16" ref="r:1329ba0c-7632-46ba-9d9e-25ae5ff7e792(de.pes.metabnf.extended.structure)" implicit="true" />
+    <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
+    <import index="gm16" ref="r:1329ba0c-7632-46ba-9d9e-25ae5ff7e792(de.pes.metabnf.extended.structure)" />
     <import index="p1cl" ref="r:8b943911-36fd-4a56-afe7-9288fd5710da(de.pes.metabnf.basic.structure)" implicit="true" />
-    <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -131,14 +131,14 @@
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
+      <concept id="1140725362528" name="jetbrains.mps.lang.smodel.structure.Link_SetTargetOperation" flags="nn" index="2oxUTD">
+        <child id="1140725362529" name="linkTarget" index="2oxUTC" />
+      </concept>
       <concept id="1143226024141" name="jetbrains.mps.lang.smodel.structure.SModelType" flags="in" index="H_c77" />
       <concept id="1171323947159" name="jetbrains.mps.lang.smodel.structure.Model_NodesOperation" flags="nn" index="2SmgA7">
         <child id="1758937410080001570" name="conceptArgument" index="1dBWTz" />
       </concept>
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
-      <concept id="1140131837776" name="jetbrains.mps.lang.smodel.structure.Node_ReplaceWithAnotherOperation" flags="nn" index="1P9Npp">
-        <child id="1140131861877" name="replacementNode" index="1P9ThW" />
-      </concept>
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
       </concept>
@@ -511,12 +511,12 @@
                               <ref role="3Tt5mk" to="gm16:7egTi9LFblj" resolve="concept" />
                             </node>
                           </node>
-                          <node concept="1P9Npp" id="3mLXbOVf4ky" role="2OqNvi">
-                            <node concept="2pJPEk" id="3mLXbOVj8qv" role="1P9ThW">
+                          <node concept="2oxUTD" id="3mLXbOVmONn" role="2OqNvi">
+                            <node concept="2pJPEk" id="3mLXbOVj8qv" role="2oxUTC">
                               <node concept="2pJPED" id="3mLXbOVj8qx" role="2pJPEn">
                                 <ref role="2pJxaS" to="tp25:2iMJRNxweHk" resolve="ConceptIdRefExpression" />
                                 <node concept="2pIpSj" id="3mLXbOVj90K" role="2pJxcM">
-                                  <ref role="2pIpSl" to="tp25:2iMJRNxweHl" resolve="conceptDeclaration" />
+                                  <ref role="2pIpSl" to="tp25:2iMJRNxweHl" />
                                   <node concept="36biLy" id="3mLXbOVj9if" role="28nt2d">
                                     <node concept="2OqwBi" id="3mLXbOVjcoJ" role="36biLW">
                                       <node concept="2OqwBi" id="3mLXbOVj9SY" role="2Oq$k0">
@@ -524,11 +524,11 @@
                                           <ref role="3cqZAo" node="3mLXbOVf0nz" resolve="it" />
                                         </node>
                                         <node concept="3TrEf2" id="3mLXbOVjbE6" role="2OqNvi">
-                                          <ref role="3Tt5mk" to="gm16:7egTi9Mifxf" resolve="implements" />
+                                          <ref role="3Tt5mk" to="gm16:7egTi9Mifxf" />
                                         </node>
                                       </node>
                                       <node concept="3TrEf2" id="3mLXbOVjdDK" role="2OqNvi">
-                                        <ref role="3Tt5mk" to="tp25:2iMJRNxweHl" resolve="conceptDeclaration" />
+                                        <ref role="3Tt5mk" to="tp25:2iMJRNxweHl" />
                                       </node>
                                     </node>
                                   </node>
