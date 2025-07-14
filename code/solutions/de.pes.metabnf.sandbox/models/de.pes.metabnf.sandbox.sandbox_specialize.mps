@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="aba1faaf-a5a0-44ea-8178-aed1dd3e1944" name="de.pes.metabnf.extended.gen" version="1" />
-    <use id="303ca9b8-0d32-4b0f-bc34-d1ebf972bfac" name="de.pes.metabnf.extended" version="1" />
+    <use id="303ca9b8-0d32-4b0f-bc34-d1ebf972bfac" name="de.pes.metabnf.extended" version="2" />
     <use id="97ffe80d-dc46-4f8f-8809-6a50ddfc0686" name="de.pes.metabnf.importer.xsd" version="0" />
     <use id="fcef6129-077e-482d-b29d-d74df3291d94" name="de.pes.metabnf.base" version="0" />
     <use id="926d63aa-027c-47a4-939e-98f42e63df1a" name="de.pes.metabnf.basic" version="0" />
@@ -67,9 +67,6 @@
       </concept>
     </language>
     <language id="303ca9b8-0d32-4b0f-bc34-d1ebf972bfac" name="de.pes.metabnf.extended">
-      <concept id="8327407647117080650" name="de.pes.metabnf.extended.structure.IExternalImplements" flags="ngI" index="1Q1PC">
-        <child id="8327407647117080655" name="implements" index="1Q1PH" />
-      </concept>
       <concept id="8327407647117082945" name="de.pes.metabnf.extended.structure.ExternalImplements" flags="ng" index="1Quhz" />
       <concept id="8327407647106837872" name="de.pes.metabnf.extended.structure.IImplementsExternalConcepts" flags="ngI" index="2f4xi">
         <child id="8327407647106839891" name="concept" index="2f51L" />
@@ -141,10 +138,9 @@
         </node>
       </node>
       <node concept="1Quhz" id="4W7wVq21O_6" role="3f5NQZ">
-        <node concept="35c_gC" id="4W7wVq21O_8" role="2f51L">
+        <node concept="35c_gC" id="3mLXbOVmrXf" role="2f51L">
           <ref role="35c_gD" to="tpck:h0TrEE$" resolve="INamedConcept" />
         </node>
-        <node concept="35c_gC" id="4W7wVq21O_a" role="1Q1PH" />
       </node>
       <node concept="2f52O" id="r82NTO6nIa" role="3f5NQZ">
         <node concept="35c_gC" id="r82NTO6nIc" role="2f51L">
