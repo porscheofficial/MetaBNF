@@ -19,6 +19,9 @@
       <concept id="273424159618034946" name="de.pes.metabnf.basic.structure.BNFDefinitionTermRef" flags="ng" index="gKozh">
         <reference id="273424159618034947" name="ref" index="gKozg" />
       </concept>
+      <concept id="273424159617857978" name="de.pes.metabnf.basic.structure.BNFStringLiteral" flags="ng" index="gKPLD">
+        <property id="273424159617857979" name="value" index="gKPLC" />
+      </concept>
       <concept id="273424159617715919" name="de.pes.metabnf.basic.structure.EmptyLine" flags="ng" index="gNmGs" />
       <concept id="273424159617765022" name="de.pes.metabnf.basic.structure.BNFDefinitionTerm" flags="ng" index="gNqHd" />
       <concept id="273424159617697539" name="de.pes.metabnf.basic.structure.BNFWorkbook" flags="ng" index="gNEbg">
@@ -64,6 +67,7 @@
       </concept>
     </language>
     <language id="303ca9b8-0d32-4b0f-bc34-d1ebf972bfac" name="de.pes.metabnf.extended">
+      <concept id="8327407647117082945" name="de.pes.metabnf.extended.structure.ExternalImplements" flags="ng" index="1Quhz" />
       <concept id="8327407647106837872" name="de.pes.metabnf.extended.structure.IImplementsExternalConcepts" flags="ngI" index="2f4xi">
         <child id="8327407647106839891" name="concept" index="2f51L" />
         <child id="1924560995156726252" name="representation" index="1qlJJF" />
@@ -79,7 +83,13 @@
         <child id="1581209635397452128" name="extends" index="WIXiD" />
       </concept>
       <concept id="1581209635396084534" name="de.pes.metabnf.extended.structure.EBNFAbstractDefinitonTerm" flags="ng" index="WLfrZ" />
-      <concept id="1924560995157474295" name="de.pes.metabnf.extended.structure.EBNFExtendEditorFromProperty" flags="ng" index="1qmT7K" />
+      <concept id="5032910278271664331" name="de.pes.metabnf.extended.structure.EBNFIFaceDefinitionTerm" flags="ng" index="3f4ZRK" />
+      <concept id="1924560995157474295" name="de.pes.metabnf.extended.structure.EBNFExtendEditorFromProperty" flags="ng" index="1qmT7K">
+        <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
+      </concept>
+      <concept id="488652922420892901" name="de.pes.metabnf.extended.structure.PropertyDeclarationRef" flags="ng" index="1P$DZr">
+        <reference id="488652922420892902" name="ref" index="1P$DZo" />
+      </concept>
     </language>
   </registry>
   <node concept="2UVDsL" id="3gySEDtGS9N">
@@ -127,16 +137,43 @@
           <ref role="WD3k0" node="1EPqwt0xDjn" resolve="baseconceptIF" />
         </node>
       </node>
+      <node concept="1Quhz" id="r82NTOAAAB" role="3f5NQZ">
+        <node concept="35c_gC" id="r82NTOAAAD" role="2f51L">
+          <ref role="35c_gD" to="tpck:h0TrEE$" resolve="INamedConcept" />
+        </node>
+        <node concept="1qmT7K" id="r82NTOAAAO" role="1qlJJF">
+          <node concept="1P$DZr" id="r82NTOAAAP" role="1TKVEl">
+            <ref role="1P$DZo" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
       <node concept="2f52O" id="r82NTO6nIa" role="3f5NQZ">
         <node concept="35c_gC" id="r82NTO6nIc" role="2f51L">
           <ref role="35c_gD" to="tpck:gw2VY9q" resolve="BaseConcept" />
         </node>
-        <node concept="1qmT7K" id="r82NTO6nIk" role="1qlJJF" />
+        <node concept="1qmT7K" id="r82NTO6nIk" role="1qlJJF">
+          <node concept="1P$DZr" id="r82NTOk3L5" role="1TKVEl">
+            <ref role="1P$DZo" to="tpck:gOOYnlO" resolve="shortDescription" />
+          </node>
+        </node>
       </node>
       <node concept="gXCZ9" id="1EPqwt0xDjE" role="2YAOa">
         <node concept="gKozh" id="1EPqwt0xDjG" role="Iv2U_">
           <ref role="gKozg" node="1EPqwt0xDjx" resolve="valueListSpecial" />
         </node>
+      </node>
+    </node>
+    <node concept="gNmGs" id="r82NTOijVk" role="gNmGt" />
+    <node concept="3f4ZRK" id="r82NTOijVm" role="gNmGt">
+      <property role="TrG5h" value="MyInterface" />
+      <node concept="gKPLD" id="r82NTOziCt" role="2YAOa">
+        <property role="gKPLC" value="va" />
+      </node>
+      <node concept="1Quhz" id="r82NTOziD0" role="3f5NQZ">
+        <node concept="35c_gC" id="r82NTOziD1" role="2f51L">
+          <ref role="35c_gD" to="tpck:h0TrEE$" resolve="INamedConcept" />
+        </node>
+        <node concept="1qmT7K" id="r82NTOziD8" role="1qlJJF" />
       </node>
     </node>
   </node>
