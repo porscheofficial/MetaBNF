@@ -518,7 +518,10 @@
     <property role="R4oN_" value="Define implements for External Concepts" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7egTi9Mig52" role="PzmwI">
-      <ref role="PrY4T" node="7egTi9Mifxa" resolve="IExternalImplements" />
+      <ref role="PrY4T" node="7egTi9LFaPK" resolve="IImplementsExternalConcepts" />
+    </node>
+    <node concept="PrWs8" id="r82NTOipuI" role="PzmwI">
+      <ref role="PrY4T" to="p1cl:7aaqmzlmc9L" resolve="IBNFEditorReprensentation" />
     </node>
   </node>
   <node concept="1TIwiD" id="7egTi9L2p85">
