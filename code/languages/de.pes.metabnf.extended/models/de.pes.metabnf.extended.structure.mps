@@ -521,6 +521,9 @@
     <node concept="PrWs8" id="7egTi9Mig52" role="PzmwI">
       <ref role="PrY4T" node="7egTi9LFaPK" resolve="IImplementsExternalConcepts" />
     </node>
+    <node concept="PrWs8" id="r82NTOFapO" role="PzmwI">
+      <ref role="PrY4T" node="7egTi9Mifxa" resolve="IExternalImplements" />
+    </node>
     <node concept="PrWs8" id="r82NTOipuI" role="PzmwI">
       <ref role="PrY4T" to="p1cl:7aaqmzlmc9L" resolve="IBNFEditorReprensentation" />
     </node>
