@@ -73,6 +73,12 @@
         <child id="1924560995156726252" name="representation" index="1qlJJF" />
       </concept>
       <concept id="8327407647106839958" name="de.pes.metabnf.extended.structure.ImplementsExternalConcepts" flags="ng" index="2f52O" />
+      <concept id="1925855837428649371" name="de.pes.metabnf.extended.structure.EBNFExtendSpecializeExpressionRef" flags="ng" index="GdwSP">
+        <reference id="1925855837428662871" name="ref" index="Gd$7T" />
+      </concept>
+      <concept id="1925855837427942719" name="de.pes.metabnf.extended.structure.EBNFAttributePopertySpecialize" flags="ng" index="GeOqh">
+        <child id="1925855837427943689" name="specialize" index="GeOEB" />
+      </concept>
       <concept id="1581209635398197448" name="de.pes.metabnf.extended.structure.EBNFConceptExtendsConceptRef" flags="ng" index="WD3k1">
         <reference id="1581209635398197449" name="ref" index="WD3k0" />
       </concept>
@@ -155,6 +161,11 @@
       <node concept="gXCZ9" id="1EPqwt0xDjE" role="2YAOa">
         <node concept="gKozh" id="1EPqwt0xDjG" role="Iv2U_">
           <ref role="gKozg" node="1EPqwt0xDjx" resolve="valueListSpecial" />
+          <node concept="GeOqh" id="3mLXbOVosxQ" role="3f5NQZ">
+            <node concept="GdwSP" id="3mLXbOVosxR" role="GeOEB">
+              <ref role="Gd$7T" node="1EPqwt0xDjr" />
+            </node>
+          </node>
         </node>
       </node>
     </node>
