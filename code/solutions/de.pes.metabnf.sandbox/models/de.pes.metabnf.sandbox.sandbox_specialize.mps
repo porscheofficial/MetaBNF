@@ -20,6 +20,11 @@
       <concept id="273424159618034946" name="de.pes.metabnf.basic.structure.BNFDefinitionTermRef" flags="ng" index="gKozh">
         <reference id="273424159618034947" name="ref" index="gKozg" />
       </concept>
+      <concept id="273424159617961299" name="de.pes.metabnf.basic.structure.BNFBinaryExpression" flags="ng" index="gKEy0">
+        <child id="273424159617961307" name="rvalue" index="gKEy8" />
+        <child id="273424159617961306" name="lvalue" index="gKEy9" />
+      </concept>
+      <concept id="273424159617961297" name="de.pes.metabnf.basic.structure.CommaExpression" flags="ng" index="gKEy2" />
       <concept id="273424159617857978" name="de.pes.metabnf.basic.structure.BNFStringLiteral" flags="ng" index="gKPLD">
         <property id="273424159617857979" name="value" index="gKPLC" />
       </concept>
@@ -28,6 +33,7 @@
       <concept id="273424159617697539" name="de.pes.metabnf.basic.structure.BNFWorkbook" flags="ng" index="gNEbg">
         <child id="273424159617715918" name="content" index="gNmGt" />
       </concept>
+      <concept id="273424159621331646" name="de.pes.metabnf.basic.structure.OptionalTermRef" flags="ng" index="gX_XH" />
       <concept id="273424159621376538" name="de.pes.metabnf.basic.structure.ListTermDefinitions" flags="ng" index="gXCZ9" />
       <concept id="1925855837437753080" name="de.pes.metabnf.basic.structure.IBNFGroupElements" flags="ngI" index="HFflm">
         <child id="2968083471245569684" name="expr" index="Iv2U_" />
@@ -74,6 +80,9 @@
         <child id="1924560995156726252" name="representation" index="1qlJJF" />
       </concept>
       <concept id="8327407647106839958" name="de.pes.metabnf.extended.structure.ImplementsExternalConcepts" flags="ng" index="2f52O" />
+      <concept id="8327407647096148485" name="de.pes.metabnf.extended.structure.EBNFDefinitionTermAsRoot" flags="ng" index="2AnsB">
+        <property id="8327407647096148489" name="asRoot" index="2AnsF" />
+      </concept>
       <concept id="1925855837428649371" name="de.pes.metabnf.extended.structure.EBNFExtendSpecializeExpressionRef" flags="ng" index="GdwSP">
         <reference id="1925855837428662871" name="ref" index="Gd$7T" />
       </concept>
@@ -117,8 +126,23 @@
   </node>
   <node concept="gNEbg" id="1EPqwt0xDjj">
     <property role="TrG5h" value="ExtendAndSpecialize" />
+    <node concept="gNqHd" id="4wkf$gP9$qw" role="gNmGt">
+      <property role="TrG5h" value="RootConceptSpecial" />
+      <node concept="2AnsB" id="4wkf$gP9$qx" role="3f5NQZ">
+        <property role="2AnsF" value="true" />
+      </node>
+      <node concept="gX_XH" id="4wkf$gPas2d" role="2YAOa">
+        <node concept="gKozh" id="4wkf$gP9$qy" role="Iv2U_">
+          <ref role="gKozg" node="3mLXbOVoxjC" resolve="baseImplSpecialize" />
+        </node>
+      </node>
+    </node>
+    <node concept="gNmGs" id="4wkf$gP9$qt" role="gNmGt" />
     <node concept="gNqHd" id="1EPqwt0xDjl" role="gNmGt">
       <property role="TrG5h" value="valueList" />
+      <node concept="gKPLD" id="4wkf$gP9$q_" role="2YAOa">
+        <property role="gKPLC" value="vl" />
+      </node>
     </node>
     <node concept="WLfrZ" id="1EPqwt0xDjn" role="gNmGt">
       <property role="TrG5h" value="baseconceptIF" />
@@ -135,6 +159,9 @@
         <node concept="WEpBI" id="1EPqwt0xDjz" role="WIXiD">
           <ref role="3ixok" node="1EPqwt0xDjl" resolve="valueList" />
         </node>
+      </node>
+      <node concept="gKPLD" id="4wkf$gP9$q$" role="2YAOa">
+        <property role="gKPLC" value="vls" />
       </node>
     </node>
     <node concept="gNqHd" id="1EPqwt0xDjB" role="gNmGt">
@@ -181,6 +208,41 @@
           <ref role="35c_gD" to="tpck:h0TrEE$" resolve="INamedConcept" />
         </node>
         <node concept="1qmT7K" id="r82NTOziD8" role="1qlJJF" />
+      </node>
+    </node>
+    <node concept="gNmGs" id="3mLXbOVoxj$" role="gNmGt" />
+    <node concept="gNqHd" id="3mLXbOVoxjG" role="gNmGt">
+      <property role="TrG5h" value="valueListSpecialSpecial" />
+      <node concept="WIVCY" id="3mLXbOVoxjH" role="3f5NQZ">
+        <node concept="WEpBI" id="3mLXbOVoxjI" role="WIXiD">
+          <ref role="3ixok" node="1EPqwt0xDjx" resolve="valueListSpecial" />
+        </node>
+      </node>
+      <node concept="gKPLD" id="4wkf$gP9$qz" role="2YAOa">
+        <property role="gKPLC" value="vlss" />
+      </node>
+    </node>
+    <node concept="gNqHd" id="3mLXbOVoxjC" role="gNmGt">
+      <property role="TrG5h" value="baseImplSpecialize" />
+      <node concept="gKEy2" id="4wkf$gPa8ng" role="2YAOa">
+        <node concept="gXCZ9" id="3mLXbOVoxjJ" role="gKEy9">
+          <node concept="gKozh" id="3mLXbOVoxjL" role="Iv2U_">
+            <ref role="gKozg" node="3mLXbOVoxjG" resolve="valueListSpecialSpecial" />
+            <node concept="GeOqh" id="3mLXbOVoxjP" role="3f5NQZ">
+              <node concept="GdwSP" id="3mLXbOVoxjQ" role="GeOEB">
+                <ref role="Gd$7T" node="1EPqwt0xDjG" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="gKPLD" id="4wkf$gPa8nk" role="gKEy8">
+          <property role="gKPLC" value="Vvvv" />
+        </node>
+      </node>
+      <node concept="WIVCY" id="3mLXbOVoxjN" role="3f5NQZ">
+        <node concept="WEpBI" id="3mLXbOVoxjO" role="WIXiD">
+          <ref role="3ixok" node="1EPqwt0xDjB" resolve="baseImpl" />
+        </node>
       </node>
     </node>
   </node>

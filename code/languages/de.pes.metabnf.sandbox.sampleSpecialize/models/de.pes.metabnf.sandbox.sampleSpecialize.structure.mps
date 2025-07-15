@@ -30,6 +30,7 @@
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
+        <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
         <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
@@ -63,7 +64,7 @@
     <property role="EcuMT" value="1924560995150867378" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="2XvFd8" id="3mLXbOVosyg" role="lGtFl">
+    <node concept="2XvFd8" id="4wkf$gPas2A" role="lGtFl">
       <property role="TrG5h" value="de.pes.metabnf.sandbox.sandbox_specialize:baseconceptIF" />
       <property role="2ZG9b7" value="http://127.0.0.1:63320/node?ref=r%3Aae469fea-ac40-4cdc-ae05-800b992889d3%28de.pes.metabnf.sandbox.sandbox_specialize%29%2F1924560995150632151" />
     </node>
@@ -82,9 +83,14 @@
     <property role="3GE5qa" value="ExtendAndSpecialize" />
     <property role="EcuMT" value="1924560995150867380" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="2XvFd8" id="3mLXbOVosyd" role="lGtFl">
+    <node concept="2XvFd8" id="4wkf$gPas2C" role="lGtFl">
       <property role="TrG5h" value="de.pes.metabnf.sandbox.sandbox_specialize:valueList" />
       <property role="2ZG9b7" value="http://127.0.0.1:63320/node?ref=r%3Aae469fea-ac40-4cdc-ae05-800b992889d3%28de.pes.metabnf.sandbox.sandbox_specialize%29%2F1924560995150632149" />
+    </node>
+    <node concept="1TJgyi" id="4wkf$gP9$qY" role="1TKVEl">
+      <property role="TrG5h" value="vl" />
+      <property role="IQ2nx" value="5193844732935423678" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" />
     </node>
   </node>
   <node concept="1TIwiD" id="1EPqwt0yyIQ">
@@ -93,9 +99,14 @@
     <property role="3GE5qa" value="ExtendAndSpecialize" />
     <property role="EcuMT" value="1924560995150867382" />
     <ref role="1TJDcQ" node="1EPqwt0yyIO" resolve="valueList" />
-    <node concept="2XvFd8" id="3mLXbOVosye" role="lGtFl">
+    <node concept="2XvFd8" id="4wkf$gPas2D" role="lGtFl">
       <property role="TrG5h" value="de.pes.metabnf.sandbox.sandbox_specialize:valueListSpecial" />
       <property role="2ZG9b7" value="http://127.0.0.1:63320/node?ref=r%3Aae469fea-ac40-4cdc-ae05-800b992889d3%28de.pes.metabnf.sandbox.sandbox_specialize%29%2F1924560995150632161" />
+    </node>
+    <node concept="1TJgyi" id="4wkf$gP9$qZ" role="1TKVEl">
+      <property role="TrG5h" value="vls" />
+      <property role="IQ2nx" value="5193844732935423679" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" />
     </node>
   </node>
   <node concept="1TIwiD" id="1EPqwt0yyIS">
@@ -104,7 +115,7 @@
     <property role="3GE5qa" value="ExtendAndSpecialize" />
     <property role="EcuMT" value="1924560995150867384" />
     <ref role="1TJDcQ" node="1EPqwt0yyIM" resolve="baseconceptIF" />
-    <node concept="2XvFd8" id="3mLXbOVosyf" role="lGtFl">
+    <node concept="2XvFd8" id="4wkf$gPas2E" role="lGtFl">
       <property role="TrG5h" value="de.pes.metabnf.sandbox.sandbox_specialize:baseImpl" />
       <property role="2ZG9b7" value="http://127.0.0.1:63320/node?ref=r%3Aae469fea-ac40-4cdc-ae05-800b992889d3%28de.pes.metabnf.sandbox.sandbox_specialize%29%2F1924560995150632167" />
     </node>
@@ -117,7 +128,7 @@
       <ref role="20lvS9" node="1EPqwt0yyIQ" resolve="valueListSpecial" />
       <ref role="20ksaX" node="1EPqwt0yyIU" resolve="valueList" />
     </node>
-    <node concept="PrWs8" id="3mLXbOVosyj" role="PzmwI">
+    <node concept="PrWs8" id="4wkf$gPas2N" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
@@ -125,7 +136,7 @@
     <property role="TrG5h" value="MyInterface" />
     <property role="3GE5qa" value="ExtendAndSpecialize" />
     <property role="EcuMT" value="488652922441883360" />
-    <node concept="2XvFd8" id="3mLXbOVosyc" role="lGtFl">
+    <node concept="2XvFd8" id="4wkf$gPas2_" role="lGtFl">
       <property role="TrG5h" value="de.pes.metabnf.sandbox.sandbox_specialize:MyInterface" />
       <property role="2ZG9b7" value="http://127.0.0.1:63320/node?ref=r%3Aae469fea-ac40-4cdc-ae05-800b992889d3%28de.pes.metabnf.sandbox.sandbox_specialize%29%2F488652922436533974" />
     </node>
@@ -134,8 +145,68 @@
       <property role="IQ2nx" value="488652922441883366" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" />
     </node>
-    <node concept="PrWs8" id="3mLXbOVosyi" role="PrDN$">
+    <node concept="PrWs8" id="4wkf$gPas2I" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3mLXbOVoxk3">
+    <property role="TrG5h" value="valueListSpecialSpecial" />
+    <property role="34LRSv" value="valueListSpecialSpecial" />
+    <property role="3GE5qa" value="ExtendAndSpecialize" />
+    <property role="EcuMT" value="3869142648470246659" />
+    <ref role="1TJDcQ" node="1EPqwt0yyIQ" resolve="valueListSpecial" />
+    <node concept="2XvFd8" id="4wkf$gPas2F" role="lGtFl">
+      <property role="TrG5h" value="de.pes.metabnf.sandbox.sandbox_specialize:valueListSpecialSpecial" />
+      <property role="2ZG9b7" value="http://127.0.0.1:63320/node?ref=r%3Aae469fea-ac40-4cdc-ae05-800b992889d3%28de.pes.metabnf.sandbox.sandbox_specialize%29%2F3869142648470246636" />
+    </node>
+    <node concept="1TJgyi" id="4wkf$gP9$r2" role="1TKVEl">
+      <property role="TrG5h" value="vlss" />
+      <property role="IQ2nx" value="5193844732935423682" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3mLXbOVoxk5">
+    <property role="TrG5h" value="baseImplSpecialize" />
+    <property role="34LRSv" value="baseImplSpecialize" />
+    <property role="3GE5qa" value="ExtendAndSpecialize" />
+    <property role="EcuMT" value="3869142648470246661" />
+    <ref role="1TJDcQ" node="1EPqwt0yyIS" resolve="baseImpl" />
+    <node concept="2XvFd8" id="4wkf$gPas2G" role="lGtFl">
+      <property role="TrG5h" value="de.pes.metabnf.sandbox.sandbox_specialize:baseImplSpecialize" />
+      <property role="2ZG9b7" value="http://127.0.0.1:63320/node?ref=r%3Aae469fea-ac40-4cdc-ae05-800b992889d3%28de.pes.metabnf.sandbox.sandbox_specialize%29%2F3869142648470246632" />
+    </node>
+    <node concept="1TJgyj" id="3mLXbOVoxkc" role="1TKVEi">
+      <property role="TrG5h" value="valueListSpecialSpecial" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <property role="20kJfa" value="valueListSpecialSpecial" />
+      <property role="IQ2ns" value="3869142648470246668" />
+      <ref role="20lvS9" node="3mLXbOVoxk3" resolve="valueListSpecialSpecial" />
+      <ref role="20ksaX" node="1EPqwt0yyIV" resolve="valueListSpecial" />
+    </node>
+    <node concept="1TJgyi" id="4wkf$gPa8nY" role="1TKVEl">
+      <property role="TrG5h" value="Vvvv" />
+      <property role="IQ2nx" value="5193844732935570942" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4wkf$gP9FqK">
+    <property role="TrG5h" value="RootConceptSpecial" />
+    <property role="34LRSv" value="RootConceptSpecial" />
+    <property role="3GE5qa" value="ExtendAndSpecialize" />
+    <property role="EcuMT" value="5193844732935452336" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="2XvFd8" id="4wkf$gPas2B" role="lGtFl">
+      <property role="TrG5h" value="de.pes.metabnf.sandbox.sandbox_specialize:RootConceptSpecial" />
+      <property role="2ZG9b7" value="http://127.0.0.1:63320/node?ref=r%3Aae469fea-ac40-4cdc-ae05-800b992889d3%28de.pes.metabnf.sandbox.sandbox_specialize%29%2F5193844732935423648" />
+    </node>
+    <node concept="1TJgyj" id="4wkf$gP9FqU" role="1TKVEi">
+      <property role="TrG5h" value="baseImplSpecialize" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="baseImplSpecialize" />
+      <property role="IQ2ns" value="5193844732935452346" />
+      <ref role="20lvS9" node="3mLXbOVoxk5" resolve="baseImplSpecialize" />
     </node>
   </node>
 </model>

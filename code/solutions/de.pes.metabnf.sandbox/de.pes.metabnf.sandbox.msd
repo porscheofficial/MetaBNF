@@ -25,6 +25,7 @@
     <language slang="l:aba1faaf-a5a0-44ea-8178-aed1dd3e1944:de.pes.metabnf.extended.gen" version="0" />
     <language slang="l:97ffe80d-dc46-4f8f-8809-6a50ddfc0686:de.pes.metabnf.importer.xsd" version="0" />
     <language slang="l:f8634ac8-e358-4fe1-bbe2-4240dda0ce40:de.pes.metabnf.sandbox.sample" version="0" />
+    <language slang="l:932cbcf5-4679-4210-818a-ca1d19c6f288:de.pes.metabnf.sandbox.sampleSpecialize" version="0" />
     <language slang="l:92d2ea16-5a42-4fdf-a676-c7604efe3504:de.slisson.mps.richtext" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="12" />
     <language slang="l:443f4c36-fcf5-4eb6-9500-8d06ed259e3e:jetbrains.mps.baseLanguage.classifiers" version="0" />

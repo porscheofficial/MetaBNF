@@ -3,9 +3,20 @@
   <persistence version="9" />
   <languages>
     <use id="f8634ac8-e358-4fe1-bbe2-4240dda0ce40" name="de.pes.metabnf.sandbox.sample" version="0" />
+    <use id="932cbcf5-4679-4210-818a-ca1d19c6f288" name="de.pes.metabnf.sandbox.sampleSpecialize" version="0" />
   </languages>
   <imports />
   <registry>
+    <language id="932cbcf5-4679-4210-818a-ca1d19c6f288" name="de.pes.metabnf.sandbox.sampleSpecialize">
+      <concept id="3869142648470246661" name="de.pes.metabnf.sandbox.sampleSpecialize.structure.baseImplSpecialize" flags="ng" index="eOY6S" />
+      <concept id="3869142648470246659" name="de.pes.metabnf.sandbox.sampleSpecialize.structure.valueListSpecialSpecial" flags="ng" index="eOY6Y" />
+      <concept id="1924560995150867378" name="de.pes.metabnf.sandbox.sampleSpecialize.structure.baseconceptIF" flags="ng" index="1qfO6P">
+        <child id="1924560995150867386" name="valueList" index="1qfO6X" />
+      </concept>
+      <concept id="5193844732935452336" name="de.pes.metabnf.sandbox.sampleSpecialize.structure.RootConceptSpecial" flags="ng" index="1XcCzO">
+        <child id="5193844732935452346" name="baseImplSpecialize" index="1XcCzY" />
+      </concept>
+    </language>
     <language id="f8634ac8-e358-4fe1-bbe2-4240dda0ce40" name="de.pes.metabnf.sandbox.sample">
       <concept id="8956797348379922927" name="de.pes.metabnf.sandbox.sample.structure.SimpleTerm" flags="ng" index="3f57Tk" />
       <concept id="3756814260526381539" name="de.pes.metabnf.sandbox.sample.structure.IdentifierDef" flags="ng" index="1DUhH9" />
@@ -29,6 +40,11 @@
         <node concept="3f57Tk" id="6yiLrp5LSpP" role="3f53J3" />
         <node concept="1DUhH9" id="6yiLrp5LSpQ" role="1DUhH3" />
       </node>
+    </node>
+  </node>
+  <node concept="1XcCzO" id="4wkf$gP9Mqb">
+    <node concept="eOY6S" id="4wkf$gPazLQ" role="1XcCzY">
+      <node concept="eOY6Y" id="4wkf$gPazLS" role="1qfO6X" />
     </node>
   </node>
 </model>
