@@ -368,7 +368,7 @@
     <property role="EcuMT" value="8327407647106839958" />
     <property role="3GE5qa" value="Attributes.Interface" />
     <property role="TrG5h" value="ImplementsExternalConcepts" />
-    <property role="34LRSv" value="External Extend" />
+    <property role="34LRSv" value="External Extend Concept" />
     <property role="R4oN_" value="Extends or implements external Concepts or Interfaces" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7egTi9LFbmn" role="PzmwI">
@@ -515,8 +515,8 @@
     <property role="EcuMT" value="8327407647117082945" />
     <property role="3GE5qa" value="Attributes.extend" />
     <property role="TrG5h" value="ExternalImplements" />
-    <property role="34LRSv" value="External Implements" />
-    <property role="R4oN_" value="Define implements for External Concepts" />
+    <property role="34LRSv" value="External Implements Interface" />
+    <property role="R4oN_" value="Define implements for External Interfaces" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7egTi9Mig52" role="PzmwI">
       <ref role="PrY4T" node="7egTi9LFaPK" resolve="IImplementsExternalConcepts" />
