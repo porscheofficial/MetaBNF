@@ -21659,11 +21659,11 @@
               <node concept="3cpWsn" id="39om$45BwX3" role="3cpWs9">
                 <property role="TrG5h" value="editorComponent" />
                 <node concept="3Tqbb2" id="39om$45BvR_" role="1tU5fm">
-                  <ref role="ehGHo" to="tpc2:fGPKFH7" resolve="EditorComponentDeclaration" />
+                  <ref role="ehGHo" to="tpc2:fIwURLg" resolve="BaseEditorComponent" />
                 </node>
                 <node concept="1PxgMI" id="39om$45BwX4" role="33vP2m">
                   <node concept="chp4Y" id="39om$45BwX5" role="3oSUPX">
-                    <ref role="cht4Q" to="tpc2:fGPKFH7" resolve="EditorComponentDeclaration" />
+                    <ref role="cht4Q" to="tpc2:fIwURLg" resolve="BaseEditorComponent" />
                   </node>
                   <node concept="2YIFZM" id="39om$45BwX6" role="1m5AlR">
                     <ref role="37wK5l" to="ms2z:39om$45Aque" resolve="getEditorDeclarationFromModel" />
@@ -21675,7 +21675,7 @@
                       <node concept="I4A8Y" id="39om$45BwX9" role="2OqNvi" />
                     </node>
                     <node concept="35c_gC" id="39om$45BwXa" role="37wK5m">
-                      <ref role="35c_gD" to="tpc2:fGPKFH7" resolve="EditorComponentDeclaration" />
+                      <ref role="35c_gD" to="tpc2:fIwURLg" resolve="BaseEditorComponent" />
                     </node>
                     <node concept="37vLTw" id="39om$45GwcM" role="37wK5m">
                       <ref role="3cqZAo" node="39om$45Gosx" resolve="editCompName" />

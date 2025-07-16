@@ -176,6 +176,7 @@
       <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
         <child id="1145404616321" name="leftExpression" index="2JrQYb" />
       </concept>
+      <concept id="1212008292747" name="jetbrains.mps.lang.smodel.structure.Model_GetLongNameOperation" flags="nn" index="LkI2h" />
       <concept id="1181949435690" name="jetbrains.mps.lang.smodel.structure.Concept_NewInstance" flags="nn" index="LFhST" />
       <concept id="1171323947159" name="jetbrains.mps.lang.smodel.structure.Model_NodesOperation" flags="nn" index="2SmgA7">
         <child id="1758937410080001570" name="conceptArgument" index="1dBWTz" />
@@ -495,7 +496,50 @@
     <node concept="2YIFZL" id="39om$45Aque" role="jymVt">
       <property role="TrG5h" value="getEditorDeclarationFromModel" />
       <node concept="3clFbS" id="39om$45Aquh" role="3clF47">
-        <node concept="3clFbH" id="1EPqwt06Lbi" role="3cqZAp" />
+        <node concept="2xdQw9" id="3L$HXb6wKwF" role="3cqZAp">
+          <node concept="3cpWs3" id="3L$HXb6B0Eb" role="9lYJi">
+            <node concept="37vLTw" id="3L$HXb6B2OO" role="3uHU7w">
+              <ref role="3cqZAo" node="39om$45AsB1" resolve="concept" />
+            </node>
+            <node concept="3cpWs3" id="3L$HXb6AP3f" role="3uHU7B">
+              <node concept="3cpWs3" id="3L$HXb6x4bj" role="3uHU7B">
+                <node concept="3cpWs3" id="3L$HXb6wYo5" role="3uHU7B">
+                  <node concept="3cpWs3" id="3L$HXb6wSE9" role="3uHU7B">
+                    <node concept="Xl_RD" id="3L$HXb6wKwH" role="3uHU7B">
+                      <property role="Xl_RC" value="getEditorDeclarationFromModel: " />
+                    </node>
+                    <node concept="37vLTw" id="3L$HXb6wUMz" role="3uHU7w">
+                      <ref role="3cqZAo" node="39om$45AtPY" resolve="conceptName" />
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="3L$HXb6x0kB" role="3uHU7w">
+                    <property role="Xl_RC" value=" | " />
+                  </node>
+                </node>
+                <node concept="37vLTw" id="3L$HXb6x6Dq" role="3uHU7w">
+                  <ref role="3cqZAo" node="1EPqwt05cqh" resolve="editCompName" />
+                </node>
+              </node>
+              <node concept="Xl_RD" id="3L$HXb6ARLK" role="3uHU7w">
+                <property role="Xl_RC" value=" | CN: " />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2xdQw9" id="3L$HXb6xwsp" role="3cqZAp">
+          <node concept="3cpWs3" id="3L$HXb6xGhK" role="9lYJi">
+            <node concept="2OqwBi" id="3L$HXb6xL8j" role="3uHU7w">
+              <node concept="37vLTw" id="3L$HXb6xJ43" role="2Oq$k0">
+                <ref role="3cqZAo" node="39om$45As52" resolve="model" />
+              </node>
+              <node concept="LkI2h" id="3L$HXb6xN$x" role="2OqNvi" />
+            </node>
+            <node concept="Xl_RD" id="3L$HXb6xwsr" role="3uHU7B">
+              <property role="Xl_RC" value="getEditorDeclarationFromModel[MODEL]: " />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3L$HXb6xPvM" role="3cqZAp" />
         <node concept="3cpWs8" id="39om$45AwgO" role="3cqZAp">
           <node concept="3cpWsn" id="39om$45AwgP" role="3cpWs9">
             <property role="TrG5h" value="nodeEditor" />
@@ -585,10 +629,10 @@
                                 </node>
                                 <node concept="17RvpY" id="1EPqwt0fGkN" role="2OqNvi" />
                               </node>
-                              <node concept="9aQIb" id="1EPqwt0fLAH" role="9aQIa">
-                                <node concept="3clFbS" id="1EPqwt0fLAI" role="9aQI4">
-                                  <node concept="3cpWs6" id="1EPqwt0fOwn" role="3cqZAp">
-                                    <node concept="3clFbT" id="1EPqwt0fQtQ" role="3cqZAk">
+                              <node concept="9aQIb" id="3L$HXb6$Yc5" role="9aQIa">
+                                <node concept="3clFbS" id="3L$HXb6$Yc6" role="9aQI4">
+                                  <node concept="3cpWs6" id="3L$HXb6_195" role="3cqZAp">
+                                    <node concept="3clFbT" id="3L$HXb6_3hA" role="3cqZAk">
                                       <property role="3clFbU" value="true" />
                                     </node>
                                   </node>
