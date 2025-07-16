@@ -11,6 +11,7 @@
   </languages>
   <imports>
     <import index="twk0" ref="r:462b491e-94cc-40fb-886b-c1bdb87f8f48(de.pes.metabnf.sandbox.sample.editor)" />
+    <import index="r45r" ref="r:aa10b937-6663-4fbb-a477-bb95e5211cd6(de.pes.metabnf.sandbox.sandbox)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -100,6 +101,14 @@
         <child id="1581209635397452128" name="extends" index="WIXiD" />
       </concept>
       <concept id="1581209635396084534" name="de.pes.metabnf.extended.structure.EBNFAbstractDefinitonTerm" flags="ng" index="WLfrZ" />
+      <concept id="5032910278272491642" name="de.pes.metabnf.extended.structure.EBNFIFaceAttributeImplementationRef" flags="ng" index="3f05P1" />
+      <concept id="5032910278272154822" name="de.pes.metabnf.extended.structure.ISupportInterfaceImplementation" flags="ngI" index="3f2C7X">
+        <child id="5032910278272154824" name="irefs" index="3f2C7N" />
+      </concept>
+      <concept id="5032910278272226870" name="de.pes.metabnf.extended.structure.IInterfaceImplementation" flags="ngI" index="3f36Gd">
+        <reference id="5032910278272520858" name="ref" index="3f0eYx" />
+      </concept>
+      <concept id="5032910278272441878" name="de.pes.metabnf.extended.structure.InterfaceImplementation" flags="ng" index="3f3McH" />
       <concept id="5032910278271664331" name="de.pes.metabnf.extended.structure.EBNFIFaceDefinitionTerm" flags="ng" index="3f4ZRK" />
       <concept id="1924560995157474295" name="de.pes.metabnf.extended.structure.EBNFExtendEditorFromProperty" flags="ng" index="1qmT7K">
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
@@ -249,6 +258,11 @@
     <node concept="gNmGs" id="3L$HXb6w_s5" role="gNmGt" />
     <node concept="3f4ZRK" id="3L$HXb6w_s7" role="gNmGt">
       <property role="TrG5h" value="IFaceEmpty" />
+      <node concept="3f3McH" id="3L$HXb7x$dY" role="3f5NQZ">
+        <node concept="3f05P1" id="3L$HXb7x$f2" role="3f2C7N">
+          <ref role="3f0eYx" to="r45r:6yiLroY2Wrq" resolve="IIDentTwo" />
+        </node>
+      </node>
       <node concept="1Quhz" id="3L$HXb6wBqO" role="3f5NQZ">
         <node concept="35c_gC" id="3L$HXb6wBqP" role="2f51L">
           <ref role="35c_gD" to="tpck:h0TrEE$" resolve="INamedConcept" />

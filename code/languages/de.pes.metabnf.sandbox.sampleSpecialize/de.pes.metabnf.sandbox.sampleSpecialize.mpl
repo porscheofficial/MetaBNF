@@ -56,6 +56,7 @@
   </generators>
   <dependencies>
     <dependency reexport="false">fcef6129-077e-482d-b29d-d74df3291d94(de.pes.metabnf.base)</dependency>
+    <dependency reexport="false">f8634ac8-e358-4fe1-bbe2-4240dda0ce40(de.pes.metabnf.sandbox.sample)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:fcef6129-077e-482d-b29d-d74df3291d94:de.pes.metabnf.base" version="0" />
@@ -100,10 +101,13 @@
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
     <module reference="fcef6129-077e-482d-b29d-d74df3291d94(de.pes.metabnf.base)" version="0" />
     <module reference="aba1faaf-a5a0-44ea-8178-aed1dd3e1944(de.pes.metabnf.extended.gen)" version="0" />
+    <module reference="f8634ac8-e358-4fe1-bbe2-4240dda0ce40(de.pes.metabnf.sandbox.sample)" version="0" />
     <module reference="932cbcf5-4679-4210-818a-ca1d19c6f288(de.pes.metabnf.sandbox.sampleSpecialize)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
     <module reference="a9e4c532-c5f5-4bb7-99ef-42abb73bbb70(jetbrains.mps.lang.descriptor.aspects)" version="0" />
   </dependencyVersions>
-  <extendedLanguages />
+  <extendedLanguages>
+    <extendedLanguage>f8634ac8-e358-4fe1-bbe2-4240dda0ce40(de.pes.metabnf.sandbox.sample)</extendedLanguage>
+  </extendedLanguages>
 </language>
 
