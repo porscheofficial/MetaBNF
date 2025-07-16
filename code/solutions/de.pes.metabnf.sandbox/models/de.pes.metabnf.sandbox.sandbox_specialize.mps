@@ -10,6 +10,7 @@
     <use id="926d63aa-027c-47a4-939e-98f42e63df1a" name="de.pes.metabnf.basic" version="0" />
   </languages>
   <imports>
+    <import index="twk0" ref="r:462b491e-94cc-40fb-886b-c1bdb87f8f48(de.pes.metabnf.sandbox.sample.editor)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -242,6 +243,15 @@
       <node concept="WIVCY" id="3mLXbOVoxjN" role="3f5NQZ">
         <node concept="WEpBI" id="3mLXbOVoxjO" role="WIXiD">
           <ref role="3ixok" node="1EPqwt0xDjB" resolve="baseImpl" />
+        </node>
+      </node>
+    </node>
+    <node concept="gNmGs" id="3L$HXb6w_s5" role="gNmGt" />
+    <node concept="3f4ZRK" id="3L$HXb6w_s7" role="gNmGt">
+      <property role="TrG5h" value="IFaceEmpty" />
+      <node concept="1Quhz" id="3L$HXb6wBqO" role="3f5NQZ">
+        <node concept="35c_gC" id="3L$HXb6wBqP" role="2f51L">
+          <ref role="35c_gD" to="tpck:h0TrEE$" resolve="INamedConcept" />
         </node>
       </node>
     </node>
