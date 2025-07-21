@@ -19,10 +19,7 @@
     </language>
     <language id="f8634ac8-e358-4fe1-bbe2-4240dda0ce40" name="de.pes.metabnf.sandbox.sample">
       <concept id="8956797348379922927" name="de.pes.metabnf.sandbox.sample.structure.SimpleTerm" flags="ng" index="3f57Tk" />
-      <concept id="3756814260526381539" name="de.pes.metabnf.sandbox.sample.structure.IdentifierDef" flags="ng" index="1DUhH9" />
-      <concept id="3756814260526381537" name="de.pes.metabnf.sandbox.sample.structure.SomeIdentifier" flags="ng" index="1DUhHb">
-        <child id="3756814260526381545" name="ISomeIdentiferConcept" index="1DUhH3" />
-      </concept>
+      <concept id="3756814260526381537" name="de.pes.metabnf.sandbox.sample.structure.SomeIdentifier" flags="ng" index="1DUhHb" />
       <concept id="3756814260526381541" name="de.pes.metabnf.sandbox.sample.structure.SomeConceptContent" flags="ng" index="1DUhHf">
         <child id="3756814260526381549" name="IIdent" index="1DUhH7" />
       </concept>
@@ -36,9 +33,8 @@
   </registry>
   <node concept="1DUhHP" id="7LcVVINm97j">
     <node concept="1DUhHf" id="7LcVVIQBYtl" role="1DUhHd">
-      <node concept="1DUhHb" id="6yiLrp5LSpO" role="1DUhH7">
-        <node concept="3f57Tk" id="6yiLrp5LSpP" role="3f53J3" />
-        <node concept="1DUhH9" id="6yiLrp5LSpQ" role="1DUhH3" />
+      <node concept="1DUhHb" id="28EuZ08Orfe" role="1DUhH7">
+        <node concept="3f57Tk" id="28EuZ08Orff" role="3f53J3" />
       </node>
     </node>
   </node>
