@@ -56,7 +56,6 @@
   </generators>
   <dependencies>
     <dependency reexport="false">1ed103c3-3aa6-49b7-9c21-6765ee11f224(MPS.Editor)</dependency>
-    <dependency reexport="false">aba1faaf-a5a0-44ea-8178-aed1dd3e1944(de.pes.metabnf.extended.gen)</dependency>
     <dependency reexport="false">fcef6129-077e-482d-b29d-d74df3291d94(de.pes.metabnf.base)</dependency>
   </dependencies>
   <languageVersions>
