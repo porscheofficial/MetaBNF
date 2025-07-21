@@ -12,6 +12,7 @@
   </facets>
   <dependencies>
     <dependency reexport="false">ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</dependency>
+    <dependency reexport="false">f8634ac8-e358-4fe1-bbe2-4240dda0ce40(de.pes.metabnf.sandbox.sample)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:d4280a54-f6df-4383-aa41-d1b2bffa7eb1:com.mbeddr.core.base" version="6" />
@@ -19,11 +20,13 @@
     <language slang="l:d3a0fd26-445a-466c-900e-10444ddfed52:com.mbeddr.mpsutil.filepicker" version="0" />
     <language slang="l:d09a16fb-1d68-4a92-a5a4-20b4b2f86a62:com.mbeddr.mpsutil.jung" version="0" />
     <language slang="l:b4d28e19-7d2d-47e9-943e-3a41f97a0e52:com.mbeddr.mpsutil.plantuml.node" version="0" />
+    <language slang="l:fcef6129-077e-482d-b29d-d74df3291d94:de.pes.metabnf.base" version="0" />
     <language slang="l:926d63aa-027c-47a4-939e-98f42e63df1a:de.pes.metabnf.basic" version="0" />
     <language slang="l:303ca9b8-0d32-4b0f-bc34-d1ebf972bfac:de.pes.metabnf.extended" version="0" />
     <language slang="l:aba1faaf-a5a0-44ea-8178-aed1dd3e1944:de.pes.metabnf.extended.gen" version="0" />
     <language slang="l:97ffe80d-dc46-4f8f-8809-6a50ddfc0686:de.pes.metabnf.importer.xsd" version="0" />
     <language slang="l:f8634ac8-e358-4fe1-bbe2-4240dda0ce40:de.pes.metabnf.sandbox.sample" version="0" />
+    <language slang="l:932cbcf5-4679-4210-818a-ca1d19c6f288:de.pes.metabnf.sandbox.sampleSpecialize" version="0" />
     <language slang="l:92d2ea16-5a42-4fdf-a676-c7604efe3504:de.slisson.mps.richtext" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="12" />
     <language slang="l:443f4c36-fcf5-4eb6-9500-8d06ed259e3e:jetbrains.mps.baseLanguage.classifiers" version="0" />
@@ -43,6 +46,7 @@
     <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
     <module reference="eab78f96-6670-4714-b036-1d406ca3d3db(de.pes.metabnf.sandbox)" version="0" />
+    <module reference="f8634ac8-e358-4fe1-bbe2-4240dda0ce40(de.pes.metabnf.sandbox.sample)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
   </dependencyVersions>
 </solution>

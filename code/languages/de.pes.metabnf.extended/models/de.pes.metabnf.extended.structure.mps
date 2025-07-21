@@ -11,6 +11,7 @@
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
     <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
     <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" implicit="true" />
   </imports>
   <registry>
@@ -367,11 +368,14 @@
     <property role="EcuMT" value="8327407647106839958" />
     <property role="3GE5qa" value="Attributes.Interface" />
     <property role="TrG5h" value="ImplementsExternalConcepts" />
-    <property role="34LRSv" value="External Extend" />
+    <property role="34LRSv" value="External Extend Concept" />
     <property role="R4oN_" value="Extends or implements external Concepts or Interfaces" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7egTi9LFbmn" role="PzmwI">
       <ref role="PrY4T" node="7egTi9LFaPK" resolve="IImplementsExternalConcepts" />
+    </node>
+    <node concept="PrWs8" id="r82NTOeiHi" role="PzmwI">
+      <ref role="PrY4T" to="p1cl:7aaqmzlmc9L" resolve="IBNFEditorReprensentation" />
     </node>
   </node>
   <node concept="1TIwiD" id="T845YrpKWW">
@@ -450,6 +454,13 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="tp25:2iMJRNxweHk" resolve="ConceptIdRefExpression" />
     </node>
+    <node concept="1TJgyj" id="1EPqwt0ST7G" role="1TKVEi">
+      <property role="IQ2ns" value="1924560995156726252" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="representation" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="1EPqwt0ST7H" resolve="IExtendEditorRepresentation" />
+    </node>
   </node>
   <node concept="PlHQZ" id="7egTi9Mifxa">
     <property role="EcuMT" value="8327407647117080650" />
@@ -462,9 +473,10 @@
       <property role="IQ2ns" value="8327407647117080655" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="implements" />
-      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="tp25:2iMJRNxweHk" resolve="ConceptIdRefExpression" />
+      <node concept="asaX9" id="4W7wVq1IbC8" role="lGtFl" />
     </node>
+    <node concept="asaX9" id="r82NTOzkbM" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="T845YshmEx">
     <property role="EcuMT" value="1029090517683890849" />
@@ -503,11 +515,17 @@
     <property role="EcuMT" value="8327407647117082945" />
     <property role="3GE5qa" value="Attributes.extend" />
     <property role="TrG5h" value="ExternalImplements" />
-    <property role="34LRSv" value="External Implements" />
-    <property role="R4oN_" value="Define implements for External Concepts" />
+    <property role="34LRSv" value="External Implements Interface" />
+    <property role="R4oN_" value="Define implements for External Interfaces" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7egTi9Mig52" role="PzmwI">
+      <ref role="PrY4T" node="7egTi9LFaPK" resolve="IImplementsExternalConcepts" />
+    </node>
+    <node concept="PrWs8" id="r82NTOFapO" role="PzmwI">
       <ref role="PrY4T" node="7egTi9Mifxa" resolve="IExternalImplements" />
+    </node>
+    <node concept="PrWs8" id="r82NTOipuI" role="PzmwI">
+      <ref role="PrY4T" to="p1cl:7aaqmzlmc9L" resolve="IBNFEditorReprensentation" />
     </node>
   </node>
   <node concept="1TIwiD" id="7egTi9L2p85">
@@ -607,6 +625,98 @@
     </node>
     <node concept="PrWs8" id="39om$47rzGO" role="PzmwI">
       <ref role="PrY4T" to="p1cl:4novjIaNO1Z" resolve="INodeAnnotationAttribute" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="1EPqwt0ST7H">
+    <property role="EcuMT" value="1924560995156726253" />
+    <property role="3GE5qa" value="Attributes.extend.editor" />
+    <property role="TrG5h" value="IExtendEditorRepresentation" />
+  </node>
+  <node concept="1TIwiD" id="1EPqwt0VJJR">
+    <property role="EcuMT" value="1924560995157474295" />
+    <property role="3GE5qa" value="Attributes.extend.editor" />
+    <property role="TrG5h" value="EBNFExtendEditorFromProperty" />
+    <property role="34LRSv" value="From Property" />
+    <property role="R4oN_" value="Choose Property to be added to editor" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="f_TKVDG" role="1TKVEi">
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="propertyDeclaration" />
+      <property role="20lbJX" value="fLJekj5/0..n" />
+      <property role="IQ2ns" value="1071489727084" />
+      <ref role="20lvS9" node="r82NTNmDj_" resolve="PropertyDeclarationRef" />
+    </node>
+    <node concept="PrWs8" id="1EPqwt0VJJS" role="PzmwI">
+      <ref role="PrY4T" node="1EPqwt0ST7H" resolve="IExtendEditorRepresentation" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1EPqwt1aAK9">
+    <property role="EcuMT" value="1924560995161369609" />
+    <property role="3GE5qa" value="Attributes.extend.editor" />
+    <property role="TrG5h" value="EBNFExtendEditorFromChildren" />
+    <property role="34LRSv" value="From LinkDeclaration" />
+    <property role="R4oN_" value="Choose LinkDeclaration to be added to editor" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="1EPqwt1aAKa" role="1TKVEi">
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="linkDeclaration" />
+      <property role="20lbJX" value="fLJekj5/0..n" />
+      <property role="IQ2ns" value="1924560995161369610" />
+      <ref role="20lvS9" node="r82NTNL3tY" resolve="LinkDeclarationRef" />
+    </node>
+    <node concept="PrWs8" id="1EPqwt1aAKb" role="PzmwI">
+      <ref role="PrY4T" node="1EPqwt0ST7H" resolve="IExtendEditorRepresentation" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="r82NTNmDj_">
+    <property role="EcuMT" value="488652922420892901" />
+    <property role="3GE5qa" value="Attributes.extend.editor" />
+    <property role="TrG5h" value="PropertyDeclarationRef" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="r82NTNmDjA" role="1TKVEi">
+      <property role="IQ2ns" value="488652922420892902" />
+      <property role="20kJfa" value="ref" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpce:f_TJgxF" resolve="PropertyDeclaration" />
+    </node>
+    <node concept="PrWs8" id="r82NTNJmxB" role="PzmwI">
+      <ref role="PrY4T" node="r82NTNJmvW" resolve="IAbstractConceptDeclarationMembersRef" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="r82NTNJmvW">
+    <property role="EcuMT" value="488652922427369468" />
+    <property role="3GE5qa" value="Attributes.extend.editor" />
+    <property role="TrG5h" value="IAbstractConceptDeclarationMembersRef" />
+  </node>
+  <node concept="1TIwiD" id="r82NTNL3tY">
+    <property role="EcuMT" value="488652922427815806" />
+    <property role="3GE5qa" value="Attributes.extend.editor" />
+    <property role="TrG5h" value="LinkDeclarationRef" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="r82NTNL3tZ" role="1TKVEi">
+      <property role="IQ2ns" value="488652922427815807" />
+      <property role="20kJfa" value="ref" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
+    </node>
+    <node concept="PrWs8" id="r82NTNL3u0" role="PzmwI">
+      <ref role="PrY4T" node="r82NTNJmvW" resolve="IAbstractConceptDeclarationMembersRef" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="r82NTO6nIl">
+    <property role="EcuMT" value="488652922433403797" />
+    <property role="3GE5qa" value="Attributes.extend.editor" />
+    <property role="TrG5h" value="EBNFExtendEditorFromComponent" />
+    <property role="34LRSv" value="From Editor Component" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="r82NTO6oaq" role="PzmwI">
+      <ref role="PrY4T" node="1EPqwt0ST7H" resolve="IExtendEditorRepresentation" />
+    </node>
+    <node concept="1TJgyj" id="r82NTO7XJ$" role="1TKVEi">
+      <property role="IQ2ns" value="488652922433821668" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="component" />
+      <ref role="20lvS9" to="tpc2:66t_lskdtZC" resolve="EditorComponentDeclarationReference" />
     </node>
   </node>
 </model>

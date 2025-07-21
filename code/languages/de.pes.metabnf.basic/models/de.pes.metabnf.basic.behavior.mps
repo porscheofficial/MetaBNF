@@ -6592,7 +6592,7 @@
                   <ref role="3cqZAo" node="39om$43uTqA" resolve="bnf" />
                 </node>
                 <node concept="3Tsc0h" id="39om$43uGQj" role="2OqNvi">
-                  <ref role="3TtcxE" to="p1cl:4novjIaNO24" />
+                  <ref role="3TtcxE" to="p1cl:4novjIaNO24" resolve="annotationAttribute" />
                 </node>
               </node>
               <node concept="v3k3i" id="39om$43uGQk" role="2OqNvi">
@@ -6604,6 +6604,32 @@
             <node concept="2es0OD" id="39om$43uGQm" role="2OqNvi">
               <node concept="1bVj0M" id="39om$43uGQn" role="23t8la">
                 <node concept="3clFbS" id="39om$43uGQo" role="1bW5cS">
+                  <node concept="3clFbH" id="1EPqwt0NmCf" role="3cqZAp" />
+                  <node concept="2xdQw9" id="1EPqwt0NoqA" role="3cqZAp">
+                    <node concept="3cpWs3" id="1EPqwt0NyEP" role="9lYJi">
+                      <node concept="2OqwBi" id="1EPqwt0NzY6" role="3uHU7w">
+                        <node concept="37vLTw" id="1EPqwt0Nzf_" role="2Oq$k0">
+                          <ref role="3cqZAo" node="39om$43uNtu" resolve="editor" />
+                        </node>
+                        <node concept="3TrcHB" id="1EPqwt0N$Sy" role="2OqNvi">
+                          <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                        </node>
+                      </node>
+                      <node concept="3cpWs3" id="1EPqwt0Nvjg" role="3uHU7B">
+                        <node concept="3cpWs3" id="1EPqwt0NsaF" role="3uHU7B">
+                          <node concept="Xl_RD" id="1EPqwt0NoqC" role="3uHU7B">
+                            <property role="Xl_RC" value="GetAnnotationFor: " />
+                          </node>
+                          <node concept="37vLTw" id="1EPqwt0NsGK" role="3uHU7w">
+                            <ref role="3cqZAo" node="39om$43uGQ$" resolve="it" />
+                          </node>
+                        </node>
+                        <node concept="Xl_RD" id="1EPqwt0Nvk5" role="3uHU7w">
+                          <property role="Xl_RC" value=" | " />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
                   <node concept="3clFbF" id="39om$43uGQp" role="3cqZAp">
                     <node concept="2OqwBi" id="39om$43uGQq" role="3clFbG">
                       <node concept="2OqwBi" id="39om$43uGQr" role="2Oq$k0">
@@ -6611,7 +6637,7 @@
                           <ref role="3cqZAo" node="39om$43uFxl" resolve="ecdCollection" />
                         </node>
                         <node concept="3Tsc0h" id="39om$43uGQt" role="2OqNvi">
-                          <ref role="3TtcxE" to="tpc2:fBEZMko" />
+                          <ref role="3TtcxE" to="tpc2:fBEZMko" resolve="childCellModel" />
                         </node>
                       </node>
                       <node concept="TSZUe" id="39om$43uGQu" role="2OqNvi">
@@ -6630,6 +6656,11 @@
                           </node>
                         </node>
                       </node>
+                    </node>
+                  </node>
+                  <node concept="2xdQw9" id="1EPqwt0P1I3" role="3cqZAp">
+                    <node concept="Xl_RD" id="1EPqwt0P1I5" role="9lYJi">
+                      <property role="Xl_RC" value="----------------------------END-----------------------" />
                     </node>
                   </node>
                 </node>
@@ -6971,11 +7002,10 @@
                       </node>
                     </node>
                     <node concept="37vLTw" id="39om$43vHmG" role="37vLTJ">
-                      <ref role="3cqZAo" node="39om$43vH4j" resolve="buildEditorComponentDetails" />
+                      <ref role="3cqZAo" node="39om$43vH4j" resolve="buildEditorComponentDetailsCellModel" />
                     </node>
                   </node>
                 </node>
-                <node concept="3clFbH" id="39om$43vPKn" role="3cqZAp" />
               </node>
               <node concept="2OqwBi" id="39om$43v9LL" role="3clFbw">
                 <node concept="37vLTw" id="39om$43v9jR" role="2Oq$k0">
@@ -7114,6 +7144,9 @@
                       </node>
                     </node>
                   </node>
+                  <node concept="Xl_RD" id="1EPqwt08_Bg" role="37wK5m">
+                    <property role="Xl_RC" value="" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -7139,6 +7172,7 @@
               </node>
             </node>
             <node concept="3clFbH" id="7LcVVIQPs2D" role="3cqZAp" />
+            <node concept="3clFbH" id="1EPqwt0rFbf" role="3cqZAp" />
             <node concept="3clFbJ" id="39om$43vSuu" role="3cqZAp">
               <node concept="3clFbS" id="39om$43vSuw" role="3clFbx">
                 <node concept="3cpWs8" id="39om$44OAVf" role="3cqZAp">
