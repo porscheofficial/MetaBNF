@@ -9,7 +9,8 @@
     <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
     <import index="gm16" ref="r:1329ba0c-7632-46ba-9d9e-25ae5ff7e792(de.pes.metabnf.extended.structure)" />
     <import index="p1cl" ref="r:8b943911-36fd-4a56-afe7-9288fd5710da(de.pes.metabnf.basic.structure)" />
-    <import index="zbpa" ref="r:aed3b57c-f504-4890-b007-1b584a61f04a(de.pes.metabnf.extended.behavior)" implicit="true" />
+    <import index="yot6" ref="r:fa98198a-d052-48c6-a067-71419b7c2317(de.pes.metabnf.base.structure)" />
+    <import index="10gk" ref="r:1dbbf3a1-8696-4f8a-bbc0-f2cfa4306470(de.pes.metabnf.base.behavior)" />
     <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
@@ -442,7 +443,7 @@
                     <node concept="2Rf3mk" id="7aaqmzkuOQa" role="2OqNvi">
                       <node concept="1xMEDy" id="7aaqmzkuOQb" role="1xVPHs">
                         <node concept="chp4Y" id="7aaqmzkuOQc" role="ri$Ld">
-                          <ref role="cht4Q" to="gm16:T845Ys479E" resolve="IBNFExpressionReference" />
+                          <ref role="cht4Q" to="yot6:T845Ys479E" resolve="IBNFExpressionReference" />
                         </node>
                       </node>
                     </node>
@@ -456,7 +457,7 @@
                               <ref role="3cqZAo" node="7aaqmzkuOQk" resolve="it" />
                             </node>
                             <node concept="2qgKlT" id="7aaqmzkuOQj" role="2OqNvi">
-                              <ref role="37wK5l" to="zbpa:T845Ys479Z" resolve="getTarget" />
+                              <ref role="37wK5l" to="10gk:T845Ys479Z" resolve="getTarget" />
                             </node>
                           </node>
                         </node>
@@ -543,7 +544,7 @@
                                   <node concept="2Rf3mk" id="7aaqmzkNSkI" role="2OqNvi">
                                     <node concept="1xMEDy" id="7aaqmzkNSkJ" role="1xVPHs">
                                       <node concept="chp4Y" id="7aaqmzkNSkK" role="ri$Ld">
-                                        <ref role="cht4Q" to="gm16:T845Ys479E" resolve="IBNFExpressionReference" />
+                                        <ref role="cht4Q" to="yot6:T845Ys479E" resolve="IBNFExpressionReference" />
                                       </node>
                                     </node>
                                   </node>
@@ -566,7 +567,7 @@
                                   <ref role="3cqZAo" node="7aaqmzkTOaG" resolve="it" />
                                 </node>
                                 <node concept="2qgKlT" id="7aaqmzkTQ4G" role="2OqNvi">
-                                  <ref role="37wK5l" to="zbpa:T845Ys479Z" resolve="getTarget" />
+                                  <ref role="37wK5l" to="10gk:T845Ys479Z" resolve="getTarget" />
                                 </node>
                               </node>
                             </node>
@@ -766,7 +767,7 @@
                         <node concept="2Rf3mk" id="T845Yseyt2" role="2OqNvi">
                           <node concept="1xMEDy" id="T845Yseyt3" role="1xVPHs">
                             <node concept="chp4Y" id="T845Yseyt4" role="ri$Ld">
-                              <ref role="cht4Q" to="gm16:T845Ys479E" resolve="IBNFExpressionReference" />
+                              <ref role="cht4Q" to="yot6:T845Ys479E" resolve="IBNFExpressionReference" />
                             </node>
                           </node>
                         </node>
@@ -780,7 +781,7 @@
                                   <ref role="3cqZAo" node="T845Yseytc" resolve="it" />
                                 </node>
                                 <node concept="2qgKlT" id="T845Yseytb" role="2OqNvi">
-                                  <ref role="37wK5l" to="zbpa:T845Ys479Z" resolve="getTarget" />
+                                  <ref role="37wK5l" to="10gk:T845Ys479Z" resolve="getTarget" />
                                 </node>
                               </node>
                             </node>

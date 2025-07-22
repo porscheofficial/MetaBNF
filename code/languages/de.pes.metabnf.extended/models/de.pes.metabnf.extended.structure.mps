@@ -12,6 +12,7 @@
     <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
+    <import index="yot6" ref="r:fa98198a-d052-48c6-a067-71419b7c2317(de.pes.metabnf.base.structure)" />
     <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" implicit="true" />
   </imports>
   <registry>
@@ -126,7 +127,7 @@
       <ref role="PrY4T" to="p1cl:4novjIaNO23" resolve="ISupportNodeAnnotationAttribute" />
     </node>
     <node concept="PrWs8" id="6HVmriMjZat" role="PzmwI">
-      <ref role="PrY4T" node="T845Ys479E" resolve="IBNFExpressionReference" />
+      <ref role="PrY4T" to="yot6:T845Ys479E" resolve="IBNFExpressionReference" />
     </node>
     <node concept="PrWs8" id="6HVmriMlsCD" role="PzmwI">
       <ref role="PrY4T" to="p1cl:6HVmriMlqlW" resolve="IReferenceDefinitionTerm" />
@@ -149,7 +150,7 @@
       <ref role="20lvS9" node="4novjIaP1oQ" resolve="IInterfaceImplementation" />
     </node>
     <node concept="PrWs8" id="T845Ys4UGO" role="PrDN$">
-      <ref role="PrY4T" node="T845Ys479E" resolve="IBNFExpressionReference" />
+      <ref role="PrY4T" to="yot6:T845Ys479E" resolve="IBNFExpressionReference" />
     </node>
     <node concept="PrWs8" id="211WYHDrAaO" role="PrDN$">
       <ref role="PrY4T" to="p1cl:211WYHCjlHs" resolve="IVisualizePlantUMLParticipent" />
@@ -169,7 +170,7 @@
       <ref role="20lvS9" node="4novjIaMS3b" resolve="EBNFIFaceDefinitionTerm" />
     </node>
     <node concept="PrWs8" id="T845Ys5mQp" role="PrDN$">
-      <ref role="PrY4T" node="T845Ys479E" resolve="IBNFExpressionReference" />
+      <ref role="PrY4T" to="yot6:T845Ys479E" resolve="IBNFExpressionReference" />
     </node>
     <node concept="PrWs8" id="7aaqmzogp0o" role="PrDN$">
       <ref role="PrY4T" to="p1cl:7aaqmzlmc9L" resolve="IBNFEditorReprensentation" />
@@ -243,7 +244,7 @@
       <ref role="PrY4T" to="p1cl:4novjIaNO1Z" resolve="INodeAnnotationAttribute" />
     </node>
     <node concept="PrWs8" id="39om$46Rwx1" role="PzmwI">
-      <ref role="PrY4T" node="T845Ys479E" resolve="IBNFExpressionReference" />
+      <ref role="PrY4T" to="yot6:T845Ys479E" resolve="IBNFExpressionReference" />
     </node>
     <node concept="PrWs8" id="7LcVVINuQ5m" role="PzmwI">
       <ref role="PrY4T" to="p1cl:7aaqmzlmc9L" resolve="IBNFEditorReprensentation" />
@@ -296,7 +297,7 @@
       <ref role="PrY4T" node="1nL_s$DlNQ9" resolve="IConceptExtendsConceptRef" />
     </node>
     <node concept="PrWs8" id="39om$4724Wd" role="PzmwI">
-      <ref role="PrY4T" node="T845Ys479E" resolve="IBNFExpressionReference" />
+      <ref role="PrY4T" to="yot6:T845Ys479E" resolve="IBNFExpressionReference" />
     </node>
     <node concept="1TJgyj" id="7egTi9KQJcQ" role="1TKVEi">
       <property role="IQ2ns" value="8327407647093093174" />
@@ -415,7 +416,7 @@
       <ref role="20lvS9" to="p1cl:fbptcj1GUz" resolve="BNFExpression" />
     </node>
     <node concept="PrWs8" id="T845Ys47bl" role="PzmwI">
-      <ref role="PrY4T" node="T845Ys479E" resolve="IBNFExpressionReference" />
+      <ref role="PrY4T" to="yot6:T845Ys479E" resolve="IBNFExpressionReference" />
     </node>
   </node>
   <node concept="1TIwiD" id="T845Yrq8Yj">
@@ -434,11 +435,6 @@
       <property role="20kJfa" value="namedValue" />
       <ref role="20lvS9" node="T845Yrqx5_" resolve="EBNFExpressionRef" />
     </node>
-  </node>
-  <node concept="PlHQZ" id="T845Ys479E">
-    <property role="EcuMT" value="1029090517680419434" />
-    <property role="3GE5qa" value="Attributes" />
-    <property role="TrG5h" value="IBNFExpressionReference" />
   </node>
   <node concept="PlHQZ" id="7egTi9LFaPK">
     <property role="EcuMT" value="8327407647106837872" />
@@ -508,7 +504,7 @@
       <ref role="20lvS9" to="p1cl:fbptcj1GUz" resolve="BNFExpression" />
     </node>
     <node concept="PrWs8" id="T845Ysdjin" role="PzmwI">
-      <ref role="PrY4T" node="T845Ys479E" resolve="IBNFExpressionReference" />
+      <ref role="PrY4T" to="yot6:T845Ys479E" resolve="IBNFExpressionReference" />
     </node>
   </node>
   <node concept="1TIwiD" id="7egTi9Mig51">
@@ -718,6 +714,27 @@
       <property role="20kJfa" value="component" />
       <ref role="20lvS9" to="tpc2:66t_lskdtZC" resolve="EditorComponentDeclarationReference" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="6mcP9nJcVwi">
+    <property role="EcuMT" value="7317457234998573074" />
+    <property role="3GE5qa" value="Attributes.extend.editor.custom" />
+    <property role="TrG5h" value="EBNFCustomEditorForComponent" />
+    <property role="34LRSv" value="Editor Component Ref" />
+    <ref role="1TJDcQ" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
+    <node concept="1TJgyj" id="6mcP9nJcVU$" role="1TKVEi">
+      <property role="IQ2ns" value="7317457234998574756" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="component" />
+      <ref role="20lvS9" to="tpc2:66t_lskdtZC" resolve="EditorComponentDeclarationReference" />
+    </node>
+    <node concept="PrWs8" id="6mcP9nJg7Xl" role="PzmwI">
+      <ref role="PrY4T" node="6mcP9nJg7Vr" resolve="ICustomEditorRepresentation" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="6mcP9nJg7Vr">
+    <property role="EcuMT" value="7317457234999410395" />
+    <property role="3GE5qa" value="Attributes.extend.editor.custom" />
+    <property role="TrG5h" value="ICustomEditorRepresentation" />
   </node>
 </model>
 

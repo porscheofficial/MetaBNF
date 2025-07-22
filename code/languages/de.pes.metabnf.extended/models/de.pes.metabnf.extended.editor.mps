@@ -2334,5 +2334,30 @@
       <node concept="2iRfu4" id="r82NTO6oa4" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="6mcP9nJcVU_">
+    <property role="3GE5qa" value="Attributes.extend.editor.custom" />
+    <ref role="1XX52x" to="gm16:6mcP9nJcVwi" resolve="EBNFCustomEditorForComponent" />
+    <node concept="3EZMnI" id="6mcP9nJcVUB" role="2wV5jI">
+      <node concept="3F0ifn" id="6mcP9nJeyHN" role="3EZMnx">
+        <property role="3F0ifm" value="#" />
+      </node>
+      <node concept="PMmxH" id="6mcP9nJcXyF" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="3F0ifn" id="6mcP9nJeyHT" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+        <node concept="11L4FC" id="6mcP9nJeyHY" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="6mcP9nJcXyH" role="3EZMnx">
+        <ref role="1NtTu8" to="gm16:6mcP9nJcVU$" resolve="component" />
+      </node>
+      <node concept="2iRfu4" id="6mcP9nJcVUE" role="2iSdaV" />
+      <node concept="3F0ifn" id="6mcP9nJeyHQ" role="3EZMnx">
+        <property role="3F0ifm" value="#" />
+      </node>
+    </node>
+  </node>
 </model>
 

@@ -23,6 +23,7 @@
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
@@ -64,6 +65,11 @@
       <property role="TrG5h" value="url" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+  </node>
+  <node concept="PlHQZ" id="T845Ys479E">
+    <property role="EcuMT" value="1029090517680419434" />
+    <property role="3GE5qa" value="Attributes" />
+    <property role="TrG5h" value="IBNFExpressionReference" />
   </node>
 </model>
 
