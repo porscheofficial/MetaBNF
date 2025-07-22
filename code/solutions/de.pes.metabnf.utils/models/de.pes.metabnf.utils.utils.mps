@@ -190,6 +190,9 @@
       <concept id="1182511038748" name="jetbrains.mps.lang.smodel.structure.Model_NodesIncludingImportedOperation" flags="nn" index="1j9C0f">
         <child id="6750920497477143623" name="conceptArgument" index="3MHPCF" />
       </concept>
+      <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
+        <child id="1177027386292" name="conceptArgument" index="cj9EA" />
+      </concept>
       <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
       <concept id="1180636770613" name="jetbrains.mps.lang.smodel.structure.SNodeCreator" flags="nn" index="3zrR0B">
@@ -570,6 +573,34 @@
               <node concept="1z4cxt" id="39om$45AwgX" role="2OqNvi">
                 <node concept="1bVj0M" id="39om$45AwgY" role="23t8la">
                   <node concept="3clFbS" id="39om$45AwgZ" role="1bW5cS">
+                    <node concept="2xdQw9" id="6mcP9nIWezR" role="3cqZAp">
+                      <node concept="3cpWs3" id="6mcP9nIWSQy" role="9lYJi">
+                        <node concept="2OqwBi" id="6mcP9nIWWsQ" role="3uHU7w">
+                          <node concept="37vLTw" id="6mcP9nIWVEH" role="2Oq$k0">
+                            <ref role="3cqZAo" node="39om$45Awhi" resolve="it" />
+                          </node>
+                          <node concept="1mIQ4w" id="6mcP9nIWYQQ" role="2OqNvi">
+                            <node concept="chp4Y" id="6mcP9nIX0JJ" role="cj9EA">
+                              <ref role="cht4Q" to="tpc2:fIwURLg" resolve="BaseEditorComponent" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3cpWs3" id="6mcP9nIWLjk" role="3uHU7B">
+                          <node concept="3cpWs3" id="6mcP9nIWmEc" role="3uHU7B">
+                            <node concept="Xl_RD" id="6mcP9nIWezT" role="3uHU7B">
+                              <property role="Xl_RC" value="Nodes in Model: " />
+                            </node>
+                            <node concept="37vLTw" id="6mcP9nIWoCZ" role="3uHU7w">
+                              <ref role="3cqZAo" node="39om$45Awhi" resolve="it" />
+                            </node>
+                          </node>
+                          <node concept="Xl_RD" id="6mcP9nIWO4f" role="3uHU7w">
+                            <property role="Xl_RC" value=" | is Base: " />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbH" id="6mcP9nIWqxk" role="3cqZAp" />
                     <node concept="Jncv_" id="39om$45Awh0" role="3cqZAp">
                       <ref role="JncvD" to="tpc2:fIwURLg" resolve="BaseEditorComponent" />
                       <node concept="37vLTw" id="39om$45Awh1" role="JncvB">
@@ -684,9 +715,7 @@
       </node>
       <node concept="37vLTG" id="39om$45AsB1" role="3clF46">
         <property role="TrG5h" value="concept" />
-        <node concept="3bZ5Sz" id="39om$45AsSy" role="1tU5fm">
-          <ref role="3bZ5Sy" to="tpc2:fIwURLg" resolve="BaseEditorComponent" />
-        </node>
+        <node concept="3bZ5Sz" id="39om$45AsSy" role="1tU5fm" />
       </node>
       <node concept="37vLTG" id="39om$45AtPY" role="3clF46">
         <property role="3TUv4t" value="true" />

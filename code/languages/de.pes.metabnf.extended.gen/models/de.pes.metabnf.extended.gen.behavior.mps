@@ -22685,7 +22685,7 @@
                   <node concept="I4A8Y" id="7LcVVINaCDM" role="2OqNvi" />
                 </node>
                 <node concept="35c_gC" id="7LcVVINaCDN" role="37wK5m">
-                  <ref role="35c_gD" to="tpc2:fGPKFH7" resolve="EditorComponentDeclaration" />
+                  <ref role="35c_gD" to="tpc2:fIwURLg" resolve="BaseEditorComponent" />
                 </node>
                 <node concept="37vLTw" id="7LcVVINaCDO" role="37wK5m">
                   <ref role="3cqZAo" node="2dflEYfQgfi" resolve="conceptName" />

@@ -329,6 +329,13 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
+      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
+        <property id="709746936026609031" name="linkId" index="3V$3ak" />
+        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
+      </concept>
+      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
+        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
+      </concept>
     </language>
     <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
       <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
@@ -7253,24 +7260,53 @@
                     <node concept="17RvpY" id="31bvU4VZqV_" role="2OqNvi" />
                   </node>
                 </node>
-                <node concept="3clFbF" id="7aaqmznmOk$" role="3cqZAp">
-                  <node concept="37vLTI" id="7aaqmznmOk_" role="3clFbG">
-                    <node concept="2OqwBi" id="7aaqmznmOkA" role="37vLTJ">
-                      <node concept="37vLTw" id="7aaqmznmOkB" role="2Oq$k0">
+                <node concept="1X3_iC" id="6mcP9nIZz9u" role="lGtFl">
+                  <property role="3V$3am" value="statement" />
+                  <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+                  <node concept="3clFbF" id="7aaqmznmOk$" role="8Wnug">
+                    <node concept="37vLTI" id="7aaqmznmOk_" role="3clFbG">
+                      <node concept="2OqwBi" id="7aaqmznmOkA" role="37vLTJ">
+                        <node concept="37vLTw" id="7aaqmznmOkB" role="2Oq$k0">
+                          <ref role="3cqZAo" node="7aaqmznmOjy" resolve="eComponent" />
+                        </node>
+                        <node concept="3TrEf2" id="7aaqmznmOkC" role="2OqNvi">
+                          <ref role="3Tt5mk" to="tpc2:fIwV5gl" resolve="cellModel" />
+                        </node>
+                      </node>
+                      <node concept="2YIFZM" id="6mcP9nIYrab" role="37vLTx">
+                        <ref role="37wK5l" to="vx0f:7aaqmzlmD0B" resolve="getBaseConceptCellLayout" />
+                        <ref role="1Pybhc" to="vx0f:7aaqmzlgUpO" resolve="BNFEditorHelper" />
+                        <node concept="37vLTw" id="6mcP9nIYtQB" role="37wK5m">
+                          <ref role="3cqZAo" node="39om$44OAVi" resolve="blockName" />
+                        </node>
+                        <node concept="37vLTw" id="6mcP9nIYrac" role="37wK5m">
+                          <ref role="3cqZAo" node="39om$43vH4j" resolve="buildEditorComponentDetailsCellModel" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="6mcP9nIYpk$" role="3cqZAp">
+                  <node concept="37vLTI" id="6mcP9nIYpk_" role="3clFbG">
+                    <node concept="2OqwBi" id="6mcP9nIYpkA" role="37vLTJ">
+                      <node concept="37vLTw" id="6mcP9nIYpkB" role="2Oq$k0">
                         <ref role="3cqZAo" node="7aaqmznmOjy" resolve="eComponent" />
                       </node>
-                      <node concept="3TrEf2" id="7aaqmznmOkC" role="2OqNvi">
+                      <node concept="3TrEf2" id="6mcP9nIYpkC" role="2OqNvi">
                         <ref role="3Tt5mk" to="tpc2:fIwV5gl" resolve="cellModel" />
                       </node>
                     </node>
-                    <node concept="2YIFZM" id="7aaqmznmOkD" role="37vLTx">
-                      <ref role="37wK5l" to="vx0f:7aaqmzlmD0B" resolve="getBaseConceptCellLayout" />
+                    <node concept="2YIFZM" id="6mcP9nIYpkD" role="37vLTx">
+                      <ref role="37wK5l" to="vx0f:6mcP9nIMP7M" resolve="getBaseConceptCellLayoutAlias" />
                       <ref role="1Pybhc" to="vx0f:7aaqmzlgUpO" resolve="BNFEditorHelper" />
-                      <node concept="37vLTw" id="39om$44OLld" role="37wK5m">
-                        <ref role="3cqZAo" node="39om$44OAVi" resolve="blockName" />
-                      </node>
-                      <node concept="37vLTw" id="39om$43vWsY" role="37wK5m">
+                      <node concept="37vLTw" id="6mcP9nIYpkE" role="37wK5m">
                         <ref role="3cqZAo" node="39om$43vH4j" resolve="buildEditorComponentDetailsCellModel" />
+                      </node>
+                      <node concept="2OqwBi" id="6mcP9nIYpkF" role="37wK5m">
+                        <node concept="37vLTw" id="6mcP9nIYpkG" role="2Oq$k0">
+                          <ref role="3cqZAo" node="7aaqmznmOjy" resolve="eComponent" />
+                        </node>
+                        <node concept="I4A8Y" id="6mcP9nIYpkH" role="2OqNvi" />
                       </node>
                     </node>
                   </node>
