@@ -199,6 +199,7 @@
       </concept>
       <concept id="1883223317721008713" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfVariable" flags="ng" index="JncvC" />
       <concept id="1883223317721107059" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfVarReference" flags="nn" index="Jnkvi" />
+      <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
       <concept id="1966870290088668512" name="jetbrains.mps.lang.smodel.structure.Enum_MemberLiteral" flags="ng" index="2ViDtV">
         <reference id="1966870290088668516" name="memberDeclaration" index="2ViDtZ" />
       </concept>
@@ -209,6 +210,9 @@
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
+      </concept>
+      <concept id="1140131837776" name="jetbrains.mps.lang.smodel.structure.Node_ReplaceWithAnotherOperation" flags="nn" index="1P9Npp">
+        <child id="1140131861877" name="replacementNode" index="1P9ThW" />
       </concept>
       <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI" />
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
@@ -2354,6 +2358,80 @@
       </node>
       <node concept="10P_77" id="7LcVVIP_nUg" role="3clF45" />
     </node>
+    <node concept="13i0hz" id="5SQJAROvynQ" role="13h7CS">
+      <property role="TrG5h" value="getCustomCellModel" />
+      <ref role="13i0hy" to="yrpt:5SQJAROvybO" resolve="getCustomCellModel" />
+      <node concept="3Tm1VV" id="5SQJAROvynR" role="1B3o_S" />
+      <node concept="3clFbS" id="5SQJAROvynU" role="3clF47">
+        <node concept="3cpWs8" id="5SQJAROvxql" role="3cqZAp">
+          <node concept="3cpWsn" id="5SQJAROvxqm" role="3cpWs9">
+            <property role="TrG5h" value="editorModel" />
+            <node concept="3Tqbb2" id="5SQJAROvxlF" role="1tU5fm">
+              <ref role="ehGHo" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
+            </node>
+            <node concept="2OqwBi" id="5SQJAROvxqn" role="33vP2m">
+              <node concept="13iPFW" id="5SQJAROvxqo" role="2Oq$k0" />
+              <node concept="3TrEf2" id="5SQJAROvxqp" role="2OqNvi">
+                <ref role="3Tt5mk" to="gm16:T845Yrl5AX" resolve="editorModel" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="5SQJAROvxvx" role="3cqZAp" />
+        <node concept="3clFbF" id="5SQJAROvxzv" role="3cqZAp">
+          <node concept="2OqwBi" id="5SQJAROvArN" role="3clFbG">
+            <node concept="2OqwBi" id="5SQJAROvxNr" role="2Oq$k0">
+              <node concept="37vLTw" id="5SQJAROvxzt" role="2Oq$k0">
+                <ref role="3cqZAo" node="5SQJAROvxqm" resolve="editorModel" />
+              </node>
+              <node concept="2Rf3mk" id="5SQJAROvy1o" role="2OqNvi">
+                <node concept="1xMEDy" id="5SQJAROvy1q" role="1xVPHs">
+                  <node concept="chp4Y" id="5SQJAROvy5R" role="ri$Ld">
+                    <ref role="cht4Q" to="gm16:6mcP9nJg7Vr" resolve="ICustomEditorRepresentation" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2es0OD" id="5SQJAROvCZq" role="2OqNvi">
+              <node concept="1bVj0M" id="5SQJAROvCZs" role="23t8la">
+                <node concept="3clFbS" id="5SQJAROvCZt" role="1bW5cS">
+                  <node concept="3clFbF" id="5SQJAROvEOU" role="3cqZAp">
+                    <node concept="2OqwBi" id="5SQJAROvF3x" role="3clFbG">
+                      <node concept="37vLTw" id="5SQJAROvEOS" role="2Oq$k0">
+                        <ref role="3cqZAo" node="5SQJAROvCZu" resolve="it" />
+                      </node>
+                      <node concept="1P9Npp" id="5SQJAROvFva" role="2OqNvi">
+                        <node concept="2OqwBi" id="5SQJAROvFBi" role="1P9ThW">
+                          <node concept="37vLTw" id="5SQJAROvFyw" role="2Oq$k0">
+                            <ref role="3cqZAo" node="5SQJAROvCZu" resolve="it" />
+                          </node>
+                          <node concept="2qgKlT" id="5SQJAROvFQs" role="2OqNvi">
+                            <ref role="37wK5l" node="6mcP9nJg7VJ" resolve="getCellModel" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="gl6BB" id="5SQJAROvCZu" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="5SQJAROvCZv" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="5SQJAROvzKx" role="3cqZAp" />
+        <node concept="3cpWs6" id="5SQJAROv$ah" role="3cqZAp">
+          <node concept="37vLTw" id="5SQJAROv$fb" role="3cqZAk">
+            <ref role="3cqZAo" node="5SQJAROvxqm" resolve="editorModel" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="5SQJAROvynV" role="3clF45">
+        <ref role="ehGHo" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
+      </node>
+    </node>
   </node>
   <node concept="13h7C7" id="1EPqwt13gAG">
     <property role="3GE5qa" value="Attributes.extend.editor" />
@@ -3342,7 +3420,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="6mcP9nJg7Vs">
-    <property role="3GE5qa" value="Attributes.extend.editor.custom" />
+    <property role="3GE5qa" value="Attributes.editor.custom" />
     <ref role="13h7C2" to="gm16:6mcP9nJg7Vr" resolve="ICustomEditorRepresentation" />
     <node concept="13i0hz" id="6mcP9nJg7VJ" role="13h7CS">
       <property role="13i0iv" value="true" />
@@ -3359,7 +3437,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="6mcP9nJg7Xm">
-    <property role="3GE5qa" value="Attributes.extend.editor.custom" />
+    <property role="3GE5qa" value="Attributes.editor.custom" />
     <ref role="13h7C2" to="gm16:6mcP9nJcVwi" resolve="EBNFCustomEditorForComponent" />
     <node concept="13hLZK" id="6mcP9nJg7Xn" role="13h7CW">
       <node concept="3clFbS" id="6mcP9nJg7Xo" role="2VODD2" />

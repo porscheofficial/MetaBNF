@@ -1249,33 +1249,6 @@
       <node concept="2iRkQZ" id="XpLSzgKCgH" role="2iSdaV" />
     </node>
   </node>
-  <node concept="24kQdi" id="7egTi9Mig4M">
-    <property role="3GE5qa" value="Attributes.extend" />
-    <ref role="1XX52x" to="gm16:7egTi9Mifxa" resolve="IExternalImplements" />
-    <node concept="3EZMnI" id="7egTi9Mig4O" role="2wV5jI">
-      <node concept="3EZMnI" id="7egTi9Mig4P" role="3EZMnx">
-        <ref role="1k5W1q" to="1mfk:4j82FZZ71NE" resolve="NodeAttributeDefault" />
-        <node concept="VPM3Z" id="7egTi9Mig4Q" role="3F10Kt" />
-        <node concept="PMmxH" id="7egTi9Mig4R" role="3EZMnx">
-          <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-        </node>
-        <node concept="3F0ifn" id="7egTi9Mig4S" role="3EZMnx">
-          <property role="3F0ifm" value=":" />
-          <node concept="11L4FC" id="7egTi9Mig4T" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-        </node>
-        <node concept="3F1sOY" id="7egTi9Mig4Z" role="3EZMnx">
-          <ref role="1NtTu8" to="gm16:7egTi9Mifxf" resolve="concept" />
-        </node>
-        <node concept="PMmxH" id="7egTi9Mig4V" role="3EZMnx">
-          <ref role="PMmxG" to="1mfk:4j82FZZ8kx0" resolve="EditorBreakPoint" />
-        </node>
-        <node concept="2iRfu4" id="7egTi9Mig4W" role="2iSdaV" />
-      </node>
-      <node concept="2iRkQZ" id="7egTi9Mig4X" role="2iSdaV" />
-    </node>
-  </node>
   <node concept="24kQdi" id="T845Yrq8Yl">
     <property role="3GE5qa" value="Attributes" />
     <ref role="1XX52x" to="gm16:T845Yrq8Yj" resolve="EBNFAttributeValueProperty" />
@@ -1326,7 +1299,7 @@
           <property role="3F0ifm" value=":{" />
         </node>
         <node concept="3F1sOY" id="7aaqmzkdDaG" role="3EZMnx">
-          <ref role="1NtTu8" to="gm16:T845Yrl5AX" resolve="editor" />
+          <ref role="1NtTu8" to="gm16:T845Yrl5AX" resolve="editorModel" />
         </node>
         <node concept="2iRfu4" id="7aaqmzkdznY" role="2iSdaV" />
         <node concept="pkWqt" id="7aaqmzkdznZ" role="pqm2j">
@@ -2335,7 +2308,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="6mcP9nJcVU_">
-    <property role="3GE5qa" value="Attributes.extend.editor.custom" />
+    <property role="3GE5qa" value="Attributes.editor.custom" />
     <ref role="1XX52x" to="gm16:6mcP9nJcVwi" resolve="EBNFCustomEditorForComponent" />
     <node concept="3EZMnI" id="6mcP9nJcVUB" role="2wV5jI">
       <node concept="3F0ifn" id="6mcP9nJeyHN" role="3EZMnx">

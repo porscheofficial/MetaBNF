@@ -389,7 +389,7 @@
     <node concept="1TJgyj" id="T845Yrl5AX" role="1TKVEi">
       <property role="IQ2ns" value="1029090517668092349" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="editor" />
+      <property role="20kJfa" value="editorModel" />
       <ref role="20lvS9" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
     </node>
     <node concept="PrWs8" id="T845YrpKWX" role="PzmwI">
@@ -462,9 +462,6 @@
     <property role="EcuMT" value="8327407647117080650" />
     <property role="3GE5qa" value="Attributes.extend" />
     <property role="TrG5h" value="IExternalImplements" />
-    <node concept="PrWs8" id="7egTi9Mifxb" role="PrDN$">
-      <ref role="PrY4T" to="p1cl:4novjIaNO1Z" resolve="INodeAnnotationAttribute" />
-    </node>
     <node concept="1TJgyj" id="7egTi9Mifxf" role="1TKVEi">
       <property role="IQ2ns" value="8327407647117080655" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -717,7 +714,7 @@
   </node>
   <node concept="1TIwiD" id="6mcP9nJcVwi">
     <property role="EcuMT" value="7317457234998573074" />
-    <property role="3GE5qa" value="Attributes.extend.editor.custom" />
+    <property role="3GE5qa" value="Attributes.editor.custom" />
     <property role="TrG5h" value="EBNFCustomEditorForComponent" />
     <property role="34LRSv" value="Editor Component Ref" />
     <ref role="1TJDcQ" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
@@ -733,7 +730,7 @@
   </node>
   <node concept="PlHQZ" id="6mcP9nJg7Vr">
     <property role="EcuMT" value="7317457234999410395" />
-    <property role="3GE5qa" value="Attributes.extend.editor.custom" />
+    <property role="3GE5qa" value="Attributes.editor.custom" />
     <property role="TrG5h" value="ICustomEditorRepresentation" />
   </node>
 </model>

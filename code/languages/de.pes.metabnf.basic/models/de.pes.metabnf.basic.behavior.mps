@@ -7690,6 +7690,16 @@
       <node concept="10P_77" id="7LcVVIP_5Oo" role="3clF45" />
       <node concept="3clFbS" id="7LcVVIP_5O7" role="3clF47" />
     </node>
+    <node concept="13i0hz" id="5SQJAROvybO" role="13h7CS">
+      <property role="13i0iv" value="true" />
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="getCustomCellModel" />
+      <node concept="3Tm1VV" id="5SQJAROvybP" role="1B3o_S" />
+      <node concept="3Tqbb2" id="5SQJAROvyc8" role="3clF45">
+        <ref role="ehGHo" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
+      </node>
+      <node concept="3clFbS" id="5SQJAROvybR" role="3clF47" />
+    </node>
     <node concept="13i0hz" id="7LcVVIP_5Qq" role="13h7CS">
       <property role="13i0iv" value="true" />
       <property role="13i0it" value="true" />
