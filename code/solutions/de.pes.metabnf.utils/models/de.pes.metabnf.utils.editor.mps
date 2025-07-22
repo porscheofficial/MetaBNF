@@ -2960,7 +2960,7 @@
       <node concept="37vLTG" id="39om$45Udx3" role="3clF46">
         <property role="TrG5h" value="cd" />
         <node concept="3Tqbb2" id="39om$45Udx2" role="1tU5fm">
-          <ref role="ehGHo" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+          <ref role="ehGHo" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
         </node>
       </node>
       <node concept="37vLTG" id="39om$45Ufe$" role="3clF46">
