@@ -211,6 +211,7 @@
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
       </concept>
+      <concept id="1144146199828" name="jetbrains.mps.lang.smodel.structure.Node_CopyOperation" flags="nn" index="1$rogu" />
       <concept id="1140131837776" name="jetbrains.mps.lang.smodel.structure.Node_ReplaceWithAnotherOperation" flags="nn" index="1P9Npp">
         <child id="1140131861877" name="replacementNode" index="1P9ThW" />
       </concept>
@@ -2363,21 +2364,25 @@
       <ref role="13i0hy" to="yrpt:5SQJAROvybO" resolve="getCustomCellModel" />
       <node concept="3Tm1VV" id="5SQJAROvynR" role="1B3o_S" />
       <node concept="3clFbS" id="5SQJAROvynU" role="3clF47">
+        <node concept="3clFbH" id="5SQJAROU9JM" role="3cqZAp" />
         <node concept="3cpWs8" id="5SQJAROvxql" role="3cqZAp">
           <node concept="3cpWsn" id="5SQJAROvxqm" role="3cpWs9">
             <property role="TrG5h" value="editorModel" />
             <node concept="3Tqbb2" id="5SQJAROvxlF" role="1tU5fm">
               <ref role="ehGHo" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
             </node>
-            <node concept="2OqwBi" id="5SQJAROvxqn" role="33vP2m">
-              <node concept="13iPFW" id="5SQJAROvxqo" role="2Oq$k0" />
-              <node concept="3TrEf2" id="5SQJAROvxqp" role="2OqNvi">
-                <ref role="3Tt5mk" to="gm16:T845Yrl5AX" resolve="editorModel" />
+            <node concept="2OqwBi" id="5SQJAROUaqs" role="33vP2m">
+              <node concept="2OqwBi" id="5SQJAROvxqn" role="2Oq$k0">
+                <node concept="13iPFW" id="5SQJAROvxqo" role="2Oq$k0" />
+                <node concept="3TrEf2" id="5SQJAROvxqp" role="2OqNvi">
+                  <ref role="3Tt5mk" to="gm16:T845Yrl5AX" resolve="editorModel" />
+                </node>
               </node>
+              <node concept="1$rogu" id="5SQJAROUaPW" role="2OqNvi" />
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="5SQJAROvxvx" role="3cqZAp" />
+        <node concept="3clFbH" id="5SQJAROUIpP" role="3cqZAp" />
         <node concept="3clFbF" id="5SQJAROvxzv" role="3cqZAp">
           <node concept="2OqwBi" id="5SQJAROvArN" role="3clFbG">
             <node concept="2OqwBi" id="5SQJAROvxNr" role="2Oq$k0">

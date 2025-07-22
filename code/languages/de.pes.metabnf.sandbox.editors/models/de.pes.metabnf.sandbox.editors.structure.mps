@@ -39,7 +39,7 @@
     <property role="3GE5qa" value="editor samples" />
     <property role="EcuMT" value="6788822867768031920" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="2XvFd8" id="5SQJAROnbEL" role="lGtFl">
+    <node concept="2XvFd8" id="5SQJAROAsLv" role="lGtFl">
       <property role="TrG5h" value="de.pes.metabnf.sandbox.sandbox_editor:ConceptWithCustomEditor" />
       <property role="2ZG9b7" value="http://127.0.0.1:63320/node?ref=r%3Aa27b50bb-e121-4cb4-b675-799ff4629efc%28de.pes.metabnf.sandbox.sandbox_editor%29%2F6788822867768031901" />
     </node>
