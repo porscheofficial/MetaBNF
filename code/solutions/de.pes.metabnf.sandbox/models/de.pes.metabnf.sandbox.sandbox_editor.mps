@@ -64,7 +64,7 @@
       </concept>
       <concept id="1029090517669318460" name="de.pes.metabnf.extended.structure.EBNFAttributeBuildEditor" flags="ng" index="2lbLXz">
         <property id="1029090517669318473" name="buildEditor" index="2lbLWm" />
-        <child id="1029090517668092349" name="editor" index="2l74By" />
+        <child id="1029090517668092349" name="editorModel" index="2l74By" />
       </concept>
     </language>
   </registry>
@@ -75,10 +75,10 @@
       <property role="TrG5h" value="ConceptWithCustomEditor" />
       <node concept="2lbLXz" id="5SQJAROnbEv" role="3f5NQZ">
         <property role="2lbLWm" value="7aaqmzkcjlr/custom" />
-        <node concept="3EZMnI" id="5SQJAROnbEw" role="2l74By">
-          <node concept="2iRfu4" id="5SQJAROnbEx" role="2iSdaV" />
-          <node concept="2aJQM7" id="5SQJAROnbEy" role="3EZMnx">
-            <node concept="1PE4EZ" id="5SQJAROnbEz" role="2aJQCL">
+        <node concept="3EZMnI" id="5SQJAROU95t" role="2l74By">
+          <node concept="2iRfu4" id="5SQJAROU95u" role="2iSdaV" />
+          <node concept="2aJQM7" id="5SQJAROU95v" role="3EZMnx">
+            <node concept="1PE4EZ" id="5SQJAROU95w" role="2aJQCL">
               <ref role="1PE7su" to="tpco:2wZex4PafBj" resolve="alias" />
             </node>
           </node>
