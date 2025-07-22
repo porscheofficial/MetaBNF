@@ -1020,7 +1020,7 @@
   </node>
   <node concept="24kQdi" id="7ijLAu_HPPP">
     <property role="3GE5qa" value="Attributes" />
-    <ref role="1XX52x" to="p1cl:T845YshmEx" resolve="BNFAttributeConceptAlias" />
+    <ref role="1XX52x" to="p1cl:T845YshmEx" resolve="BNFAttributeRelatesTo" />
     <node concept="3EZMnI" id="7ijLAu_HPPR" role="2wV5jI">
       <ref role="1k5W1q" node="4j82FZZ71NE" resolve="NodeAttributeDefault" />
       <node concept="PMmxH" id="7ijLAu_HPPV" role="3EZMnx">

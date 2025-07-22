@@ -515,7 +515,7 @@
   <node concept="1TIwiD" id="T845YshmEx">
     <property role="EcuMT" value="1029090517683890849" />
     <property role="3GE5qa" value="Attributes" />
-    <property role="TrG5h" value="BNFAttributeConceptAlias" />
+    <property role="TrG5h" value="BNFAttributeRelatesTo" />
     <property role="34LRSv" value="Relates To" />
     <property role="R4oN_" value="Define specific relation ship" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
