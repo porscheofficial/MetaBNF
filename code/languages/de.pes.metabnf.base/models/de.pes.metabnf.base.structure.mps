@@ -6,7 +6,6 @@
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
-    <import index="x0c1" ref="r:f078e044-b0d4-44cb-91f8-029a056aafe4(de.pes.metabnf.extended.gen.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
   </imports>
@@ -50,7 +49,7 @@
     <property role="EcuMT" value="4368249043795677204" />
     <property role="TrG5h" value="NodeAttributeLinkToBNF" />
     <property role="3GE5qa" value="NodeAttribute" />
-    <ref role="1TJDcQ" to="x0c1:3Mv8PM1Sp0k" resolve="NodeAttributeLinkToBNF_old" />
+    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="PrWs8" id="3Mv8PM1Sr9T" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
