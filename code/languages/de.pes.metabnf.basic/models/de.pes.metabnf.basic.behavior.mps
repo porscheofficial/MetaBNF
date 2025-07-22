@@ -29,6 +29,7 @@
     <import index="gm16" ref="r:1329ba0c-7632-46ba-9d9e-25ae5ff7e792(de.pes.metabnf.extended.structure)" />
     <import index="tp3j" ref="r:00000000-0000-4000-0000-011c89590353(jetbrains.mps.lang.intentions.structure)" />
     <import index="41s9" ref="r:b226114e-110c-4869-a464-a05a1c444974(de.pes.metabnf.utils.intention)" />
+    <import index="zbpa" ref="r:aed3b57c-f504-4890-b007-1b584a61f04a(de.pes.metabnf.extended.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -899,6 +900,22 @@
       <node concept="3Tqbb2" id="7aaqmzm_iGy" role="3clF45">
         <ref role="ehGHo" to="tpc2:fBEZMkn" resolve="CellModel_Collection" />
       </node>
+    </node>
+    <node concept="13i0hz" id="6mcP9nJ5fHB" role="13h7CS">
+      <property role="TrG5h" value="getTarget" />
+      <ref role="13i0hy" to="zbpa:T845Ys479Z" resolve="getTarget" />
+      <node concept="3Tm1VV" id="6mcP9nJ5fHC" role="1B3o_S" />
+      <node concept="3clFbS" id="6mcP9nJ5fHF" role="3clF47">
+        <node concept="3clFbF" id="6mcP9nJ5gnK" role="3cqZAp">
+          <node concept="2OqwBi" id="6mcP9nJ5gHb" role="3clFbG">
+            <node concept="13iPFW" id="6mcP9nJ5gnJ" role="2Oq$k0" />
+            <node concept="3TrEf2" id="6mcP9nJ5hJo" role="2OqNvi">
+              <ref role="3Tt5mk" to="p1cl:fbptcj2IO3" resolve="ref" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="6mcP9nJ5fHG" role="3clF45" />
     </node>
   </node>
   <node concept="13h7C7" id="6HVmriMlqlX">

@@ -10,6 +10,7 @@
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
     <import index="kwxp" ref="b4d28e19-7d2d-47e9-943e-3a41f97a0e52/r:4903509f-5416-46ff-9a8b-44b5a178b568(com.mbeddr.mpsutil.plantuml.node/com.mbeddr.mpsutil.plantuml.node.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="gm16" ref="r:1329ba0c-7632-46ba-9d9e-25ae5ff7e792(de.pes.metabnf.extended.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -207,6 +208,9 @@
     </node>
     <node concept="PrWs8" id="4aKsqC9AJLQ" role="PzmwI">
       <ref role="PrY4T" node="6BkCOo7fKKv" resolve="ISupportPlantUMLObjectDiagram" />
+    </node>
+    <node concept="PrWs8" id="6mcP9nJ5eWO" role="PzmwI">
+      <ref role="PrY4T" to="gm16:T845Ys479E" resolve="IBNFExpressionReference" />
     </node>
   </node>
   <node concept="1TIwiD" id="fbptcj95_b">
