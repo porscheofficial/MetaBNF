@@ -716,8 +716,8 @@
   <node concept="1TIwiD" id="6mcP9nJcVwi">
     <property role="EcuMT" value="7317457234998573074" />
     <property role="3GE5qa" value="Attributes.editor.custom" />
-    <property role="TrG5h" value="EBNFCustomEditorForComponent" />
-    <property role="34LRSv" value="Editor Component Ref" />
+    <property role="TrG5h" value="EBNFCustomCellModel_Component" />
+    <property role="34LRSv" value="BNF Editor Component Ref" />
     <ref role="1TJDcQ" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
     <node concept="1TJgyj" id="6mcP9nJcVU$" role="1TKVEi">
       <property role="IQ2ns" value="7317457234998574756" />
@@ -758,7 +758,7 @@
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
     <node concept="PrWs8" id="5SQJARPRP5m" role="PzmwI">
-      <ref role="PrY4T" node="6mcP9nJg7Vr" resolve="ICustomEditorRepresentation" />
+      <ref role="PrY4T" to="p1cl:5SQJARQ1YXS" resolve="IBNFEditorCellModelBase" />
     </node>
   </node>
   <node concept="1TIwiD" id="5SQJARPL5HD">
@@ -773,7 +773,7 @@
       <ref role="20lvS9" node="5SQJARPwye9" resolve="EBNFCustomEditorDeclaration" />
     </node>
     <node concept="PrWs8" id="5SQJARPRP4E" role="PzmwI">
-      <ref role="PrY4T" node="6mcP9nJg7Vr" resolve="ICustomEditorRepresentation" />
+      <ref role="PrY4T" to="p1cl:5SQJARQ1YXS" resolve="IBNFEditorCellModelBase" />
     </node>
   </node>
 </model>

@@ -541,11 +541,19 @@
     <node concept="PrWs8" id="7aaqmzorSYp" role="PrDN$">
       <ref role="PrY4T" node="7aaqmzorFAg" resolve="ISupportEditorRepresentation" />
     </node>
+    <node concept="PrWs8" id="5SQJARQ1YYw" role="PrDN$">
+      <ref role="PrY4T" node="5SQJARQ1YXS" resolve="IBNFEditorCellModelBase" />
+    </node>
   </node>
   <node concept="PlHQZ" id="7aaqmzorFAg">
     <property role="EcuMT" value="8253525166138505616" />
     <property role="3GE5qa" value="Attributes" />
     <property role="TrG5h" value="ISupportEditorRepresentation" />
+  </node>
+  <node concept="PlHQZ" id="5SQJARQ1YXS">
+    <property role="EcuMT" value="6788822867796029304" />
+    <property role="TrG5h" value="IBNFEditorCellModelBase" />
+    <property role="3GE5qa" value="Attributes" />
   </node>
 </model>
 

@@ -2318,7 +2318,7 @@
   </node>
   <node concept="24kQdi" id="6mcP9nJcVU_">
     <property role="3GE5qa" value="Attributes.editor.custom" />
-    <ref role="1XX52x" to="gm16:6mcP9nJcVwi" resolve="EBNFCustomEditorForComponent" />
+    <ref role="1XX52x" to="gm16:6mcP9nJcVwi" resolve="EBNFCustomCellModel_Component" />
     <node concept="3EZMnI" id="6mcP9nJcVUB" role="2wV5jI">
       <node concept="3F0ifn" id="6mcP9nJeyHN" role="3EZMnx">
         <property role="3F0ifm" value="#" />
@@ -2332,13 +2332,16 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
-      <node concept="3F1sOY" id="6mcP9nJcXyH" role="3EZMnx">
+      <node concept="3F1sOY" id="5SQJARQIUVV" role="3EZMnx">
         <ref role="1NtTu8" to="gm16:6mcP9nJcVU$" resolve="component" />
       </node>
       <node concept="2iRfu4" id="6mcP9nJcVUE" role="2iSdaV" />
       <node concept="3F0ifn" id="6mcP9nJeyHQ" role="3EZMnx">
         <property role="3F0ifm" value="#" />
       </node>
+    </node>
+    <node concept="PMmxH" id="5SQJARQD$F4" role="6VMZX">
+      <ref role="PMmxG" to="tpc5:hF4ssnw" resolve="_CellModel_Common" />
     </node>
   </node>
   <node concept="24kQdi" id="5SQJARPEhO3">
