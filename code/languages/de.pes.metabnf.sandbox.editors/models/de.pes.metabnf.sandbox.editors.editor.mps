@@ -14,7 +14,6 @@
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
       <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi" />
       <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
-      <concept id="1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" flags="nn" index="2iRkQZ" />
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
@@ -22,16 +21,9 @@
       <concept id="1078939183254" name="jetbrains.mps.lang.editor.structure.CellModel_Component" flags="sg" stub="3162947552742194261" index="PMmxH">
         <reference id="1078939183255" name="editorComponent" index="PMmxG" />
       </concept>
-      <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
         <child id="1106270802874" name="cellLayout" index="2iSdaV" />
         <child id="1073389446424" name="childCellModel" index="3EZMnx" />
-      </concept>
-      <concept id="1073389577006" name="jetbrains.mps.lang.editor.structure.CellModel_Constant" flags="sn" stub="3610246225209162225" index="3F0ifn">
-        <property id="1073389577007" name="text" index="3F0ifm" />
-      </concept>
-      <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ngI" index="3F0Thp">
-        <child id="1219418656006" name="styleItem" index="3F10Kt" />
       </concept>
       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
@@ -50,9 +42,9 @@
     <property role="3GE5qa" value="editor samples" />
     <property role="TrG5h" value="ConceptWithCustomEditor" />
     <ref role="1XX52x" to="ksqi:5SQJAROnbEK" resolve="ConceptWithCustomEditor" />
-    <node concept="3EZMnI" id="5SQJARP1fk3" role="2wV5jI">
-      <node concept="2iRfu4" id="5SQJARP1fk4" role="2iSdaV" />
-      <node concept="PMmxH" id="5SQJARP1fk5" role="3EZMnx">
+    <node concept="3EZMnI" id="5SQJARQ0j0X" role="2wV5jI">
+      <node concept="2iRfu4" id="5SQJARQ0j0Y" role="2iSdaV" />
+      <node concept="PMmxH" id="5SQJARQ0j0Z" role="3EZMnx">
         <ref role="PMmxG" node="5SQJAROU6RM" resolve="ConceptWithCustomEditor_EditorComponent" />
       </node>
     </node>
@@ -61,21 +53,11 @@
     <property role="TrG5h" value="ConceptWithCustomEditor_EditorComponent" />
     <property role="3GE5qa" value="editor samples" />
     <ref role="1XX52x" to="ksqi:5SQJAROnbEK" resolve="ConceptWithCustomEditor" />
-    <node concept="3EZMnI" id="5SQJARP1fjS" role="2wV5jI">
-      <node concept="2iRkQZ" id="5SQJARP1fjT" role="2iSdaV" />
-      <node concept="3EZMnI" id="5SQJARP1fjU" role="3EZMnx">
-        <node concept="2iRfu4" id="5SQJARP1fjV" role="2iSdaV" />
-        <node concept="VPM3Z" id="5SQJARP1fjW" role="3F10Kt" />
-        <node concept="3F0ifn" id="5SQJARP1fjX" role="3EZMnx">
-          <property role="3F0ifm" value="Text Constant" />
-        </node>
+    <node concept="3EZMnI" id="5SQJARQ0j0S" role="2wV5jI">
+      <node concept="PMmxH" id="5SQJARQ0j0W" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
       </node>
-      <node concept="3EZMnI" id="5SQJARP1fjY" role="3EZMnx">
-        <node concept="2iRfu4" id="5SQJARP1fjZ" role="2iSdaV" />
-        <node concept="PMmxH" id="5SQJARP1fk2" role="3EZMnx">
-          <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-        </node>
-      </node>
+      <node concept="2iRfu4" id="5SQJARQ0j0V" role="2iSdaV" />
     </node>
   </node>
 </model>
