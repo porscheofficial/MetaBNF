@@ -49,6 +49,7 @@
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
+        <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
         <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
@@ -386,12 +387,6 @@
     <property role="34LRSv" value="Build Editor" />
     <property role="R4oN_" value="Build Editor for non instanceable concepts" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="T845Yrl5AX" role="1TKVEi">
-      <property role="IQ2ns" value="1029090517668092349" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="editorModel" />
-      <ref role="20lvS9" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
-    </node>
     <node concept="PrWs8" id="T845YrpKWX" role="PzmwI">
       <ref role="PrY4T" to="p1cl:4novjIaNO1Z" resolve="INodeAnnotationAttribute" />
     </node>
@@ -402,6 +397,12 @@
       <property role="IQ2nx" value="1029090517669318473" />
       <property role="TrG5h" value="buildEditor" />
       <ref role="AX2Wp" node="7aaqmzkcjlo" resolve="BuildEditorConfiguration" />
+    </node>
+    <node concept="1TJgyj" id="5SQJARPL5HZ" role="1TKVEi">
+      <property role="IQ2ns" value="6788822867791600511" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="bnfEComponent" />
+      <ref role="20lvS9" node="5SQJARPL5HD" resolve="EBNFCustomEditorDeclarationRef" />
     </node>
   </node>
   <node concept="1TIwiD" id="T845Yrqx5_">
@@ -732,6 +733,48 @@
     <property role="EcuMT" value="7317457234999410395" />
     <property role="3GE5qa" value="Attributes.editor.custom" />
     <property role="TrG5h" value="ICustomEditorRepresentation" />
+  </node>
+  <node concept="1TIwiD" id="5SQJARPwye9">
+    <property role="EcuMT" value="6788822867787260809" />
+    <property role="TrG5h" value="EBNFCustomEditorDeclaration" />
+    <property role="34LRSv" value="BNF Editor Declaration" />
+    <property role="3GE5qa" value="Attributes.editor.custom" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="5SQJARPEhO2" role="1TKVEi">
+      <property role="IQ2ns" value="6788822867789815042" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="editor" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
+    </node>
+    <node concept="1TJgyj" id="5SQJARPOws_" role="1TKVEi">
+      <property role="IQ2ns" value="6788822867792496421" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="expr" />
+      <ref role="20lvS9" to="p1cl:fbptcj2IO2" resolve="BNFDefinitionTermRef" />
+    </node>
+    <node concept="PrWs8" id="5SQJARPL5HN" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="5SQJARPRP5m" role="PzmwI">
+      <ref role="PrY4T" node="6mcP9nJg7Vr" resolve="ICustomEditorRepresentation" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5SQJARPL5HD">
+    <property role="EcuMT" value="6788822867791600489" />
+    <property role="3GE5qa" value="Attributes.editor.custom" />
+    <property role="TrG5h" value="EBNFCustomEditorDeclarationRef" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="5SQJARPL5HE" role="1TKVEi">
+      <property role="IQ2ns" value="6788822867791600490" />
+      <property role="20kJfa" value="ref" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5SQJARPwye9" resolve="EBNFCustomEditorDeclaration" />
+    </node>
+    <node concept="PrWs8" id="5SQJARPRP4E" role="PzmwI">
+      <ref role="PrY4T" node="6mcP9nJg7Vr" resolve="ICustomEditorRepresentation" />
+    </node>
   </node>
 </model>
 
