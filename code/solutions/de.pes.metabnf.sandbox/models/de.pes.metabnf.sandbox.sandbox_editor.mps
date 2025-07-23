@@ -49,8 +49,14 @@
       </concept>
     </language>
     <language id="926d63aa-027c-47a4-939e-98f42e63df1a" name="de.pes.metabnf.basic">
+      <concept id="8327407647102502951" name="de.pes.metabnf.basic.structure.IBNFBaseStatementConcept" flags="ngI" index="2YAO5">
+        <child id="8327407647102502952" name="expr" index="2YAOa" />
+      </concept>
       <concept id="273424159618034946" name="de.pes.metabnf.basic.structure.BNFDefinitionTermRef" flags="ng" index="gKozh">
         <reference id="273424159618034947" name="ref" index="gKozg" />
+      </concept>
+      <concept id="273424159617857978" name="de.pes.metabnf.basic.structure.BNFStringLiteral" flags="ng" index="gKPLD">
+        <property id="273424159617857979" name="value" index="gKPLC" />
       </concept>
       <concept id="273424159617715919" name="de.pes.metabnf.basic.structure.EmptyLine" flags="ng" index="gNmGs" />
       <concept id="273424159617765022" name="de.pes.metabnf.basic.structure.BNFDefinitionTerm" flags="ng" index="gNqHd" />
@@ -60,6 +66,7 @@
       <concept id="5032910278271910019" name="de.pes.metabnf.basic.structure.ISupportNodeAnnotationAttribute" flags="ngI" index="3f5NQS">
         <child id="5032910278271910020" name="annotationAttribute" index="3f5NQZ" />
       </concept>
+      <concept id="5032910278271910017" name="de.pes.metabnf.basic.structure.EmptyNodeAnnotationAttribute" flags="ng" index="3f5NQU" />
     </language>
     <language id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi">
       <concept id="9032177546942789331" name="jetbrains.mps.lang.modelapi.structure.ModelIdentity" flags="ngI" index="2$$0Hc" />
@@ -93,9 +100,13 @@
       <concept id="7317457234998573074" name="de.pes.metabnf.extended.structure.EBNFCustomCellModel_Component" flags="ng" index="2aJQM7">
         <child id="7317457234998574756" name="component" index="2aJQCL" />
       </concept>
+      <concept id="1029090517669416851" name="de.pes.metabnf.extended.structure.EBNFAttributeValueProperty" flags="ng" index="2l89Zc" />
       <concept id="1029090517669318460" name="de.pes.metabnf.extended.structure.EBNFAttributeBuildEditor" flags="ng" index="2lbLXz">
         <property id="1029090517669318473" name="buildEditor" index="2lbLWm" />
         <child id="6788822867791600511" name="bnfEComponent" index="2FWIki" />
+      </concept>
+      <concept id="6788822867818197866" name="de.pes.metabnf.extended.structure.EBNFCustomCellModel_Property" flags="ng" index="2Dr8O7">
+        <reference id="6788822867818645329" name="ref" index="2DlV$W" />
       </concept>
       <concept id="6788822867787260809" name="de.pes.metabnf.extended.structure.EBNFCustomEditorDeclaration" flags="ng" index="2FH9R$">
         <child id="6788822867789815042" name="editor" index="2FBUdJ" />
@@ -116,6 +127,11 @@
         <node concept="2FWIk4" id="5SQJARPOwfK" role="2FWIki">
           <ref role="2FWIk7" node="5SQJARQ0j0C" resolve="ConceptWithCustomEditor_Component" />
         </node>
+      </node>
+      <node concept="3f5NQU" id="5SQJARRmzte" role="3f5NQZ" />
+      <node concept="2l89Zc" id="5SQJARRmztg" role="3f5NQZ" />
+      <node concept="gKPLD" id="5SQJARR1pQ0" role="2YAOa">
+        <property role="gKPLC" value="name" />
       </node>
     </node>
   </node>
@@ -161,6 +177,9 @@
         <node concept="2biZxu" id="5SQJARQf3wv" role="3F10Kt">
           <property role="1rj3mz" value="Arial" />
         </node>
+      </node>
+      <node concept="2Dr8O7" id="5SQJARRtz6I" role="3EZMnx">
+        <ref role="2DlV$W" node="5SQJARR1pQ0" />
       </node>
       <node concept="2biZxu" id="5SQJARQf3wF" role="3F10Kt">
         <property role="1rj3mz" value="Arial Black" />

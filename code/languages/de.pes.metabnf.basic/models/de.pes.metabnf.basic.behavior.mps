@@ -7711,6 +7711,10 @@
         <ref role="ehGHo" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
       </node>
       <node concept="3clFbS" id="5SQJARQ1YYf" role="3clF47" />
+      <node concept="37vLTG" id="5SQJARR3Pm0" role="3clF46">
+        <property role="TrG5h" value="editor" />
+        <node concept="H_c77" id="5SQJARR3PlZ" role="1tU5fm" />
+      </node>
     </node>
     <node concept="13hLZK" id="5SQJARQ1YXU" role="13h7CW">
       <node concept="3clFbS" id="5SQJARQ1YXV" role="2VODD2" />

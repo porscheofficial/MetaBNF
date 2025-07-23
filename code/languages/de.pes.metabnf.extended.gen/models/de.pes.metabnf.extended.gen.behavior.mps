@@ -21472,6 +21472,14 @@
               </node>
               <node concept="2qgKlT" id="5SQJAROzvff" role="2OqNvi">
                 <ref role="37wK5l" to="yrpt:5SQJARQ1YYc" resolve="getCustomCellModel" />
+                <node concept="2OqwBi" id="5SQJARRajL$" role="37wK5m">
+                  <node concept="37vLTw" id="5SQJARRajL_" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7aaqmzk8jGS" resolve="mModel" />
+                  </node>
+                  <node concept="2OwXpG" id="5SQJARRajLA" role="2OqNvi">
+                    <ref role="2Oxat5" node="7egTi9LBUeo" resolve="mLanguageEditor" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
