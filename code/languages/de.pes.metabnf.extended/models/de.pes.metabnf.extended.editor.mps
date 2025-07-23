@@ -27,6 +27,8 @@
     <import index="f4zo" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.cells(MPS.Editor/)" />
     <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
     <import index="tpc5" ref="r:00000000-0000-4000-0000-011c89590299(jetbrains.mps.lang.editor.editor)" />
+    <import index="5ueo" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.editor.runtime.style(MPS.Editor/)" />
+    <import index="hox0" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.style(MPS.Editor/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="yrpt" ref="r:15d1b130-f395-476f-b866-5377702ecef9(de.pes.metabnf.basic.behavior)" implicit="true" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
@@ -2420,6 +2422,19 @@
       </node>
       <node concept="2iRfu4" id="5SQJARRmzto" role="2iSdaV" />
     </node>
+    <node concept="B$lHz" id="5SQJARRLl4N" role="6VMZX" />
+  </node>
+  <node concept="24kQdi" id="5SQJARRLl4J">
+    <property role="3GE5qa" value="Attributes.editor.custom" />
+    <ref role="1XX52x" to="gm16:5SQJARRLl4G" resolve="StubEBNFCustomCellModel_Property" />
+    <node concept="PMmxH" id="5SQJARRLl4K" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:37EzmTDC95l" />
+    </node>
+  </node>
+  <node concept="22mcaB" id="5SQJARRLl4L">
+    <property role="3GE5qa" value="Attributes.editor.custom" />
+    <ref role="aqKnT" to="gm16:5SQJARRLl4G" resolve="StubEBNFCustomCellModel_Property" />
+    <node concept="22hDWj" id="5SQJARRLl4M" role="22hAXT" />
   </node>
 </model>
 

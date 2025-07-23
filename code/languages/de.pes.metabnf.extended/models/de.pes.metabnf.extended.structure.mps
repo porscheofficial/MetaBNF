@@ -781,7 +781,7 @@
     <property role="3GE5qa" value="Attributes.editor.custom" />
     <property role="TrG5h" value="EBNFCustomCellModel_Property" />
     <property role="34LRSv" value="BNF Property Link" />
-    <ref role="1TJDcQ" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
+    <ref role="1TJDcQ" to="tpc2:fBF0A4I" resolve="CellModel_Property" />
     <node concept="PrWs8" id="5SQJARRmzdG" role="PzmwI">
       <ref role="PrY4T" node="6mcP9nJg7Vr" resolve="ICustomEditorRepresentation" />
     </node>
@@ -790,6 +790,18 @@
       <property role="20kJfa" value="ref" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="p1cl:fbptcj1GUz" resolve="BNFExpression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5SQJARRLl4G">
+    <property role="TrG5h" value="StubEBNFCustomCellModel_Property" />
+    <property role="3GE5qa" value="Attributes.editor.custom" />
+    <property role="EcuMT" value="6788822867825217836" />
+    <ref role="1TJDcQ" node="5SQJARRmzdE" resolve="EBNFCustomCellModel_Property" />
+    <node concept="PrWs8" id="5SQJARRLl4H" role="PzmwI">
+      <ref role="PrY4T" node="6mcP9nJg7Vr" resolve="ICustomEditorRepresentation" />
+    </node>
+    <node concept="PrWs8" id="5SQJARRLl4I" role="PzmwI">
+      <ref role="PrY4T" to="tpck:8AYOKVCAP5" />
     </node>
   </node>
 </model>
