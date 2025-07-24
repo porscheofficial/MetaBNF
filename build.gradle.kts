@@ -17,7 +17,7 @@ plugins {
 }
 
 group = "de.pes.MetaBNF"
-version = "2024.1.11"
+version = "2024.1.12"
 description = "MetaBNF provides MPS-based languages for working with Backus-Naur Form (BNF). It enables users to define, edit, and analyze BNF grammars directly in JetBrains MPS, facilitating language design, parsing, and formal grammar processing."
 
 val projectName = "MetaBNF"
