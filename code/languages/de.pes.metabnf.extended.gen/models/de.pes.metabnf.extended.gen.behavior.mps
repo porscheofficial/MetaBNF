@@ -21722,10 +21722,10 @@
                     <node concept="3fqX7Q" id="5SQJARSJ9Dw" role="3clFbw">
                       <node concept="2OqwBi" id="5SQJARSJ9Dy" role="3fr31v">
                         <node concept="37vLTw" id="5SQJARSJ9Dz" role="2Oq$k0">
-                          <ref role="3cqZAo" node="5SQJARSHR$a" resolve="ced" />
+                          <ref role="3cqZAo" node="5SQJAROyLXg" resolve="customEdit" />
                         </node>
                         <node concept="3TrcHB" id="5SQJARSJ9D$" role="2OqNvi">
-                          <ref role="3TsBF5" to="gm16:5SQJARSmX_i" resolve="componentOnly" />
+                          <ref role="3TsBF5" to="gm16:1vpfjfM_MyN" resolve="onlyComponent" />
                         </node>
                       </node>
                     </node>

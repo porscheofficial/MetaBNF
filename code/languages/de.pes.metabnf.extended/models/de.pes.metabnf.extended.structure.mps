@@ -419,6 +419,11 @@
       <property role="TrG5h" value="buildEditor" />
       <ref role="AX2Wp" node="7aaqmzkcjlo" resolve="BuildEditorConfiguration" />
     </node>
+    <node concept="1TJgyi" id="1vpfjfM_MyN" role="1TKVEl">
+      <property role="IQ2nx" value="1718472026141173939" />
+      <property role="TrG5h" value="onlyComponent" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="1TJgyj" id="5SQJARPL5HZ" role="1TKVEi">
       <property role="IQ2ns" value="6788822867791600511" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -790,11 +795,6 @@
     </node>
     <node concept="PrWs8" id="5SQJARPRP5m" role="PzmwI">
       <ref role="PrY4T" to="p1cl:5SQJARQ1YXS" resolve="IBNFEditorCellModelBase" />
-    </node>
-    <node concept="1TJgyi" id="5SQJARSmX_i" role="1TKVEl">
-      <property role="IQ2nx" value="6788822867835083090" />
-      <property role="TrG5h" value="componentOnly" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
     <node concept="1irR5M" id="5SQJARUW90N" role="rwd14">
       <property role="2$rrk2" value="1" />
