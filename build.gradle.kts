@@ -12,7 +12,7 @@ import de.itemis.mps.gradle.generate.GeneratePluginExtensions
 import org.gradle.api.*
 
 plugins {
-    kotlin("jvm") version "1.8.11" // Use the appropriate Kotlin version
+    kotlin("jvm") version "1.8.10" // Use the appropriate Kotlin version
     `maven-publish`
 }
 
