@@ -761,7 +761,7 @@
   <node concept="1TIwiD" id="5SQJARPwye9">
     <property role="EcuMT" value="6788822867787260809" />
     <property role="TrG5h" value="EBNFCustomEditorDeclaration" />
-    <property role="34LRSv" value="BNF Editor Declaration" />
+    <property role="34LRSv" value="BNF Editor Component Declaration" />
     <property role="3GE5qa" value="Attributes.editor.custom" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
