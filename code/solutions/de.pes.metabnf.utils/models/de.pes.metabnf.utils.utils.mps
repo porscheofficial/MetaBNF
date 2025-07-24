@@ -1313,9 +1313,15 @@
                     <ref role="3Tt5mk" to="tpc2:fIwV5gl" resolve="cellModel" />
                   </node>
                 </node>
-                <node concept="2pJPEk" id="39om$43qUsf" role="37vLTx">
-                  <node concept="2pJPED" id="39om$43qUsg" role="2pJPEn">
+                <node concept="2pJPEk" id="7aaqmzlhm4V" role="37vLTx">
+                  <node concept="2pJPED" id="7aaqmzlhm4X" role="2pJPEn">
                     <ref role="2pJxaS" to="tpc2:fBEZMkn" resolve="CellModel_Collection" />
+                    <node concept="2pIpSj" id="7aaqmzlhmjx" role="2pJxcM">
+                      <ref role="2pIpSl" to="tpc2:g6iSdeU" />
+                      <node concept="2pJPED" id="7aaqmzlhmtR" role="28nt2d">
+                        <ref role="2pJxaS" to="tpc2:g6iRkMY" resolve="CellLayout_Vertical" />
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
