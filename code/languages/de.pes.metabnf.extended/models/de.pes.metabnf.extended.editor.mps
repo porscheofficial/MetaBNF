@@ -1389,11 +1389,12 @@
         <node concept="VPM3Z" id="1vpfjfM_NdK" role="3F10Kt" />
         <node concept="3EZMnI" id="1vpfjfM_P3x" role="3EZMnx">
           <node concept="VPM3Z" id="1vpfjfM_P3z" role="3F10Kt" />
+          <node concept="3XFhqQ" id="1vpfjfMEzi4" role="3EZMnx" />
           <node concept="3F0ifn" id="1vpfjfM_Pp4" role="3EZMnx">
-            <property role="3F0ifm" value="---&gt;Build Only Custom Component:" />
+            <property role="3F0ifm" value="Build Only Custom Component:" />
           </node>
-          <node concept="3F0A7n" id="1vpfjfM_Pp7" role="3EZMnx">
-            <ref role="1NtTu8" to="gm16:T845YrpKX9" resolve="buildEditor" />
+          <node concept="3F0A7n" id="1vpfjfMEzi7" role="3EZMnx">
+            <ref role="1NtTu8" to="gm16:1vpfjfM_MyN" resolve="onlyComponent" />
           </node>
           <node concept="2iRfu4" id="1vpfjfM_P3A" role="2iSdaV" />
         </node>
