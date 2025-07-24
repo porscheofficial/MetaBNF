@@ -573,9 +573,6 @@
     <node concept="PrWs8" id="7aaqmzorSYp" role="PrDN$">
       <ref role="PrY4T" node="7aaqmzorFAg" resolve="ISupportEditorRepresentation" />
     </node>
-    <node concept="PrWs8" id="5SQJARQ1YYw" role="PrDN$">
-      <ref role="PrY4T" node="5SQJARQ1YXS" resolve="IBNFEditorCellModelBase" />
-    </node>
   </node>
   <node concept="PlHQZ" id="7aaqmzorFAg">
     <property role="EcuMT" value="8253525166138505616" />

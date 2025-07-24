@@ -7704,6 +7704,16 @@
       <node concept="10P_77" id="7LcVVIP_5Oo" role="3clF45" />
       <node concept="3clFbS" id="7LcVVIP_5O7" role="3clF47" />
     </node>
+    <node concept="13i0hz" id="1vpfjfLXblY" role="13h7CS">
+      <property role="13i0iv" value="true" />
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="getCustomEditorTerms" />
+      <node concept="3Tm1VV" id="1vpfjfLXblZ" role="1B3o_S" />
+      <node concept="2I9FWS" id="1vpfjfLXbmi" role="3clF45">
+        <ref role="2I9WkF" to="gm16:5SQJARPL5HD" resolve="EBNFCustomEditorDeclarationRef" />
+      </node>
+      <node concept="3clFbS" id="1vpfjfLXbm1" role="3clF47" />
+    </node>
     <node concept="13i0hz" id="7LcVVIP_5Qq" role="13h7CS">
       <property role="13i0iv" value="true" />
       <property role="13i0it" value="true" />

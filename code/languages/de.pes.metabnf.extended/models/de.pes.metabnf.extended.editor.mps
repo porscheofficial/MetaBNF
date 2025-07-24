@@ -1399,8 +1399,9 @@
         <node concept="3F0ifn" id="7aaqmzkdD8J" role="3EZMnx">
           <property role="3F0ifm" value=":" />
         </node>
-        <node concept="3F1sOY" id="5SQJARPL63v" role="3EZMnx">
+        <node concept="3F2HdR" id="1vpfjfLWXRA" role="3EZMnx">
           <ref role="1NtTu8" to="gm16:5SQJARPL5HZ" resolve="bnfEComponent" />
+          <node concept="2iRfu4" id="1vpfjfLWXRC" role="2czzBx" />
         </node>
         <node concept="2iRfu4" id="7aaqmzkdznY" role="2iSdaV" />
         <node concept="pkWqt" id="7aaqmzkdznZ" role="pqm2j">
