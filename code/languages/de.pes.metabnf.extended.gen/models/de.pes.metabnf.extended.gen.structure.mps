@@ -128,7 +128,7 @@
     </node>
     <node concept="1TJgyi" id="5e$abfvpMsD" role="1TKVEl">
       <property role="IQ2nx" value="6026986954340902697" />
-      <property role="TrG5h" value="skipEdior" />
+      <property role="TrG5h" value="defaultEditorBuild" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
     <node concept="1TJgyj" id="7egTi9LkQif" role="1TKVEi">

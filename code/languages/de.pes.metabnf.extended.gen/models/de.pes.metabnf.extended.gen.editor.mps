@@ -437,10 +437,10 @@
       <node concept="3EZMnI" id="5e$abfvpOw6" role="3EZMnx">
         <node concept="VPM3Z" id="5e$abfvpOw8" role="3F10Kt" />
         <node concept="3F0ifn" id="5e$abfvpOwa" role="3EZMnx">
-          <property role="3F0ifm" value="Build Editors for undefined:" />
+          <property role="3F0ifm" value="Build Default Editors for undefined BNF Terms:" />
         </node>
         <node concept="3F0A7n" id="5e$abfvpORI" role="3EZMnx">
-          <ref role="1NtTu8" to="x0c1:5e$abfvpMsD" resolve="skipEdior" />
+          <ref role="1NtTu8" to="x0c1:5e$abfvpMsD" resolve="defaultEditorBuild" />
         </node>
         <node concept="2iRfu4" id="5e$abfvpOwb" role="2iSdaV" />
       </node>
