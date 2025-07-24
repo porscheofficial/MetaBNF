@@ -29,6 +29,7 @@
     <import index="tp3j" ref="r:00000000-0000-4000-0000-011c89590353(jetbrains.mps.lang.intentions.structure)" />
     <import index="41s9" ref="r:b226114e-110c-4869-a464-a05a1c444974(de.pes.metabnf.utils.intention)" />
     <import index="10gk" ref="r:1dbbf3a1-8696-4f8a-bbc0-f2cfa4306470(de.pes.metabnf.base.behavior)" />
+    <import index="gm16" ref="r:1329ba0c-7632-46ba-9d9e-25ae5ff7e792(de.pes.metabnf.extended.structure)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -7714,9 +7715,19 @@
       <node concept="37vLTG" id="5SQJARR3Pm0" role="3clF46">
         <property role="TrG5h" value="editor" />
         <node concept="3Tqbb2" id="5SQJAROzSmX" role="1tU5fm">
-          <ref role="ehGHo" to="tpc2:fA4kQeF" resolve="ConceptEditorDeclaration" />
+          <ref role="ehGHo" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
         </node>
       </node>
+    </node>
+    <node concept="13i0hz" id="5SQJARSEKqB" role="13h7CS">
+      <property role="13i0iv" value="true" />
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="getCustomEditorDeclaration" />
+      <node concept="3Tm1VV" id="5SQJARSEKqC" role="1B3o_S" />
+      <node concept="3Tqbb2" id="5SQJARSEKqV" role="3clF45">
+        <ref role="ehGHo" to="gm16:5SQJARPwye9" resolve="EBNFCustomEditorDeclaration" />
+      </node>
+      <node concept="3clFbS" id="5SQJARSEKqE" role="3clF47" />
     </node>
     <node concept="13hLZK" id="5SQJARQ1YXU" role="13h7CW">
       <node concept="3clFbS" id="5SQJARQ1YXV" role="2VODD2" />

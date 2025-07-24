@@ -11,9 +11,13 @@
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
+      <concept id="7418278005949660372" name="jetbrains.mps.lang.editor.structure.FontFamilyStyleClassItem" flags="ln" index="2biZxu" />
       <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
       <concept id="1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" flags="nn" index="2iRkQZ" />
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
+      <concept id="7228435049763093185" name="jetbrains.mps.lang.editor.structure.FontFamilyContainer" flags="ngI" index="1rj3mw">
+        <property id="7228435049763093186" name="family" index="1rj3mz" />
+      </concept>
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
         <child id="1106270802874" name="cellLayout" index="2iSdaV" />
         <child id="1073389446424" name="childCellModel" index="3EZMnx" />
@@ -85,10 +89,12 @@
         <property id="1029090517669318473" name="buildEditor" index="2lbLWm" />
         <child id="6788822867791600511" name="bnfEComponent" index="2FWIki" />
       </concept>
-      <concept id="6788822867818197866" name="de.pes.metabnf.extended.structure.EBNFCustomCellModel_Property" flags="sg" stub="6788822867825217836" index="2Dr8O7">
+      <concept id="6788822867818197866" name="de.pes.metabnf.extended.structure.EBNFCustomCellModel_Property" flags="ng" index="2Dr8O7">
+        <property id="1140017977771" name="readOnly" index="1Intyy" />
         <reference id="6788822867818645329" name="ref" index="2DlV$W" />
       </concept>
       <concept id="6788822867787260809" name="de.pes.metabnf.extended.structure.EBNFCustomEditorDeclaration" flags="ng" index="2FH9R$">
+        <property id="6788822867835083090" name="componentOnly" index="2ArmsZ" />
         <child id="6788822867789815042" name="editor" index="2FBUdJ" />
         <child id="6788822867792496421" name="expr" index="2FTb_8" />
       </concept>
@@ -132,7 +138,8 @@
     </node>
   </node>
   <node concept="2FH9R$" id="5SQJARQ0j0C">
-    <property role="TrG5h" value="ConceptWithCustomEditor_Component" />
+    <property role="TrG5h" value="ConceptWithCustomEditorC_Component" />
+    <property role="2ArmsZ" value="true" />
     <node concept="gKozh" id="5SQJARQ0j0L" role="2FTb_8">
       <ref role="gKozg" node="5SQJAROnbEt" resolve="ConceptWithCustomEditor" />
     </node>
@@ -154,8 +161,12 @@
         <node concept="3F0ifn" id="5SQJARRvf0P" role="3EZMnx">
           <property role="3F0ifm" value="Value:" />
         </node>
-        <node concept="2Dr8O7" id="5SQJARSeHGp" role="3EZMnx">
+        <node concept="2Dr8O7" id="5SQJARSj8UD" role="3EZMnx">
+          <property role="1Intyy" value="true" />
           <ref role="2DlV$W" node="5SQJARR1pQ0" />
+          <node concept="2biZxu" id="5SQJARSj97Y" role="3F10Kt">
+            <property role="1rj3mz" value="Arial Black" />
+          </node>
         </node>
         <node concept="2iRfu4" id="5SQJARRvf0O" role="2iSdaV" />
       </node>
