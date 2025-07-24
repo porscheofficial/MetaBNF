@@ -12,12 +12,12 @@ import de.itemis.mps.gradle.generate.GeneratePluginExtensions
 import org.gradle.api.*
 
 plugins {
-    kotlin("jvm") version "1.8.10" // Use the appropriate Kotlin version
+    kotlin("jvm") version "1.8.11" // Use the appropriate Kotlin version
     `maven-publish`
 }
 
 group = "de.pes.MetaBNF"
-version = "2024.1.10"
+version = "2024.1.11"
 description = "MetaBNF provides MPS-based languages for working with Backus-Naur Form (BNF). It enables users to define, edit, and analyze BNF grammars directly in JetBrains MPS, facilitating language design, parsing, and formal grammar processing."
 
 val projectName = "MetaBNF"
