@@ -415,6 +415,11 @@
             <ref role="1Busuk" node="7LcVVIPHnaA" resolve="de.pes.metabnf.base" />
           </node>
         </node>
+        <node concept="1SiIV0" id="1vpfjfLSit4" role="3bR37C">
+          <node concept="3bR9La" id="1vpfjfLSit5" role="1SiIV1">
+            <ref role="3bR37D" node="7vSfl_Uu_xf" resolve="de.pes.metabnf.extended" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="7vSfl_Uu_xf" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -486,6 +491,11 @@
         <node concept="1SiIV0" id="5SQJAROtpvd" role="3bR37C">
           <node concept="1Busua" id="5SQJAROtpve" role="1SiIV1">
             <ref role="1Busuk" node="7LcVVIPHnaA" resolve="de.pes.metabnf.base" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1vpfjfLSite" role="3bR37C">
+          <node concept="3bR9La" id="1vpfjfLSitf" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L4p" resolve="jetbrains.mps.lang.behavior" />
           </node>
         </node>
       </node>
@@ -785,6 +795,11 @@
         <node concept="1SiIV0" id="3L$HXb6EErR" role="3bR37C">
           <node concept="3bR9La" id="3L$HXb6EErS" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1vpfjfLSitC" role="3bR37C">
+          <node concept="3bR9La" id="1vpfjfLSitD" role="1SiIV1">
+            <ref role="3bR37D" node="7vSfl_Uu_xf" resolve="de.pes.metabnf.extended" />
           </node>
         </node>
       </node>

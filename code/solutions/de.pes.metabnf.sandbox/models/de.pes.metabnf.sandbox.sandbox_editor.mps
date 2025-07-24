@@ -58,7 +58,6 @@
       <concept id="5032910278271910017" name="de.pes.metabnf.basic.structure.EmptyNodeAnnotationAttribute" flags="ng" index="3f5NQU" />
     </language>
     <language id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi">
-      <concept id="9032177546942789331" name="jetbrains.mps.lang.modelapi.structure.ModelIdentity" flags="ngI" index="2$$0Hc" />
       <concept id="361130699826193248" name="jetbrains.mps.lang.modelapi.structure.ModelPointer" flags="ng" index="1dCxOl">
         <property id="1863527487546097494" name="modelId" index="1XweGQ" />
         <child id="679099339649067980" name="name" index="1j$8Uc" />
@@ -98,6 +97,7 @@
         <property id="1145360728033" name="reverse" index="2GOrVF" />
         <property id="1160590307797" name="usesFolding" index="S$F3r" />
         <reference id="6788822867853428074" name="ref" index="2BhnG7" />
+        <child id="1140524464360" name="cellLayout" index="2czzBx" />
       </concept>
       <concept id="6788822867818197866" name="de.pes.metabnf.extended.structure.EBNFCustomCellModel_Property" flags="ng" index="2Dr8O7">
         <reference id="6788822867818645329" name="ref" index="2DlV$W" />
@@ -155,7 +155,12 @@
       </node>
     </node>
     <node concept="1Xw6AR" id="3gySEDtGS9Q" role="3fKwUX">
-      <node concept="2$$0Hc" id="3gySEDtGS9R" role="1XwpL7" />
+      <node concept="1dCxOl" id="5SQJARV7Vte" role="1XwpL7">
+        <property role="1XweGQ" value="r:a829732b-00f6-40f5-8043-f6a948821c13" />
+        <node concept="1j_P7g" id="5SQJARV7Vtf" role="1j$8Uc">
+          <property role="1j_P7h" value="de.pes.metabnf.sandbox.editors.generator.templates@generator" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="2FH9R$" id="5SQJARUdf7X">
@@ -192,6 +197,7 @@
           <property role="S$F3r" value="true" />
           <property role="2GOrVF" value="true" />
           <ref role="2BhnG7" node="5SQJARTsWlc" />
+          <node concept="2iRkQZ" id="5SQJARUW905" role="2czzBx" />
         </node>
         <node concept="2iRfu4" id="5SQJARUkCI8" role="2iSdaV" />
       </node>
