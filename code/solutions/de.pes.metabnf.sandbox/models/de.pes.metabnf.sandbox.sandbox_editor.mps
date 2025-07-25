@@ -19,6 +19,7 @@
       <concept id="7228435049763093185" name="jetbrains.mps.lang.editor.structure.FontFamilyContainer" flags="ngI" index="1rj3mw">
         <property id="7228435049763093186" name="family" index="1rj3mz" />
       </concept>
+      <concept id="1073389214265" name="jetbrains.mps.lang.editor.structure.EditorCellModel" flags="ng" index="3EYTF0" />
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
         <child id="1106270802874" name="cellLayout" index="2iSdaV" />
         <child id="1073389446424" name="childCellModel" index="3EZMnx" />
@@ -216,6 +217,7 @@
           </node>
         </node>
         <node concept="2iRfu4" id="1vpfjfMgZ3w" role="2iSdaV" />
+        <node concept="3EYTF0" id="1vpfjfNLD5x" role="3EZMnx" />
       </node>
       <node concept="2iRkQZ" id="1vpfjfMgZ3b" role="2iSdaV" />
     </node>

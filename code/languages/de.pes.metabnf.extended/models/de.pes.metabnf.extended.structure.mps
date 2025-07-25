@@ -292,6 +292,9 @@
     <node concept="PrWs8" id="1nL_s$DlNQa" role="PzmwI">
       <ref role="PrY4T" node="1nL_s$DlNQ9" resolve="IConceptExtendsConceptRef" />
     </node>
+    <node concept="PrWs8" id="1vpfjfMGKh1" role="PzmwI">
+      <ref role="PrY4T" to="yot6:T845Ys479E" resolve="IBNFExpressionReference" />
+    </node>
     <node concept="t5JxF" id="1EU0USQCXfF" role="lGtFl">
       <property role="t5JxN" value="Solves the extend of abstract definition terms of BNF" />
     </node>
@@ -703,6 +706,9 @@
     <node concept="PrWs8" id="r82NTNJmxB" role="PzmwI">
       <ref role="PrY4T" node="r82NTNJmvW" resolve="IAbstractConceptDeclarationMembersRef" />
     </node>
+    <node concept="PrWs8" id="1vpfjfMMtgh" role="PzmwI">
+      <ref role="PrY4T" to="yot6:T845Ys479E" resolve="IBNFExpressionReference" />
+    </node>
   </node>
   <node concept="PlHQZ" id="r82NTNJmvW">
     <property role="EcuMT" value="488652922427369468" />
@@ -843,7 +849,7 @@
       <property role="IQ2ns" value="6788822867818645329" />
       <property role="20kJfa" value="ref" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" to="p1cl:fbptcj1GUz" resolve="BNFExpression" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
     </node>
   </node>
   <node concept="PlHQZ" id="5SQJARStVza">

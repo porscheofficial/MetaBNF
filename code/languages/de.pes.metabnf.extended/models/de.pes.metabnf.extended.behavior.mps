@@ -1495,6 +1495,22 @@
         <ref role="ehGHo" to="tpc2:fBEZMkn" resolve="CellModel_Collection" />
       </node>
     </node>
+    <node concept="13i0hz" id="1vpfjfMGKGA" role="13h7CS">
+      <property role="TrG5h" value="getTarget" />
+      <ref role="13i0hy" to="10gk:T845Ys479Z" resolve="getTarget" />
+      <node concept="3Tm1VV" id="1vpfjfMGKGB" role="1B3o_S" />
+      <node concept="3clFbS" id="1vpfjfMGKGE" role="3clF47">
+        <node concept="3cpWs6" id="1vpfjfMGKJZ" role="3cqZAp">
+          <node concept="2OqwBi" id="1vpfjfMGKYS" role="3cqZAk">
+            <node concept="13iPFW" id="1vpfjfMGKKd" role="2Oq$k0" />
+            <node concept="3TrEf2" id="1vpfjfMGLnz" role="2OqNvi">
+              <ref role="3Tt5mk" to="gm16:1nL_s$Dlq39" resolve="ref" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="1vpfjfMGKGF" role="3clF45" />
+    </node>
   </node>
   <node concept="13h7C7" id="6BkCOo7guWN">
     <ref role="13h7C2" to="gm16:1nL_s$DdmcQ" resolve="EBNFAbstractDefinitonTerm" />
@@ -2940,6 +2956,22 @@
       </node>
       <node concept="3Tqbb2" id="r82NTNJnQU" role="3clF45" />
     </node>
+    <node concept="13i0hz" id="1vpfjfMMtsa" role="13h7CS">
+      <property role="TrG5h" value="getTarget" />
+      <ref role="13i0hy" to="10gk:T845Ys479Z" resolve="getTarget" />
+      <node concept="3Tm1VV" id="1vpfjfMMtsb" role="1B3o_S" />
+      <node concept="3clFbS" id="1vpfjfMMtse" role="3clF47">
+        <node concept="3cpWs6" id="1vpfjfMSLiN" role="3cqZAp">
+          <node concept="2OqwBi" id="1vpfjfN8Jn2" role="3cqZAk">
+            <node concept="13iPFW" id="1vpfjfN8JbM" role="2Oq$k0" />
+            <node concept="3TrEf2" id="1vpfjfN8JOn" role="2OqNvi">
+              <ref role="3Tt5mk" to="gm16:r82NTNmDjA" resolve="ref" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="1vpfjfMMtsf" role="3clF45" />
+    </node>
   </node>
   <node concept="13h7C7" id="r82NTNL3u1">
     <property role="3GE5qa" value="Attributes.extend.editor" />
@@ -4135,6 +4167,13 @@
       <node concept="3Tqbb2" id="5SQJARTsX6Q" role="3clF45">
         <ref role="ehGHo" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
       </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="1vpfjfMQCDA">
+    <property role="3GE5qa" value="Attributes.Interface" />
+    <ref role="13h7C2" to="gm16:7egTi9LFaPK" resolve="IImplementsExternalConcepts" />
+    <node concept="13hLZK" id="1vpfjfMQCDB" role="13h7CW">
+      <node concept="3clFbS" id="1vpfjfMQCDC" role="2VODD2" />
     </node>
   </node>
 </model>
