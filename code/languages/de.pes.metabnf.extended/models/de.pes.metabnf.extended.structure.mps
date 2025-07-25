@@ -968,7 +968,7 @@
       <property role="IQ2ns" value="6788822867853428074" />
       <property role="20kJfa" value="ref" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" to="p1cl:fbptcj1GUz" resolve="BNFExpression" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
     </node>
     <node concept="1TJgyj" id="h4APPx9" role="1TKVEi">
       <property role="20kJfa" value="elementActionMap" />
