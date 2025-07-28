@@ -20,7 +20,7 @@
     <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
     <import index="1i04" ref="r:3270011d-8b2d-4938-8dff-d256a759e017(jetbrains.mps.lang.behavior.structure)" />
     <import index="tp3j" ref="r:00000000-0000-4000-0000-011c89590353(jetbrains.mps.lang.intentions.structure)" />
-    <import index="gm16" ref="r:1329ba0c-7632-46ba-9d9e-25ae5ff7e792(de.pes.metabnf.extended.structure)" />
+    <import index="yot6" ref="r:fa98198a-d052-48c6-a067-71419b7c2317(de.pes.metabnf.base.structure)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="tpcn" ref="r:00000000-0000-4000-0000-011c8959028b(jetbrains.mps.lang.structure.behavior)" implicit="true" />
   </imports>
@@ -2558,7 +2558,7 @@
                 <ref role="3cqZAo" node="5SQJARSgwt0" resolve="IN" />
               </node>
               <node concept="3TrcHB" id="5SQJARSgDV9" role="2OqNvi">
-                <ref role="3TsBF5" to="gm16:g_$x2vM" resolve="noTargetText" />
+                <ref role="3TsBF5" to="yot6:g_$x2vM" resolve="noTargetText" />
               </node>
             </node>
             <node concept="2OqwBi" id="5SQJARSgwsg" role="37vLTJ">
@@ -2578,7 +2578,7 @@
                 <ref role="3cqZAo" node="5SQJARSgwt0" resolve="IN" />
               </node>
               <node concept="3TrcHB" id="5SQJARSgEGW" role="2OqNvi">
-                <ref role="3TsBF5" to="gm16:hF9s7y1" resolve="emptyNoTargetText" />
+                <ref role="3TsBF5" to="yot6:hF9s7y1" resolve="emptyNoTargetText" />
               </node>
             </node>
             <node concept="2OqwBi" id="5SQJARSgwso" role="37vLTJ">
@@ -2598,7 +2598,7 @@
                 <ref role="3cqZAo" node="5SQJARSgwt0" resolve="IN" />
               </node>
               <node concept="3TrcHB" id="5SQJARSgFPt" role="2OqNvi">
-                <ref role="3TsBF5" to="gm16:g_IntAF" resolve="readOnly" />
+                <ref role="3TsBF5" to="yot6:g_IntAF" resolve="readOnly" />
               </node>
             </node>
             <node concept="2OqwBi" id="5SQJARSgwsw" role="37vLTJ">
@@ -2618,7 +2618,7 @@
                 <ref role="3cqZAo" node="5SQJARSgwt0" resolve="IN" />
               </node>
               <node concept="3TrcHB" id="5SQJARSgHuv" role="2OqNvi">
-                <ref role="3TsBF5" to="gm16:g_O74Lt" resolve="allowEmptyText" />
+                <ref role="3TsBF5" to="yot6:g_O74Lt" resolve="allowEmptyText" />
               </node>
             </node>
             <node concept="2OqwBi" id="5SQJARSgwsC" role="37vLTJ">
@@ -2645,7 +2645,7 @@
         <property role="3TUv4t" value="true" />
         <property role="TrG5h" value="IN" />
         <node concept="3Tqbb2" id="5SQJARSgwt1" role="1tU5fm">
-          <ref role="ehGHo" to="gm16:5SQJARTsWlF" resolve="EBNFCustomCellModel_WithRole" />
+          <ref role="ehGHo" to="yot6:5SQJARTsWlF" resolve="EBNFCustomCellModel_WithRole" />
         </node>
       </node>
       <node concept="37vLTG" id="5SQJARSgwt2" role="3clF46">
@@ -2690,7 +2690,7 @@
                 <ref role="3cqZAo" node="5SQJARU$os1" resolve="IN" />
               </node>
               <node concept="3TrcHB" id="5SQJARU$orx" role="2OqNvi">
-                <ref role="3TsBF5" to="gm16:gAczwbW" resolve="usesBraces" />
+                <ref role="3TsBF5" to="yot6:gAczwbW" resolve="usesBraces" />
               </node>
             </node>
             <node concept="2OqwBi" id="5SQJARU$ory" role="37vLTJ">
@@ -2710,7 +2710,7 @@
                 <ref role="3cqZAo" node="5SQJARU$os1" resolve="IN" />
               </node>
               <node concept="3TrcHB" id="5SQJARU$orD" role="2OqNvi">
-                <ref role="3TsBF5" to="gm16:gSS$F7l" resolve="usesFolding" />
+                <ref role="3TsBF5" to="yot6:gSS$F7l" resolve="usesFolding" />
               </node>
             </node>
             <node concept="2OqwBi" id="5SQJARU$orE" role="37vLTJ">
@@ -2730,7 +2730,7 @@
                 <ref role="3cqZAo" node="5SQJARU$os1" resolve="IN" />
               </node>
               <node concept="3TrcHB" id="5SQJARU$orL" role="2OqNvi">
-                <ref role="3TsBF5" to="gm16:gAczwbX" resolve="separatorText" />
+                <ref role="3TsBF5" to="yot6:gAczwbX" resolve="separatorText" />
               </node>
             </node>
             <node concept="2OqwBi" id="5SQJARU$orM" role="37vLTJ">
@@ -2750,7 +2750,7 @@
                 <ref role="3cqZAo" node="5SQJARU$os1" resolve="IN" />
               </node>
               <node concept="3TrcHB" id="5SQJARU$orT" role="2OqNvi">
-                <ref role="3TsBF5" to="gm16:3Ftr4R6BH0D" resolve="separatorLayoutConstraint" />
+                <ref role="3TsBF5" to="yot6:3Ftr4R6BH0D" resolve="separatorLayoutConstraint" />
               </node>
             </node>
             <node concept="2OqwBi" id="5SQJARU$orU" role="37vLTJ">
@@ -2771,7 +2771,7 @@
                 <ref role="3cqZAo" node="5SQJARU$os1" resolve="IN" />
               </node>
               <node concept="3TrEf2" id="5SQJARU$A2D" role="2OqNvi">
-                <ref role="3Tt5mk" to="gm16:h84_6ER" resolve="nodeFactory" />
+                <ref role="3Tt5mk" to="yot6:h84_6ER" />
               </node>
             </node>
             <node concept="2OqwBi" id="5SQJARU$$hR" role="37vLTJ">
@@ -2791,7 +2791,7 @@
                 <ref role="3cqZAo" node="5SQJARU$os1" resolve="IN" />
               </node>
               <node concept="3TrEf2" id="5SQJARU$A9p" role="2OqNvi">
-                <ref role="3Tt5mk" to="gm16:gAczzzB" />
+                <ref role="3Tt5mk" to="yot6:gAczzzB" />
               </node>
             </node>
             <node concept="2OqwBi" id="5SQJARU$A9q" role="37vLTJ">
@@ -2811,7 +2811,7 @@
                 <ref role="3cqZAo" node="5SQJARU$os1" resolve="IN" />
               </node>
               <node concept="3TrEf2" id="5SQJARU$BaD" role="2OqNvi">
-                <ref role="3Tt5mk" to="gm16:5fDszETGVtQ" />
+                <ref role="3Tt5mk" to="yot6:5fDszETGVtQ" />
               </node>
             </node>
             <node concept="2OqwBi" id="5SQJARU$BaE" role="37vLTJ">
@@ -2831,7 +2831,7 @@
                 <ref role="3cqZAo" node="5SQJARU$os1" resolve="IN" />
               </node>
               <node concept="3TrEf2" id="5SQJARU$CeJ" role="2OqNvi">
-                <ref role="3Tt5mk" to="gm16:gAczzzC" />
+                <ref role="3Tt5mk" to="yot6:gAczzzC" />
               </node>
             </node>
             <node concept="2OqwBi" id="5SQJARU$CeK" role="37vLTJ">
@@ -2851,7 +2851,7 @@
                 <ref role="3cqZAo" node="5SQJARU$os1" resolve="IN" />
               </node>
               <node concept="3TrEf2" id="5SQJARU$Dsn" role="2OqNvi">
-                <ref role="3Tt5mk" to="gm16:hWsWeqI" />
+                <ref role="3Tt5mk" to="yot6:hWsWeqI" />
               </node>
             </node>
             <node concept="2OqwBi" id="5SQJARU$Dso" role="37vLTJ">
@@ -2871,7 +2871,7 @@
                 <ref role="3cqZAo" node="5SQJARU$os1" resolve="IN" />
               </node>
               <node concept="3TrEf2" id="5SQJARU$Etf" role="2OqNvi">
-                <ref role="3Tt5mk" to="gm16:Ny5pAsx39_" />
+                <ref role="3Tt5mk" to="yot6:Ny5pAsx39_" />
               </node>
             </node>
             <node concept="2OqwBi" id="5SQJARU$Etg" role="37vLTJ">
@@ -2891,7 +2891,7 @@
                 <ref role="3cqZAo" node="5SQJARU$os1" resolve="IN" />
               </node>
               <node concept="3TrEf2" id="5SQJARU$Fbs" role="2OqNvi">
-                <ref role="3Tt5mk" to="gm16:3ZqNA5Aj2vB" />
+                <ref role="3Tt5mk" to="yot6:3ZqNA5Aj2vB" />
               </node>
             </node>
             <node concept="2OqwBi" id="5SQJARU$Fbt" role="37vLTJ">
@@ -2919,7 +2919,7 @@
         <property role="3TUv4t" value="true" />
         <property role="TrG5h" value="IN" />
         <node concept="3Tqbb2" id="5SQJARU$os2" role="1tU5fm">
-          <ref role="ehGHo" to="gm16:5SQJARTsWl$" resolve="EBNFCustomCellModel_List" />
+          <ref role="ehGHo" to="yot6:1UvZxkXxQif" resolve="EBNFCustomCellModel_ListBase" />
         </node>
       </node>
       <node concept="37vLTG" id="5SQJARU$os3" role="3clF46">

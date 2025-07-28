@@ -1245,7 +1245,7 @@
     <property role="3GE5qa" value="Attributes.editor.custom" />
     <ref role="1M2myG" to="gm16:5SQJARTsWl$" resolve="EBNFCustomCellModel_List" />
     <node concept="1N5Pfh" id="5SQJARTwMiy" role="1Mr941">
-      <ref role="1N5Vy1" to="gm16:5SQJARTsWlE" resolve="ref" />
+      <ref role="1N5Vy1" to="yot6:5SQJARTsWlE" />
       <node concept="3dgokm" id="5SQJARTwMot" role="1N6uqs">
         <node concept="3clFbS" id="5SQJARTwMou" role="2VODD2">
           <node concept="3cpWs8" id="5SQJARTwMFg" role="3cqZAp">
