@@ -21,6 +21,7 @@
     <import index="10gk" ref="r:1dbbf3a1-8696-4f8a-bbc0-f2cfa4306470(de.pes.metabnf.base.behavior)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="1i04" ref="r:3270011d-8b2d-4938-8dff-d256a759e017(jetbrains.mps.lang.behavior.structure)" />
+    <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -936,6 +937,19 @@
         </node>
       </node>
       <node concept="3Tqbb2" id="1UvZxkZWcn3" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="1UvZxl00aDp" role="13h7CS">
+      <property role="TrG5h" value="getPresentation" />
+      <ref role="13i0hy" to="tpcu:hEwIMiw" resolve="getPresentation" />
+      <node concept="3Tm1VV" id="1UvZxl00aDO" role="1B3o_S" />
+      <node concept="3clFbS" id="1UvZxl00aDP" role="3clF47">
+        <node concept="3cpWs6" id="1UvZxl00c2B" role="3cqZAp">
+          <node concept="BsUDl" id="1UvZxl00dmi" role="3cqZAk">
+            <ref role="37wK5l" to="yrpt:1EU0USSpIAN" resolve="getName" />
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="1UvZxl00aDQ" role="3clF45" />
     </node>
   </node>
   <node concept="13h7C7" id="1EU0USSrg4h">
