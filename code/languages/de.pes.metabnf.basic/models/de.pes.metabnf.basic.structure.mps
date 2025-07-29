@@ -359,7 +359,7 @@
       <ref role="PrY4T" node="7aaqmzlmc9L" resolve="IBNFEditorReprensentation" />
     </node>
     <node concept="PrWs8" id="7aaqmzorNkK" role="PzmwI">
-      <ref role="PrY4T" node="7aaqmzorFAg" resolve="ISupportEditorRepresentation" />
+      <ref role="PrY4T" to="yot6:7aaqmzorFAg" resolve="ISupportEditorRepresentation" />
     </node>
   </node>
   <node concept="PlHQZ" id="T845YsR94I">
@@ -565,24 +565,6 @@
     <property role="EcuMT" value="8253525166086734449" />
     <property role="3GE5qa" value="base" />
     <property role="TrG5h" value="IBNFEditorReprensentation" />
-  </node>
-  <node concept="PlHQZ" id="7aaqmzmRqQF">
-    <property role="EcuMT" value="8253525166112222635" />
-    <property role="3GE5qa" value="Attributes" />
-    <property role="TrG5h" value="IBNFAttributeEditorRepresentationConfig" />
-    <node concept="PrWs8" id="7aaqmzorSYp" role="PrDN$">
-      <ref role="PrY4T" node="7aaqmzorFAg" resolve="ISupportEditorRepresentation" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="7aaqmzorFAg">
-    <property role="EcuMT" value="8253525166138505616" />
-    <property role="3GE5qa" value="Attributes" />
-    <property role="TrG5h" value="ISupportEditorRepresentation" />
-  </node>
-  <node concept="PlHQZ" id="5SQJARQ1YXS">
-    <property role="EcuMT" value="6788822867796029304" />
-    <property role="TrG5h" value="IBNFEditorCellModelBase" />
-    <property role="3GE5qa" value="Attributes" />
   </node>
 </model>
 

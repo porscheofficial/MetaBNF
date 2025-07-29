@@ -77,8 +77,9 @@
     <module reference="848ef45d-e560-4e35-853c-f35a64cc135c(de.itemis.mps.editor.celllayout.runtime)" version="0" />
     <module reference="24c96a96-b7a1-4f30-82da-0f8e279a2661(de.itemis.mps.editor.celllayout.styles)" version="0" />
     <module reference="cce85e64-7b37-4ad5-b0e6-9d18324cdfb3(de.itemis.mps.selection.runtime)" version="0" />
+    <module reference="fcef6129-077e-482d-b29d-d74df3291d94(de.pes.metabnf.base)" version="0" />
     <module reference="926d63aa-027c-47a4-939e-98f42e63df1a(de.pes.metabnf.basic)" version="0" />
-    <module reference="303ca9b8-0d32-4b0f-bc34-d1ebf972bfac(de.pes.metabnf.extended)" version="0" />
+    <module reference="303ca9b8-0d32-4b0f-bc34-d1ebf972bfac(de.pes.metabnf.extended)" version="1" />
     <module reference="97ffe80d-dc46-4f8f-8809-6a50ddfc0686(de.pes.metabnf.importer.xsd)" version="0" />
     <module reference="dc038ceb-b7ea-4fea-ac12-55f7400e97ba(de.slisson.mps.editor.multiline.runtime)" version="0" />
     <module reference="92d2ea16-5a42-4fdf-a676-c7604efe3504(de.slisson.mps.richtext)" version="0" />

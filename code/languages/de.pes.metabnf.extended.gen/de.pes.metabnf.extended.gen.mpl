@@ -91,7 +91,7 @@
     <module reference="cce85e64-7b37-4ad5-b0e6-9d18324cdfb3(de.itemis.mps.selection.runtime)" version="0" />
     <module reference="fcef6129-077e-482d-b29d-d74df3291d94(de.pes.metabnf.base)" version="0" />
     <module reference="926d63aa-027c-47a4-939e-98f42e63df1a(de.pes.metabnf.basic)" version="0" />
-    <module reference="303ca9b8-0d32-4b0f-bc34-d1ebf972bfac(de.pes.metabnf.extended)" version="0" />
+    <module reference="303ca9b8-0d32-4b0f-bc34-d1ebf972bfac(de.pes.metabnf.extended)" version="1" />
     <module reference="aba1faaf-a5a0-44ea-8178-aed1dd3e1944(de.pes.metabnf.extended.gen)" version="0" />
     <module reference="4755f87e-2a4b-42d9-9618-31bc36f204af(de.pes.metabnf.utils)" version="0" />
     <module reference="dc038ceb-b7ea-4fea-ac12-55f7400e97ba(de.slisson.mps.editor.multiline.runtime)" version="0" />

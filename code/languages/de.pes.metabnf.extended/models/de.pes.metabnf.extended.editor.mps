@@ -2490,28 +2490,6 @@
       <node concept="2iRkQZ" id="i2IxuR5" role="2iSdaV" />
     </node>
   </node>
-  <node concept="24kQdi" id="5SQJARPL5HF">
-    <property role="3GE5qa" value="Attributes.editor.custom" />
-    <ref role="1XX52x" to="gm16:5SQJARPL5HD" resolve="EBNFCustomEditorDeclarationRef" />
-    <node concept="3EZMnI" id="5SQJARSxM5R" role="2wV5jI">
-      <node concept="2iRfu4" id="5SQJARSxM5S" role="2iSdaV" />
-      <node concept="3F0ifn" id="5SQJARSxM5T" role="3EZMnx">
-        <property role="3F0ifm" value="{" />
-      </node>
-      <node concept="1iCGBv" id="5SQJARPL5HH" role="3EZMnx">
-        <ref role="1NtTu8" to="gm16:5SQJARPL5HE" />
-        <node concept="1sVBvm" id="5SQJARPL5HJ" role="1sWHZn">
-          <node concept="3F0A7n" id="5SQJARPL5HX" role="2wV5jI">
-            <property role="1Intyy" value="true" />
-            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-          </node>
-        </node>
-      </node>
-      <node concept="3F0ifn" id="5SQJARSxM5W" role="3EZMnx">
-        <property role="3F0ifm" value="}" />
-      </node>
-    </node>
-  </node>
   <node concept="24kQdi" id="5SQJARRmztj">
     <property role="3GE5qa" value="Attributes.editor.custom" />
     <ref role="1XX52x" to="gm16:5SQJARRmzdE" resolve="EBNFCustomCellModel_Property" />

@@ -25,10 +25,13 @@
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
+        <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
-      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ">
+        <child id="1169127546356" name="extends" index="PrDN$" />
+      </concept>
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
@@ -225,6 +228,48 @@
         </node>
       </node>
     </node>
+  </node>
+  <node concept="PlHQZ" id="7aaqmzmRqQF">
+    <property role="EcuMT" value="8253525166112222635" />
+    <property role="3GE5qa" value="Attributes" />
+    <property role="TrG5h" value="IBNFAttributeEditorRepresentationConfig" />
+    <node concept="PrWs8" id="7aaqmzorSYp" role="PrDN$">
+      <ref role="PrY4T" node="7aaqmzorFAg" resolve="ISupportEditorRepresentation" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5SQJARPL5HD">
+    <property role="EcuMT" value="6788822867791600489" />
+    <property role="3GE5qa" value="Attributes.editor.custom" />
+    <property role="TrG5h" value="EBNFCustomEditorDeclarationRef" />
+    <property role="34LRSv" value="BNF Editor Component" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="5SQJARPL5HE" role="1TKVEi">
+      <property role="IQ2ns" value="6788822867791600490" />
+      <property role="20kJfa" value="ref" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5SQJARQ1YXS" resolve="IBNFEditorCellModelBase" />
+    </node>
+    <node concept="PrWs8" id="5SQJARPRP4E" role="PzmwI">
+      <ref role="PrY4T" node="5SQJARQ1YXS" resolve="IBNFEditorCellModelBase" />
+    </node>
+    <node concept="PrWs8" id="5SQJARSvGKj" role="PzmwI">
+      <ref role="PrY4T" node="5SQJARStVza" resolve="IEBNFCustomComponentOverride" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="5SQJARQ1YXS">
+    <property role="EcuMT" value="6788822867796029304" />
+    <property role="TrG5h" value="IBNFEditorCellModelBase" />
+    <property role="3GE5qa" value="Attributes" />
+  </node>
+  <node concept="PlHQZ" id="5SQJARStVza">
+    <property role="EcuMT" value="6788822867836909770" />
+    <property role="3GE5qa" value="Attributes.editor.custom" />
+    <property role="TrG5h" value="IEBNFCustomComponentOverride" />
+  </node>
+  <node concept="PlHQZ" id="7aaqmzorFAg">
+    <property role="EcuMT" value="8253525166138505616" />
+    <property role="3GE5qa" value="Attributes" />
+    <property role="TrG5h" value="ISupportEditorRepresentation" />
   </node>
 </model>
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="de.pes.metabnf.extended" uuid="303ca9b8-0d32-4b0f-bc34-d1ebf972bfac" languageVersion="2" moduleVersion="0">
+<language namespace="de.pes.metabnf.extended" uuid="303ca9b8-0d32-4b0f-bc34-d1ebf972bfac" languageVersion="2" moduleVersion="1">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -45,6 +45,7 @@
     <language slang="l:18bc6592-03a6-4e29-a83a-7ff23bde13ba:jetbrains.mps.lang.editor" version="14" />
     <language slang="l:d7a92d38-f7db-40d0-8431-763b0c3c9f20:jetbrains.mps.lang.intentions" version="1" />
     <language slang="l:90746344-04fd-4286-97d5-b46ae6a81709:jetbrains.mps.lang.migration" version="2" />
+    <language slang="l:9882f4ad-1955-46fe-8269-94189e5dbbf2:jetbrains.mps.lang.migration.util" version="0" />
     <language slang="l:446c26eb-2b7b-4bf0-9b35-f83fa582753e:jetbrains.mps.lang.modelapi" version="0" />
     <language slang="l:d4615e3b-d671-4ba9-af01-2b78369b0ba7:jetbrains.mps.lang.pattern" version="2" />
     <language slang="l:28f9e497-3b42-4291-aeba-0a1039153ab1:jetbrains.mps.lang.plugin" version="6" />
@@ -77,7 +78,7 @@
     <module reference="cce85e64-7b37-4ad5-b0e6-9d18324cdfb3(de.itemis.mps.selection.runtime)" version="0" />
     <module reference="fcef6129-077e-482d-b29d-d74df3291d94(de.pes.metabnf.base)" version="0" />
     <module reference="926d63aa-027c-47a4-939e-98f42e63df1a(de.pes.metabnf.basic)" version="0" />
-    <module reference="303ca9b8-0d32-4b0f-bc34-d1ebf972bfac(de.pes.metabnf.extended)" version="0" />
+    <module reference="303ca9b8-0d32-4b0f-bc34-d1ebf972bfac(de.pes.metabnf.extended)" version="1" />
     <module reference="4755f87e-2a4b-42d9-9618-31bc36f204af(de.pes.metabnf.utils)" version="0" />
     <module reference="dc038ceb-b7ea-4fea-ac12-55f7400e97ba(de.slisson.mps.editor.multiline.runtime)" version="0" />
     <module reference="92d2ea16-5a42-4fdf-a676-c7604efe3504(de.slisson.mps.richtext)" version="0" />

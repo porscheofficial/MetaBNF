@@ -412,7 +412,7 @@
       <ref role="PrY4T" to="p1cl:4novjIaNO1Z" resolve="INodeAnnotationAttribute" />
     </node>
     <node concept="PrWs8" id="7aaqmzmRqU5" role="PzmwI">
-      <ref role="PrY4T" to="p1cl:7aaqmzmRqQF" resolve="IBNFEditorRepresentationConfig" />
+      <ref role="PrY4T" to="yot6:7aaqmzmRqQF" resolve="IBNFEditorRepresentationConfig" />
     </node>
     <node concept="1TJgyi" id="T845YrpKX9" role="1TKVEl">
       <property role="IQ2nx" value="1029090517669318473" />
@@ -429,7 +429,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="bnfEComponent" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="5SQJARPL5HD" resolve="EBNFCustomEditorDeclarationRef" />
+      <ref role="20lvS9" to="yot6:5SQJARPL5HD" resolve="EBNFCustomEditorDeclarationRef" />
     </node>
   </node>
   <node concept="1TIwiD" id="T845Yrqx5_">
@@ -759,7 +759,7 @@
       <ref role="PrY4T" node="6mcP9nJg7Vr" resolve="ICustomEditorRepresentation" />
     </node>
     <node concept="PrWs8" id="5SQJARStVRJ" role="PzmwI">
-      <ref role="PrY4T" node="5SQJARStVza" resolve="IEBNFCustomComponentOverride" />
+      <ref role="PrY4T" to="yot6:5SQJARStVza" resolve="IEBNFCustomComponentOverride" />
     </node>
   </node>
   <node concept="PlHQZ" id="6mcP9nJg7Vr">
@@ -791,13 +791,13 @@
       <property role="IQ2ns" value="6788822867835995919" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="overrides" />
-      <ref role="20lvS9" node="5SQJARStVza" resolve="IEBNFCustomComponentOverride" />
+      <ref role="20lvS9" to="yot6:5SQJARStVza" resolve="IEBNFCustomComponentOverride" />
     </node>
     <node concept="PrWs8" id="5SQJARPL5HN" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
     <node concept="PrWs8" id="5SQJARPRP5m" role="PzmwI">
-      <ref role="PrY4T" to="p1cl:5SQJARQ1YXS" resolve="IBNFEditorCellModelBase" />
+      <ref role="PrY4T" to="yot6:5SQJARQ1YXS" resolve="IBNFEditorCellModelBase" />
     </node>
     <node concept="1irR5M" id="5SQJARUW90N" role="rwd14">
       <property role="2$rrk2" value="1" />
@@ -812,25 +812,6 @@
           <property role="3PKj8l" value="7a7b7c" />
         </node>
       </node>
-    </node>
-  </node>
-  <node concept="1TIwiD" id="5SQJARPL5HD">
-    <property role="EcuMT" value="6788822867791600489" />
-    <property role="3GE5qa" value="Attributes.editor.custom" />
-    <property role="TrG5h" value="EBNFCustomEditorDeclarationRef" />
-    <property role="34LRSv" value="BNF Editor Component" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
-    <node concept="1TJgyj" id="5SQJARPL5HE" role="1TKVEi">
-      <property role="IQ2ns" value="6788822867791600490" />
-      <property role="20kJfa" value="ref" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="5SQJARPwye9" resolve="EBNFCustomEditorDeclaration" />
-    </node>
-    <node concept="PrWs8" id="5SQJARPRP4E" role="PzmwI">
-      <ref role="PrY4T" to="p1cl:5SQJARQ1YXS" resolve="IBNFEditorCellModelBase" />
-    </node>
-    <node concept="PrWs8" id="5SQJARSvGKj" role="PzmwI">
-      <ref role="PrY4T" node="5SQJARStVza" resolve="IEBNFCustomComponentOverride" />
     </node>
   </node>
   <node concept="1TIwiD" id="5SQJARRmzdE">
@@ -848,11 +829,6 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
     </node>
-  </node>
-  <node concept="PlHQZ" id="5SQJARStVza">
-    <property role="EcuMT" value="6788822867836909770" />
-    <property role="3GE5qa" value="Attributes.editor.custom" />
-    <property role="TrG5h" value="IEBNFCustomComponentOverride" />
   </node>
   <node concept="1TIwiD" id="5SQJARTsWl$">
     <property role="EcuMT" value="6788822867853428068" />

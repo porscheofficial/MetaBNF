@@ -5,6 +5,7 @@
     <use id="303ca9b8-0d32-4b0f-bc34-d1ebf972bfac" name="de.pes.metabnf.extended" version="2" />
     <use id="926d63aa-027c-47a4-939e-98f42e63df1a" name="de.pes.metabnf.basic" version="0" />
     <use id="aba1faaf-a5a0-44ea-8178-aed1dd3e1944" name="de.pes.metabnf.extended.gen" version="1" />
+    <use id="fcef6129-077e-482d-b29d-d74df3291d94" name="de.pes.metabnf.base" version="0" />
   </languages>
   <imports>
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" />
@@ -14,7 +15,6 @@
       <concept id="7418278005949660372" name="jetbrains.mps.lang.editor.structure.FontFamilyStyleClassItem" flags="ln" index="2biZxu" />
       <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
       <concept id="1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" flags="nn" index="2iRkQZ" />
-      <concept id="709996738298806197" name="jetbrains.mps.lang.editor.structure.QueryFunction_SeparatorText" flags="in" index="2o9xnK" />
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
       <concept id="7228435049763093185" name="jetbrains.mps.lang.editor.structure.FontFamilyContainer" flags="ngI" index="1rj3mw">
         <property id="7228435049763093186" name="family" index="1rj3mz" />
@@ -31,20 +31,6 @@
       </concept>
       <concept id="7033942394256351208" name="jetbrains.mps.lang.editor.structure.EditorComponentDeclarationReference" flags="ng" index="1PE4EZ">
         <reference id="7033942394256351817" name="editorComponent" index="1PE7su" />
-      </concept>
-    </language>
-    <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
-      <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
-        <child id="1137022507850" name="body" index="2VODD2" />
-      </concept>
-      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
-        <property id="1070475926801" name="value" index="Xl_RC" />
-      </concept>
-      <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
-        <child id="1068580123156" name="expression" index="3clFbG" />
-      </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
-        <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
     </language>
     <language id="926d63aa-027c-47a4-939e-98f42e63df1a" name="de.pes.metabnf.basic">
@@ -75,6 +61,14 @@
         <child id="5032910278271910020" name="annotationAttribute" index="3f5NQZ" />
       </concept>
       <concept id="5032910278271910017" name="de.pes.metabnf.basic.structure.EmptyNodeAnnotationAttribute" flags="ng" index="3f5NQU" />
+    </language>
+    <language id="fcef6129-077e-482d-b29d-d74df3291d94" name="de.pes.metabnf.base">
+      <concept id="2206761709614883983" name="de.pes.metabnf.base.structure.EBNFCustomCellModel_ListBase" flags="ng" index="z69Eq">
+        <reference id="6788822867853428074" name="ref" index="2BhnG7" />
+      </concept>
+      <concept id="6788822867791600489" name="de.pes.metabnf.base.structure.EBNFCustomEditorDeclarationRef" flags="ng" index="2FWIk4">
+        <reference id="6788822867791600490" name="ref" index="2FWIk7" />
+      </concept>
     </language>
     <language id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi">
       <concept id="361130699826193248" name="jetbrains.mps.lang.modelapi.structure.ModelPointer" flags="ng" index="1dCxOl">
@@ -112,19 +106,13 @@
         <property id="1029090517669318473" name="buildEditor" index="2lbLWm" />
         <child id="6788822867791600511" name="bnfEComponent" index="2FWIki" />
       </concept>
-      <concept id="6788822867853428068" name="de.pes.metabnf.extended.structure.EBNFCustomCellModel_List" flags="ng" index="2BhnG9">
-        <reference id="6788822867853428074" name="ref" index="2BhnG7" />
-        <child id="928328222691832421" name="separatorTextQuery" index="2gpyvW" />
-      </concept>
+      <concept id="6788822867853428068" name="de.pes.metabnf.extended.structure.EBNFCustomCellModel_List" flags="ng" index="2BhnG9" />
       <concept id="6788822867818197866" name="de.pes.metabnf.extended.structure.EBNFCustomCellModel_Property" flags="ng" index="2Dr8O7">
         <reference id="6788822867818645329" name="ref" index="2DlV$W" />
       </concept>
       <concept id="6788822867787260809" name="de.pes.metabnf.extended.structure.EBNFCustomEditorDeclaration" flags="ng" index="2FH9R$">
         <child id="6788822867789815042" name="editor" index="2FBUdJ" />
         <child id="6788822867792496421" name="bnfexpr" index="2FTb_8" />
-      </concept>
-      <concept id="6788822867791600489" name="de.pes.metabnf.extended.structure.EBNFCustomEditorDeclarationRef" flags="ng" index="2FWIk4">
-        <reference id="6788822867791600490" name="ref" index="2FWIk7" />
       </concept>
     </language>
   </registry>
@@ -139,16 +127,9 @@
     </node>
     <node concept="gNqHd" id="5SQJAROnbEt" role="gNmGt">
       <property role="TrG5h" value="ConceptWithCustomEditor" />
-      <node concept="2lbLXz" id="5SQJARPOwfJ" role="3f5NQZ">
-        <property role="2lbLWm" value="7aaqmzkcjlr/custom" />
-        <node concept="2FWIk4" id="1vpfjfMgZ2Z" role="2FWIki">
-          <ref role="2FWIk7" node="1vpfjfMgZ30" resolve="CWCE" />
-        </node>
-        <node concept="2FWIk4" id="1vpfjfMgZ3M" role="2FWIki">
-          <ref role="2FWIk7" node="1vpfjfMgZ3N" resolve="CWCE_List" />
-        </node>
+      <node concept="2lbLXz" id="1UvZxkY_9$n" role="3f5NQZ">
+        <property role="2lbLWm" value="7aaqmzkcjlp/default" />
       </node>
-      <node concept="3f5NQU" id="5SQJARRmzte" role="3f5NQZ" />
       <node concept="2l89Zc" id="5SQJARRmztg" role="3f5NQZ" />
       <node concept="gKEy2" id="5SQJARTsWl4" role="2YAOa">
         <node concept="gKPLD" id="5SQJARR1pQ0" role="gKEy9">
@@ -157,6 +138,16 @@
         <node concept="gXCZ9" id="5SQJARTsWl8" role="gKEy8">
           <node concept="gKozh" id="5SQJARTsWlc" role="Iv2U_">
             <ref role="gKozg" node="5SQJARTsWl2" resolve="listElement" />
+            <node concept="2lbLXz" id="1UvZxkYAuYH" role="3f5NQZ">
+              <property role="2lbLWm" value="7aaqmzkcjlr/custom" />
+              <node concept="2FWIk4" id="1UvZxkYAuYI" role="2FWIki">
+                <ref role="2FWIk7" node="1vpfjfMgZ3N" resolve="CWCE_List" />
+              </node>
+            </node>
+            <node concept="3f5NQU" id="1UvZxkZ0M9J" role="3f5NQZ" />
+            <node concept="2lbLXz" id="1UvZxkZ0M9L" role="3f5NQZ">
+              <property role="2lbLWm" value="7LcVVIP_rFE/showIf" />
+            </node>
           </node>
         </node>
       </node>
@@ -223,19 +214,10 @@
   <node concept="2FH9R$" id="1vpfjfMgZ3N">
     <property role="TrG5h" value="CWCE_List" />
     <node concept="3EZMnI" id="1vpfjfMgZ3Q" role="2FBUdJ">
-      <node concept="2BhnG9" id="1vpfjfMgZ3U" role="3EZMnx">
-        <ref role="2BhnG7" node="5SQJARTsWlc" />
-        <node concept="2o9xnK" id="1vpfjfMgZ3Y" role="2gpyvW">
-          <node concept="3clFbS" id="1vpfjfMgZ3Z" role="2VODD2">
-            <node concept="3clFbF" id="1vpfjfMgZk7" role="3cqZAp">
-              <node concept="Xl_RD" id="1vpfjfMgZk6" role="3clFbG">
-                <property role="Xl_RC" value="|" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
       <node concept="2iRfu4" id="1vpfjfMgZ3T" role="2iSdaV" />
+      <node concept="2BhnG9" id="1UvZxkXRrqd" role="3EZMnx">
+        <ref role="2BhnG7" node="5SQJARTsWlc" />
+      </node>
     </node>
     <node concept="gKozh" id="1vpfjfMgZ3P" role="2FTb_8">
       <ref role="gKozg" node="5SQJAROnbEt" resolve="ConceptWithCustomEditor" />
