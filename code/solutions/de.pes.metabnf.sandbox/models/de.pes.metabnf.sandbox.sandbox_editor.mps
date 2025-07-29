@@ -101,7 +101,6 @@
       <concept id="7317457234998573074" name="de.pes.metabnf.extended.structure.EBNFCustomCellModel_Component" flags="ng" index="2aJQM7">
         <child id="7317457234998574756" name="component" index="2aJQCL" />
       </concept>
-      <concept id="1029090517669416851" name="de.pes.metabnf.extended.structure.EBNFAttributeValueProperty" flags="ng" index="2l89Zc" />
       <concept id="1029090517669318460" name="de.pes.metabnf.extended.structure.EBNFAttributeBuildEditor" flags="ng" index="2lbLXz">
         <property id="1029090517669318473" name="buildEditor" index="2lbLWm" />
         <child id="6788822867791600511" name="bnfEComponent" index="2FWIki" />
@@ -113,6 +112,10 @@
       <concept id="6788822867787260809" name="de.pes.metabnf.extended.structure.EBNFCustomEditorDeclaration" flags="ng" index="2FH9R$">
         <child id="6788822867789815042" name="editor" index="2FBUdJ" />
         <child id="6788822867792496421" name="bnfexpr" index="2FTb_8" />
+      </concept>
+      <concept id="5032910278271664331" name="de.pes.metabnf.extended.structure.EBNFIFaceDefinitionTerm" flags="ng" index="3f4ZRK" />
+      <concept id="5032910278271791229" name="de.pes.metabnf.extended.structure.EBNFIFaceDefinitionTermRef" flags="ng" index="3f5gP6">
+        <reference id="5032910278271791230" name="iface" index="3f5gP5" />
       </concept>
     </language>
   </registry>
@@ -130,7 +133,7 @@
       <node concept="2lbLXz" id="1UvZxkY_9$n" role="3f5NQZ">
         <property role="2lbLWm" value="7aaqmzkcjlp/default" />
       </node>
-      <node concept="2l89Zc" id="5SQJARRmztg" role="3f5NQZ" />
+      <node concept="3f5NQU" id="1UvZxkZb$Iv" role="3f5NQZ" />
       <node concept="gKEy2" id="5SQJARTsWl4" role="2YAOa">
         <node concept="gKPLD" id="5SQJARR1pQ0" role="gKEy9">
           <property role="gKPLC" value="name" />
@@ -140,7 +143,7 @@
             <ref role="gKozg" node="5SQJARTsWl2" resolve="listElement" />
             <node concept="2lbLXz" id="1UvZxkYAuYH" role="3f5NQZ">
               <property role="2lbLWm" value="7aaqmzkcjlr/custom" />
-              <node concept="2FWIk4" id="1UvZxkYAuYI" role="2FWIki">
+              <node concept="2FWIk4" id="1UvZxl021mV" role="2FWIki">
                 <ref role="2FWIk7" node="1vpfjfMgZ3N" resolve="CWCE_List" />
               </node>
             </node>
@@ -150,6 +153,27 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+    <node concept="gNmGs" id="1UvZxkZb$Hw" role="gNmGt" />
+    <node concept="3f4ZRK" id="1UvZxkZb$Hy" role="gNmGt">
+      <property role="TrG5h" value="IListElements" />
+    </node>
+    <node concept="3f4ZRK" id="1UvZxkZb$H_" role="gNmGt">
+      <property role="TrG5h" value="InterfaceWithList" />
+      <node concept="gXCZ9" id="1UvZxkZb$HC" role="2YAOa">
+        <node concept="3f5gP6" id="1UvZxkZb$HG" role="Iv2U_">
+          <ref role="3f5gP5" node="1UvZxkZb$Hy" resolve="IListElements" />
+          <node concept="2lbLXz" id="1UvZxl021mT" role="3f5NQZ">
+            <property role="2lbLWm" value="7aaqmzkcjlr/custom" />
+            <node concept="2FWIk4" id="1UvZxl021mU" role="2FWIki">
+              <ref role="2FWIk7" node="1UvZxkZb$HI" resolve="ILIist" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2lbLXz" id="1UvZxl05ASY" role="3f5NQZ">
+        <property role="2lbLWm" value="7aaqmzkcjlp/default" />
       </node>
     </node>
   </node>
@@ -221,6 +245,18 @@
     </node>
     <node concept="gKozh" id="1vpfjfMgZ3P" role="2FTb_8">
       <ref role="gKozg" node="5SQJAROnbEt" resolve="ConceptWithCustomEditor" />
+    </node>
+  </node>
+  <node concept="2FH9R$" id="1UvZxkZb$HI">
+    <property role="TrG5h" value="ILIist" />
+    <node concept="3EZMnI" id="1UvZxkZY0Lm" role="2FBUdJ">
+      <node concept="2iRfu4" id="1UvZxkZY0Lp" role="2iSdaV" />
+      <node concept="2BhnG9" id="1UvZxl009Q5" role="3EZMnx">
+        <ref role="2BhnG7" node="1UvZxkZb$HG" />
+      </node>
+    </node>
+    <node concept="3f5gP6" id="1UvZxkZY0Ll" role="2FTb_8">
+      <ref role="3f5gP5" node="1UvZxkZb$H_" resolve="InterfaceWithList" />
     </node>
   </node>
 </model>

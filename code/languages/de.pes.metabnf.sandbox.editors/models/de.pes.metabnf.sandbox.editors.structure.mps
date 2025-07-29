@@ -21,6 +21,7 @@
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
       </concept>
@@ -52,7 +53,7 @@
     <property role="3GE5qa" value="editor samples" />
     <property role="EcuMT" value="6788822867768031920" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="2XvFd8" id="5SQJARTsWls" role="lGtFl">
+    <node concept="2XvFd8" id="1UvZxl05AQu" role="lGtFl">
       <property role="TrG5h" value="de.pes.metabnf.sandbox.sandbox_editor:ConceptWithCustomEditor" />
       <property role="2ZG9b7" value="http://127.0.0.1:63320/node?ref=r%3Aa27b50bb-e121-4cb4-b675-799ff4629efc%28de.pes.metabnf.sandbox.sandbox_editor%29%2F6788822867768031901" />
     </node>
@@ -76,7 +77,7 @@
     <property role="3GE5qa" value="editor samples" />
     <property role="EcuMT" value="6788822867853428058" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="2XvFd8" id="5SQJARTsWlr" role="lGtFl">
+    <node concept="2XvFd8" id="1UvZxl05AQt" role="lGtFl">
       <property role="TrG5h" value="de.pes.metabnf.sandbox.sandbox_editor:listElement" />
       <property role="2ZG9b7" value="http://127.0.0.1:63320/node?ref=r%3Aa27b50bb-e121-4cb4-b675-799ff4629efc%28de.pes.metabnf.sandbox.sandbox_editor%29%2F6788822867853428034" />
     </node>
@@ -84,6 +85,32 @@
       <property role="TrG5h" value="noop" />
       <property role="IQ2nx" value="6788822867853428061" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="1UvZxl05AQp">
+    <property role="TrG5h" value="IListElements" />
+    <property role="3GE5qa" value="editor samples" />
+    <property role="EcuMT" value="2206761709657812377" />
+    <node concept="2XvFd8" id="1UvZxl05AQq" role="lGtFl">
+      <property role="TrG5h" value="de.pes.metabnf.sandbox.sandbox_editor:IListElements" />
+      <property role="2ZG9b7" value="http://127.0.0.1:63320/node?ref=r%3Aa27b50bb-e121-4cb4-b675-799ff4629efc%28de.pes.metabnf.sandbox.sandbox_editor%29%2F2206761709642599266" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="1UvZxl05AQr">
+    <property role="TrG5h" value="InterfaceWithList" />
+    <property role="3GE5qa" value="editor samples" />
+    <property role="EcuMT" value="2206761709657812379" />
+    <node concept="2XvFd8" id="1UvZxl05AQs" role="lGtFl">
+      <property role="TrG5h" value="de.pes.metabnf.sandbox.sandbox_editor:InterfaceWithList" />
+      <property role="2ZG9b7" value="http://127.0.0.1:63320/node?ref=r%3Aa27b50bb-e121-4cb4-b675-799ff4629efc%28de.pes.metabnf.sandbox.sandbox_editor%29%2F2206761709642599269" />
+    </node>
+    <node concept="1TJgyj" id="1UvZxl05AQv" role="1TKVEi">
+      <property role="TrG5h" value="IListElements" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <property role="20kJfa" value="IListElements" />
+      <property role="IQ2ns" value="2206761709657812383" />
+      <ref role="20lvS9" node="1UvZxl05AQp" resolve="IListElements" />
     </node>
   </node>
 </model>

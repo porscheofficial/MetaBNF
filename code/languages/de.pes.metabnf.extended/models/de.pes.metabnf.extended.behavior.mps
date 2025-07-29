@@ -177,6 +177,11 @@
         <child id="8182547171709752112" name="expression" index="36biLW" />
       </concept>
     </language>
+    <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
+      <concept id="6332851714983831325" name="jetbrains.mps.baseLanguage.logging.structure.MsgStatement" flags="ng" index="2xdQw9">
+        <child id="5721587534047265374" name="message" index="9lYJi" />
+      </concept>
+    </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
@@ -188,6 +193,7 @@
       <concept id="4693937538533521280" name="jetbrains.mps.lang.smodel.structure.OfConceptOperation" flags="ng" index="v3k3i">
         <child id="4693937538533538124" name="requestedConcept" index="v3oSu" />
       </concept>
+      <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
@@ -3464,7 +3470,7 @@
       <node concept="37vLTG" id="5SQJARR1q77" role="3clF46">
         <property role="TrG5h" value="editor" />
         <node concept="3Tqbb2" id="5SQJARRvwTW" role="1tU5fm">
-          <ref role="ehGHo" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+          <ref role="ehGHo" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
         </node>
       </node>
     </node>
@@ -3541,7 +3547,7 @@
       <node concept="37vLTG" id="5SQJARR1q8G" role="3clF46">
         <property role="TrG5h" value="editor" />
         <node concept="3Tqbb2" id="5SQJARRvwXg" role="1tU5fm">
-          <ref role="ehGHo" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+          <ref role="ehGHo" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
         </node>
       </node>
     </node>
@@ -3579,7 +3585,33 @@
       <ref role="13i0hy" to="10gk:5SQJARQ1YYc" resolve="getCustomCellModel" />
       <node concept="3Tm1VV" id="5SQJARQ44a8" role="1B3o_S" />
       <node concept="3clFbS" id="5SQJARQ44ab" role="3clF47">
-        <node concept="3clFbH" id="1UvZxkYAx0t" role="3cqZAp" />
+        <node concept="2xdQw9" id="1UvZxl0bKr8" role="3cqZAp">
+          <node concept="3cpWs3" id="1UvZxl0bOlJ" role="9lYJi">
+            <node concept="2OqwBi" id="1UvZxl0bOXO" role="3uHU7w">
+              <node concept="13iPFW" id="1UvZxl0bOqL" role="2Oq$k0" />
+              <node concept="3TrEf2" id="1UvZxl0bPiT" role="2OqNvi">
+                <ref role="3Tt5mk" to="gm16:5SQJARPEhO2" resolve="editor" />
+              </node>
+            </node>
+            <node concept="3cpWs3" id="1UvZxl0bMBk" role="3uHU7B">
+              <node concept="3cpWs3" id="1UvZxl0bM0c" role="3uHU7B">
+                <node concept="Xl_RD" id="1UvZxl0bKra" role="3uHU7B">
+                  <property role="Xl_RC" value="***GetCustomCell: " />
+                </node>
+                <node concept="2OqwBi" id="1UvZxl0hJ3A" role="3uHU7w">
+                  <node concept="37vLTw" id="1UvZxl0bM4V" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5SQJARR3OYH" resolve="concept" />
+                  </node>
+                  <node concept="2yIwOk" id="1UvZxl0j_zO" role="2OqNvi" />
+                </node>
+              </node>
+              <node concept="Xl_RD" id="1UvZxl0bMBn" role="3uHU7w">
+                <property role="Xl_RC" value=" | " />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1UvZxl0hIfM" role="3cqZAp" />
         <node concept="3clFbJ" id="5SQJARQ44zj" role="3cqZAp">
           <node concept="1Wc70l" id="5SQJARSXIEh" role="3clFbw">
             <node concept="2OqwBi" id="5SQJARSXJzt" role="3uHU7w">
@@ -3588,7 +3620,7 @@
               </node>
               <node concept="1mIQ4w" id="5SQJARSXK1k" role="2OqNvi">
                 <node concept="chp4Y" id="5SQJARSXK72" role="cj9EA">
-                  <ref role="cht4Q" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+                  <ref role="cht4Q" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
                 </node>
               </node>
             </node>
@@ -3650,13 +3682,8 @@
                               </node>
                               <node concept="2qgKlT" id="5SQJARQ45pR" role="2OqNvi">
                                 <ref role="37wK5l" node="6mcP9nJg7VJ" resolve="getCellModel" />
-                                <node concept="1PxgMI" id="5SQJARSXKtA" role="37wK5m">
-                                  <node concept="chp4Y" id="5SQJARSXKRz" role="3oSUPX">
-                                    <ref role="cht4Q" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
-                                  </node>
-                                  <node concept="37vLTw" id="5SQJARR3PhT" role="1m5AlR">
-                                    <ref role="3cqZAo" node="5SQJARR3OYH" resolve="concept" />
-                                  </node>
+                                <node concept="37vLTw" id="5SQJARR3PhT" role="37wK5m">
+                                  <ref role="3cqZAo" node="5SQJARR3OYH" resolve="concept" />
                                 </node>
                               </node>
                             </node>
@@ -3875,7 +3902,7 @@
       <node concept="37vLTG" id="5SQJARRmze7" role="3clF46">
         <property role="TrG5h" value="editor" />
         <node concept="3Tqbb2" id="5SQJARRvwYa" role="1tU5fm">
-          <ref role="ehGHo" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+          <ref role="ehGHo" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
         </node>
       </node>
       <node concept="3Tqbb2" id="5SQJARRmze9" role="3clF45">
@@ -4151,7 +4178,7 @@
       <node concept="37vLTG" id="5SQJARTsX6O" role="3clF46">
         <property role="TrG5h" value="concept" />
         <node concept="3Tqbb2" id="5SQJARTsX6P" role="1tU5fm">
-          <ref role="ehGHo" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+          <ref role="ehGHo" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
         </node>
       </node>
       <node concept="3Tqbb2" id="5SQJARTsX6Q" role="3clF45">
