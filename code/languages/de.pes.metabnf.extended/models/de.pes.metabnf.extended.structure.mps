@@ -154,6 +154,9 @@
     <node concept="PrWs8" id="4aKsqC9vw33" role="PzmwI">
       <ref role="PrY4T" to="p1cl:6BkCOo7fKKv" resolve="ISupportPlantUMLObjectDiagram" />
     </node>
+    <node concept="PrWs8" id="1UvZxkZWb$9" role="PzmwI">
+      <ref role="PrY4T" to="yot6:1UvZxkZGDtG" resolve="IBNFEditorComponentReferencedName" />
+    </node>
   </node>
   <node concept="PlHQZ" id="4novjIaOJN6">
     <property role="EcuMT" value="5032910278272154822" />
@@ -343,6 +346,9 @@
     </node>
     <node concept="PrWs8" id="T845YsVqfB" role="PzmwI">
       <ref role="PrY4T" to="p1cl:T845YsR94I" resolve="IHaveOptionalName" />
+    </node>
+    <node concept="PrWs8" id="1UvZxkZGDuu" role="PzmwI">
+      <ref role="PrY4T" to="yot6:1UvZxkZGDtG" resolve="IBNFEditorComponentReferencedName" />
     </node>
   </node>
   <node concept="1TIwiD" id="7egTi9KZJKM">
@@ -785,7 +791,7 @@
       <property role="IQ2ns" value="6788822867792496421" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="bnfexpr" />
-      <ref role="20lvS9" to="p1cl:fbptcj2IO2" resolve="BNFDefinitionTermRef" />
+      <ref role="20lvS9" to="yot6:1UvZxkZGDtG" resolve="IBNFEditorComponentReferencedName" />
     </node>
     <node concept="1TJgyj" id="5SQJARSqssf" role="1TKVEi">
       <property role="IQ2ns" value="6788822867835995919" />

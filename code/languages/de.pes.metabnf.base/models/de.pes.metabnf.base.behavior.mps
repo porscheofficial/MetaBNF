@@ -476,5 +476,20 @@
       <node concept="3clFbS" id="7aaqmzorFAN" role="2VODD2" />
     </node>
   </node>
+  <node concept="13h7C7" id="1UvZxkZLnej">
+    <property role="3GE5qa" value="Attributes.editor.custom" />
+    <ref role="13h7C2" to="yot6:1UvZxkZGDtG" resolve="IBNFEditorComponentReferencedName" />
+    <node concept="13i0hz" id="1UvZxkZLnfl" role="13h7CS">
+      <property role="13i0iv" value="true" />
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="getTarget" />
+      <node concept="3Tm1VV" id="1UvZxkZLnfm" role="1B3o_S" />
+      <node concept="3Tqbb2" id="1UvZxkZLnfD" role="3clF45" />
+      <node concept="3clFbS" id="1UvZxkZLnfo" role="3clF47" />
+    </node>
+    <node concept="13hLZK" id="1UvZxkZLnek" role="13h7CW">
+      <node concept="3clFbS" id="1UvZxkZLnel" role="2VODD2" />
+    </node>
+  </node>
 </model>
 

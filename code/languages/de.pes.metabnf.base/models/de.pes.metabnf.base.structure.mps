@@ -271,5 +271,10 @@
     <property role="3GE5qa" value="Attributes" />
     <property role="TrG5h" value="ISupportEditorRepresentation" />
   </node>
+  <node concept="PlHQZ" id="1UvZxkZGDtG">
+    <property role="EcuMT" value="2206761709651269484" />
+    <property role="3GE5qa" value="Attributes.editor.custom" />
+    <property role="TrG5h" value="IBNFEditorComponentReferencedName" />
+  </node>
 </model>
 

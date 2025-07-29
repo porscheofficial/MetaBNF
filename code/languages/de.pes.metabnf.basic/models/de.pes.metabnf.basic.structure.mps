@@ -244,6 +244,9 @@
     <node concept="PrWs8" id="6mcP9nJ5eWO" role="PzmwI">
       <ref role="PrY4T" to="yot6:T845Ys479E" resolve="IBNFExpressionReference" />
     </node>
+    <node concept="PrWs8" id="1UvZxkZGDus" role="PzmwI">
+      <ref role="PrY4T" to="yot6:1UvZxkZGDtG" resolve="IBNFEditorComponentReferencedName" />
+    </node>
   </node>
   <node concept="1TIwiD" id="fbptcj95_b">
     <property role="EcuMT" value="273424159619701067" />
