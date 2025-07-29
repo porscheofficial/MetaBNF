@@ -21125,34 +21125,6 @@
     <node concept="3clFb_" id="7aaqmzkc1iP" role="jymVt">
       <property role="TrG5h" value="createEditorForDeclaration" />
       <node concept="3clFbS" id="7aaqmzkc1iS" role="3clF47">
-        <node concept="2xdQw9" id="7aaqmzoiMFq" role="3cqZAp">
-          <node concept="3cpWs3" id="7aaqmzoiVGH" role="9lYJi">
-            <node concept="2OqwBi" id="7aaqmzoiWCx" role="3uHU7w">
-              <node concept="37vLTw" id="7aaqmzoiVHP" role="2Oq$k0">
-                <ref role="3cqZAo" node="7aaqmzkc1$b" resolve="bnf" />
-              </node>
-              <node concept="2yIwOk" id="7aaqmzoiXhq" role="2OqNvi" />
-            </node>
-            <node concept="3cpWs3" id="7aaqmzoiTno" role="3uHU7B">
-              <node concept="3cpWs3" id="7aaqmzoiPBO" role="3uHU7B">
-                <node concept="Xl_RD" id="7aaqmzoiMFs" role="3uHU7B">
-                  <property role="Xl_RC" value="Build Editor for: " />
-                </node>
-                <node concept="2OqwBi" id="7aaqmzoiQJa" role="3uHU7w">
-                  <node concept="37vLTw" id="7aaqmzoiPPc" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7aaqmzkc1$b" resolve="bnf" />
-                  </node>
-                  <node concept="3TrcHB" id="7aaqmzoiRVr" role="2OqNvi">
-                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                  </node>
-                </node>
-              </node>
-              <node concept="Xl_RD" id="7aaqmzoiT$j" role="3uHU7w">
-                <property role="Xl_RC" value=" | " />
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3clFbH" id="7aaqmzoiM1s" role="3cqZAp" />
         <node concept="3cpWs8" id="7aaqmzkcinB" role="3cqZAp">
           <node concept="3cpWsn" id="7aaqmzkcinC" role="3cpWs9">
@@ -21171,19 +21143,6 @@
               <node concept="35c_gC" id="7aaqmzkeSB9" role="37wK5m">
                 <ref role="35c_gD" to="gm16:T845YrpKWW" resolve="EBNFAttributeBuildEditor" />
               </node>
-            </node>
-          </node>
-        </node>
-        <node concept="2xdQw9" id="1UvZxkXtR0C" role="3cqZAp">
-          <node concept="3cpWs3" id="1UvZxkXu8X_" role="9lYJi">
-            <node concept="2OqwBi" id="1UvZxkXuchH" role="3uHU7w">
-              <node concept="37vLTw" id="1UvZxkXuanL" role="2Oq$k0">
-                <ref role="3cqZAo" node="7aaqmzkcinC" resolve="annotationValue" />
-              </node>
-              <node concept="34oBXx" id="1UvZxkXug$j" role="2OqNvi" />
-            </node>
-            <node concept="Xl_RD" id="1UvZxkXtR0E" role="3uHU7B">
-              <property role="Xl_RC" value="**SizeOfAnnotationsEditor: " />
             </node>
           </node>
         </node>
