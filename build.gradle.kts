@@ -104,7 +104,7 @@ println("MPS home directory: " + mpsHomeDir)
 println("Artifacts directory: " + artifactsDir)
 println("Build directory: " + buildDir + "\n")
 
-// Set dependencies
+// Set dependencies - ATTENTION: Any change leads to a new oso verification
 dependencies {
     mpsConfiguration("com.jetbrains:mps:$mpsVersion")
     junitAnt("org.apache.ant:ant-junit:1.10.15")
