@@ -10235,6 +10235,115 @@
       </node>
     </node>
     <node concept="2tJIrI" id="3Mv8PM3gxE7" role="jymVt" />
+    <node concept="2YIFZL" id="7yz2W6fL3IV" role="jymVt">
+      <property role="TrG5h" value="updateAttributedNodeLinkToBNF" />
+      <node concept="37vLTG" id="7yz2W6fLiz4" role="3clF46">
+        <property role="TrG5h" value="traceLink" />
+        <node concept="3Tqbb2" id="7yz2W6fLo0t" role="1tU5fm">
+          <ref role="ehGHo" to="yot6:3Mv8PM1Sp0k" resolve="NodeAttributeLinkToBNF" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="7yz2W6fLtQw" role="3clF46">
+        <property role="TrG5h" value="bnf" />
+        <node concept="3Tqbb2" id="7yz2W6fL_$I" role="1tU5fm">
+          <ref role="ehGHo" to="p1cl:1nL_s$DdmcT" resolve="BNFDefinitionTermBase" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="7yz2W6fL3IY" role="3clF47">
+        <node concept="3cpWs8" id="7yz2W6fMkjS" role="3cqZAp">
+          <node concept="3cpWsn" id="7yz2W6fMkjT" role="3cpWs9">
+            <property role="TrG5h" value="newTrace" />
+            <node concept="3Tqbb2" id="7yz2W6fMeoC" role="1tU5fm">
+              <ref role="ehGHo" to="yot6:3Mv8PM1Sp0k" resolve="NodeAttributeLinkToBNF" />
+            </node>
+            <node concept="2pJPEk" id="7yz2W6fMkjU" role="33vP2m">
+              <node concept="2pJPED" id="7yz2W6fMkjV" role="2pJPEn">
+                <ref role="2pJxaS" to="yot6:3Mv8PM1Sp0k" resolve="NodeAttributeLinkToBNF" />
+                <node concept="2pJxcG" id="7yz2W6fMkjW" role="2pJxcM">
+                  <ref role="2pJxcJ" to="tpck:h0TrG11" resolve="name" />
+                  <node concept="WxPPo" id="7yz2W6fMkjX" role="28ntcv">
+                    <node concept="2YIFZM" id="7yz2W6fMkjY" role="WxPPp">
+                      <ref role="37wK5l" node="3Mv8PM1YBxP" resolve="getFullPathOfBNFTerm" />
+                      <ref role="1Pybhc" node="7egTi9Lq0G9" resolve="BNFCodeHelper" />
+                      <node concept="37vLTw" id="7yz2W6fMkjZ" role="37wK5m">
+                        <ref role="3cqZAo" node="7yz2W6fLtQw" resolve="bnf" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="2pJxcG" id="7yz2W6fMkk0" role="2pJxcM">
+                  <ref role="2pJxcJ" to="yot6:3Mv8PM3bV6r" resolve="url" />
+                  <node concept="WxPPo" id="7yz2W6fMkk1" role="28ntcv">
+                    <node concept="2YIFZM" id="7yz2W6fMkk2" role="WxPPp">
+                      <ref role="37wK5l" to="yrpt:3Mv8PM3bQwb" resolve="getNodeUrl" />
+                      <ref role="1Pybhc" to="yrpt:3Mv8PM3bQuC" resolve="UtilityHelper" />
+                      <node concept="37vLTw" id="7yz2W6fMkk3" role="37wK5m">
+                        <ref role="3cqZAo" node="7yz2W6fLtQw" resolve="bnf" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="7yz2W6fLMsF" role="3cqZAp">
+          <node concept="22lmx$" id="7yz2W6fOFP7" role="3clFbw">
+            <node concept="2OqwBi" id="7yz2W6fLYBI" role="3uHU7B">
+              <node concept="37vLTw" id="7yz2W6fLSJX" role="2Oq$k0">
+                <ref role="3cqZAo" node="7yz2W6fLiz4" resolve="traceLink" />
+              </node>
+              <node concept="3w_OXm" id="7yz2W6fM4Im" role="2OqNvi" />
+            </node>
+            <node concept="3fqX7Q" id="7yz2W6fOLyP" role="3uHU7w">
+              <node concept="2OqwBi" id="7yz2W6fOLyQ" role="3fr31v">
+                <node concept="2OqwBi" id="7yz2W6fOLyR" role="2Oq$k0">
+                  <node concept="37vLTw" id="7yz2W6fOLyS" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7yz2W6fLiz4" resolve="traceLink" />
+                  </node>
+                  <node concept="3TrcHB" id="7yz2W6fOLyT" role="2OqNvi">
+                    <ref role="3TsBF5" to="yot6:3Mv8PM3bV6r" resolve="url" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="7yz2W6fOLyU" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
+                  <node concept="2OqwBi" id="7yz2W6fOLyV" role="37wK5m">
+                    <node concept="37vLTw" id="7yz2W6fOLyW" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7yz2W6fMkjT" resolve="newTrace" />
+                    </node>
+                    <node concept="3TrcHB" id="7yz2W6fOLyX" role="2OqNvi">
+                      <ref role="3TsBF5" to="yot6:3Mv8PM3bV6r" resolve="url" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbS" id="7yz2W6fLMsH" role="3clFbx">
+            <node concept="3clFbF" id="7yz2W6fMUSq" role="3cqZAp">
+              <node concept="37vLTI" id="7yz2W6fN0Oz" role="3clFbG">
+                <node concept="37vLTw" id="7yz2W6fN6RV" role="37vLTx">
+                  <ref role="3cqZAo" node="7yz2W6fMkjT" resolve="newTrace" />
+                </node>
+                <node concept="37vLTw" id="7yz2W6fMUSp" role="37vLTJ">
+                  <ref role="3cqZAo" node="7yz2W6fLiz4" resolve="traceLink" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="7yz2W6fSlUi" role="3cqZAp">
+          <node concept="37vLTw" id="7yz2W6fSsb1" role="3cqZAk">
+            <ref role="3cqZAo" node="7yz2W6fLiz4" resolve="traceLink" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="7yz2W6fKrXV" role="1B3o_S" />
+      <node concept="3Tqbb2" id="7yz2W6fSfDm" role="3clF45">
+        <ref role="ehGHo" to="yot6:3Mv8PM1Sp0k" resolve="NodeAttributeLinkToBNF" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="7yz2W6fKfoY" role="jymVt" />
     <node concept="2YIFZL" id="3Mv8PM1YBxP" role="jymVt">
       <property role="TrG5h" value="getFullPathOfBNFTerm" />
       <node concept="3clFbS" id="3Mv8PM1YBxS" role="3clF47">
@@ -17554,7 +17663,7 @@
               </node>
             </node>
             <node concept="3clFbF" id="3Mv8PM3c5w9" role="3cqZAp">
-              <node concept="37vLTI" id="3Mv8PM3c8rZ" role="3clFbG">
+              <node concept="37vLTI" id="7yz2W6fV9RI" role="3clFbG">
                 <node concept="2OqwBi" id="3Mv8PM3c6zx" role="37vLTJ">
                   <node concept="37vLTw" id="3Mv8PM3c5w7" role="2Oq$k0">
                     <ref role="3cqZAo" node="3vEc9QNRbPC" resolve="foundConcept" />
@@ -17565,33 +17674,21 @@
                     </node>
                   </node>
                 </node>
-                <node concept="2pJPEk" id="3Mv8PM3c8Kw" role="37vLTx">
-                  <node concept="2pJPED" id="3Mv8PM3c8Kx" role="2pJPEn">
-                    <ref role="2pJxaS" to="yot6:3Mv8PM1Sp0k" resolve="NodeAttributeLinkToBNF" />
-                    <node concept="2pJxcG" id="3Mv8PM3c8Ky" role="2pJxcM">
-                      <ref role="2pJxcJ" to="tpck:h0TrG11" resolve="name" />
-                      <node concept="WxPPo" id="3Mv8PM3c8Kz" role="28ntcv">
-                        <node concept="2YIFZM" id="3Mv8PM3c8K$" role="WxPPp">
-                          <ref role="37wK5l" node="3Mv8PM1YBxP" resolve="getFullPathOfBNFTerm" />
-                          <ref role="1Pybhc" node="7egTi9Lq0G9" resolve="BNFCodeHelper" />
-                          <node concept="37vLTw" id="3Mv8PM3c8K_" role="37wK5m">
-                            <ref role="3cqZAo" node="7egTi9MgzE9" resolve="bnfConcept" />
-                          </node>
-                        </node>
+                <node concept="2YIFZM" id="7yz2W6fP7Tv" role="37vLTx">
+                  <ref role="37wK5l" node="7yz2W6fL3IV" resolve="updateAttributedNodeLinkToBNF" />
+                  <ref role="1Pybhc" node="7egTi9Lq0G9" resolve="BNFCodeHelper" />
+                  <node concept="2OqwBi" id="7yz2W6fP$B1" role="37wK5m">
+                    <node concept="37vLTw" id="7yz2W6fP$B2" role="2Oq$k0">
+                      <ref role="3cqZAo" node="3vEc9QNRbPC" resolve="foundConcept" />
+                    </node>
+                    <node concept="3CFZ6_" id="7yz2W6fP$B3" role="2OqNvi">
+                      <node concept="3CFYIy" id="7yz2W6fP$B4" role="3CFYIz">
+                        <ref role="3CFYIx" to="yot6:3Mv8PM1Sp0k" resolve="NodeAttributeLinkToBNF" />
                       </node>
                     </node>
-                    <node concept="2pJxcG" id="3Mv8PM3c8KA" role="2pJxcM">
-                      <ref role="2pJxcJ" to="yot6:3Mv8PM3bV6r" resolve="url" />
-                      <node concept="WxPPo" id="3Mv8PM3c8KB" role="28ntcv">
-                        <node concept="2YIFZM" id="7A0qgaaxPd8" role="WxPPp">
-                          <ref role="37wK5l" to="yrpt:3Mv8PM3bQwb" resolve="getNodeUrl" />
-                          <ref role="1Pybhc" to="yrpt:3Mv8PM3bQuC" resolve="UtilityHelper" />
-                          <node concept="37vLTw" id="3Mv8PM3c8KD" role="37wK5m">
-                            <ref role="3cqZAo" node="7egTi9MgzE9" resolve="bnfConcept" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
+                  </node>
+                  <node concept="37vLTw" id="7yz2W6fPByr" role="37wK5m">
+                    <ref role="3cqZAo" node="7egTi9MgzE9" resolve="bnfConcept" />
                   </node>
                 </node>
               </node>
@@ -17707,50 +17804,37 @@
                   </node>
                 </node>
               </node>
-              <node concept="3clFbF" id="3Mv8PM3c9v0" role="3cqZAp">
-                <node concept="37vLTI" id="3Mv8PM3cbG0" role="3clFbG">
-                  <node concept="2OqwBi" id="3Mv8PM3caeH" role="37vLTJ">
-                    <node concept="37vLTw" id="3Mv8PM3c9uY" role="2Oq$k0">
-                      <ref role="3cqZAo" node="7egTi9MgHC7" resolve="newConcept" />
-                    </node>
-                    <node concept="3CFZ6_" id="3Mv8PM3caZ_" role="2OqNvi">
-                      <node concept="3CFYIy" id="3Mv8PM3cbkK" role="3CFYIz">
-                        <ref role="3CFYIx" to="yot6:3Mv8PM1Sp0k" resolve="NodeAttributeLinkToBNF" />
+              <node concept="3clFbF" id="7yz2W6fPDtZ" role="3cqZAp">
+                <node concept="37vLTI" id="7yz2W6fV6$$" role="3clFbG">
+                  <node concept="2YIFZM" id="7yz2W6fPDu0" role="37vLTx">
+                    <ref role="37wK5l" node="7yz2W6fL3IV" resolve="updateAttributedNodeLinkToBNF" />
+                    <ref role="1Pybhc" node="7egTi9Lq0G9" resolve="BNFCodeHelper" />
+                    <node concept="2OqwBi" id="7yz2W6fPDu1" role="37wK5m">
+                      <node concept="37vLTw" id="7yz2W6fPDu2" role="2Oq$k0">
+                        <ref role="3cqZAo" node="3vEc9QNRbPC" resolve="foundConcept" />
                       </node>
+                      <node concept="3CFZ6_" id="7yz2W6fPDu3" role="2OqNvi">
+                        <node concept="3CFYIy" id="7yz2W6fPDu4" role="3CFYIz">
+                          <ref role="3CFYIx" to="yot6:3Mv8PM1Sp0k" resolve="NodeAttributeLinkToBNF" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="37vLTw" id="7yz2W6fPDu5" role="37wK5m">
+                      <ref role="3cqZAo" node="7egTi9MgzE9" resolve="bnfConcept" />
                     </node>
                   </node>
-                  <node concept="2pJPEk" id="3Mv8PM3cdq$" role="37vLTx">
-                    <node concept="2pJPED" id="3Mv8PM3cdq_" role="2pJPEn">
-                      <ref role="2pJxaS" to="yot6:3Mv8PM1Sp0k" resolve="NodeAttributeLinkToBNF" />
-                      <node concept="2pJxcG" id="3Mv8PM3cdqA" role="2pJxcM">
-                        <ref role="2pJxcJ" to="tpck:h0TrG11" resolve="name" />
-                        <node concept="WxPPo" id="3Mv8PM3cdqB" role="28ntcv">
-                          <node concept="2YIFZM" id="3Mv8PM3cdqC" role="WxPPp">
-                            <ref role="37wK5l" node="3Mv8PM1YBxP" resolve="getFullPathOfBNFTerm" />
-                            <ref role="1Pybhc" node="7egTi9Lq0G9" resolve="BNFCodeHelper" />
-                            <node concept="37vLTw" id="3Mv8PM3cdqD" role="37wK5m">
-                              <ref role="3cqZAo" node="7egTi9MgzE9" resolve="bnfConcept" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                      <node concept="2pJxcG" id="3Mv8PM3cdqE" role="2pJxcM">
-                        <ref role="2pJxcJ" to="yot6:3Mv8PM3bV6r" resolve="url" />
-                        <node concept="WxPPo" id="3Mv8PM3cdqF" role="28ntcv">
-                          <node concept="2YIFZM" id="7A0qgaaxPd9" role="WxPPp">
-                            <ref role="37wK5l" to="yrpt:3Mv8PM3bQwb" resolve="getNodeUrl" />
-                            <ref role="1Pybhc" to="yrpt:3Mv8PM3bQuC" resolve="UtilityHelper" />
-                            <node concept="37vLTw" id="3Mv8PM3cdqH" role="37wK5m">
-                              <ref role="3cqZAo" node="7egTi9MgzE9" resolve="bnfConcept" />
-                            </node>
-                          </node>
-                        </node>
+                  <node concept="2OqwBi" id="7yz2W6fV805" role="37vLTJ">
+                    <node concept="37vLTw" id="7yz2W6fV806" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7egTi9MgHC7" resolve="newConcept" />
+                    </node>
+                    <node concept="3CFZ6_" id="7yz2W6fV807" role="2OqNvi">
+                      <node concept="3CFYIy" id="7yz2W6fV808" role="3CFYIz">
+                        <ref role="3CFYIx" to="yot6:3Mv8PM1Sp0k" resolve="NodeAttributeLinkToBNF" />
                       </node>
                     </node>
                   </node>
                 </node>
               </node>
-              <node concept="3clFbH" id="3Mv8PM3ce4q" role="3cqZAp" />
               <node concept="3cpWs6" id="7egTi9Mh5g7" role="3cqZAp">
                 <node concept="1PxgMI" id="7egTi9Mh5g8" role="3cqZAk">
                   <node concept="chp4Y" id="7egTi9Mh5g9" role="3oSUPX">
@@ -18640,35 +18724,6 @@
         </node>
         <node concept="3clFbF" id="3Mv8PM1UZRw" role="3cqZAp">
           <node concept="37vLTI" id="3Mv8PM1V4ik" role="3clFbG">
-            <node concept="2pJPEk" id="3Mv8PM1V4zh" role="37vLTx">
-              <node concept="2pJPED" id="3Mv8PM1V4zj" role="2pJPEn">
-                <ref role="2pJxaS" to="yot6:3Mv8PM1Sp0k" resolve="NodeAttributeLinkToBNF" />
-                <node concept="2pJxcG" id="3Mv8PM1V5j8" role="2pJxcM">
-                  <ref role="2pJxcJ" to="tpck:h0TrG11" resolve="name" />
-                  <node concept="WxPPo" id="3Mv8PM1ZFhR" role="28ntcv">
-                    <node concept="2YIFZM" id="3Mv8PM1ZGcs" role="WxPPp">
-                      <ref role="37wK5l" node="3Mv8PM1YBxP" resolve="getFullPathOfBNFTerm" />
-                      <ref role="1Pybhc" node="7egTi9Lq0G9" resolve="BNFCodeHelper" />
-                      <node concept="37vLTw" id="3Mv8PM1ZGCr" role="37wK5m">
-                        <ref role="3cqZAo" node="7egTi9LpqDV" resolve="bnfConcept" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="2pJxcG" id="3Mv8PM3c0Ic" role="2pJxcM">
-                  <ref role="2pJxcJ" to="yot6:3Mv8PM3bV6r" resolve="url" />
-                  <node concept="WxPPo" id="3Mv8PM3c12x" role="28ntcv">
-                    <node concept="2YIFZM" id="7A0qgaaxPda" role="WxPPp">
-                      <ref role="37wK5l" to="yrpt:3Mv8PM3bQwb" resolve="getNodeUrl" />
-                      <ref role="1Pybhc" to="yrpt:3Mv8PM3bQuC" resolve="UtilityHelper" />
-                      <node concept="37vLTw" id="3Mv8PM3c2cV" role="37wK5m">
-                        <ref role="3cqZAo" node="7egTi9LpqDV" resolve="bnfConcept" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
             <node concept="2OqwBi" id="3Mv8PM1V0tl" role="37vLTJ">
               <node concept="37vLTw" id="3Mv8PM1UZRu" role="2Oq$k0">
                 <ref role="3cqZAo" node="3vEc9QO7iLO" resolve="interfDecl" />
@@ -18677,6 +18732,23 @@
                 <node concept="3CFYIy" id="3Mv8PM1V2V$" role="3CFYIz">
                   <ref role="3CFYIx" to="yot6:3Mv8PM1Sp0k" resolve="NodeAttributeLinkToBNF" />
                 </node>
+              </node>
+            </node>
+            <node concept="2YIFZM" id="7yz2W6fXJID" role="37vLTx">
+              <ref role="37wK5l" node="7yz2W6fL3IV" resolve="updateAttributedNodeLinkToBNF" />
+              <ref role="1Pybhc" node="7egTi9Lq0G9" resolve="BNFCodeHelper" />
+              <node concept="2OqwBi" id="7yz2W6fXJIE" role="37wK5m">
+                <node concept="37vLTw" id="7yz2W6fXJIF" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3vEc9QO7iLO" resolve="interfDecl" />
+                </node>
+                <node concept="3CFZ6_" id="7yz2W6fXJIG" role="2OqNvi">
+                  <node concept="3CFYIy" id="7yz2W6fXJIH" role="3CFYIz">
+                    <ref role="3CFYIx" to="yot6:3Mv8PM1Sp0k" resolve="NodeAttributeLinkToBNF" />
+                  </node>
+                </node>
+              </node>
+              <node concept="37vLTw" id="7yz2W6fXJII" role="37wK5m">
+                <ref role="3cqZAo" node="7egTi9LpqDV" resolve="bnfConcept" />
               </node>
             </node>
           </node>
