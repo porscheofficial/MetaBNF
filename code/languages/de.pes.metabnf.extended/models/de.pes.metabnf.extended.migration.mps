@@ -7,6 +7,7 @@
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="6" />
     <use id="d4615e3b-d671-4ba9-af01-2b78369b0ba7" name="jetbrains.mps.lang.pattern" version="2" />
+    <use id="9882f4ad-1955-46fe-8269-94189e5dbbf2" name="jetbrains.mps.lang.migration.util" version="0" />
     <devkit ref="2787ae0c-1f54-4fbf-b0b7-caf2b5beecbc(jetbrains.mps.devkit.aspect.migration)" />
   </languages>
   <imports>
@@ -151,11 +152,44 @@
       <concept id="1228341669568" name="jetbrains.mps.lang.smodel.structure.Node_DetachOperation" flags="nn" index="3YRAZt" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
     <language id="90746344-04fd-4286-97d5-b46ae6a81709" name="jetbrains.mps.lang.migration">
+      <concept id="3116305438947553624" name="jetbrains.mps.lang.migration.structure.RefactoringPart" flags="ng" index="7amoh">
+        <property id="3628660716136424362" name="participant" index="hSBgo" />
+        <child id="3628660716136424366" name="finalState" index="hSBgs" />
+        <child id="3628660716136424364" name="initialState" index="hSBgu" />
+      </concept>
+      <concept id="2864063292004102367" name="jetbrains.mps.lang.migration.structure.ReflectionNodeReference" flags="ng" index="2pBcaW">
+        <property id="2864063292004102809" name="nodeName" index="2pBc3U" />
+        <property id="2864063292004103235" name="modelRef" index="2pBcow" />
+        <property id="2864063292004103247" name="nodeId" index="2pBcoG" />
+      </concept>
+      <concept id="7417095922908675018" name="jetbrains.mps.lang.migration.structure.MigrationScriptReference" flags="ng" index="2z5IEV">
+        <property id="7417095922909370996" name="module" index="2wV0G5" />
+        <property id="7417095922908725794" name="fromVersion" index="2z5Xdj" />
+      </concept>
+      <concept id="2015900981881695631" name="jetbrains.mps.lang.migration.structure.RefactoringLog" flags="ng" index="W$Crc">
+        <property id="2015900981881695633" name="fromVersion" index="W$Cri" />
+        <child id="2015900981881695634" name="part" index="W$Crh" />
+        <child id="3597905718825595708" name="options" index="1w76sc" />
+      </concept>
+      <concept id="3897914186547825813" name="jetbrains.mps.lang.migration.structure.ConceptMigrationReference" flags="ng" index="30eU3p">
+        <child id="3897914186547825817" name="oldConcept" index="30eU3l" />
+        <child id="3897914186547825814" name="migrationScript" index="30eU3q" />
+      </concept>
+      <concept id="3597905718825595712" name="jetbrains.mps.lang.migration.structure.RefactoringOptions" flags="ng" index="1w76tK">
+        <child id="3597905718825595718" name="options" index="1w76tQ" />
+      </concept>
+      <concept id="3597905718825595715" name="jetbrains.mps.lang.migration.structure.RefactoringOption" flags="ng" index="1w76tN">
+        <property id="3597905718825595716" name="optionId" index="1w76tO" />
+        <property id="3597905718825650036" name="description" index="1w7ld4" />
+      </concept>
       <concept id="8352104482584315555" name="jetbrains.mps.lang.migration.structure.MigrationScript" flags="ig" index="3SyAh_">
         <property id="5820409521797704727" name="fromVersion" index="qMTe8" />
       </concept>
@@ -581,6 +615,194 @@
     </node>
     <node concept="3uibUv" id="3mLXbOVexY7" role="1zkMxy">
       <ref role="3uigEE" to="slm6:5TUCQr2ybBO" resolve="HasMigrationScriptReference" />
+    </node>
+  </node>
+  <node concept="W$Crc" id="1UvZxkXRYCd">
+    <property role="3GE5qa" value="refactoring" />
+    <property role="W$Cri" value="0" />
+    <property role="TrG5h" value="Update References: IEBNFCustomComponentOverride-&gt;IEBNFCustomComponentOverride" />
+    <node concept="1w76tK" id="1UvZxkXRYCe" role="1w76sc">
+      <node concept="1w76tN" id="1UvZxkXRYCf" role="1w76tQ">
+        <property role="1w76tO" value="moveNode.options.handleSubconcepts" />
+        <property role="1w7ld4" value="Handle subconcepts" />
+      </node>
+      <node concept="1w76tN" id="1UvZxkXRYCg" role="1w76tQ">
+        <property role="1w76tO" value="moveNode.options.moveConceptAspects" />
+        <property role="1w7ld4" value="Move concept aspects" />
+      </node>
+      <node concept="1w76tN" id="1UvZxkXRYCh" role="1w76tQ">
+        <property role="1w76tO" value="moveNode.options.updateLocalInstances" />
+        <property role="1w7ld4" value="Update instances in current project" />
+      </node>
+      <node concept="1w76tN" id="1UvZxkXRYCi" role="1w76tQ">
+        <property role="1w76tO" value="moveNode.options.updateModelImports" />
+        <property role="1w7ld4" value="Update model imports" />
+      </node>
+      <node concept="1w76tN" id="1UvZxkXRYCj" role="1w76tQ">
+        <property role="1w76tO" value="moveNode.options.updateReferencesParticipant" />
+        <property role="1w7ld4" value="Update references" />
+      </node>
+      <node concept="1w76tN" id="1UvZxkXRYCk" role="1w76tQ">
+        <property role="1w76tO" value="moveNode.options.writeRefactoringLog" />
+        <property role="1w7ld4" value="Write refactoring log" />
+      </node>
+    </node>
+    <node concept="7amoh" id="1UvZxkXRYCm" role="W$Crh">
+      <property role="hSBgo" value="moveNode.updateReferences" />
+      <node concept="2pBcaW" id="1UvZxkXRYBY" role="hSBgu">
+        <property role="2pBcoG" value="6788822867836909770" />
+        <property role="2pBcow" value="r:1329ba0c-7632-46ba-9d9e-25ae5ff7e792(de.pes.metabnf.extended.structure)" />
+        <property role="2pBc3U" value="IEBNFCustomComponentOverride" />
+      </node>
+      <node concept="2pBcaW" id="1UvZxkXRYCl" role="hSBgs">
+        <property role="2pBcoG" value="6788822867836909770" />
+        <property role="2pBcow" value="r:fa98198a-d052-48c6-a067-71419b7c2317(de.pes.metabnf.base.structure)" />
+        <property role="2pBc3U" value="IEBNFCustomComponentOverride" />
+      </node>
+    </node>
+    <node concept="7amoh" id="1UvZxkXRYCn" role="W$Crh">
+      <property role="hSBgo" value="moveNode.writeSubconceptMigration" />
+      <node concept="30eU3p" id="1UvZxkXRYC0" role="hSBgu">
+        <node concept="2z5IEV" id="1UvZxkXRYC1" role="30eU3q">
+          <property role="2z5Xdj" value="2" />
+          <property role="2wV0G5" value="303ca9b8-0d32-4b0f-bc34-d1ebf972bfac(de.pes.metabnf.extended)" />
+        </node>
+        <node concept="2pBcaW" id="1UvZxkXRYBZ" role="30eU3l">
+          <property role="2pBcoG" value="6788822867836909770" />
+          <property role="2pBcow" value="r:1329ba0c-7632-46ba-9d9e-25ae5ff7e792(de.pes.metabnf.extended.structure)" />
+          <property role="2pBc3U" value="IEBNFCustomComponentOverride" />
+        </node>
+      </node>
+    </node>
+    <node concept="7amoh" id="1UvZxkXRYCp" role="W$Crh">
+      <property role="hSBgo" value="moveNode.updateConceptReferences" />
+      <node concept="2pBcaW" id="1UvZxkXRYC2" role="hSBgu">
+        <property role="2pBcoG" value="6788822867836909770" />
+        <property role="2pBcow" value="r:1329ba0c-7632-46ba-9d9e-25ae5ff7e792(de.pes.metabnf.extended.structure)" />
+        <property role="2pBc3U" value="IEBNFCustomComponentOverride" />
+      </node>
+      <node concept="2pBcaW" id="1UvZxkXRYCo" role="hSBgs">
+        <property role="2pBcoG" value="6788822867836909770" />
+        <property role="2pBcow" value="r:fa98198a-d052-48c6-a067-71419b7c2317(de.pes.metabnf.base.structure)" />
+        <property role="2pBc3U" value="IEBNFCustomComponentOverride" />
+      </node>
+    </node>
+    <node concept="7amoh" id="1UvZxkXRYC$" role="W$Crh">
+      <property role="hSBgo" value="moveNode.updateReferences" />
+      <node concept="2pBcaW" id="1UvZxkXRYC3" role="hSBgu">
+        <property role="2pBcoG" value="6788822867836910879" />
+        <property role="2pBcow" value="r:aed3b57c-f504-4890-b007-1b584a61f04a(de.pes.metabnf.extended.behavior)" />
+        <property role="2pBc3U" value="IEBNFCustomComponentOverride_Behavior" />
+      </node>
+      <node concept="2pBcaW" id="1UvZxkXRYCz" role="hSBgs">
+        <property role="2pBcoG" value="6788822867836910879" />
+        <property role="2pBcow" value="r:1dbbf3a1-8696-4f8a-bbc0-f2cfa4306470(de.pes.metabnf.base.behavior)" />
+        <property role="2pBc3U" value="IEBNFCustomComponentOverride_Behavior" />
+      </node>
+    </node>
+    <node concept="7amoh" id="1UvZxkXRYCA" role="W$Crh">
+      <property role="hSBgo" value="moveNode.updateReferences" />
+      <node concept="2pBcaW" id="1UvZxkXRYC4" role="hSBgu">
+        <property role="2pBcoG" value="6788822867836910898" />
+        <property role="2pBcow" value="r:aed3b57c-f504-4890-b007-1b584a61f04a(de.pes.metabnf.extended.behavior)" />
+        <property role="2pBc3U" value="getEditorComponentReference" />
+      </node>
+      <node concept="2pBcaW" id="1UvZxkXRYC_" role="hSBgs">
+        <property role="2pBcoG" value="6788822867836910898" />
+        <property role="2pBcow" value="r:1dbbf3a1-8696-4f8a-bbc0-f2cfa4306470(de.pes.metabnf.base.behavior)" />
+        <property role="2pBc3U" value="getEditorComponentReference" />
+      </node>
+    </node>
+    <node concept="7amoh" id="1UvZxkXRYCC" role="W$Crh">
+      <property role="hSBgo" value="moveNode.updateReferences" />
+      <node concept="2pBcaW" id="1UvZxkXRYC5" role="hSBgu">
+        <property role="2pBcoG" value="6788822867836910899" />
+        <property role="2pBcow" value="r:aed3b57c-f504-4890-b007-1b584a61f04a(de.pes.metabnf.extended.behavior)" />
+        <property role="2pBc3U" value="PublicVisibility@43423" />
+      </node>
+      <node concept="2pBcaW" id="1UvZxkXRYCB" role="hSBgs">
+        <property role="2pBcoG" value="6788822867836910899" />
+        <property role="2pBcow" value="r:1dbbf3a1-8696-4f8a-bbc0-f2cfa4306470(de.pes.metabnf.base.behavior)" />
+        <property role="2pBc3U" value="PublicVisibility@43423" />
+      </node>
+    </node>
+    <node concept="7amoh" id="1UvZxkXRYCE" role="W$Crh">
+      <property role="hSBgo" value="moveNode.updateReferences" />
+      <node concept="2pBcaW" id="1UvZxkXRYC6" role="hSBgu">
+        <property role="2pBcoG" value="6788822867836910918" />
+        <property role="2pBcow" value="r:aed3b57c-f504-4890-b007-1b584a61f04a(de.pes.metabnf.extended.behavior)" />
+        <property role="2pBc3U" value="SNodeType@43372" />
+      </node>
+      <node concept="2pBcaW" id="1UvZxkXRYCD" role="hSBgs">
+        <property role="2pBcoG" value="6788822867836910918" />
+        <property role="2pBcow" value="r:1dbbf3a1-8696-4f8a-bbc0-f2cfa4306470(de.pes.metabnf.base.behavior)" />
+        <property role="2pBc3U" value="SNodeType@43372" />
+      </node>
+    </node>
+    <node concept="7amoh" id="1UvZxkXRYCG" role="W$Crh">
+      <property role="hSBgo" value="moveNode.updateReferences" />
+      <node concept="2pBcaW" id="1UvZxkXRYC7" role="hSBgu">
+        <property role="2pBcoG" value="6788822867836910901" />
+        <property role="2pBcow" value="r:aed3b57c-f504-4890-b007-1b584a61f04a(de.pes.metabnf.extended.behavior)" />
+        <property role="2pBc3U" value="StatementList@43417" />
+      </node>
+      <node concept="2pBcaW" id="1UvZxkXRYCF" role="hSBgs">
+        <property role="2pBcoG" value="6788822867836910901" />
+        <property role="2pBcow" value="r:1dbbf3a1-8696-4f8a-bbc0-f2cfa4306470(de.pes.metabnf.base.behavior)" />
+        <property role="2pBc3U" value="StatementList@43417" />
+      </node>
+    </node>
+    <node concept="7amoh" id="1UvZxkXRYCI" role="W$Crh">
+      <property role="hSBgo" value="moveNode.updateReferences" />
+      <node concept="2pBcaW" id="1UvZxkXRYC8" role="hSBgu">
+        <property role="2pBcoG" value="6788822867848933549" />
+        <property role="2pBcow" value="r:aed3b57c-f504-4890-b007-1b584a61f04a(de.pes.metabnf.extended.behavior)" />
+        <property role="2pBc3U" value="emodel" />
+      </node>
+      <node concept="2pBcaW" id="1UvZxkXRYCH" role="hSBgs">
+        <property role="2pBcoG" value="6788822867848933549" />
+        <property role="2pBcow" value="r:1dbbf3a1-8696-4f8a-bbc0-f2cfa4306470(de.pes.metabnf.base.behavior)" />
+        <property role="2pBc3U" value="emodel" />
+      </node>
+    </node>
+    <node concept="7amoh" id="1UvZxkXRYCK" role="W$Crh">
+      <property role="hSBgo" value="moveNode.updateReferences" />
+      <node concept="2pBcaW" id="1UvZxkXRYC9" role="hSBgu">
+        <property role="2pBcoG" value="6788822867848933548" />
+        <property role="2pBcow" value="r:aed3b57c-f504-4890-b007-1b584a61f04a(de.pes.metabnf.extended.behavior)" />
+        <property role="2pBc3U" value="SModelType@79322" />
+      </node>
+      <node concept="2pBcaW" id="1UvZxkXRYCJ" role="hSBgs">
+        <property role="2pBcoG" value="6788822867848933548" />
+        <property role="2pBcow" value="r:1dbbf3a1-8696-4f8a-bbc0-f2cfa4306470(de.pes.metabnf.base.behavior)" />
+        <property role="2pBc3U" value="SModelType@79322" />
+      </node>
+    </node>
+    <node concept="7amoh" id="1UvZxkXRYCM" role="W$Crh">
+      <property role="hSBgo" value="moveNode.updateReferences" />
+      <node concept="2pBcaW" id="1UvZxkXRYCa" role="hSBgu">
+        <property role="2pBcoG" value="6788822867836910880" />
+        <property role="2pBcow" value="r:aed3b57c-f504-4890-b007-1b584a61f04a(de.pes.metabnf.extended.behavior)" />
+        <property role="2pBc3U" value="ConceptConstructorDeclaration@43406" />
+      </node>
+      <node concept="2pBcaW" id="1UvZxkXRYCL" role="hSBgs">
+        <property role="2pBcoG" value="6788822867836910880" />
+        <property role="2pBcow" value="r:1dbbf3a1-8696-4f8a-bbc0-f2cfa4306470(de.pes.metabnf.base.behavior)" />
+        <property role="2pBc3U" value="ConceptConstructorDeclaration@43406" />
+      </node>
+    </node>
+    <node concept="7amoh" id="1UvZxkXRYCO" role="W$Crh">
+      <property role="hSBgo" value="moveNode.updateReferences" />
+      <node concept="2pBcaW" id="1UvZxkXRYCb" role="hSBgu">
+        <property role="2pBcoG" value="6788822867836910881" />
+        <property role="2pBcow" value="r:aed3b57c-f504-4890-b007-1b584a61f04a(de.pes.metabnf.extended.behavior)" />
+        <property role="2pBc3U" value="StatementList@43405" />
+      </node>
+      <node concept="2pBcaW" id="1UvZxkXRYCN" role="hSBgs">
+        <property role="2pBcoG" value="6788822867836910881" />
+        <property role="2pBcow" value="r:1dbbf3a1-8696-4f8a-bbc0-f2cfa4306470(de.pes.metabnf.base.behavior)" />
+        <property role="2pBc3U" value="StatementList@43405" />
+      </node>
     </node>
   </node>
 </model>

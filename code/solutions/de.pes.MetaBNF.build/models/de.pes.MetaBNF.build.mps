@@ -390,11 +390,6 @@
             <ref role="3bR37D" to="ffeo:6pse5qHNhL7" resolve="jetbrains.mps.ide.httpsupport.manager" />
           </node>
         </node>
-        <node concept="1SiIV0" id="7hex6wUvwTq" role="3bR37C">
-          <node concept="3bR9La" id="7hex6wUvwTr" role="1SiIV1">
-            <ref role="3bR37D" node="7vSfl_Uu_xf" resolve="de.pes.metabnf.extended" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="7hex6wUvwTs" role="3bR37C">
           <node concept="3bR9La" id="7hex6wUvwTt" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:7Kfy9QB6L4X" resolve="jetbrains.mps.lang.editor" />
@@ -413,6 +408,16 @@
         <node concept="1SiIV0" id="7LcVVIQ1iGq" role="3bR37C">
           <node concept="3bR9La" id="7LcVVIQ1iGr" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:7Kfy9QB6L7y" resolve="jetbrains.mps.lang.intentions" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5SQJAROtpv3" role="3bR37C">
+          <node concept="1Busua" id="5SQJAROtpv4" role="1SiIV1">
+            <ref role="1Busuk" node="7LcVVIPHnaA" resolve="de.pes.metabnf.base" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1vpfjfLSit4" role="3bR37C">
+          <node concept="3bR9La" id="1vpfjfLSit5" role="1SiIV1">
+            <ref role="3bR37D" node="7vSfl_Uu_xf" resolve="de.pes.metabnf.extended" />
           </node>
         </node>
       </node>
@@ -468,11 +473,6 @@
             <ref role="3bR37D" to="ffeo:7Kfy9QB6LfQ" resolve="jetbrains.mps.kernel" />
           </node>
         </node>
-        <node concept="1SiIV0" id="1VxB7yjIwrg" role="3bR37C">
-          <node concept="3bR9La" id="1VxB7yjIwrh" role="1SiIV1">
-            <ref role="3bR37D" node="7vSfl_Uu_x9" resolve="de.pes.metabnf.basic" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="1VxB7yjIwrq" role="3bR37C">
           <node concept="1Busua" id="1VxB7yjIwrr" role="1SiIV1">
             <ref role="1Busuk" node="7vSfl_Uu_x9" resolve="de.pes.metabnf.basic" />
@@ -486,6 +486,16 @@
         <node concept="1SiIV0" id="7hex6wUv$o8" role="3bR37C">
           <node concept="3bR9La" id="7hex6wUv$o9" role="1SiIV1">
             <ref role="3bR37D" node="7hex6wUv$mQ" resolve="de.pes.metabnf.utils" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5SQJAROtpvd" role="3bR37C">
+          <node concept="1Busua" id="5SQJAROtpve" role="1SiIV1">
+            <ref role="1Busuk" node="7LcVVIPHnaA" resolve="de.pes.metabnf.base" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1vpfjfLSite" role="3bR37C">
+          <node concept="3bR9La" id="1vpfjfLSitf" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L4p" resolve="jetbrains.mps.lang.behavior" />
           </node>
         </node>
       </node>
@@ -787,6 +797,21 @@
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
+        <node concept="1SiIV0" id="1vpfjfLSitC" role="3bR37C">
+          <node concept="3bR9La" id="1vpfjfLSitD" role="1SiIV1">
+            <ref role="3bR37D" node="7vSfl_Uu_xf" resolve="de.pes.metabnf.extended" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1UvZxkY6lyi" role="3bR37C">
+          <node concept="3bR9La" id="1UvZxkY6lyj" role="1SiIV1">
+            <ref role="3bR37D" node="7vSfl_Uu_x9" resolve="de.pes.metabnf.basic" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1UvZxkY6lyk" role="3bR37C">
+          <node concept="3bR9La" id="1UvZxkY6lyl" role="1SiIV1">
+            <ref role="3bR37D" node="7vSfl_Uu_xx" resolve="de.pes.metabnf.extended.gen" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="7LcVVIPHnaA" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -840,11 +865,6 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="7LcVVIPHnbH" role="3bR37C">
-          <node concept="1Busua" id="7LcVVIPHnbI" role="1SiIV1">
-            <ref role="1Busuk" node="7vSfl_Uu_xx" resolve="de.pes.metabnf.extended.gen" />
-          </node>
-        </node>
         <node concept="1yeLz9" id="7LcVVIPHnbJ" role="1TViLv">
           <property role="TrG5h" value="de.pes.metabnf.base.generator" />
           <property role="3LESm3" value="41b0e427-10e5-437c-a8ad-a611e77a87cc" />
@@ -872,6 +892,16 @@
                 <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
               </node>
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1UvZxkY6lyu" role="3bR37C">
+          <node concept="3bR9La" id="1UvZxkY6lyv" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L4X" resolve="jetbrains.mps.lang.editor" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1UvZxkY6lyC" role="3bR37C">
+          <node concept="1Busua" id="1UvZxkY6lyD" role="1SiIV1">
+            <ref role="1Busuk" to="ffeo:7Kfy9QB6L4X" resolve="jetbrains.mps.lang.editor" />
           </node>
         </node>
       </node>
