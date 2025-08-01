@@ -255,6 +255,9 @@
     <node concept="PrWs8" id="4yuOb1fd2DP" role="PzmwI">
       <ref role="PrY4T" node="5SQJARQ1YXS" resolve="IBNFEditorCellModelBase" />
     </node>
+    <node concept="PrWs8" id="3BSsKSeXgxH" role="PzmwI">
+      <ref role="PrY4T" node="6mcP9nJg7Vr" resolve="ICustomEditorRepresentation" />
+    </node>
   </node>
   <node concept="PlHQZ" id="5SQJARQ1YXS">
     <property role="EcuMT" value="6788822867796029304" />
@@ -283,6 +286,11 @@
     <node concept="PrWs8" id="4yuOb1fd4PI" role="PrDN$">
       <ref role="PrY4T" node="5SQJARQ1YXS" resolve="IBNFEditorCellModelBase" />
     </node>
+  </node>
+  <node concept="PlHQZ" id="6mcP9nJg7Vr">
+    <property role="EcuMT" value="7317457234999410395" />
+    <property role="3GE5qa" value="Attributes.editor.custom" />
+    <property role="TrG5h" value="ICustomEditorRepresentation" />
   </node>
 </model>
 

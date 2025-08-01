@@ -762,16 +762,11 @@
       <ref role="20lvS9" to="tpc2:66t_lskdtZC" resolve="EditorComponentDeclarationReference" />
     </node>
     <node concept="PrWs8" id="6mcP9nJg7Xl" role="PzmwI">
-      <ref role="PrY4T" node="6mcP9nJg7Vr" resolve="ICustomEditorRepresentation" />
+      <ref role="PrY4T" to="yot6:6mcP9nJg7Vr" resolve="ICustomEditorRepresentation" />
     </node>
     <node concept="PrWs8" id="5SQJARStVRJ" role="PzmwI">
       <ref role="PrY4T" to="yot6:5SQJARStVza" resolve="IEBNFCustomComponentOverride" />
     </node>
-  </node>
-  <node concept="PlHQZ" id="6mcP9nJg7Vr">
-    <property role="EcuMT" value="7317457234999410395" />
-    <property role="3GE5qa" value="Attributes.editor.custom" />
-    <property role="TrG5h" value="ICustomEditorRepresentation" />
   </node>
   <node concept="1TIwiD" id="5SQJARPwye9">
     <property role="EcuMT" value="6788822867787260809" />
@@ -827,7 +822,7 @@
     <property role="34LRSv" value="BNF Property Link" />
     <ref role="1TJDcQ" to="yot6:5SQJARTsWlF" resolve="EBNFCustomCellModel_WithRole" />
     <node concept="PrWs8" id="5SQJARRmzdG" role="PzmwI">
-      <ref role="PrY4T" node="6mcP9nJg7Vr" resolve="ICustomEditorRepresentation" />
+      <ref role="PrY4T" to="yot6:6mcP9nJg7Vr" resolve="ICustomEditorRepresentation" />
     </node>
     <node concept="1TJgyj" id="5SQJARRogth" role="1TKVEi">
       <property role="IQ2ns" value="6788822867818645329" />
@@ -843,7 +838,7 @@
     <property role="34LRSv" value="BNF List Node" />
     <ref role="1TJDcQ" to="yot6:1UvZxkXxQif" resolve="EBNFCustomCellModel_ListBase" />
     <node concept="PrWs8" id="5SQJARTsWlD" role="PzmwI">
-      <ref role="PrY4T" node="6mcP9nJg7Vr" resolve="ICustomEditorRepresentation" />
+      <ref role="PrY4T" to="yot6:6mcP9nJg7Vr" resolve="ICustomEditorRepresentation" />
     </node>
   </node>
   <node concept="1TIwiD" id="4yuOb1eJDGV">
@@ -876,7 +871,7 @@
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
     <node concept="PrWs8" id="4yuOb1eJDGW" role="PzmwI">
-      <ref role="PrY4T" node="6mcP9nJg7Vr" resolve="ICustomEditorRepresentation" />
+      <ref role="PrY4T" to="yot6:6mcP9nJg7Vr" resolve="ICustomEditorRepresentation" />
     </node>
     <node concept="1TJgyj" id="4yuOb1eJHku" role="1TKVEi">
       <property role="IQ2ns" value="5232849272705045790" />
