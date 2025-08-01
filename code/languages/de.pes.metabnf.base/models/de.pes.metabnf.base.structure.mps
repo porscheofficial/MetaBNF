@@ -242,15 +242,12 @@
     <property role="3GE5qa" value="Attributes.editor.custom" />
     <property role="TrG5h" value="EBNFCustomEditorDeclarationRef" />
     <property role="34LRSv" value="BNF Editor Component" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
     <node concept="1TJgyj" id="5SQJARPL5HE" role="1TKVEi">
       <property role="IQ2ns" value="6788822867791600490" />
       <property role="20kJfa" value="ref" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="5SQJARQ1YXS" resolve="IBNFEditorCellModelBase" />
-    </node>
-    <node concept="PrWs8" id="5SQJARPRP4E" role="PzmwI">
-      <ref role="PrY4T" node="5SQJARQ1YXS" resolve="IBNFEditorCellModelBase" />
     </node>
     <node concept="PrWs8" id="5SQJARSvGKj" role="PzmwI">
       <ref role="PrY4T" node="5SQJARStVza" resolve="IEBNFCustomComponentOverride" />

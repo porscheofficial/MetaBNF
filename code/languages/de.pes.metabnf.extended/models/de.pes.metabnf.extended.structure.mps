@@ -839,11 +839,50 @@
   <node concept="1TIwiD" id="5SQJARTsWl$">
     <property role="EcuMT" value="6788822867853428068" />
     <property role="3GE5qa" value="Attributes.editor.custom" />
-    <property role="TrG5h" value="EBNFCustomCellModel_List" />
+    <property role="TrG5h" value="EBNFCustomCellModel_ListRef" />
     <property role="34LRSv" value="BNF List Node" />
     <ref role="1TJDcQ" to="yot6:1UvZxkXxQif" resolve="EBNFCustomCellModel_ListBase" />
     <node concept="PrWs8" id="5SQJARTsWlD" role="PzmwI">
       <ref role="PrY4T" node="6mcP9nJg7Vr" resolve="ICustomEditorRepresentation" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4yuOb1eJDGV">
+    <property role="EcuMT" value="5232849272705030971" />
+    <property role="3GE5qa" value="Attributes.editor.custom" />
+    <property role="TrG5h" value="EBNFCustomCellModel_Ref" />
+    <property role="34LRSv" value="BNF List Ref" />
+    <ref role="1TJDcQ" to="yot6:5SQJARTsWlF" resolve="EBNFCustomCellModel_WithRole" />
+    <node concept="1TJgyj" id="55my_QKP5Sf" role="1TKVEi">
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="addHints" />
+      <property role="IQ2ns" value="5861024100072578575" />
+      <ref role="20lvS9" to="tpc2:42lfqf__buC" resolve="ContextHintsSpecification" />
+    </node>
+    <node concept="1TJgyj" id="55my_QKP5Sg" role="1TKVEi">
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="removeHints" />
+      <property role="IQ2ns" value="5861024100072578576" />
+      <ref role="20lvS9" to="tpc2:42lfqf__buC" resolve="ContextHintsSpecification" />
+    </node>
+    <node concept="1TJgyj" id="UjlmrgInb" role="1TKVEi">
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="emptyCellModel" />
+      <property role="IQ2ns" value="16410578721629643" />
+      <ref role="20lvS9" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
+    </node>
+    <node concept="1TJgyi" id="Ujlmrg18k" role="1TKVEl">
+      <property role="TrG5h" value="customizeEmptyCell" />
+      <property role="IQ2nx" value="16410578721444372" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="PrWs8" id="4yuOb1eJDGW" role="PzmwI">
+      <ref role="PrY4T" node="6mcP9nJg7Vr" resolve="ICustomEditorRepresentation" />
+    </node>
+    <node concept="1TJgyj" id="4yuOb1eJHku" role="1TKVEi">
+      <property role="IQ2ns" value="5232849272705045790" />
+      <property role="20kJfa" value="ref" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
     </node>
   </node>
 </model>
