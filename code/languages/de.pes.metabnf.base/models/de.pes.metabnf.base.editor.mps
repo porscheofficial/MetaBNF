@@ -17,7 +17,6 @@
     <import index="hox0" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.style(MPS.Editor/)" />
     <import index="5ueo" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.editor.runtime.style(MPS.Editor/)" />
     <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
-    <import index="gm16" ref="r:1329ba0c-7632-46ba-9d9e-25ae5ff7e792(de.pes.metabnf.extended.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -1054,7 +1053,7 @@
                   <node concept="2Xjw5R" id="3BSsKSfbTqH" role="2OqNvi">
                     <node concept="1xMEDy" id="3BSsKSfbTqJ" role="1xVPHs">
                       <node concept="chp4Y" id="3BSsKSfbTEv" role="ri$Ld">
-                        <ref role="cht4Q" to="gm16:5SQJARPwye9" resolve="EBNFCustomEditorDeclaration" />
+                        <ref role="cht4Q" to="yot6:4yuOb1fd4PH" resolve="IBNFEditorDeclarationRef" />
                       </node>
                     </node>
                   </node>
@@ -1088,7 +1087,7 @@
                   <node concept="2Xjw5R" id="3BSsKSfbW13" role="2OqNvi">
                     <node concept="1xMEDy" id="3BSsKSfbW14" role="1xVPHs">
                       <node concept="chp4Y" id="3BSsKSfbW15" role="ri$Ld">
-                        <ref role="cht4Q" to="gm16:5SQJARPwye9" resolve="EBNFCustomEditorDeclaration" />
+                        <ref role="cht4Q" to="yot6:4yuOb1fd4PH" resolve="IBNFEditorDeclarationRef" />
                       </node>
                     </node>
                   </node>
