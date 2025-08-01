@@ -247,10 +247,13 @@
       <property role="IQ2ns" value="6788822867791600490" />
       <property role="20kJfa" value="ref" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="5SQJARQ1YXS" resolve="IBNFEditorCellModelBase" />
+      <ref role="20lvS9" node="4yuOb1fd4PH" resolve="IBNFEditorDeclarationRef" />
     </node>
     <node concept="PrWs8" id="5SQJARSvGKj" role="PzmwI">
       <ref role="PrY4T" node="5SQJARStVza" resolve="IEBNFCustomComponentOverride" />
+    </node>
+    <node concept="PrWs8" id="4yuOb1fd2DP" role="PzmwI">
+      <ref role="PrY4T" node="5SQJARQ1YXS" resolve="IBNFEditorCellModelBase" />
     </node>
   </node>
   <node concept="PlHQZ" id="5SQJARQ1YXS">
@@ -272,6 +275,14 @@
     <property role="EcuMT" value="2206761709651269484" />
     <property role="3GE5qa" value="Attributes.editor.custom" />
     <property role="TrG5h" value="IBNFEditorComponentReferencedName" />
+  </node>
+  <node concept="PlHQZ" id="4yuOb1fd4PH">
+    <property role="EcuMT" value="5232849272712744301" />
+    <property role="3GE5qa" value="Attributes" />
+    <property role="TrG5h" value="IBNFEditorDeclarationRef" />
+    <node concept="PrWs8" id="4yuOb1fd4PI" role="PrDN$">
+      <ref role="PrY4T" node="5SQJARQ1YXS" resolve="IBNFEditorCellModelBase" />
+    </node>
   </node>
 </model>
 

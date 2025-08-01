@@ -803,7 +803,7 @@
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
     <node concept="PrWs8" id="5SQJARPRP5m" role="PzmwI">
-      <ref role="PrY4T" to="yot6:5SQJARQ1YXS" resolve="IBNFEditorCellModelBase" />
+      <ref role="PrY4T" to="yot6:4yuOb1fd4PH" resolve="IBNFEditorDeclarationRef" />
     </node>
     <node concept="1irR5M" id="5SQJARUW90N" role="rwd14">
       <property role="2$rrk2" value="1" />
