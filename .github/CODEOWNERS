@@ -1,5 +1,5 @@
 # code folder owns devs team
-/code/ @porscheofficial/metabnf-devs
+/code/** @porscheofficial/metabnf-devs
 
 # others needs to be approved by maintainers
 * @porscheofficial/metabnf-maintainers
