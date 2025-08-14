@@ -1,0 +1,5 @@
+# code folder owns devs team
+/code/ @metabnf-devs
+
+# others needs to be approved by maintainers
+* @metabnf-maintainers
