@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:a27b50bb-e121-4cb4-b675-799ff4629efc(de.pes.metabnf.sandbox.sandbox_editor)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="true" />
   <languages>
     <use id="303ca9b8-0d32-4b0f-bc34-d1ebf972bfac" name="de.pes.metabnf.extended" version="2" />
     <use id="926d63aa-027c-47a4-939e-98f42e63df1a" name="de.pes.metabnf.basic" version="0" />
@@ -9,6 +10,7 @@
   </languages>
   <imports>
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -87,6 +89,9 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
+        <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
+      </concept>
       <concept id="1863527487546129879" name="jetbrains.mps.lang.smodel.structure.ModelPointerExpression" flags="ng" index="1Xw6AR">
         <child id="1863527487546132519" name="modelRef" index="1XwpL7" />
       </concept>
@@ -97,6 +102,11 @@
       </concept>
     </language>
     <language id="303ca9b8-0d32-4b0f-bc34-d1ebf972bfac" name="de.pes.metabnf.extended">
+      <concept id="8327407647117082945" name="de.pes.metabnf.extended.structure.ExternalImplements" flags="ng" index="1Quhz" />
+      <concept id="8327407647106837872" name="de.pes.metabnf.extended.structure.IImplementsExternalConcepts" flags="ngI" index="2f4xi">
+        <child id="8327407647106839891" name="concept" index="2f51L" />
+      </concept>
+      <concept id="8327407647106839958" name="de.pes.metabnf.extended.structure.ImplementsExternalConcepts" flags="ng" index="2f52O" />
       <concept id="5232849272705030971" name="de.pes.metabnf.extended.structure.EBNFCustomCellModel_Ref" flags="ng" index="684Ib">
         <reference id="5232849272705045790" name="ref" index="680mI" />
       </concept>
@@ -141,10 +151,19 @@
           <ref role="2FWIk7" node="1vpfjfMgZ30" resolve="CWCE" />
         </node>
       </node>
-      <node concept="3f5NQU" id="1UvZxkZb$Iv" role="3f5NQZ" />
+      <node concept="2f52O" id="6hE5InXIrb7" role="3f5NQZ">
+        <node concept="35c_gC" id="6hE5InXIrb9" role="2f51L">
+          <ref role="35c_gD" to="tpck:gw2VY9q" resolve="BaseConcept" />
+        </node>
+      </node>
+      <node concept="1Quhz" id="6hE5InXEx1w" role="3f5NQZ">
+        <node concept="35c_gC" id="6hE5InXEx1y" role="2f51L">
+          <ref role="35c_gD" to="tpck:h0TrEE$" resolve="INamedConcept" />
+        </node>
+      </node>
       <node concept="gyeCP" id="4yuOb1eJ_C5" role="2YAOa">
         <node concept="gKPLD" id="5SQJARR1pQ0" role="gyeCO">
-          <property role="gKPLC" value="name" />
+          <property role="gKPLC" value="nameTag" />
         </node>
         <node concept="gXCZ9" id="5SQJARTsWl8" role="gyeCO">
           <node concept="gKozh" id="5SQJARTsWlc" role="Iv2U_">
@@ -241,6 +260,26 @@
           </node>
         </node>
         <node concept="2iRfu4" id="1vpfjfMgZ3w" role="2iSdaV" />
+      </node>
+      <node concept="3EZMnI" id="6hE5InXEe7T" role="3EZMnx">
+        <node concept="VPM3Z" id="6hE5InXEe7U" role="3F10Kt" />
+        <node concept="3F0ifn" id="6hE5InXEe7V" role="3EZMnx">
+          <property role="3F0ifm" value="Impl:" />
+        </node>
+        <node concept="2Dr8O7" id="6hE5InXGDqU" role="3EZMnx">
+          <ref role="2DlV$W" to="tpck:h0TrG11" resolve="name" />
+        </node>
+        <node concept="2iRfu4" id="6hE5InXEe7Y" role="2iSdaV" />
+      </node>
+      <node concept="3EZMnI" id="6hE5InXKjwE" role="3EZMnx">
+        <node concept="VPM3Z" id="6hE5InXKjwF" role="3F10Kt" />
+        <node concept="3F0ifn" id="6hE5InXKjwG" role="3EZMnx">
+          <property role="3F0ifm" value="CExt:" />
+        </node>
+        <node concept="2Dr8O7" id="6hE5InXKjwN" role="3EZMnx">
+          <ref role="2DlV$W" to="tpck:hnGE5uv" resolve="virtualPackage" />
+        </node>
+        <node concept="2iRfu4" id="6hE5InXKjwI" role="2iSdaV" />
       </node>
       <node concept="3EZMnI" id="4yuOb1eJ_BT" role="3EZMnx">
         <node concept="VPM3Z" id="4yuOb1eJ_BV" role="3F10Kt" />
