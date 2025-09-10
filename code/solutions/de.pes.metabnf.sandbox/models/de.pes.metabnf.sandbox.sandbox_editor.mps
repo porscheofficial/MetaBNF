@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:a27b50bb-e121-4cb4-b675-799ff4629efc(de.pes.metabnf.sandbox.sandbox_editor)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="true" />
   <languages>
     <use id="303ca9b8-0d32-4b0f-bc34-d1ebf972bfac" name="de.pes.metabnf.extended" version="2" />
     <use id="926d63aa-027c-47a4-939e-98f42e63df1a" name="de.pes.metabnf.basic" version="0" />
@@ -9,6 +10,7 @@
   </languages>
   <imports>
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -37,14 +39,12 @@
       <concept id="8327407647102502951" name="de.pes.metabnf.basic.structure.IBNFBaseStatementConcept" flags="ngI" index="2YAO5">
         <child id="8327407647102502952" name="expr" index="2YAOa" />
       </concept>
+      <concept id="273424159621746662" name="de.pes.metabnf.basic.structure.MultiLineDefinitionTerm" flags="ng" index="gyeCP">
+        <child id="273424159621746663" name="content" index="gyeCO" />
+      </concept>
       <concept id="273424159618034946" name="de.pes.metabnf.basic.structure.BNFDefinitionTermRef" flags="ng" index="gKozh">
         <reference id="273424159618034947" name="ref" index="gKozg" />
       </concept>
-      <concept id="273424159617961299" name="de.pes.metabnf.basic.structure.BNFBinaryExpression" flags="ng" index="gKEy0">
-        <child id="273424159617961307" name="rvalue" index="gKEy8" />
-        <child id="273424159617961306" name="lvalue" index="gKEy9" />
-      </concept>
-      <concept id="273424159617961297" name="de.pes.metabnf.basic.structure.CommaExpression" flags="ng" index="gKEy2" />
       <concept id="273424159617857978" name="de.pes.metabnf.basic.structure.BNFStringLiteral" flags="ng" index="gKPLD">
         <property id="273424159617857979" name="value" index="gKPLC" />
       </concept>
@@ -53,6 +53,7 @@
       <concept id="273424159617697539" name="de.pes.metabnf.basic.structure.BNFWorkbook" flags="ng" index="gNEbg">
         <child id="273424159617715918" name="content" index="gNmGt" />
       </concept>
+      <concept id="273424159621331646" name="de.pes.metabnf.basic.structure.OptionalTermRef" flags="ng" index="gX_XH" />
       <concept id="273424159621376538" name="de.pes.metabnf.basic.structure.ListTermDefinitions" flags="ng" index="gXCZ9" />
       <concept id="1925855837437753080" name="de.pes.metabnf.basic.structure.IBNFGroupElements" flags="ngI" index="HFflm">
         <child id="2968083471245569684" name="expr" index="Iv2U_" />
@@ -88,6 +89,9 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
+        <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
+      </concept>
       <concept id="1863527487546129879" name="jetbrains.mps.lang.smodel.structure.ModelPointerExpression" flags="ng" index="1Xw6AR">
         <child id="1863527487546132519" name="modelRef" index="1XwpL7" />
       </concept>
@@ -98,6 +102,14 @@
       </concept>
     </language>
     <language id="303ca9b8-0d32-4b0f-bc34-d1ebf972bfac" name="de.pes.metabnf.extended">
+      <concept id="8327407647117082945" name="de.pes.metabnf.extended.structure.ExternalImplements" flags="ng" index="1Quhz" />
+      <concept id="8327407647106837872" name="de.pes.metabnf.extended.structure.IImplementsExternalConcepts" flags="ngI" index="2f4xi">
+        <child id="8327407647106839891" name="concept" index="2f51L" />
+      </concept>
+      <concept id="8327407647106839958" name="de.pes.metabnf.extended.structure.ImplementsExternalConcepts" flags="ng" index="2f52O" />
+      <concept id="5232849272705030971" name="de.pes.metabnf.extended.structure.EBNFCustomCellModel_Ref" flags="ng" index="684Ib">
+        <reference id="5232849272705045790" name="ref" index="680mI" />
+      </concept>
       <concept id="7317457234998573074" name="de.pes.metabnf.extended.structure.EBNFCustomCellModel_Component" flags="ng" index="2aJQM7">
         <child id="7317457234998574756" name="component" index="2aJQCL" />
       </concept>
@@ -105,7 +117,7 @@
         <property id="1029090517669318473" name="buildEditor" index="2lbLWm" />
         <child id="6788822867791600511" name="bnfEComponent" index="2FWIki" />
       </concept>
-      <concept id="6788822867853428068" name="de.pes.metabnf.extended.structure.EBNFCustomCellModel_List" flags="ng" index="2BhnG9" />
+      <concept id="6788822867853428068" name="de.pes.metabnf.extended.structure.EBNFCustomCellModel_ListRef" flags="ng" index="2BhnG9" />
       <concept id="6788822867818197866" name="de.pes.metabnf.extended.structure.EBNFCustomCellModel_Property" flags="ng" index="2Dr8O7">
         <reference id="6788822867818645329" name="ref" index="2DlV$W" />
       </concept>
@@ -121,6 +133,9 @@
   </registry>
   <node concept="gNEbg" id="5SQJAROnbEr">
     <property role="TrG5h" value="editor samples" />
+    <node concept="3f4ZRK" id="1UvZxkZb$Hy" role="gNmGt">
+      <property role="TrG5h" value="IListElements" />
+    </node>
     <node concept="gNmGs" id="5SQJAROnbEu" role="gNmGt" />
     <node concept="gNqHd" id="5SQJARTsWl2" role="gNmGt">
       <property role="TrG5h" value="listElement" />
@@ -131,19 +146,31 @@
     <node concept="gNqHd" id="5SQJAROnbEt" role="gNmGt">
       <property role="TrG5h" value="ConceptWithCustomEditor" />
       <node concept="2lbLXz" id="1UvZxkY_9$n" role="3f5NQZ">
-        <property role="2lbLWm" value="7aaqmzkcjlp/default" />
-      </node>
-      <node concept="3f5NQU" id="1UvZxkZb$Iv" role="3f5NQZ" />
-      <node concept="gKEy2" id="5SQJARTsWl4" role="2YAOa">
-        <node concept="gKPLD" id="5SQJARR1pQ0" role="gKEy9">
-          <property role="gKPLC" value="name" />
+        <property role="2lbLWm" value="7aaqmzkcjlr/custom" />
+        <node concept="2FWIk4" id="4yuOb1fcM6z" role="2FWIki">
+          <ref role="2FWIk7" node="1vpfjfMgZ30" resolve="CWCE" />
         </node>
-        <node concept="gXCZ9" id="5SQJARTsWl8" role="gKEy8">
+      </node>
+      <node concept="2f52O" id="6hE5InXIrb7" role="3f5NQZ">
+        <node concept="35c_gC" id="6hE5InXIrb9" role="2f51L">
+          <ref role="35c_gD" to="tpck:gw2VY9q" resolve="BaseConcept" />
+        </node>
+      </node>
+      <node concept="1Quhz" id="6hE5InXEx1w" role="3f5NQZ">
+        <node concept="35c_gC" id="6hE5InXEx1y" role="2f51L">
+          <ref role="35c_gD" to="tpck:h0TrEE$" resolve="INamedConcept" />
+        </node>
+      </node>
+      <node concept="gyeCP" id="4yuOb1eJ_C5" role="2YAOa">
+        <node concept="gKPLD" id="5SQJARR1pQ0" role="gyeCO">
+          <property role="gKPLC" value="nameTag" />
+        </node>
+        <node concept="gXCZ9" id="5SQJARTsWl8" role="gyeCO">
           <node concept="gKozh" id="5SQJARTsWlc" role="Iv2U_">
             <ref role="gKozg" node="5SQJARTsWl2" resolve="listElement" />
             <node concept="2lbLXz" id="1UvZxkYAuYH" role="3f5NQZ">
               <property role="2lbLWm" value="7aaqmzkcjlr/custom" />
-              <node concept="2FWIk4" id="1UvZxl021mV" role="2FWIki">
+              <node concept="2FWIk4" id="4yuOb1fcuLO" role="2FWIki">
                 <ref role="2FWIk7" node="1vpfjfMgZ3N" resolve="CWCE_List" />
               </node>
             </node>
@@ -153,12 +180,14 @@
             </node>
           </node>
         </node>
+        <node concept="gX_XH" id="4yuOb1eJ_BM" role="gyeCO">
+          <node concept="3f5gP6" id="4yuOb1eJ_C3" role="Iv2U_">
+            <ref role="3f5gP5" node="1UvZxkZb$Hy" resolve="IListElements" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="gNmGs" id="1UvZxkZb$Hw" role="gNmGt" />
-    <node concept="3f4ZRK" id="1UvZxkZb$Hy" role="gNmGt">
-      <property role="TrG5h" value="IListElements" />
-    </node>
     <node concept="3f4ZRK" id="1UvZxkZb$H_" role="gNmGt">
       <property role="TrG5h" value="InterfaceWithList" />
       <node concept="gXCZ9" id="1UvZxkZb$HC" role="2YAOa">
@@ -231,6 +260,39 @@
           </node>
         </node>
         <node concept="2iRfu4" id="1vpfjfMgZ3w" role="2iSdaV" />
+      </node>
+      <node concept="3EZMnI" id="6hE5InXEe7T" role="3EZMnx">
+        <node concept="VPM3Z" id="6hE5InXEe7U" role="3F10Kt" />
+        <node concept="3F0ifn" id="6hE5InXEe7V" role="3EZMnx">
+          <property role="3F0ifm" value="Impl:" />
+        </node>
+        <node concept="2Dr8O7" id="6hE5InXGDqU" role="3EZMnx">
+          <ref role="2DlV$W" to="tpck:h0TrG11" resolve="name" />
+        </node>
+        <node concept="2iRfu4" id="6hE5InXEe7Y" role="2iSdaV" />
+      </node>
+      <node concept="3EZMnI" id="6hE5InXKjwE" role="3EZMnx">
+        <node concept="VPM3Z" id="6hE5InXKjwF" role="3F10Kt" />
+        <node concept="3F0ifn" id="6hE5InXKjwG" role="3EZMnx">
+          <property role="3F0ifm" value="CExt:" />
+        </node>
+        <node concept="2Dr8O7" id="6hE5InXKjwN" role="3EZMnx">
+          <ref role="2DlV$W" to="tpck:hnGE5uv" resolve="virtualPackage" />
+        </node>
+        <node concept="2iRfu4" id="6hE5InXKjwI" role="2iSdaV" />
+      </node>
+      <node concept="3EZMnI" id="4yuOb1eJ_BT" role="3EZMnx">
+        <node concept="VPM3Z" id="4yuOb1eJ_BV" role="3F10Kt" />
+        <node concept="3F0ifn" id="4yuOb1eJ_BZ" role="3EZMnx">
+          <property role="3F0ifm" value="Opti:" />
+        </node>
+        <node concept="684Ib" id="4yuOb1eYuwx" role="3EZMnx">
+          <ref role="680mI" node="4yuOb1eJ_C3" />
+        </node>
+        <node concept="2iRfu4" id="4yuOb1eJ_BY" role="2iSdaV" />
+      </node>
+      <node concept="2FWIk4" id="4yuOb1fhKx0" role="3EZMnx">
+        <ref role="2FWIk7" node="1vpfjfMgZ3N" resolve="CWCE_List" />
       </node>
       <node concept="2iRkQZ" id="1vpfjfMgZ3b" role="2iSdaV" />
     </node>

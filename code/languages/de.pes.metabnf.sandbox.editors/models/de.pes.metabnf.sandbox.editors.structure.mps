@@ -22,8 +22,12 @@
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
       <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
+      <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
+        <reference id="1169127628841" name="intfc" index="PrY4T" />
+      </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
+        <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
       <concept id="1071489288299" name="jetbrains.mps.lang.structure.structure.PropertyDeclaration" flags="ig" index="1TJgyi">
         <property id="241647608299431129" name="propertyId" index="IQ2nx" />
@@ -57,11 +61,6 @@
       <property role="TrG5h" value="de.pes.metabnf.sandbox.sandbox_editor:ConceptWithCustomEditor" />
       <property role="2ZG9b7" value="http://127.0.0.1:63320/node?ref=r%3Aa27b50bb-e121-4cb4-b675-799ff4629efc%28de.pes.metabnf.sandbox.sandbox_editor%29%2F6788822867768031901" />
     </node>
-    <node concept="1TJgyi" id="5SQJARRvgjY" role="1TKVEl">
-      <property role="TrG5h" value="name" />
-      <property role="IQ2nx" value="6788822867820479742" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" />
-    </node>
     <node concept="1TJgyj" id="5SQJARTsWlv" role="1TKVEi">
       <property role="TrG5h" value="listElement" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -69,6 +68,21 @@
       <property role="20kJfa" value="listElement" />
       <property role="IQ2ns" value="6788822867853428063" />
       <ref role="20lvS9" node="5SQJARTsWlq" resolve="listElement" />
+    </node>
+    <node concept="1TJgyj" id="4yuOb1eJHlv" role="1TKVEi">
+      <property role="TrG5h" value="IListElements" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="IListElements" />
+      <property role="IQ2ns" value="5232849272705045855" />
+      <ref role="20lvS9" node="1UvZxl05AQp" resolve="IListElements" />
+    </node>
+    <node concept="PrWs8" id="6hE5InXKq3x" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyi" id="6hE5InXKq3y" role="1TKVEl">
+      <property role="TrG5h" value="nameTag" />
+      <property role="IQ2nx" value="7235620928384770274" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" />
     </node>
   </node>
   <node concept="1TIwiD" id="5SQJARTsWlq">

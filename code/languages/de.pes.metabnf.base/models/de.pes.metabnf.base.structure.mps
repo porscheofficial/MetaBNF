@@ -242,18 +242,21 @@
     <property role="3GE5qa" value="Attributes.editor.custom" />
     <property role="TrG5h" value="EBNFCustomEditorDeclarationRef" />
     <property role="34LRSv" value="BNF Editor Component" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
     <node concept="1TJgyj" id="5SQJARPL5HE" role="1TKVEi">
       <property role="IQ2ns" value="6788822867791600490" />
       <property role="20kJfa" value="ref" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="5SQJARQ1YXS" resolve="IBNFEditorCellModelBase" />
-    </node>
-    <node concept="PrWs8" id="5SQJARPRP4E" role="PzmwI">
-      <ref role="PrY4T" node="5SQJARQ1YXS" resolve="IBNFEditorCellModelBase" />
+      <ref role="20lvS9" node="4yuOb1fd4PH" resolve="IBNFEditorDeclarationRef" />
     </node>
     <node concept="PrWs8" id="5SQJARSvGKj" role="PzmwI">
       <ref role="PrY4T" node="5SQJARStVza" resolve="IEBNFCustomComponentOverride" />
+    </node>
+    <node concept="PrWs8" id="4yuOb1fd2DP" role="PzmwI">
+      <ref role="PrY4T" node="5SQJARQ1YXS" resolve="IBNFEditorCellModelBase" />
+    </node>
+    <node concept="PrWs8" id="3BSsKSeXgxH" role="PzmwI">
+      <ref role="PrY4T" node="6mcP9nJg7Vr" resolve="ICustomEditorRepresentation" />
     </node>
   </node>
   <node concept="PlHQZ" id="5SQJARQ1YXS">
@@ -275,6 +278,19 @@
     <property role="EcuMT" value="2206761709651269484" />
     <property role="3GE5qa" value="Attributes.editor.custom" />
     <property role="TrG5h" value="IBNFEditorComponentReferencedName" />
+  </node>
+  <node concept="PlHQZ" id="4yuOb1fd4PH">
+    <property role="EcuMT" value="5232849272712744301" />
+    <property role="3GE5qa" value="Attributes" />
+    <property role="TrG5h" value="IBNFEditorDeclarationRef" />
+    <node concept="PrWs8" id="4yuOb1fd4PI" role="PrDN$">
+      <ref role="PrY4T" node="5SQJARQ1YXS" resolve="IBNFEditorCellModelBase" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="6mcP9nJg7Vr">
+    <property role="EcuMT" value="7317457234999410395" />
+    <property role="3GE5qa" value="Attributes.editor.custom" />
+    <property role="TrG5h" value="ICustomEditorRepresentation" />
   </node>
 </model>
 
