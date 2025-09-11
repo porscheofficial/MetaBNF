@@ -1441,6 +1441,46 @@
           <node concept="2iRfu4" id="7aaqmzkdznY" role="2iSdaV" />
         </node>
       </node>
+      <node concept="3EZMnI" id="DIcUYmYAbK" role="3EZMnx">
+        <node concept="VPM3Z" id="DIcUYmYAbL" role="3F10Kt" />
+        <node concept="2iRkQZ" id="DIcUYmYAbS" role="2iSdaV" />
+        <node concept="pkWqt" id="DIcUYmYAbT" role="pqm2j">
+          <node concept="3clFbS" id="DIcUYmYAbU" role="2VODD2">
+            <node concept="3clFbF" id="DIcUYmYAbV" role="3cqZAp">
+              <node concept="3clFbC" id="DIcUYmYAbW" role="3clFbG">
+                <node concept="2OqwBi" id="DIcUYmYAbX" role="3uHU7w">
+                  <node concept="1XH99k" id="DIcUYmYAbY" role="2Oq$k0">
+                    <ref role="1XH99l" to="gm16:7aaqmzkcjlo" resolve="BuildEditorConfiguration" />
+                  </node>
+                  <node concept="2ViDtV" id="DIcUYmYAbZ" role="2OqNvi">
+                    <ref role="2ViDtZ" to="gm16:DIcUYmYuJ$" resolve="inline" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="DIcUYmYAc0" role="3uHU7B">
+                  <node concept="pncrf" id="DIcUYmYAc1" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="DIcUYmYAc2" role="2OqNvi">
+                    <ref role="3TsBF5" to="gm16:T845YrpKX9" resolve="buildEditor" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3EZMnI" id="DIcUYmYAc3" role="3EZMnx">
+          <node concept="VPM3Z" id="DIcUYmYAc4" role="3F10Kt" />
+          <node concept="3XFhqQ" id="DIcUYmYAc5" role="3EZMnx" />
+          <node concept="3F0ifn" id="DIcUYmYAc6" role="3EZMnx">
+            <property role="3F0ifm" value="Inline Editor" />
+          </node>
+          <node concept="3F0ifn" id="DIcUYmYAc7" role="3EZMnx">
+            <property role="3F0ifm" value=":" />
+          </node>
+          <node concept="3F1sOY" id="DIcUYmYARx" role="3EZMnx">
+            <ref role="1NtTu8" to="gm16:DIcUYmYyHu" resolve="inlineEditor" />
+          </node>
+          <node concept="2iRfu4" id="DIcUYmYAca" role="2iSdaV" />
+        </node>
+      </node>
       <node concept="2iRkQZ" id="7aaqmzkdznP" role="2iSdaV" />
     </node>
   </node>

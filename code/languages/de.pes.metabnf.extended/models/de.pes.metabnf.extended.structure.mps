@@ -423,6 +423,9 @@
     <node concept="PrWs8" id="7aaqmzmRqU5" role="PzmwI">
       <ref role="PrY4T" to="yot6:7aaqmzmRqQF" resolve="IBNFEditorRepresentationConfig" />
     </node>
+    <node concept="PrWs8" id="DIcUYngkhN" role="PzmwI">
+      <ref role="PrY4T" node="DIcUYnaIC_" resolve="IEBNFCustomEditorScopeProvider" />
+    </node>
     <node concept="1TJgyi" id="T845YrpKX9" role="1TKVEl">
       <property role="IQ2nx" value="1029090517669318473" />
       <property role="TrG5h" value="buildEditor" />
@@ -439,6 +442,12 @@
       <property role="20kJfa" value="bnfEComponent" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" to="yot6:5SQJARPL5HD" resolve="EBNFCustomEditorDeclarationRef" />
+    </node>
+    <node concept="1TJgyj" id="DIcUYmYyHu" role="1TKVEi">
+      <property role="IQ2ns" value="751595017062722398" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="inlineEditor" />
+      <ref role="20lvS9" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
     </node>
   </node>
   <node concept="1TIwiD" id="T845Yrqx5_">
@@ -628,14 +637,22 @@
     <node concept="25R33" id="7aaqmzkcjlp" role="25R1y">
       <property role="3tVfz5" value="8253525166067365209" />
       <property role="TrG5h" value="default" />
+      <property role="1L1pqM" value="Build Default Editor and Components" />
     </node>
     <node concept="25R33" id="7aaqmzkcjlq" role="25R1y">
       <property role="3tVfz5" value="8253525166067365210" />
       <property role="TrG5h" value="skip" />
+      <property role="1L1pqM" value="Skip Editor Creation" />
     </node>
     <node concept="25R33" id="7aaqmzkcjlr" role="25R1y">
       <property role="3tVfz5" value="8253525166067365211" />
       <property role="TrG5h" value="custom" />
+      <property role="1L1pqM" value="Custom Editor Model Component Ref" />
+    </node>
+    <node concept="25R33" id="DIcUYmYuJ$" role="25R1y">
+      <property role="3tVfz5" value="751595017062706148" />
+      <property role="TrG5h" value="inline" />
+      <property role="1L1pqM" value="Custom Inline Editor Model" />
     </node>
     <node concept="25R33" id="7LcVVIP_rFE" role="25R1y">
       <property role="3tVfz5" value="8956797348417485546" />
@@ -806,6 +823,9 @@
     <node concept="PrWs8" id="5SQJARPRP5m" role="PzmwI">
       <ref role="PrY4T" to="yot6:4yuOb1fd4PH" resolve="IBNFEditorDeclarationRef" />
     </node>
+    <node concept="PrWs8" id="DIcUYnaIDJ" role="PzmwI">
+      <ref role="PrY4T" node="DIcUYnaIC_" resolve="IEBNFCustomEditorScopeProvider" />
+    </node>
     <node concept="1irR5M" id="5SQJARUW90N" role="rwd14">
       <property role="2$rrk2" value="1" />
       <node concept="1irR9n" id="5iAGZAazomO" role="1irR9h">
@@ -885,6 +905,11 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
     </node>
+  </node>
+  <node concept="PlHQZ" id="DIcUYnaIC_">
+    <property role="EcuMT" value="751595017065916965" />
+    <property role="3GE5qa" value="Attributes.editor.custom" />
+    <property role="TrG5h" value="IEBNFCustomEditorScopeProvider" />
   </node>
 </model>
 

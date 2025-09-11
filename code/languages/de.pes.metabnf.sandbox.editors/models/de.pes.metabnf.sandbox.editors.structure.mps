@@ -15,6 +15,7 @@
       </concept>
     </language>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
@@ -68,6 +69,7 @@
       <property role="20kJfa" value="listElement" />
       <property role="IQ2ns" value="6788822867853428063" />
       <ref role="20lvS9" node="5SQJARTsWlq" resolve="listElement" />
+      <node concept="asaX9" id="DIcUYnjTBU" role="lGtFl" />
     </node>
     <node concept="1TJgyj" id="4yuOb1eJHlv" role="1TKVEi">
       <property role="TrG5h" value="IListElements" />
@@ -76,13 +78,29 @@
       <property role="IQ2ns" value="5232849272705045855" />
       <ref role="20lvS9" node="1UvZxl05AQp" resolve="IListElements" />
     </node>
-    <node concept="PrWs8" id="6hE5InXKq3x" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
     <node concept="1TJgyi" id="6hE5InXKq3y" role="1TKVEl">
       <property role="TrG5h" value="nameTag" />
       <property role="IQ2nx" value="7235620928384770274" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" />
+    </node>
+    <node concept="1TJgyj" id="DIcUYn6Y28" role="1TKVEi">
+      <property role="TrG5h" value="listElement" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <property role="20kJfa" value="le" />
+      <property role="IQ2ns" value="751595017064931464" />
+      <ref role="20lvS9" node="5SQJARTsWlq" resolve="listElement" />
+    </node>
+    <node concept="1TJgyj" id="DIcUYn6Y2a" role="1TKVEi">
+      <property role="TrG5h" value="IListElements" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <property role="20kJfa" value="ile" />
+      <property role="IQ2ns" value="751595017064931466" />
+      <ref role="20lvS9" node="1UvZxl05AQp" resolve="IListElements" />
+    </node>
+    <node concept="PrWs8" id="DIcUYnjTCc" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="5SQJARTsWlq">
@@ -125,6 +143,22 @@
       <property role="20kJfa" value="IListElements" />
       <property role="IQ2ns" value="2206761709657812383" />
       <ref role="20lvS9" node="1UvZxl05AQp" resolve="IListElements" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="DIcUYn6Y22">
+    <property role="TrG5h" value="CustomInlineEditor" />
+    <property role="34LRSv" value="CustomInlineEditor" />
+    <property role="3GE5qa" value="editor samples" />
+    <property role="EcuMT" value="751595017064931458" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="2XvFd8" id="DIcUYn6Y23" role="lGtFl">
+      <property role="TrG5h" value="de.pes.metabnf.sandbox.sandbox_editor:CustomInlineEditor" />
+      <property role="2ZG9b7" value="http://127.0.0.1:63320/node?ref=r%3Aa27b50bb-e121-4cb4-b675-799ff4629efc%28de.pes.metabnf.sandbox.sandbox_editor%29%2F751595017062706146" />
+    </node>
+    <node concept="1TJgyi" id="DIcUYn6Y2b" role="1TKVEl">
+      <property role="TrG5h" value="abc" />
+      <property role="IQ2nx" value="751595017064931467" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" />
     </node>
   </node>
 </model>

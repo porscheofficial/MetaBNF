@@ -115,6 +115,7 @@
       </concept>
       <concept id="1029090517669318460" name="de.pes.metabnf.extended.structure.EBNFAttributeBuildEditor" flags="ng" index="2lbLXz">
         <property id="1029090517669318473" name="buildEditor" index="2lbLWm" />
+        <child id="751595017062722398" name="inlineEditor" index="2s_1zL" />
         <child id="6788822867791600511" name="bnfEComponent" index="2FWIki" />
       </concept>
       <concept id="6788822867853428068" name="de.pes.metabnf.extended.structure.EBNFCustomCellModel_ListRef" flags="ng" index="2BhnG9" />
@@ -208,6 +209,23 @@
       </node>
       <node concept="2lbLXz" id="1UvZxl05ASY" role="3f5NQZ">
         <property role="2lbLWm" value="7aaqmzkcjlp/default" />
+      </node>
+    </node>
+    <node concept="gNmGs" id="DIcUYmYuJu" role="gNmGt" />
+    <node concept="gNqHd" id="DIcUYmYuJy" role="gNmGt">
+      <property role="TrG5h" value="CustomInlineEditor" />
+      <node concept="2lbLXz" id="DIcUYmYuJz" role="3f5NQZ">
+        <property role="2lbLWm" value="DIcUYmYuJ$/inline" />
+        <node concept="3EZMnI" id="DIcUYn2d92" role="2s_1zL">
+          <node concept="2iRfu4" id="DIcUYn2d93" role="2iSdaV" />
+          <node concept="3F0ifn" id="DIcUYn2d94" role="3EZMnx" />
+          <node concept="2Dr8O7" id="DIcUYni7Aa" role="3EZMnx">
+            <ref role="2DlV$W" node="DIcUYn2JmV" />
+          </node>
+        </node>
+      </node>
+      <node concept="gKPLD" id="DIcUYn2JmV" role="2YAOa">
+        <property role="gKPLC" value="abc" />
       </node>
     </node>
   </node>

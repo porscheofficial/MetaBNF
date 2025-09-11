@@ -2447,6 +2447,26 @@
         <ref role="2I9WkF" to="yot6:5SQJARPL5HD" resolve="EBNFCustomEditorDeclarationRef" />
       </node>
     </node>
+    <node concept="13i0hz" id="DIcUYngkp0" role="13h7CS">
+      <property role="TrG5h" value="getAncesterNode" />
+      <ref role="13i0hy" node="1UvZxkZLnfl" resolve="getAncesterNode" />
+      <node concept="3Tm1VV" id="DIcUYngkp1" role="1B3o_S" />
+      <node concept="3clFbS" id="DIcUYngkp4" role="3clF47">
+        <node concept="3cpWs6" id="DIcUYngkUX" role="3cqZAp">
+          <node concept="2OqwBi" id="DIcUYngl94" role="3cqZAk">
+            <node concept="13iPFW" id="DIcUYngkVx" role="2Oq$k0" />
+            <node concept="2Xjw5R" id="DIcUYnglwF" role="2OqNvi">
+              <node concept="1xMEDy" id="DIcUYnglwH" role="1xVPHs">
+                <node concept="chp4Y" id="DIcUYnglxD" role="ri$Ld">
+                  <ref role="cht4Q" to="p1cl:1nL_s$DdmcT" resolve="BNFDefinitionTermBase" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="DIcUYngkp5" role="3clF45" />
+    </node>
   </node>
   <node concept="13h7C7" id="1EPqwt13gAG">
     <property role="3GE5qa" value="Attributes.extend.editor" />
@@ -3709,6 +3729,27 @@
         </node>
       </node>
     </node>
+    <node concept="13i0hz" id="DIcUYnaJ2q" role="13h7CS">
+      <property role="TrG5h" value="getTarget" />
+      <ref role="13i0hy" node="1UvZxkZLnfl" resolve="getTarget" />
+      <node concept="3Tm1VV" id="DIcUYnaJ2r" role="1B3o_S" />
+      <node concept="3clFbS" id="DIcUYnaJ2u" role="3clF47">
+        <node concept="3clFbF" id="DIcUYnaJo0" role="3cqZAp">
+          <node concept="2OqwBi" id="DIcUYnaK4y" role="3clFbG">
+            <node concept="2OqwBi" id="DIcUYnaJA_" role="2Oq$k0">
+              <node concept="13iPFW" id="DIcUYnaJnZ" role="2Oq$k0" />
+              <node concept="3TrEf2" id="DIcUYnaJTr" role="2OqNvi">
+                <ref role="3Tt5mk" to="gm16:5SQJARPOws_" resolve="bnfexpr" />
+              </node>
+            </node>
+            <node concept="2qgKlT" id="DIcUYnaKke" role="2OqNvi">
+              <ref role="37wK5l" to="10gk:1UvZxkZLnfl" resolve="getTarget" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="DIcUYnaJ2v" role="3clF45" />
+    </node>
     <node concept="13i0hz" id="5SQJARSENtB" role="13h7CS">
       <property role="TrG5h" value="getCustomEditorDeclaration" />
       <ref role="13i0hy" to="10gk:5SQJARSEKqB" resolve="getCustomEditorDeclaration" />
@@ -4342,6 +4383,21 @@
       <node concept="3Tqbb2" id="4yuOb1eJDHp" role="3clF45">
         <ref role="ehGHo" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
       </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="DIcUYnaICA">
+    <property role="3GE5qa" value="Attributes.editor.custom" />
+    <ref role="13h7C2" to="gm16:DIcUYnaIC_" resolve="IEBNFCustomEditorScopeProvider" />
+    <node concept="13i0hz" id="1UvZxkZLnfl" role="13h7CS">
+      <property role="13i0iv" value="true" />
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="getAncesterNode" />
+      <node concept="3Tm1VV" id="1UvZxkZLnfm" role="1B3o_S" />
+      <node concept="3Tqbb2" id="1UvZxkZLnfD" role="3clF45" />
+      <node concept="3clFbS" id="1UvZxkZLnfo" role="3clF47" />
+    </node>
+    <node concept="13hLZK" id="DIcUYnaICB" role="13h7CW">
+      <node concept="3clFbS" id="DIcUYnaICC" role="2VODD2" />
     </node>
   </node>
 </model>

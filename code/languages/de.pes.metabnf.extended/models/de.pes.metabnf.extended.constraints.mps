@@ -14,6 +14,7 @@
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" implicit="true" />
+    <import index="zbpa" ref="r:aed3b57c-f504-4890-b007-1b584a61f04a(de.pes.metabnf.extended.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -1209,14 +1210,14 @@
             <node concept="3cpWsn" id="5SQJARRrP2y" role="3cpWs9">
               <property role="TrG5h" value="root" />
               <node concept="3Tqbb2" id="5SQJARRrOOS" role="1tU5fm">
-                <ref role="ehGHo" to="gm16:5SQJARPwye9" resolve="EBNFCustomEditorDeclaration" />
+                <ref role="ehGHo" to="gm16:DIcUYnaIC_" resolve="IEBNFCustomEditorScopeProvider" />
               </node>
               <node concept="2OqwBi" id="5SQJARRrP2z" role="33vP2m">
                 <node concept="2rP1CM" id="5SQJARRrP2$" role="2Oq$k0" />
                 <node concept="2Xjw5R" id="5SQJARRrP2_" role="2OqNvi">
                   <node concept="1xMEDy" id="5SQJARRrP2A" role="1xVPHs">
                     <node concept="chp4Y" id="5SQJARRrP2B" role="ri$Ld">
-                      <ref role="cht4Q" to="gm16:5SQJARPwye9" resolve="EBNFCustomEditorDeclaration" />
+                      <ref role="cht4Q" to="gm16:DIcUYnaIC_" resolve="IEBNFCustomEditorScopeProvider" />
                     </node>
                   </node>
                 </node>
@@ -1231,17 +1232,12 @@
                 <node concept="chp4Y" id="1UvZxkZOGKZ" role="3oSUPX">
                   <ref role="cht4Q" to="p1cl:1nL_s$DdmcT" resolve="BNFDefinitionTermBase" />
                 </node>
-                <node concept="2OqwBi" id="1vpfjfNNNp_" role="1m5AlR">
-                  <node concept="2OqwBi" id="1vpfjfNNLWq" role="2Oq$k0">
-                    <node concept="37vLTw" id="1vpfjfNNKYP" role="2Oq$k0">
-                      <ref role="3cqZAo" node="5SQJARRrP2y" resolve="root" />
-                    </node>
-                    <node concept="3TrEf2" id="1vpfjfNNMeE" role="2OqNvi">
-                      <ref role="3Tt5mk" to="gm16:5SQJARPOws_" resolve="bnfexpr" />
-                    </node>
+                <node concept="2OqwBi" id="DIcUYn8WmJ" role="1m5AlR">
+                  <node concept="37vLTw" id="1vpfjfNNKYP" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5SQJARRrP2y" resolve="root" />
                   </node>
-                  <node concept="2qgKlT" id="1UvZxkZOFOo" role="2OqNvi">
-                    <ref role="37wK5l" to="10gk:1UvZxkZLnfl" resolve="getTarget" />
+                  <node concept="2qgKlT" id="DIcUYn8WCb" role="2OqNvi">
+                    <ref role="37wK5l" to="zbpa:1UvZxkZLnfl" resolve="getTarget" />
                   </node>
                 </node>
               </node>
@@ -1263,14 +1259,14 @@
             <node concept="3cpWsn" id="5SQJARTwMFh" role="3cpWs9">
               <property role="TrG5h" value="rootEditor" />
               <node concept="3Tqbb2" id="5SQJARTwMFi" role="1tU5fm">
-                <ref role="ehGHo" to="gm16:5SQJARPwye9" resolve="EBNFCustomEditorDeclaration" />
+                <ref role="ehGHo" to="gm16:DIcUYnaIC_" resolve="IEBNFCustomEditorScopeProvider" />
               </node>
               <node concept="2OqwBi" id="5SQJARTwMFj" role="33vP2m">
                 <node concept="2rP1CM" id="5SQJARTwMFk" role="2Oq$k0" />
                 <node concept="2Xjw5R" id="5SQJARTwMFl" role="2OqNvi">
                   <node concept="1xMEDy" id="5SQJARTwMFm" role="1xVPHs">
                     <node concept="chp4Y" id="5SQJARTwMFn" role="ri$Ld">
-                      <ref role="cht4Q" to="gm16:5SQJARPwye9" resolve="EBNFCustomEditorDeclaration" />
+                      <ref role="cht4Q" to="gm16:DIcUYnaIC_" resolve="IEBNFCustomEditorScopeProvider" />
                     </node>
                   </node>
                 </node>
@@ -1296,16 +1292,11 @@
           <node concept="Jncv_" id="1UvZxkZN0Rb" role="3cqZAp">
             <ref role="JncvD" to="p1cl:7egTi9LqCwB" resolve="IBNFBaseStatementConcept" />
             <node concept="2OqwBi" id="1UvZxkZN2rJ" role="JncvB">
-              <node concept="2OqwBi" id="1UvZxkZN1wN" role="2Oq$k0">
-                <node concept="37vLTw" id="1UvZxkZN17y" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5SQJARTwMFh" resolve="rootEditor" />
-                </node>
-                <node concept="3TrEf2" id="1UvZxkZN21x" role="2OqNvi">
-                  <ref role="3Tt5mk" to="gm16:5SQJARPOws_" resolve="bnfexpr" />
-                </node>
+              <node concept="37vLTw" id="1UvZxkZN17y" role="2Oq$k0">
+                <ref role="3cqZAo" node="5SQJARTwMFh" resolve="rootEditor" />
               </node>
               <node concept="2qgKlT" id="1UvZxkZN36h" role="2OqNvi">
-                <ref role="37wK5l" to="10gk:1UvZxkZLnfl" resolve="getTarget" />
+                <ref role="37wK5l" to="zbpa:1UvZxkZLnfl" resolve="getAncesterNode" />
               </node>
             </node>
             <node concept="3clFbS" id="1UvZxkZN0Rf" role="Jncv$">
@@ -1480,14 +1471,14 @@
             <node concept="3cpWsn" id="4yuOb1eMMZm" role="3cpWs9">
               <property role="TrG5h" value="rootEditor" />
               <node concept="3Tqbb2" id="4yuOb1eMMZn" role="1tU5fm">
-                <ref role="ehGHo" to="gm16:5SQJARPwye9" resolve="EBNFCustomEditorDeclaration" />
+                <ref role="ehGHo" to="gm16:DIcUYnaIC_" resolve="IEBNFCustomEditorScopeProvider" />
               </node>
               <node concept="2OqwBi" id="4yuOb1eMMZo" role="33vP2m">
                 <node concept="2rP1CM" id="4yuOb1eMMZp" role="2Oq$k0" />
                 <node concept="2Xjw5R" id="4yuOb1eMMZq" role="2OqNvi">
                   <node concept="1xMEDy" id="4yuOb1eMMZr" role="1xVPHs">
                     <node concept="chp4Y" id="4yuOb1eMMZs" role="ri$Ld">
-                      <ref role="cht4Q" to="gm16:5SQJARPwye9" resolve="EBNFCustomEditorDeclaration" />
+                      <ref role="cht4Q" to="gm16:DIcUYnaIC_" resolve="IEBNFCustomEditorScopeProvider" />
                     </node>
                   </node>
                 </node>
@@ -1513,16 +1504,11 @@
           <node concept="Jncv_" id="4yuOb1eMNBr" role="3cqZAp">
             <ref role="JncvD" to="p1cl:7egTi9LqCwB" resolve="IBNFBaseStatementConcept" />
             <node concept="2OqwBi" id="4yuOb1eMNBs" role="JncvB">
-              <node concept="2OqwBi" id="4yuOb1eMNBt" role="2Oq$k0">
-                <node concept="37vLTw" id="4yuOb1eMNBu" role="2Oq$k0">
-                  <ref role="3cqZAo" node="4yuOb1eMMZm" resolve="rootEditor" />
-                </node>
-                <node concept="3TrEf2" id="4yuOb1eMNBv" role="2OqNvi">
-                  <ref role="3Tt5mk" to="gm16:5SQJARPOws_" />
-                </node>
+              <node concept="37vLTw" id="4yuOb1eMNBu" role="2Oq$k0">
+                <ref role="3cqZAo" node="4yuOb1eMMZm" resolve="rootEditor" />
               </node>
               <node concept="2qgKlT" id="4yuOb1eMNBw" role="2OqNvi">
-                <ref role="37wK5l" to="10gk:1UvZxkZLnfl" resolve="getTarget" />
+                <ref role="37wK5l" to="zbpa:1UvZxkZLnfl" resolve="getAncesterNode" />
               </node>
             </node>
             <node concept="3clFbS" id="4yuOb1eMNBx" role="Jncv$">
