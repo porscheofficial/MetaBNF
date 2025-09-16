@@ -228,6 +228,7 @@
     <property role="TrG5h" value="EBNFDefinitionTypeConstrain" />
     <property role="3GE5qa" value="Attributes.Types" />
     <property role="34LRSv" value="Type Constrain" />
+    <property role="R4oN_" value="Property Type Constrain" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="4j82FZZ71Nr" role="PzmwI">
       <ref role="PrY4T" to="p1cl:4novjIaNO1Z" resolve="INodeAnnotationAttribute" />
@@ -552,7 +553,7 @@
   </node>
   <node concept="1TIwiD" id="7egTi9Mig51">
     <property role="EcuMT" value="8327407647117082945" />
-    <property role="3GE5qa" value="Attributes.extend" />
+    <property role="3GE5qa" value="Attributes.Interface" />
     <property role="TrG5h" value="ExternalImplements" />
     <property role="34LRSv" value="External Implements Interface" />
     <property role="R4oN_" value="Define implements for External Interfaces" />
@@ -910,6 +911,23 @@
     <property role="EcuMT" value="751595017065916965" />
     <property role="3GE5qa" value="Attributes.editor.custom" />
     <property role="TrG5h" value="IEBNFCustomEditorScopeProvider" />
+  </node>
+  <node concept="1TIwiD" id="3qzrKNP2njU">
+    <property role="EcuMT" value="3937112600693273850" />
+    <property role="TrG5h" value="EBNFExternalConceptTypeRef" />
+    <property role="R4oN_" value="External Child Type Definition" />
+    <property role="34LRSv" value="&lt;&lt;C" />
+    <ref role="1TJDcQ" to="p1cl:fbptcj1GUz" resolve="BNFExpression" />
+    <node concept="1TJgyj" id="3qzrKNP2_$I" role="1TKVEi">
+      <property role="IQ2ns" value="3937112600693332270" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="concept" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tp25:2iMJRNxweHk" resolve="ConceptIdRefExpression" />
+    </node>
+    <node concept="PrWs8" id="3qzrKNPtFxQ" role="PzmwI">
+      <ref role="PrY4T" to="p1cl:T845YsR94I" resolve="IHaveOptionalName" />
+    </node>
   </node>
 </model>
 

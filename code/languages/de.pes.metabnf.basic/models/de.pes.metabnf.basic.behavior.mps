@@ -4000,6 +4000,15 @@
         <property role="Xl_RC" value="#lightgray" />
       </node>
     </node>
+    <node concept="Wx3nA" id="7elZBZGcQe0" role="jymVt">
+      <property role="TrG5h" value="colorGray" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tm1VV" id="7elZBZGcQe1" role="1B3o_S" />
+      <node concept="17QB3L" id="7elZBZGcQe2" role="1tU5fm" />
+      <node concept="Xl_RD" id="7elZBZGcQe3" role="33vP2m">
+        <property role="Xl_RC" value="#gray" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="4aKsqC9zzZN" role="jymVt" />
     <node concept="2YIFZL" id="211WYHD0t6L" role="jymVt">
       <property role="TrG5h" value="isStringInGraph" />
