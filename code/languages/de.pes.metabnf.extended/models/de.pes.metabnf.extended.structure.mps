@@ -928,6 +928,12 @@
     <node concept="PrWs8" id="3qzrKNPtFxQ" role="PzmwI">
       <ref role="PrY4T" to="p1cl:T845YsR94I" resolve="IHaveOptionalName" />
     </node>
+    <node concept="PrWs8" id="7elZBZGCBHC" role="PzmwI">
+      <ref role="PrY4T" to="yot6:T845Ys479E" resolve="IBNFExpressionReference" />
+    </node>
+    <node concept="PrWs8" id="5UlvvpOZqa7" role="PzmwI">
+      <ref role="PrY4T" to="p1cl:7aaqmzlmc9L" resolve="IBNFEditorReprensentation" />
+    </node>
   </node>
 </model>
 

@@ -45,6 +45,11 @@
       <concept id="273424159618034946" name="de.pes.metabnf.basic.structure.BNFDefinitionTermRef" flags="ng" index="gKozh">
         <reference id="273424159618034947" name="ref" index="gKozg" />
       </concept>
+      <concept id="273424159617961299" name="de.pes.metabnf.basic.structure.BNFBinaryExpression" flags="ng" index="gKEy0">
+        <child id="273424159617961307" name="rvalue" index="gKEy8" />
+        <child id="273424159617961306" name="lvalue" index="gKEy9" />
+      </concept>
+      <concept id="273424159617961297" name="de.pes.metabnf.basic.structure.CommaExpression" flags="ng" index="gKEy2" />
       <concept id="273424159617857978" name="de.pes.metabnf.basic.structure.BNFStringLiteral" flags="ng" index="gKPLD">
         <property id="273424159617857979" name="value" index="gKPLC" />
       </concept>
@@ -126,6 +131,9 @@
         <child id="6788822867789815042" name="editor" index="2FBUdJ" />
         <child id="6788822867792496421" name="bnfexpr" index="2FTb_8" />
       </concept>
+      <concept id="3937112600693273850" name="de.pes.metabnf.extended.structure.EBNFExternalConceptTypeRef" flags="ng" index="33ExJQ">
+        <child id="3937112600693332270" name="concept" index="33Ejoy" />
+      </concept>
       <concept id="5032910278271664331" name="de.pes.metabnf.extended.structure.EBNFIFaceDefinitionTerm" flags="ng" index="3f4ZRK" />
       <concept id="5032910278271791229" name="de.pes.metabnf.extended.structure.EBNFIFaceDefinitionTermRef" flags="ng" index="3f5gP6">
         <reference id="5032910278271791230" name="iface" index="3f5gP5" />
@@ -191,19 +199,32 @@
           <property role="TrG5h" value="ile" />
           <ref role="3f5gP5" node="1UvZxkZb$Hy" resolve="IListElements" />
         </node>
+        <node concept="33ExJQ" id="7elZBZGswCW" role="gyeCO">
+          <property role="TrG5h" value="ABC" />
+          <node concept="35c_gC" id="7elZBZGswCY" role="33Ejoy">
+            <ref role="35c_gD" to="tpck:3emwrjqjJ6B" resolve="BasePlaceholder" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="gNmGs" id="1UvZxkZb$Hw" role="gNmGt" />
     <node concept="3f4ZRK" id="1UvZxkZb$H_" role="gNmGt">
       <property role="TrG5h" value="InterfaceWithList" />
-      <node concept="gXCZ9" id="1UvZxkZb$HC" role="2YAOa">
-        <node concept="3f5gP6" id="1UvZxkZb$HG" role="Iv2U_">
-          <ref role="3f5gP5" node="1UvZxkZb$Hy" resolve="IListElements" />
-          <node concept="2lbLXz" id="1UvZxl021mT" role="3f5NQZ">
-            <property role="2lbLWm" value="7aaqmzkcjlr/custom" />
-            <node concept="2FWIk4" id="1UvZxl021mU" role="2FWIki">
-              <ref role="2FWIk7" node="1UvZxkZb$HI" resolve="ILIist" />
+      <node concept="gKEy2" id="5UlvvpP2HVi" role="2YAOa">
+        <node concept="gXCZ9" id="1UvZxkZb$HC" role="gKEy9">
+          <node concept="3f5gP6" id="1UvZxkZb$HG" role="Iv2U_">
+            <ref role="3f5gP5" node="1UvZxkZb$Hy" resolve="IListElements" />
+            <node concept="2lbLXz" id="1UvZxl021mT" role="3f5NQZ">
+              <property role="2lbLWm" value="7aaqmzkcjlr/custom" />
+              <node concept="2FWIk4" id="1UvZxl021mU" role="2FWIki">
+                <ref role="2FWIk7" node="1UvZxkZb$HI" resolve="ILIist" />
+              </node>
             </node>
+          </node>
+        </node>
+        <node concept="33ExJQ" id="5UlvvpP2HVm" role="gKEy8">
+          <node concept="35c_gC" id="5UlvvpP2HVo" role="33Ejoy">
+            <ref role="35c_gD" to="tpck:3emwrjqjJ6B" resolve="BasePlaceholder" />
           </node>
         </node>
       </node>
@@ -222,10 +243,20 @@
           <node concept="2Dr8O7" id="DIcUYni7Aa" role="3EZMnx">
             <ref role="2DlV$W" node="DIcUYn2JmV" />
           </node>
+          <node concept="684Ib" id="5UlvvpPapb2" role="3EZMnx">
+            <ref role="680mI" node="5UlvvpP2HSG" />
+          </node>
         </node>
       </node>
-      <node concept="gKPLD" id="DIcUYn2JmV" role="2YAOa">
-        <property role="gKPLC" value="abc" />
+      <node concept="gKEy2" id="5UlvvpP2HSC" role="2YAOa">
+        <node concept="gKPLD" id="DIcUYn2JmV" role="gKEy9">
+          <property role="gKPLC" value="abc" />
+        </node>
+        <node concept="33ExJQ" id="5UlvvpP2HSG" role="gKEy8">
+          <node concept="35c_gC" id="5UlvvpP2HSI" role="33Ejoy">
+            <ref role="35c_gD" to="tpck:3emwrjqjJ6B" resolve="BasePlaceholder" />
+          </node>
+        </node>
       </node>
     </node>
   </node>
@@ -313,6 +344,16 @@
           <ref role="680mI" node="4yuOb1eJ_C3" />
         </node>
         <node concept="2iRfu4" id="4yuOb1eJ_BY" role="2iSdaV" />
+      </node>
+      <node concept="3EZMnI" id="7elZBZGuAqV" role="3EZMnx">
+        <node concept="VPM3Z" id="7elZBZGuAqX" role="3F10Kt" />
+        <node concept="3F0ifn" id="7elZBZGuAr1" role="3EZMnx">
+          <property role="3F0ifm" value="&lt;&lt;C :" />
+        </node>
+        <node concept="684Ib" id="5UlvvpPap9m" role="3EZMnx">
+          <ref role="680mI" node="7elZBZGswCW" resolve="ABC" />
+        </node>
+        <node concept="2iRfu4" id="7elZBZGuAr0" role="2iSdaV" />
       </node>
       <node concept="2FWIk4" id="4yuOb1fhKx0" role="3EZMnx">
         <ref role="2FWIk7" node="1vpfjfMgZ3N" resolve="CWCE_List" />
