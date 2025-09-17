@@ -15,7 +15,16 @@
       </concept>
     </language>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="3348158742936976480" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" flags="ng" index="25R33">
+        <property id="1421157252384165432" name="memberId" index="3tVfz5" />
+      </concept>
+      <concept id="3348158742936976479" name="jetbrains.mps.lang.structure.structure.EnumerationDeclaration" flags="ng" index="25R3W">
+        <child id="3348158742936976577" name="members" index="25R1y" />
+      </concept>
       <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
+      <concept id="1082978164218" name="jetbrains.mps.lang.structure.structure.DataTypeDeclaration" flags="ng" index="AxPO6">
+        <property id="7791109065626895363" name="datatypeId" index="3F6X1D" />
+      </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
@@ -69,7 +78,7 @@
       <property role="20kJfa" value="listElement" />
       <property role="IQ2ns" value="6788822867853428063" />
       <ref role="20lvS9" node="5SQJARTsWlq" resolve="listElement" />
-      <node concept="asaX9" id="5UlvvpP6i2m" role="lGtFl" />
+      <node concept="asaX9" id="5UlvvpPWnJi" role="lGtFl" />
     </node>
     <node concept="1TJgyj" id="4yuOb1eJHlv" role="1TKVEi">
       <property role="TrG5h" value="IListElements" />
@@ -99,9 +108,6 @@
       <property role="IQ2ns" value="751595017064931466" />
       <ref role="20lvS9" node="1UvZxl05AQp" resolve="IListElements" />
     </node>
-    <node concept="PrWs8" id="5UlvvpP6i2D" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
     <node concept="1TJgyj" id="5UlvvpP6i2I" role="1TKVEi">
       <property role="TrG5h" value="BasePlaceholder" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -109,6 +115,9 @@
       <property role="20kJfa" value="ABC" />
       <property role="IQ2ns" value="6815492108575121582" />
       <ref role="20lvS9" to="tpck:3emwrjqjJ6B" resolve="BasePlaceholder" />
+    </node>
+    <node concept="PrWs8" id="5UlvvpPWnJF" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="5SQJARTsWlq">
@@ -183,6 +192,38 @@
       <property role="20kJfa" value="BasePlaceholder" />
       <property role="IQ2ns" value="6815492108575121584" />
       <ref role="20lvS9" to="tpck:3emwrjqjJ6B" resolve="BasePlaceholder" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5UlvvpPogIi">
+    <property role="TrG5h" value="EnumInlineEditor" />
+    <property role="34LRSv" value="EnumInlineEditor" />
+    <property role="3GE5qa" value="editor samples" />
+    <property role="EcuMT" value="6815492108579834770" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="2XvFd8" id="5UlvvpPogIj" role="lGtFl">
+      <property role="TrG5h" value="de.pes.metabnf.sandbox.sandbox_editor:EnumInlineEditor" />
+      <property role="2ZG9b7" value="http://127.0.0.1:63320/node?ref=r%3Aa27b50bb-e121-4cb4-b675-799ff4629efc%28de.pes.metabnf.sandbox.sandbox_editor%29%2F6815492108579008163" />
+    </node>
+    <node concept="1TJgyi" id="5UlvvpPogLw" role="1TKVEl">
+      <property role="TrG5h" value="enumValue" />
+      <property role="IQ2nx" value="6815492108579834976" />
+      <ref role="AX2Wp" node="5UlvvpPogLr" resolve="EnumInlineEditor_Enum" />
+    </node>
+  </node>
+  <node concept="25R3W" id="5UlvvpPogLr">
+    <property role="TrG5h" value="EnumInlineEditor_Enum" />
+    <property role="3F6X1D" value="6815492108579834971" />
+    <node concept="25R33" id="5UlvvpPogLt" role="25R1y">
+      <property role="TrG5h" value="ValA" />
+      <property role="3tVfz5" value="6815492108579834973" />
+    </node>
+    <node concept="25R33" id="5UlvvpPogLu" role="25R1y">
+      <property role="TrG5h" value="ValB" />
+      <property role="3tVfz5" value="6815492108579834974" />
+    </node>
+    <node concept="25R33" id="5UlvvpPogLv" role="25R1y">
+      <property role="TrG5h" value="ValC" />
+      <property role="3tVfz5" value="6815492108579834975" />
     </node>
   </node>
 </model>

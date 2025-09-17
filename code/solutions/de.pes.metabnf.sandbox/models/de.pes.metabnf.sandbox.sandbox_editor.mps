@@ -42,6 +42,7 @@
       <concept id="273424159621746662" name="de.pes.metabnf.basic.structure.MultiLineDefinitionTerm" flags="ng" index="gyeCP">
         <child id="273424159621746663" name="content" index="gyeCO" />
       </concept>
+      <concept id="273424159621607298" name="de.pes.metabnf.basic.structure.ParentheseDefinitions" flags="ng" index="gywDh" />
       <concept id="273424159618034946" name="de.pes.metabnf.basic.structure.BNFDefinitionTermRef" flags="ng" index="gKozh">
         <reference id="273424159618034947" name="ref" index="gKozg" />
       </concept>
@@ -58,6 +59,7 @@
       <concept id="273424159617697539" name="de.pes.metabnf.basic.structure.BNFWorkbook" flags="ng" index="gNEbg">
         <child id="273424159617715918" name="content" index="gNmGt" />
       </concept>
+      <concept id="273424159619701067" name="de.pes.metabnf.basic.structure.PipeExpression" flags="ng" index="gVNMo" />
       <concept id="273424159621331646" name="de.pes.metabnf.basic.structure.OptionalTermRef" flags="ng" index="gX_XH" />
       <concept id="273424159621376538" name="de.pes.metabnf.basic.structure.ListTermDefinitions" flags="ng" index="gXCZ9" />
       <concept id="1925855837437753080" name="de.pes.metabnf.basic.structure.IBNFGroupElements" flags="ngI" index="HFflm">
@@ -255,6 +257,35 @@
         <node concept="33ExJQ" id="5UlvvpP2HSG" role="gKEy8">
           <node concept="35c_gC" id="5UlvvpP2HSI" role="33Ejoy">
             <ref role="35c_gD" to="tpck:3emwrjqjJ6B" resolve="BasePlaceholder" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="gNmGs" id="5UlvvpPl6Uv" role="gNmGt" />
+    <node concept="gNqHd" id="5UlvvpPl6Uz" role="gNmGt">
+      <property role="TrG5h" value="EnumInlineEditor" />
+      <node concept="gywDh" id="5UlvvpPl6U$" role="2YAOa">
+        <property role="TrG5h" value="enumValue" />
+        <node concept="gVNMo" id="5UlvvpPogKD" role="Iv2U_">
+          <node concept="gKPLD" id="5UlvvpPogKA" role="gKEy9">
+            <property role="gKPLC" value="ValA" />
+          </node>
+          <node concept="gVNMo" id="5UlvvpPogKK" role="gKEy8">
+            <node concept="gKPLD" id="5UlvvpPogKH" role="gKEy9">
+              <property role="gKPLC" value="ValB" />
+            </node>
+            <node concept="gKPLD" id="5UlvvpPogKO" role="gKEy8">
+              <property role="gKPLC" value="ValC" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2lbLXz" id="5UlvvpPogGB" role="3f5NQZ">
+        <property role="2lbLWm" value="DIcUYmYuJ$/inline" />
+        <node concept="3EZMnI" id="5UlvvpPogGC" role="2s_1zL">
+          <node concept="2iRfu4" id="5UlvvpPogGD" role="2iSdaV" />
+          <node concept="2Dr8O7" id="5UlvvpPogGT" role="3EZMnx">
+            <ref role="2DlV$W" node="5UlvvpPl6U$" />
           </node>
         </node>
       </node>

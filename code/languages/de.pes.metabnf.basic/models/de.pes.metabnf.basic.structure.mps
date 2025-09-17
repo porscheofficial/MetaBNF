@@ -299,6 +299,9 @@
     <node concept="PrWs8" id="4sCs7Mi$soM" role="PzmwI">
       <ref role="PrY4T" node="T845YsR94I" resolve="IHaveOptionalName" />
     </node>
+    <node concept="PrWs8" id="5UlvvpPk0HF" role="PzmwI">
+      <ref role="PrY4T" to="yot6:T845Ys479E" resolve="IBNFExpressionReference" />
+    </node>
   </node>
   <node concept="1TIwiD" id="fbptcjgKtE">
     <property role="EcuMT" value="273424159621711722" />
