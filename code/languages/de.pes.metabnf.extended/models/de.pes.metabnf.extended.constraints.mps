@@ -1560,9 +1560,6 @@
               </node>
             </node>
           </node>
-          <node concept="2xdQw9" id="2EDx4BbgcqY" role="3cqZAp">
-            <node concept="Xl_RD" id="2EDx4Bbgcr0" role="9lYJi" />
-          </node>
           <node concept="3cpWs8" id="4yuOb1eMNea" role="3cqZAp">
             <node concept="3cpWsn" id="4yuOb1eMNeb" role="3cpWs9">
               <property role="TrG5h" value="results" />
@@ -1871,19 +1868,6 @@
           </node>
           <node concept="2$JKZl" id="2EDx4BbgC6a" role="3cqZAp">
             <node concept="3clFbS" id="2EDx4BbgC6c" role="2LFqv$">
-              <node concept="2xdQw9" id="4HmnLbuVhFC" role="3cqZAp">
-                <node concept="3cpWs3" id="4HmnLbuVki1" role="9lYJi">
-                  <node concept="2OqwBi" id="4HmnLbuVnFj" role="3uHU7w">
-                    <node concept="37vLTw" id="4HmnLbuVlRh" role="2Oq$k0">
-                      <ref role="3cqZAo" node="2EDx4BbgkeX" resolve="seqTarget" />
-                    </node>
-                    <node concept="34oBXx" id="4HmnLbuVp$l" role="2OqNvi" />
-                  </node>
-                  <node concept="Xl_RD" id="4HmnLbuVhFE" role="3uHU7B">
-                    <property role="Xl_RC" value="Loop Size: " />
-                  </node>
-                </node>
-              </node>
               <node concept="3clFbF" id="2EDx4BbgKeO" role="3cqZAp">
                 <node concept="37vLTI" id="2EDx4BbgNiC" role="3clFbG">
                   <node concept="2OqwBi" id="2EDx4BbgOq6" role="37vLTx">
