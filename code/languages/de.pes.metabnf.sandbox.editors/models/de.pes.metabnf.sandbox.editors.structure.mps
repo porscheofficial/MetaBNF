@@ -78,7 +78,7 @@
       <property role="20kJfa" value="listElement" />
       <property role="IQ2ns" value="6788822867853428063" />
       <ref role="20lvS9" node="5SQJARTsWlq" resolve="listElement" />
-      <node concept="asaX9" id="5UlvvpPWnJi" role="lGtFl" />
+      <node concept="asaX9" id="4HmnLbve79l" role="lGtFl" />
     </node>
     <node concept="1TJgyj" id="4yuOb1eJHlv" role="1TKVEi">
       <property role="TrG5h" value="IListElements" />
@@ -116,7 +116,7 @@
       <property role="IQ2ns" value="6815492108575121582" />
       <ref role="20lvS9" to="tpck:3emwrjqjJ6B" resolve="BasePlaceholder" />
     </node>
-    <node concept="PrWs8" id="5UlvvpPWnJF" role="PzmwI">
+    <node concept="PrWs8" id="4HmnLbve79I" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
@@ -175,7 +175,7 @@
     <property role="34LRSv" value="CustomInlineEditor" />
     <property role="3GE5qa" value="editor samples" />
     <property role="EcuMT" value="751595017064931458" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="5SQJAROnbEK" resolve="ConceptWithCustomEditor" />
     <node concept="2XvFd8" id="DIcUYn6Y23" role="lGtFl">
       <property role="TrG5h" value="de.pes.metabnf.sandbox.sandbox_editor:CustomInlineEditor" />
       <property role="2ZG9b7" value="http://127.0.0.1:63320/node?ref=r%3Aa27b50bb-e121-4cb4-b675-799ff4629efc%28de.pes.metabnf.sandbox.sandbox_editor%29%2F751595017062706146" />
