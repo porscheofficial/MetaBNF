@@ -351,6 +351,9 @@
     <node concept="PrWs8" id="1UvZxkZGDuu" role="PzmwI">
       <ref role="PrY4T" to="yot6:1UvZxkZGDtG" resolve="IBNFEditorComponentReferencedName" />
     </node>
+    <node concept="PrWs8" id="2EDx4BbgfPb" role="PzmwI">
+      <ref role="PrY4T" to="yot6:T845Ys479E" resolve="IBNFExpressionReference" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7egTi9KZJKM">
     <property role="EcuMT" value="8327407647095454770" />

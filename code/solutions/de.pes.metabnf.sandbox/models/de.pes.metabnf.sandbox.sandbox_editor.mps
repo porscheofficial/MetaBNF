@@ -133,6 +133,12 @@
         <child id="6788822867789815042" name="editor" index="2FBUdJ" />
         <child id="6788822867792496421" name="bnfexpr" index="2FTb_8" />
       </concept>
+      <concept id="1581209635398356007" name="de.pes.metabnf.extended.structure.BNFDefinitionTermRefRef" flags="ng" index="WEpBI">
+        <reference id="8327407647093093174" name="ref" index="3ixok" />
+      </concept>
+      <concept id="1581209635397447671" name="de.pes.metabnf.extended.structure.EBNFConceptExtendsConcept" flags="ng" index="WIVCY">
+        <child id="1581209635397452128" name="extends" index="WIXiD" />
+      </concept>
       <concept id="3937112600693273850" name="de.pes.metabnf.extended.structure.EBNFExternalConceptTypeRef" flags="ng" index="33ExJQ">
         <child id="3937112600693332270" name="concept" index="33Ejoy" />
       </concept>
@@ -170,6 +176,12 @@
       <node concept="1Quhz" id="6hE5InXEx1w" role="3f5NQZ">
         <node concept="35c_gC" id="6hE5InXEx1y" role="2f51L">
           <ref role="35c_gD" to="tpck:h0TrEE$" resolve="INamedConcept" />
+        </node>
+      </node>
+      <node concept="2lbLXz" id="2EDx4BbgdjR" role="3f5NQZ">
+        <property role="2lbLWm" value="DIcUYmYuJ$/inline" />
+        <node concept="3EZMnI" id="2EDx4BbgdjT" role="2s_1zL">
+          <node concept="2iRfu4" id="2EDx4BbgdjU" role="2iSdaV" />
         </node>
       </node>
       <node concept="gyeCP" id="4yuOb1eJ_C5" role="2YAOa">
@@ -237,6 +249,11 @@
     <node concept="gNmGs" id="DIcUYmYuJu" role="gNmGt" />
     <node concept="gNqHd" id="DIcUYmYuJy" role="gNmGt">
       <property role="TrG5h" value="CustomInlineEditor" />
+      <node concept="WIVCY" id="2EDx4Bb7LS8" role="3f5NQZ">
+        <node concept="WEpBI" id="2EDx4Bb7LSa" role="WIXiD">
+          <ref role="3ixok" node="5SQJAROnbEt" resolve="ConceptWithCustomEditor" />
+        </node>
+      </node>
       <node concept="2lbLXz" id="DIcUYmYuJz" role="3f5NQZ">
         <property role="2lbLWm" value="DIcUYmYuJ$/inline" />
         <node concept="3EZMnI" id="DIcUYn2d92" role="2s_1zL">
@@ -247,6 +264,9 @@
           </node>
           <node concept="684Ib" id="5UlvvpPapb2" role="3EZMnx">
             <ref role="680mI" node="5UlvvpP2HSG" />
+          </node>
+          <node concept="684Ib" id="4HmnLbv9CGb" role="3EZMnx">
+            <ref role="680mI" node="DIcUYmEfqB" resolve="ile" />
           </node>
         </node>
       </node>
@@ -375,6 +395,16 @@
           <ref role="680mI" node="4yuOb1eJ_C3" />
         </node>
         <node concept="2iRfu4" id="4yuOb1eJ_BY" role="2iSdaV" />
+      </node>
+      <node concept="3EZMnI" id="2EDx4Bb5p5q" role="3EZMnx">
+        <node concept="VPM3Z" id="2EDx4Bb5p5r" role="3F10Kt" />
+        <node concept="3F0ifn" id="2EDx4Bb5p5s" role="3EZMnx">
+          <property role="3F0ifm" value="Opti:" />
+        </node>
+        <node concept="684Ib" id="2EDx4Bb5p5t" role="3EZMnx">
+          <ref role="680mI" node="DIcUYmEfqB" resolve="ile" />
+        </node>
+        <node concept="2iRfu4" id="2EDx4Bb5p5u" role="2iSdaV" />
       </node>
       <node concept="3EZMnI" id="7elZBZGuAqV" role="3EZMnx">
         <node concept="VPM3Z" id="7elZBZGuAqX" role="3F10Kt" />
