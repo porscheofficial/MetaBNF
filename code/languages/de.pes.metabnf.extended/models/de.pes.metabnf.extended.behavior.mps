@@ -4484,7 +4484,7 @@
     <node concept="13i0hz" id="1UvZxkZLnfl" role="13h7CS">
       <property role="13i0iv" value="true" />
       <property role="13i0it" value="true" />
-      <property role="TrG5h" value="getAncesterNode" />
+      <property role="TrG5h" value="getAncestorNode" />
       <node concept="3Tm1VV" id="1UvZxkZLnfm" role="1B3o_S" />
       <node concept="3Tqbb2" id="1UvZxkZLnfD" role="3clF45" />
       <node concept="3clFbS" id="1UvZxkZLnfo" role="3clF47" />

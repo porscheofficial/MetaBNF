@@ -122,6 +122,7 @@
       </concept>
       <concept id="1029090517669318460" name="de.pes.metabnf.extended.structure.EBNFAttributeBuildEditor" flags="ng" index="2lbLXz">
         <property id="1029090517669318473" name="buildEditor" index="2lbLWm" />
+        <property id="1718472026141173939" name="onlyComponent" index="3_jxm0" />
         <child id="751595017062722398" name="inlineEditor" index="2s_1zL" />
         <child id="6788822867791600511" name="bnfEComponent" index="2FWIki" />
       </concept>
@@ -268,6 +269,13 @@
           <node concept="684Ib" id="4HmnLbv9CGb" role="3EZMnx">
             <ref role="680mI" node="DIcUYmEfqB" resolve="ile" />
           </node>
+        </node>
+      </node>
+      <node concept="2lbLXz" id="4HmnLbvk55s" role="3f5NQZ">
+        <property role="2lbLWm" value="7aaqmzkcjlr/custom" />
+        <property role="3_jxm0" value="true" />
+        <node concept="2FWIk4" id="4HmnLbvk55u" role="2FWIki">
+          <ref role="2FWIk7" node="4HmnLbvk55v" resolve="ExtendEditorComponent" />
         </node>
       </node>
       <node concept="gKEy2" id="5UlvvpP2HSC" role="2YAOa">
@@ -444,6 +452,25 @@
     </node>
     <node concept="3f5gP6" id="1UvZxkZY0Ll" role="2FTb_8">
       <ref role="3f5gP5" node="1UvZxkZb$H_" resolve="InterfaceWithList" />
+    </node>
+  </node>
+  <node concept="2FH9R$" id="4HmnLbvk55v">
+    <property role="TrG5h" value="ExtendEditorComponent" />
+    <node concept="gKozh" id="4HmnLbvk55x" role="2FTb_8">
+      <ref role="gKozg" node="DIcUYmYuJy" resolve="CustomInlineEditor" />
+    </node>
+    <node concept="3EZMnI" id="4HmnLbvk55B" role="2FBUdJ">
+      <node concept="2iRkQZ" id="4HmnLbvk55E" role="2iSdaV" />
+      <node concept="3EZMnI" id="4HmnLbvk55L" role="3EZMnx">
+        <node concept="2iRfu4" id="4HmnLbvk55M" role="2iSdaV" />
+        <node concept="VPM3Z" id="4HmnLbvk55N" role="3F10Kt" />
+        <node concept="3F0ifn" id="4HmnLbvk55O" role="3EZMnx">
+          <property role="3F0ifm" value="Extend Ref: " />
+        </node>
+        <node concept="684Ib" id="4HmnLbvrH51" role="3EZMnx">
+          <ref role="680mI" node="DIcUYmEfqB" resolve="ile" />
+        </node>
+      </node>
     </node>
   </node>
 </model>
