@@ -6,6 +6,7 @@
     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="4" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
+    <use id="9d69e719-78c8-4286-90db-fb19c107d049" name="com.mbeddr.mpsutil.grammarcells" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -17,6 +18,7 @@
     <import index="hox0" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.style(MPS.Editor/)" />
     <import index="5ueo" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.editor.runtime.style(MPS.Editor/)" />
     <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
+    <import index="1mfk" ref="r:f5e14f50-251c-4224-a7ce-b27c5c69c7d8(de.pes.metabnf.basic.editor)" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -56,6 +58,9 @@
       <concept id="2816844678677370764" name="jetbrains.mps.lang.editor.structure.TransformationMenuPart_PropertyMenu" flags="ng" index="2V5er3">
         <reference id="2816844678677370765" name="property" index="2V5er2" />
       </concept>
+      <concept id="1186402211651" name="jetbrains.mps.lang.editor.structure.StyleSheet" flags="ng" index="V5hpn">
+        <child id="1186402402630" name="styles" index="V601i" />
+      </concept>
       <concept id="1186403694788" name="jetbrains.mps.lang.editor.structure.ColorStyleClassItem" flags="ln" index="VaVBg">
         <property id="1186403713874" name="color" index="Vb096" />
         <child id="1186403803051" name="query" index="VblUZ" />
@@ -67,6 +72,7 @@
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
+      <concept id="1186414860679" name="jetbrains.mps.lang.editor.structure.EditableStyleClassItem" flags="ln" index="VPxyj" />
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
       <concept id="1186414976055" name="jetbrains.mps.lang.editor.structure.DrawBorderStyleClassItem" flags="ln" index="VPXOz" />
       <concept id="1630016958697344083" name="jetbrains.mps.lang.editor.structure.IMenu_Concept" flags="ngI" index="2ZABuq">
@@ -76,6 +82,7 @@
       <concept id="1214406454886" name="jetbrains.mps.lang.editor.structure.TextBackgroundColorStyleClassItem" flags="ln" index="30gYXW" />
       <concept id="1214406466686" name="jetbrains.mps.lang.editor.structure.TextBackgroundColorSelectedStyleClassItem" flags="ln" index="30h1P$" />
       <concept id="1233758997495" name="jetbrains.mps.lang.editor.structure.PunctuationLeftStyleClassItem" flags="ln" index="11L4FC" />
+      <concept id="3383245079137382180" name="jetbrains.mps.lang.editor.structure.StyleClass" flags="ig" index="14StLt" />
       <concept id="1165253627126" name="jetbrains.mps.lang.editor.structure.CellMenuPart_AbstractGroup" flags="ng" index="1exORT">
         <property id="1165254125954" name="presentation" index="1ezIyd" />
         <child id="1165253890469" name="parameterObjectType" index="1eyP2E" />
@@ -209,6 +216,11 @@
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
+      </concept>
+    </language>
+    <language id="9d69e719-78c8-4286-90db-fb19c107d049" name="com.mbeddr.mpsutil.grammarcells">
+      <concept id="5083944728298846680" name="com.mbeddr.mpsutil.grammarcells.structure.OptionalCell" flags="ng" index="_tjkj">
+        <child id="5083944728298846681" name="option" index="_tjki" />
       </concept>
     </language>
     <language id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions">
@@ -1101,6 +1113,80 @@
     </node>
     <node concept="PMmxH" id="5SQJARQD$F4" role="6VMZX">
       <ref role="PMmxG" to="tpc5:hF4ssnw" resolve="_CellModel_Common" />
+    </node>
+  </node>
+  <node concept="PKFIW" id="3qzrKNPtONn">
+    <property role="3GE5qa" value="base" />
+    <property role="TrG5h" value="OptionalNameComponent" />
+    <ref role="1XX52x" to="yot6:T845YsR94I" resolve="IHaveOptionalName" />
+    <node concept="3EZMnI" id="3qzrKNPu0ES" role="2wV5jI">
+      <node concept="_tjkj" id="3qzrKNPu0EW" role="3EZMnx">
+        <node concept="3EZMnI" id="3qzrKNPu1ES" role="_tjki">
+          <ref role="1k5W1q" node="4novjIaNqEI" resolve="OptionalNameStyle" />
+          <node concept="3F0ifn" id="3qzrKNPu1ET" role="3EZMnx">
+            <property role="3F0ifm" value="as" />
+          </node>
+          <node concept="3F0A7n" id="3qzrKNPu1EU" role="3EZMnx">
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+          <node concept="2iRfu4" id="3qzrKNPu1EV" role="2iSdaV" />
+          <node concept="VPM3Z" id="3qzrKNPu1EW" role="3F10Kt" />
+          <node concept="3F0ifn" id="7elZBZFRY$g" role="3EZMnx">
+            <property role="3F0ifm" value=" " />
+            <node concept="11L4FC" id="7elZBZFT2w7" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2iRfu4" id="3qzrKNPu0EV" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="PKFIW" id="7FZiyulhhKI">
+    <property role="TrG5h" value="DummyForGrammarCells" />
+    <ref role="1XX52x" to="tpck:gw2VY9q" />
+    <node concept="3F0ifn" id="7FZiyulhhKJ" role="2wV5jI">
+      <property role="3F0ifm" value="Workaround to fix contributions to BaseConcept generated by grammarCells." />
+    </node>
+  </node>
+  <node concept="V5hpn" id="fbptcj2iAh">
+    <property role="TrG5h" value="BNFColorCode" />
+    <node concept="14StLt" id="fbptcj2iAn" role="V601i">
+      <property role="TrG5h" value="TextColor" />
+      <node concept="VechU" id="fbptcj2iAp" role="3F10Kt">
+        <property role="Vb096" value="fLwANPr/green" />
+      </node>
+    </node>
+    <node concept="14StLt" id="fbptcj2PJJ" role="V601i">
+      <property role="TrG5h" value="ReferenceColor" />
+      <node concept="VechU" id="fbptcj2PJL" role="3F10Kt">
+        <property role="Vb096" value="fLJRk5_/gray" />
+      </node>
+    </node>
+    <node concept="14StLt" id="2CEi94e3iKI" role="V601i">
+      <property role="TrG5h" value="PassiveTextStyle" />
+      <node concept="VPxyj" id="2CEi94dUSQp" role="3F10Kt">
+        <property role="VOm3f" value="false" />
+      </node>
+      <node concept="Vb9p2" id="2CEi94e7jvE" role="3F10Kt" />
+      <node concept="VechU" id="2CEi94dZG7m" role="3F10Kt">
+        <property role="Vb096" value="fLJRk5_/gray" />
+      </node>
+    </node>
+    <node concept="14StLt" id="4novjIaNqEI" role="V601i">
+      <property role="TrG5h" value="OptionalNameStyle" />
+      <node concept="VechU" id="4novjIaNqEJ" role="3F10Kt">
+        <property role="Vb096" value="g1_eI4o/darkBlue" />
+      </node>
+      <node concept="Vb9p2" id="4novjIaNqER" role="3F10Kt">
+        <property role="Vbekb" value="g1_kEg4/ITALIC" />
+      </node>
+    </node>
+    <node concept="14StLt" id="4j82FZZ71NE" role="V601i">
+      <property role="TrG5h" value="NodeAttributeDefault" />
+      <node concept="VechU" id="4j82FZZ71NF" role="3F10Kt">
+        <property role="Vb096" value="fLwANPr/green" />
+      </node>
     </node>
   </node>
 </model>

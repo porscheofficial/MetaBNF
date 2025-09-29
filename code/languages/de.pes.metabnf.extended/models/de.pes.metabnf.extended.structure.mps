@@ -140,7 +140,7 @@
       <ref role="20lvS9" node="4novjIaMS3b" resolve="EBNFIFaceDefinitionTerm" />
     </node>
     <node concept="PrWs8" id="1EU0USQrDzA" role="PzmwI">
-      <ref role="PrY4T" to="p1cl:T845YsR94I" resolve="IHaveOptionalName" />
+      <ref role="PrY4T" to="yot6:T845YsR94I" resolve="IHaveOptionalName" />
     </node>
     <node concept="PrWs8" id="1EU0USQt8SJ" role="PzmwI">
       <ref role="PrY4T" to="p1cl:4novjIaNO23" resolve="ISupportNodeAnnotationAttribute" />
@@ -346,7 +346,7 @@
       <ref role="20lvS9" node="1nL_s$DdmcQ" resolve="EBNFAbstractDefinitonTerm" />
     </node>
     <node concept="PrWs8" id="T845YsVqfB" role="PzmwI">
-      <ref role="PrY4T" to="p1cl:T845YsR94I" resolve="IHaveOptionalName" />
+      <ref role="PrY4T" to="yot6:T845YsR94I" resolve="IHaveOptionalName" />
     </node>
     <node concept="PrWs8" id="1UvZxkZGDuu" role="PzmwI">
       <ref role="PrY4T" to="yot6:1UvZxkZGDtG" resolve="IBNFEditorComponentReferencedName" />
@@ -374,7 +374,7 @@
       <ref role="20lvS9" to="p1cl:1nL_s$DdmcT" resolve="BNFDefinitionTermBase" />
     </node>
     <node concept="PrWs8" id="XpLSzgCFni" role="PzmwI">
-      <ref role="PrY4T" to="p1cl:T845YsR94I" resolve="IHaveOptionalName" />
+      <ref role="PrY4T" to="yot6:T845YsR94I" resolve="IHaveOptionalName" />
     </node>
     <node concept="PrWs8" id="1EU0USSUUci" role="PzmwI">
       <ref role="PrY4T" to="p1cl:4novjIaNO23" resolve="ISupportNodeAnnotationAttribute" />
@@ -929,7 +929,7 @@
       <ref role="20lvS9" to="tp25:2iMJRNxweHk" resolve="ConceptIdRefExpression" />
     </node>
     <node concept="PrWs8" id="3qzrKNPtFxQ" role="PzmwI">
-      <ref role="PrY4T" to="p1cl:T845YsR94I" resolve="IHaveOptionalName" />
+      <ref role="PrY4T" to="yot6:T845YsR94I" resolve="IHaveOptionalName" />
     </node>
     <node concept="PrWs8" id="7elZBZGCBHC" role="PzmwI">
       <ref role="PrY4T" to="yot6:T845Ys479E" resolve="IBNFExpressionReference" />

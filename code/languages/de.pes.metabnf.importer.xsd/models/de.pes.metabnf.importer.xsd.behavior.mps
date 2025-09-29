@@ -24,6 +24,7 @@
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="yrpt" ref="r:15d1b130-f395-476f-b866-5377702ecef9(de.pes.metabnf.basic.behavior)" />
     <import index="tpib" ref="r:00000000-0000-4000-0000-011c8959057f(jetbrains.mps.baseLanguage.logging.structure)" />
+    <import index="yot6" ref="r:fa98198a-d052-48c6-a067-71419b7c2317(de.pes.metabnf.base.structure)" />
     <import index="sjue" ref="r:f27bdbe3-d582-425f-a49d-e6eefd361f24(de.pes.metabnf.importer.xsd.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" implicit="true" />
@@ -9013,7 +9014,7 @@
                 <node concept="2OqwBi" id="4DyNejBpZwZ" role="37vLTJ">
                   <node concept="1PxgMI" id="4DyNejBpZx0" role="2Oq$k0">
                     <node concept="chp4Y" id="4DyNejBpZx1" role="3oSUPX">
-                      <ref role="cht4Q" to="p1cl:T845YsR94I" resolve="IHaveOptionalName" />
+                      <ref role="cht4Q" to="yot6:T845YsR94I" resolve="IHaveOptionalName" />
                     </node>
                     <node concept="37vLTw" id="4DyNejBpZx2" role="1m5AlR">
                       <ref role="3cqZAo" node="4DyNejBo52O" resolve="exprPart" />
@@ -9039,7 +9040,7 @@
               </node>
               <node concept="1mIQ4w" id="4DyNejBpZxa" role="2OqNvi">
                 <node concept="chp4Y" id="4DyNejBpZxb" role="cj9EA">
-                  <ref role="cht4Q" to="p1cl:T845YsR94I" resolve="IHaveOptionalName" />
+                  <ref role="cht4Q" to="yot6:T845YsR94I" resolve="IHaveOptionalName" />
                 </node>
               </node>
             </node>

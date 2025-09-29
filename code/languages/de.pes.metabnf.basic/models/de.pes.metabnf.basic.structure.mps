@@ -230,7 +230,7 @@
       <ref role="20lvS9" node="fbptcj1GUu" resolve="BNFDefinitionTerm" />
     </node>
     <node concept="PrWs8" id="XpLSzgFtfw" role="PzmwI">
-      <ref role="PrY4T" node="T845YsR94I" resolve="IHaveOptionalName" />
+      <ref role="PrY4T" to="yot6:T845YsR94I" resolve="IHaveOptionalName" />
     </node>
     <node concept="PrWs8" id="1EU0USQuaob" role="PzmwI">
       <ref role="PrY4T" node="4novjIaNO23" resolve="ISupportNodeAnnotationAttribute" />
@@ -297,7 +297,7 @@
       <ref role="PrY4T" node="1EU0USR5JrS" resolve="IBNFGroupElements" />
     </node>
     <node concept="PrWs8" id="4sCs7Mi$soM" role="PzmwI">
-      <ref role="PrY4T" node="T845YsR94I" resolve="IHaveOptionalName" />
+      <ref role="PrY4T" to="yot6:T845YsR94I" resolve="IHaveOptionalName" />
     </node>
     <node concept="PrWs8" id="5UlvvpPk0HF" role="PzmwI">
       <ref role="PrY4T" to="yot6:T845Ys479E" resolve="IBNFExpressionReference" />
@@ -366,14 +366,6 @@
     </node>
     <node concept="PrWs8" id="7aaqmzorNkK" role="PzmwI">
       <ref role="PrY4T" to="yot6:7aaqmzorFAg" resolve="ISupportEditorRepresentation" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="T845YsR94I">
-    <property role="EcuMT" value="1029090517693796654" />
-    <property role="3GE5qa" value="base" />
-    <property role="TrG5h" value="IHaveOptionalName" />
-    <node concept="PrWs8" id="T845YsR94J" role="PrDN$">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
   <node concept="PlHQZ" id="7egTi9LqCwB">
