@@ -4,6 +4,7 @@
   <languages>
     <use id="aba1faaf-a5a0-44ea-8178-aed1dd3e1944" name="de.pes.metabnf.extended.gen" version="0" />
     <use id="fcef6129-077e-482d-b29d-d74df3291d94" name="de.pes.metabnf.base" version="0" />
+    <use id="926d63aa-027c-47a4-939e-98f42e63df1a" name="de.pes.metabnf.basic" version="0" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
@@ -210,7 +211,7 @@
       <property role="TrG5h" value="de.pes.metabnf.sandbox.sandbox:IIDentTwo" />
       <property role="2ZG9b7" value="http://127.0.0.1:63320/node?ref=r%3Aaa10b937-6663-4fbb-a477-bb95e5211cd6%28de.pes.metabnf.sandbox.sandbox%29%2F7535302513059940058" />
     </node>
-    <node concept="PrWs8" id="7B8MEK$PcVe" role="PrDN$">
+    <node concept="PrWs8" id="7B8MEK$PcWq" role="PrDN$">
       <ref role="PrY4T" node="3gySEDtMZBr" resolve="IIdent" />
     </node>
   </node>
