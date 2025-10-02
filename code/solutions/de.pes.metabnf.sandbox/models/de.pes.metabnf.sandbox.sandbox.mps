@@ -73,6 +73,11 @@
       </concept>
     </language>
     <language id="303ca9b8-0d32-4b0f-bc34-d1ebf972bfac" name="de.pes.metabnf.extended">
+      <concept id="8327407647117082945" name="de.pes.metabnf.extended.structure.ExternalImplements" flags="ng" index="1Quhz" />
+      <concept id="8327407647106837872" name="de.pes.metabnf.extended.structure.IImplementsExternalConcepts" flags="ngI" index="2f4xi">
+        <child id="8327407647106839891" name="concept" index="2f51L" />
+      </concept>
+      <concept id="8327407647106839958" name="de.pes.metabnf.extended.structure.ImplementsExternalConcepts" flags="ng" index="2f52O" />
       <concept id="8327407647096148485" name="de.pes.metabnf.extended.structure.EBNFDefinitionTermAsRoot" flags="ng" index="2AnsB">
         <property id="8327407647096148489" name="asRoot" index="2AnsF" />
       </concept>
@@ -164,6 +169,11 @@
           <ref role="2l8w4T" node="7LcVVINm97s" />
         </node>
       </node>
+      <node concept="1Quhz" id="7B8MEK$Z7Uu" role="3f5NQZ">
+        <node concept="35c_gC" id="7B8MEK$Z7Uw" role="2f51L">
+          <ref role="35c_gD" to="tpck:h0TrEE$" resolve="INamedConcept" />
+        </node>
+      </node>
     </node>
     <node concept="gNmGs" id="7LcVVINmhrr" role="gNmGt" />
     <node concept="3f4ZRK" id="7LcVVINmhrt" role="gNmGt">
@@ -177,6 +187,11 @@
       <node concept="3f3McH" id="7LcVVINzBh0" role="3f5NQZ">
         <node concept="3f05P1" id="7LcVVINzBh2" role="3f2C7N">
           <ref role="3f0eYx" node="7LcVVINmhrt" resolve="IdentAddition" />
+        </node>
+      </node>
+      <node concept="2f52O" id="7B8MEK$Z7UD" role="3f5NQZ">
+        <node concept="35c_gC" id="7B8MEK$Z7UF" role="2f51L">
+          <ref role="35c_gD" to="tpck:3emwrjqjJ6B" resolve="BasePlaceholder" />
         </node>
       </node>
     </node>

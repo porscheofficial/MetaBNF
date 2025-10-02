@@ -174,6 +174,9 @@
       <property role="IQ2nx" value="8956797348379922934" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" />
     </node>
+    <node concept="PrWs8" id="7B8MEK$Z7VH" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
   </node>
   <node concept="PlHQZ" id="7LcVVINmhrQ">
     <property role="TrG5h" value="IdentAddition" />
@@ -189,7 +192,7 @@
     <property role="34LRSv" value="someAdditionIdent" />
     <property role="3GE5qa" value="SampleRootStructure" />
     <property role="EcuMT" value="8956797348379956987" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" to="tpck:3emwrjqjJ6B" resolve="BasePlaceholder" />
     <node concept="2XvFd8" id="6mcP9nIs7iD" role="lGtFl">
       <property role="TrG5h" value="de.pes.metabnf.sandbox.sandbox:someAdditionIdent" />
       <property role="2ZG9b7" value="http://127.0.0.1:63320/node?ref=r%3Aaa10b937-6663-4fbb-a477-bb95e5211cd6%28de.pes.metabnf.sandbox.sandbox%29%2F8956797348379956964" />
