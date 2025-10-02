@@ -564,5 +564,17 @@
     <property role="3GE5qa" value="base" />
     <property role="TrG5h" value="IBNFEditorReprensentation" />
   </node>
+  <node concept="1TIwiD" id="7B8MEK$Hl7E">
+    <property role="EcuMT" value="8775486714630459882" />
+    <property role="3GE5qa" value="base" />
+    <property role="TrG5h" value="InterfaceImplementationDeprecationAnnotation" />
+    <ref role="1TJDcQ" to="tpce:hOasaTk" resolve="DeprecatedNodeAnnotation" />
+    <node concept="M6xJ_" id="7B8MEK$Hl7F" role="lGtFl">
+      <property role="Hh88m" value="deprecationInterfaceReference" />
+      <node concept="trNpa" id="7B8MEK$HoXS" role="EQaZv">
+        <ref role="trN6q" to="tpce:h0PrWoo" resolve="InterfaceConceptReference" />
+      </node>
+    </node>
+  </node>
 </model>
 
