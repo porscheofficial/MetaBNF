@@ -292,5 +292,13 @@
     <property role="3GE5qa" value="Attributes.editor.custom" />
     <property role="TrG5h" value="ICustomEditorRepresentation" />
   </node>
+  <node concept="PlHQZ" id="T845YsR94I">
+    <property role="EcuMT" value="1029090517693796654" />
+    <property role="3GE5qa" value="base" />
+    <property role="TrG5h" value="IHaveOptionalName" />
+    <node concept="PrWs8" id="T845YsR94J" role="PrDN$">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
 </model>
 

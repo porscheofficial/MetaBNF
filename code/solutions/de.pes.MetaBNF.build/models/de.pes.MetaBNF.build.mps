@@ -488,9 +488,9 @@
             <ref role="1Busuk" node="7LcVVIPHnaA" resolve="de.pes.metabnf.base" />
           </node>
         </node>
-        <node concept="1SiIV0" id="1vpfjfLSite" role="3bR37C">
-          <node concept="3bR9La" id="1vpfjfLSitf" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6L4p" resolve="jetbrains.mps.lang.behavior" />
+        <node concept="1SiIV0" id="4HmnLbuOodX" role="3bR37C">
+          <node concept="3bR9La" id="4HmnLbuOodY" role="1SiIV1">
+            <ref role="3bR37D" node="7vSfl_Uu_xx" resolve="de.pes.metabnf.extended.gen" />
           </node>
         </node>
       </node>
@@ -902,6 +902,11 @@
         <node concept="1SiIV0" id="3BSsKSfcMMn" role="3bR37C">
           <node concept="3bR9La" id="3BSsKSfcMMo" role="1SiIV1">
             <ref role="3bR37D" node="7hex6wUv$mQ" resolve="de.pes.metabnf.utils" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="40JQ8HiMEPq" role="3bR37C">
+          <node concept="3bR9La" id="40JQ8HiMEPr" role="1SiIV1">
+            <ref role="3bR37D" node="7vSfl_Uu_x9" resolve="de.pes.metabnf.basic" />
           </node>
         </node>
       </node>

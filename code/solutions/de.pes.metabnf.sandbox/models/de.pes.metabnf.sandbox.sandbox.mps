@@ -60,6 +60,9 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
+        <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
+      </concept>
       <concept id="1863527487546129879" name="jetbrains.mps.lang.smodel.structure.ModelPointerExpression" flags="ng" index="1Xw6AR">
         <child id="1863527487546132519" name="modelRef" index="1XwpL7" />
       </concept>
@@ -70,6 +73,11 @@
       </concept>
     </language>
     <language id="303ca9b8-0d32-4b0f-bc34-d1ebf972bfac" name="de.pes.metabnf.extended">
+      <concept id="8327407647117082945" name="de.pes.metabnf.extended.structure.ExternalImplements" flags="ng" index="1Quhz" />
+      <concept id="8327407647106837872" name="de.pes.metabnf.extended.structure.IImplementsExternalConcepts" flags="ngI" index="2f4xi">
+        <child id="8327407647106839891" name="concept" index="2f51L" />
+      </concept>
+      <concept id="8327407647106839958" name="de.pes.metabnf.extended.structure.ImplementsExternalConcepts" flags="ng" index="2f52O" />
       <concept id="8327407647096148485" name="de.pes.metabnf.extended.structure.EBNFDefinitionTermAsRoot" flags="ng" index="2AnsB">
         <property id="8327407647096148489" name="asRoot" index="2AnsF" />
       </concept>
@@ -92,6 +100,9 @@
         <child id="1581209635397452128" name="extends" index="WIXiD" />
       </concept>
       <concept id="1581209635396084534" name="de.pes.metabnf.extended.structure.EBNFAbstractDefinitonTerm" flags="ng" index="WLfrZ" />
+      <concept id="3937112600693273850" name="de.pes.metabnf.extended.structure.EBNFExternalConceptTypeRef" flags="ng" index="33ExJQ">
+        <child id="3937112600693332270" name="concept" index="33Ejoy" />
+      </concept>
       <concept id="5032910278272491642" name="de.pes.metabnf.extended.structure.EBNFIFaceAttributeImplementationRef" flags="ng" index="3f05P1" />
       <concept id="5032910278272154822" name="de.pes.metabnf.extended.structure.ISupportInterfaceImplementation" flags="ngI" index="3f2C7X">
         <child id="5032910278272154824" name="irefs" index="3f2C7N" />
@@ -129,7 +140,7 @@
     <node concept="gNmGs" id="3gySEDtGS9d" role="gNmGt" />
     <node concept="3f4ZRK" id="3gySEDtGS9H" role="gNmGt">
       <property role="TrG5h" value="IIdent" />
-      <node concept="gKEy2" id="7LcVVINGpYs" role="2YAOa">
+      <node concept="gKEy2" id="7elZBZFISct" role="2YAOa">
         <node concept="gKozh" id="7LcVVINm97t" role="gKEy9">
           <property role="TrG5h" value="Name" />
           <ref role="gKozg" node="7LcVVINm97r" resolve="SimpleTerm" />
@@ -146,6 +157,11 @@
       <node concept="PdAzR" id="28EuZ08HAhv" role="3f5NQZ">
         <ref role="Pa$47" node="7LcVVINm97r" resolve="SimpleTerm" />
       </node>
+      <node concept="1Quhz" id="7B8MEK_5L7R" role="3f5NQZ">
+        <node concept="35c_gC" id="7B8MEK_5L7T" role="2f51L">
+          <ref role="35c_gD" to="tpck:h0TrEE$" resolve="INamedConcept" />
+        </node>
+      </node>
     </node>
     <node concept="gNmGs" id="7LcVVINm97v" role="gNmGt" />
     <node concept="gNqHd" id="7LcVVINm97r" role="gNmGt">
@@ -156,6 +172,16 @@
       <node concept="2l89Zc" id="28EuZ08HAht" role="3f5NQZ">
         <node concept="2l8w4U" id="28EuZ08HAhu" role="2l8CKc">
           <ref role="2l8w4T" node="7LcVVINm97s" />
+        </node>
+      </node>
+      <node concept="1Quhz" id="7B8MEK$Z7Uu" role="3f5NQZ">
+        <node concept="35c_gC" id="7B8MEK$Z7Uw" role="2f51L">
+          <ref role="35c_gD" to="tpck:h0TrEE$" resolve="INamedConcept" />
+        </node>
+      </node>
+      <node concept="3f3McH" id="7B8MEK_5L7N" role="3f5NQZ">
+        <node concept="3f05P1" id="7B8MEK_5L7P" role="3f2C7N">
+          <ref role="3f0eYx" node="3gySEDtGS9H" resolve="IIdent" />
         </node>
       </node>
     </node>
@@ -171,6 +197,11 @@
       <node concept="3f3McH" id="7LcVVINzBh0" role="3f5NQZ">
         <node concept="3f05P1" id="7LcVVINzBh2" role="3f2C7N">
           <ref role="3f0eYx" node="7LcVVINmhrt" resolve="IdentAddition" />
+        </node>
+      </node>
+      <node concept="2f52O" id="7B8MEK$Z7UD" role="3f5NQZ">
+        <node concept="35c_gC" id="7B8MEK$Z7UF" role="2f51L">
+          <ref role="35c_gD" to="tpck:3emwrjqjJ6B" resolve="BasePlaceholder" />
         </node>
       </node>
     </node>
@@ -287,6 +318,19 @@
         </node>
       </node>
     </node>
+    <node concept="gNmGs" id="3qzrKNP2iJi" role="gNmGt" />
+    <node concept="gNqHd" id="3qzrKNP2iJm" role="gNmGt">
+      <property role="TrG5h" value="ExternalTypeExample" />
+      <node concept="33ExJQ" id="3qzrKNPAffs" role="2YAOa">
+        <property role="TrG5h" value="holder" />
+        <node concept="35c_gC" id="3qzrKNPAfft" role="33Ejoy">
+          <ref role="35c_gD" to="tpck:3emwrjqjJ6B" resolve="BasePlaceholder" />
+        </node>
+      </node>
+    </node>
+    <node concept="gNmGs" id="3qzrKNPjdQj" role="gNmGt" />
+    <node concept="gNmGs" id="3qzrKNP9U58" role="gNmGt" />
+    <node concept="gNmGs" id="3qzrKNP9U59" role="gNmGt" />
   </node>
   <node concept="2UVDsL" id="3gySEDtGS9N">
     <property role="TrG5h" value="SandboxExport" />

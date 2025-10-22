@@ -10,7 +10,6 @@
     <use id="926d63aa-027c-47a4-939e-98f42e63df1a" name="de.pes.metabnf.basic" version="0" />
   </languages>
   <imports>
-    <import index="twk0" ref="r:462b491e-94cc-40fb-886b-c1bdb87f8f48(de.pes.metabnf.sandbox.sample.editor)" />
     <import index="r45r" ref="r:aa10b937-6663-4fbb-a477-bb95e5211cd6(de.pes.metabnf.sandbox.sandbox)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
