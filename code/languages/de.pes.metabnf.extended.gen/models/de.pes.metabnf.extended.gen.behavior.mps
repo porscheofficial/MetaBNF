@@ -11795,6 +11795,7 @@
       <node concept="3Tm6S6" id="1EU0USSWqdL" role="1B3o_S" />
       <node concept="10P_77" id="1EU0USSXLxu" role="3clF45" />
     </node>
+    <node concept="2tJIrI" id="3fZzwZjdQSq" role="jymVt" />
     <node concept="2YIFZL" id="1EU0USSYW1h" role="jymVt">
       <property role="TrG5h" value="setAnnotationForSmartReference" />
       <node concept="37vLTG" id="1EU0USSYW1k" role="3clF46">
@@ -12817,8 +12818,8 @@
               </node>
               <node concept="1rXfSq" id="1EU0UST10Am" role="3clFbw">
                 <ref role="37wK5l" node="1EU0USSWzwc" resolve="checkAnnotationForProperty" />
-                <node concept="37vLTw" id="1EU0UST1bqe" role="37wK5m">
-                  <ref role="3cqZAo" node="7egTi9LtRy0" resolve="expr" />
+                <node concept="Jnkvi" id="3fZzwZjaBdM" role="37wK5m">
+                  <ref role="1M0zk5" node="46_foC6FiBy" resolve="rtr" />
                 </node>
                 <node concept="35c_gC" id="1EU0UST1hMT" role="37wK5m">
                   <ref role="35c_gD" to="gm16:1EU0USSSP9n" resolve="EBNFAttributeAttachSmartReference" />
