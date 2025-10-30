@@ -2111,5 +2111,108 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="3fZzwZi8Vus">
+    <property role="3GE5qa" value="Interfaces" />
+    <ref role="1M2myG" to="gm16:3fZzwZi2pzv" resolve="EBNFIFaceDefinitionTermRefRef" />
+    <node concept="1N5Pfh" id="3fZzwZi8Vut" role="1Mr941">
+      <ref role="1N5Vy1" to="gm16:3fZzwZi2pzw" resolve="iface" />
+      <node concept="3dgokm" id="3fZzwZi8Vxo" role="1N6uqs">
+        <node concept="3clFbS" id="3fZzwZi8Vxp" role="2VODD2">
+          <node concept="3cpWs8" id="3fZzwZidjiM" role="3cqZAp">
+            <node concept="3cpWsn" id="3fZzwZidjiN" role="3cpWs9">
+              <property role="TrG5h" value="ancestor" />
+              <node concept="3Tqbb2" id="3fZzwZidjhR" role="1tU5fm">
+                <ref role="ehGHo" to="p1cl:fbptcj1GUu" resolve="BNFDefinitionTerm" />
+              </node>
+              <node concept="2OqwBi" id="3fZzwZidjiO" role="33vP2m">
+                <node concept="2rP1CM" id="3fZzwZidjiP" role="2Oq$k0" />
+                <node concept="2Xjw5R" id="3fZzwZidjiQ" role="2OqNvi">
+                  <node concept="1xMEDy" id="3fZzwZidjiR" role="1xVPHs">
+                    <node concept="chp4Y" id="3fZzwZidjiS" role="ri$Ld">
+                      <ref role="cht4Q" to="p1cl:fbptcj1GUu" resolve="BNFDefinitionTerm" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3cpWs8" id="3fZzwZidkFF" role="3cqZAp">
+            <node concept="3cpWsn" id="3fZzwZidkFG" role="3cpWs9">
+              <property role="TrG5h" value="descendants" />
+              <node concept="2I9FWS" id="3fZzwZidkEI" role="1tU5fm">
+                <ref role="2I9WkF" to="gm16:4novjIaQ21U" resolve="EBNFIFaceAttributeImplementationRef" />
+              </node>
+              <node concept="2OqwBi" id="3fZzwZidkFH" role="33vP2m">
+                <node concept="37vLTw" id="3fZzwZidkFI" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3fZzwZidjiN" resolve="ancestor" />
+                </node>
+                <node concept="2Rf3mk" id="3fZzwZidkFJ" role="2OqNvi">
+                  <node concept="1xMEDy" id="3fZzwZidkFK" role="1xVPHs">
+                    <node concept="chp4Y" id="3fZzwZidkFL" role="ri$Ld">
+                      <ref role="cht4Q" to="gm16:4novjIaQ21U" resolve="EBNFIFaceAttributeImplementationRef" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="3fZzwZimqJs" role="3cqZAp" />
+          <node concept="3cpWs8" id="3fZzwZikdn_" role="3cqZAp">
+            <node concept="3cpWsn" id="3fZzwZikdnA" role="3cpWs9">
+              <property role="TrG5h" value="seq" />
+              <node concept="A3Dl8" id="3fZzwZikddt" role="1tU5fm">
+                <node concept="3Tqbb2" id="3fZzwZikddw" role="A3Ik2">
+                  <ref role="ehGHo" to="yot6:1UvZxkZGDtG" resolve="IBNFEditorComponentReferencedName" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="3fZzwZikdnB" role="33vP2m">
+                <node concept="37vLTw" id="3fZzwZikdnC" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3fZzwZidkFG" resolve="descendants" />
+                </node>
+                <node concept="3goQfb" id="3fZzwZikdnD" role="2OqNvi">
+                  <node concept="1bVj0M" id="3fZzwZikdnE" role="23t8la">
+                    <node concept="3clFbS" id="3fZzwZikdnF" role="1bW5cS">
+                      <node concept="3clFbF" id="3fZzwZikdnG" role="3cqZAp">
+                        <node concept="2OqwBi" id="3fZzwZikdnH" role="3clFbG">
+                          <node concept="2OqwBi" id="3fZzwZiByQl" role="2Oq$k0">
+                            <node concept="37vLTw" id="3fZzwZikdnJ" role="2Oq$k0">
+                              <ref role="3cqZAo" node="3fZzwZikdnO" resolve="it" />
+                            </node>
+                            <node concept="3TrEf2" id="3fZzwZiB$l8" role="2OqNvi">
+                              <ref role="3Tt5mk" to="gm16:4novjIaQ9aq" resolve="ref" />
+                            </node>
+                          </node>
+                          <node concept="2Rf3mk" id="3fZzwZikdnL" role="2OqNvi">
+                            <node concept="1xMEDy" id="3fZzwZikdnM" role="1xVPHs">
+                              <node concept="chp4Y" id="3fZzwZikdnN" role="ri$Ld">
+                                <ref role="cht4Q" to="yot6:1UvZxkZGDtG" resolve="IBNFEditorComponentReferencedName" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="gl6BB" id="3fZzwZikdnO" role="1bW2Oz">
+                      <property role="TrG5h" value="it" />
+                      <node concept="2jxLKc" id="3fZzwZikdnP" role="1tU5fm" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3cpWs6" id="3fZzwZi8VET" role="3cqZAp">
+            <node concept="2YIFZM" id="3fZzwZi8VOQ" role="3cqZAk">
+              <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+              <node concept="37vLTw" id="3fZzwZihLJY" role="37wK5m">
+                <ref role="3cqZAo" node="3fZzwZikdnA" resolve="seq" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

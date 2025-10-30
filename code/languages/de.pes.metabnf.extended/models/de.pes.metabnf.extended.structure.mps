@@ -680,6 +680,10 @@
     <node concept="PrWs8" id="39om$47rzGO" role="PzmwI">
       <ref role="PrY4T" to="p1cl:4novjIaNO1Z" resolve="INodeAnnotationAttribute" />
     </node>
+    <node concept="asaX9" id="3fZzwZiG0zI" role="lGtFl">
+      <property role="YLQ7P" value="is replaced by EBNFIFaceDefinitionTermRefRef" />
+      <property role="YLPcu" value="30.10.2025" />
+    </node>
   </node>
   <node concept="PlHQZ" id="1EPqwt0ST7H">
     <property role="EcuMT" value="1924560995156726253" />
@@ -936,6 +940,42 @@
     </node>
     <node concept="PrWs8" id="5UlvvpOZqa7" role="PzmwI">
       <ref role="PrY4T" to="p1cl:7aaqmzlmc9L" resolve="IBNFEditorReprensentation" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3fZzwZhPzeS">
+    <property role="EcuMT" value="3746869613591671736" />
+    <property role="TrG5h" value="EBNFDefaultInstanceDeclaration" />
+    <property role="34LRSv" value="Define Default Interface Instance" />
+    <property role="R4oN_" value="Default Interface Instance for Abstract or Interfaces" />
+    <property role="3GE5qa" value="Attributes.Interface" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyj" id="3fZzwZhPzeV" role="1TKVEi">
+      <property role="IQ2ns" value="3746869613591671739" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="namedValue" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3fZzwZi2pzv" resolve="EBNFIFaceDefinitionTermRefRef" />
+    </node>
+    <node concept="1TJgyj" id="3fZzwZhPzeU" role="1TKVEi">
+      <property role="IQ2ns" value="3746869613591671738" />
+      <property role="20kJfa" value="ref" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="p1cl:fbptcj1GUu" resolve="BNFDefinitionTerm" />
+    </node>
+    <node concept="PrWs8" id="3fZzwZhPzeT" role="PzmwI">
+      <ref role="PrY4T" to="p1cl:4novjIaNO1Z" resolve="INodeAnnotationAttribute" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3fZzwZi2pzv">
+    <property role="EcuMT" value="3746869613595039967" />
+    <property role="TrG5h" value="EBNFIFaceDefinitionTermRefRef" />
+    <property role="3GE5qa" value="Interfaces" />
+    <ref role="1TJDcQ" to="p1cl:fbptcj1GUz" resolve="BNFExpression" />
+    <node concept="1TJgyj" id="3fZzwZi2pzw" role="1TKVEi">
+      <property role="IQ2ns" value="3746869613595039968" />
+      <property role="20kJfa" value="iface" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4novjIaNn1X" resolve="EBNFIFaceDefinitionTermRef" />
     </node>
   </node>
 </model>
