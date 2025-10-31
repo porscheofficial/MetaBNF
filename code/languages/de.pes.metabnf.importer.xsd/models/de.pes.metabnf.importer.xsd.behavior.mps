@@ -5172,7 +5172,46 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="4sCs7Mjv8Rr" role="3cqZAp" />
+            <node concept="3cpWs8" id="5SC9e1stN40" role="3cqZAp">
+              <node concept="3cpWsn" id="5SC9e1stN41" role="3cpWs9">
+                <property role="TrG5h" value="refAttr" />
+                <node concept="17QB3L" id="5SC9e1stN42" role="1tU5fm" />
+                <node concept="1rXfSq" id="5SC9e1stN43" role="33vP2m">
+                  <ref role="37wK5l" node="4sCs7MiyCwr" resolve="bnfTagName" />
+                  <node concept="1rXfSq" id="5SC9e1stN44" role="37wK5m">
+                    <ref role="37wK5l" node="4sCs7MiL5Zq" resolve="getTagAttributeValueByName" />
+                    <node concept="37vLTw" id="5SC9e1stN45" role="37wK5m">
+                      <ref role="3cqZAo" node="4sCs7Mjq3oi" resolve="element" />
+                    </node>
+                    <node concept="Xl_RD" id="5SC9e1stN46" role="37wK5m">
+                      <property role="Xl_RC" value="ref" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbJ" id="5SC9e1suV_3" role="3cqZAp">
+              <node concept="3clFbS" id="5SC9e1suV_5" role="3clFbx">
+                <node concept="2xdQw9" id="5SC9e1sw5MG" role="3cqZAp">
+                  <property role="2xdLsb" value="gZ5fksE/warn" />
+                  <node concept="3cpWs3" id="5SC9e1swE7u" role="9lYJi">
+                    <node concept="Xl_RD" id="5SC9e1sw5MI" role="3uHU7B">
+                      <property role="Xl_RC" value="addMembersToBNFTermAttr[WARNING_ATTRIBUTE_REFERENCE_FOR]: " />
+                    </node>
+                    <node concept="37vLTw" id="5SC9e1sxxjg" role="3uHU7w">
+                      <ref role="3cqZAo" node="4sCs7Mjq1R7" resolve="term" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3cpWs6" id="5SC9e1syNhP" role="3cqZAp" />
+              </node>
+              <node concept="2OqwBi" id="5SC9e1svwMv" role="3clFbw">
+                <node concept="37vLTw" id="5SC9e1sve0e" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5SC9e1stN41" resolve="refAttr" />
+                </node>
+                <node concept="17RvpY" id="5SC9e1svNYE" role="2OqNvi" />
+              </node>
+            </node>
             <node concept="3cpWs8" id="4F7CdWsH6an" role="3cqZAp">
               <node concept="3cpWsn" id="4F7CdWsH6aq" role="3cpWs9">
                 <property role="TrG5h" value="exprNode" />
