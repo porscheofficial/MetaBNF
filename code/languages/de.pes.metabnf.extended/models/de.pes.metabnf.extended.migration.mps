@@ -546,7 +546,7 @@
                               <node concept="2pJPED" id="3mLXbOVj8qx" role="2pJPEn">
                                 <ref role="2pJxaS" to="tp25:2iMJRNxweHk" resolve="ConceptIdRefExpression" />
                                 <node concept="2pIpSj" id="3mLXbOVj90K" role="2pJxcM">
-                                  <ref role="2pIpSl" to="tp25:2iMJRNxweHl" />
+                                  <ref role="2pIpSl" to="tp25:2iMJRNxweHl" resolve="conceptDeclaration" />
                                   <node concept="36biLy" id="3mLXbOVj9if" role="28nt2d">
                                     <node concept="2OqwBi" id="3mLXbOVjcoJ" role="36biLW">
                                       <node concept="2OqwBi" id="3mLXbOVj9SY" role="2Oq$k0">
@@ -554,11 +554,11 @@
                                           <ref role="3cqZAo" node="3mLXbOVf0nz" resolve="it" />
                                         </node>
                                         <node concept="3TrEf2" id="3mLXbOVjbE6" role="2OqNvi">
-                                          <ref role="3Tt5mk" to="gm16:7egTi9Mifxf" />
+                                          <ref role="3Tt5mk" to="gm16:7egTi9Mifxf" resolve="implements" />
                                         </node>
                                       </node>
                                       <node concept="3TrEf2" id="3mLXbOVjdDK" role="2OqNvi">
-                                        <ref role="3Tt5mk" to="tp25:2iMJRNxweHl" />
+                                        <ref role="3Tt5mk" to="tp25:2iMJRNxweHl" resolve="conceptDeclaration" />
                                       </node>
                                     </node>
                                   </node>

@@ -425,7 +425,7 @@
       <ref role="PrY4T" to="p1cl:4novjIaNO1Z" resolve="INodeAnnotationAttribute" />
     </node>
     <node concept="PrWs8" id="7aaqmzmRqU5" role="PzmwI">
-      <ref role="PrY4T" to="yot6:7aaqmzmRqQF" resolve="IBNFEditorRepresentationConfig" />
+      <ref role="PrY4T" to="yot6:7aaqmzmRqQF" resolve="IBNFAttributeEditorRepresentationConfig" />
     </node>
     <node concept="PrWs8" id="DIcUYngkhN" role="PzmwI">
       <ref role="PrY4T" node="DIcUYnaIC_" resolve="IEBNFCustomEditorScopeProvider" />
@@ -670,7 +670,7 @@
     <property role="3GE5qa" value="Attributes.Interface" />
     <property role="34LRSv" value="Define Default Instance" />
     <property role="R4oN_" value="Default Instance for Abstract or Interfaces" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="39om$47sxH6" role="1TKVEi">
       <property role="IQ2ns" value="3627748735191227206" />
       <property role="20kJfa" value="ref" />
@@ -696,7 +696,7 @@
     <property role="TrG5h" value="EBNFExtendEditorFromProperty" />
     <property role="34LRSv" value="From Property" />
     <property role="R4oN_" value="Choose Property to be added to editor" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="f_TKVDG" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="propertyDeclaration" />
@@ -714,7 +714,7 @@
     <property role="TrG5h" value="EBNFExtendEditorFromChildren" />
     <property role="34LRSv" value="From LinkDeclaration" />
     <property role="R4oN_" value="Choose LinkDeclaration to be added to editor" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1EPqwt1aAKa" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="linkDeclaration" />
@@ -730,7 +730,7 @@
     <property role="EcuMT" value="488652922420892901" />
     <property role="3GE5qa" value="Attributes.extend.editor" />
     <property role="TrG5h" value="PropertyDeclarationRef" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="r82NTNmDjA" role="1TKVEi">
       <property role="IQ2ns" value="488652922420892902" />
       <property role="20kJfa" value="ref" />
@@ -769,7 +769,7 @@
     <property role="3GE5qa" value="Attributes.extend.editor" />
     <property role="TrG5h" value="EBNFExtendEditorFromComponent" />
     <property role="34LRSv" value="From Editor Component" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="r82NTO6oaq" role="PzmwI">
       <ref role="PrY4T" node="1EPqwt0ST7H" resolve="IExtendEditorRepresentation" />
     </node>
@@ -948,7 +948,7 @@
     <property role="34LRSv" value="Define Default Interface Instance" />
     <property role="R4oN_" value="Default Interface Instance for Abstract or Interfaces" />
     <property role="3GE5qa" value="Attributes.Interface" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3fZzwZhPzeV" role="1TKVEi">
       <property role="IQ2ns" value="3746869613591671739" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />

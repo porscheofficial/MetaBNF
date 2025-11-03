@@ -869,7 +869,7 @@
   </node>
   <node concept="24kQdi" id="3Mv8PM1Spjw">
     <property role="3GE5qa" value="NodeAttribute" />
-    <ref role="1XX52x" to="x0c1:3Mv8PM1Sp0k" resolve="NodeAttributeLinkToBNF" />
+    <ref role="1XX52x" to="x0c1:3Mv8PM1Sp0k" resolve="NodeAttributeLinkToBNF_old" />
     <node concept="3EZMnI" id="3Mv8PM1Spjy" role="2wV5jI">
       <node concept="3EZMnI" id="3Mv8PM1Sr9_" role="3EZMnx">
         <ref role="1k5W1q" to="tpch:hOawUFH" resolve="AnnotationNode" />
@@ -900,7 +900,7 @@
                   <node concept="2OqwBi" id="3Mv8PM3bX9l" role="3clFbG">
                     <node concept="pncrf" id="3Mv8PM3bWE0" role="2Oq$k0" />
                     <node concept="3TrcHB" id="3Mv8PM3bXKv" role="2OqNvi">
-                      <ref role="3TsBF5" to="x0c1:3Mv8PM3bV6r" resolve="url" />
+                      <ref role="3TsBF5" to="x0c1:3Mv8PM3bV6r" resolve="url_old" />
                     </node>
                   </node>
                 </node>

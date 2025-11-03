@@ -571,7 +571,7 @@
             <ref role="1k5W1q" to="tpc5:hF4H1c8" resolve="property" />
           </node>
           <node concept="3F1sOY" id="hF4wv7s" role="3EZMnx">
-            <ref role="1NtTu8" to="yot6:hd2AuTj" />
+            <ref role="1NtTu8" to="yot6:hd2AuTj" resolve="filter" />
           </node>
           <node concept="2iRfu4" id="i2IxuQ9" role="2iSdaV" />
         </node>
@@ -581,7 +581,7 @@
             <ref role="1k5W1q" to="tpc5:hF4H1c8" resolve="property" />
           </node>
           <node concept="3F1sOY" id="hF4wxIl" role="3EZMnx">
-            <ref role="1NtTu8" to="yot6:gAczzzC" />
+            <ref role="1NtTu8" to="yot6:gAczzzC" resolve="cellLayout" />
           </node>
           <node concept="VPM3Z" id="hF4wxIn" role="3F10Kt">
             <property role="VOm3f" value="false" />
@@ -621,7 +621,7 @@
                     <node concept="2OqwBi" id="3ZqNA5AjMid" role="2Oq$k0">
                       <node concept="pncrf" id="3ZqNA5AjMic" role="2Oq$k0" />
                       <node concept="3TrEf2" id="3ZqNA5AjMih" role="2OqNvi">
-                        <ref role="3Tt5mk" to="yot6:3ZqNA5Aj2vB" />
+                        <ref role="3Tt5mk" to="yot6:3ZqNA5Aj2vB" resolve="usesFoldingCondition" />
                       </node>
                     </node>
                     <node concept="3w_OXm" id="3ZqNA5AjMim" role="2OqNvi" />
@@ -630,7 +630,7 @@
               </node>
             </node>
             <node concept="3F1sOY" id="3ZqNA5AjMio" role="1QoVPY">
-              <ref role="1NtTu8" to="yot6:5fDszETGVtQ" />
+              <ref role="1NtTu8" to="yot6:5fDszETGVtQ" resolve="foldedCellModel" />
             </node>
             <node concept="VPXOz" id="3ZqNA5AjMia" role="3F10Kt">
               <property role="VOm3f" value="true" />
@@ -678,7 +678,7 @@
                     <node concept="2OqwBi" id="Ny5pAsxJJk" role="3uHU7B">
                       <node concept="pncrf" id="Ny5pAsxJJj" role="2Oq$k0" />
                       <node concept="3TrEf2" id="Ny5pAsxJQs" role="2OqNvi">
-                        <ref role="3Tt5mk" to="yot6:Ny5pAsx39_" />
+                        <ref role="3Tt5mk" to="yot6:Ny5pAsx39_" resolve="separatorTextQuery" />
                       </node>
                     </node>
                   </node>
@@ -737,7 +737,7 @@
                         <node concept="2OqwBi" id="3EUGuXc4PaE" role="2Oq$k0">
                           <node concept="3GMtW1" id="3EUGuXc4PaD" role="2Oq$k0" />
                           <node concept="3TrEf2" id="3EUGuXc4PaI" role="2OqNvi">
-                            <ref role="3Tt5mk" to="yot6:Ny5pAsx39_" />
+                            <ref role="3Tt5mk" to="yot6:Ny5pAsx39_" resolve="separatorTextQuery" />
                           </node>
                         </node>
                         <node concept="2oxUTD" id="3EUGuXc4PaN" role="2OqNvi">
@@ -771,7 +771,7 @@
           <node concept="2iRfu4" id="i2IxuT4" role="2iSdaV" />
           <node concept="3F1sOY" id="Ny5pAsxJQD" role="3EZMnx">
             <property role="2ru_X1" value="true" />
-            <ref role="1NtTu8" to="yot6:Ny5pAsx39_" />
+            <ref role="1NtTu8" to="yot6:Ny5pAsx39_" resolve="separatorTextQuery" />
             <ref role="1ERwB7" to="tpc5:7r9L9Fo9LsW" resolve="CellModel_RefNodeList_RemoveSeparatorQuery_Actions" />
             <node concept="OXEIz" id="3EUGuXc80Kh" role="P5bDN">
               <node concept="1ou48o" id="3EUGuXc80Ki" role="OY2wv">
@@ -820,7 +820,7 @@
                         <node concept="2OqwBi" id="3EUGuXc83Jd" role="2Oq$k0">
                           <node concept="3GMtW1" id="3EUGuXc83Jc" role="2Oq$k0" />
                           <node concept="3TrEf2" id="3EUGuXc83Jh" role="2OqNvi">
-                            <ref role="3Tt5mk" to="yot6:Ny5pAsx39_" />
+                            <ref role="3Tt5mk" to="yot6:Ny5pAsx39_" resolve="separatorTextQuery" />
                           </node>
                         </node>
                         <node concept="3YRAZt" id="3EUGuXc83Jm" role="2OqNvi" />
@@ -885,7 +885,7 @@
           <node concept="3F1sOY" id="hWtqYt9" role="3EZMnx">
             <property role="1$x2rV" value="default" />
             <property role="39s7Ar" value="false" />
-            <ref role="1NtTu8" to="yot6:hWsWeqI" />
+            <ref role="1NtTu8" to="yot6:hWsWeqI" resolve="separatorStyle" />
             <node concept="VPXOz" id="hWtsp9o" role="3F10Kt">
               <property role="VOm3f" value="true" />
             </node>
@@ -912,7 +912,7 @@
           </node>
           <node concept="3F1sOY" id="hF4w_SC" role="3EZMnx">
             <property role="1$x2rV" value="&lt;no factory&gt;" />
-            <ref role="1NtTu8" to="yot6:h84_6ER" />
+            <ref role="1NtTu8" to="yot6:h84_6ER" resolve="nodeFactory" />
           </node>
           <node concept="VPM3Z" id="hF4w_SD" role="3F10Kt">
             <property role="VOm3f" value="false" />
@@ -929,7 +929,7 @@
           </node>
           <node concept="1iCGBv" id="hF4w_SJ" role="3EZMnx">
             <property role="1$x2rV" value="&lt;default&gt;" />
-            <ref role="1NtTu8" to="yot6:h4APPx9" />
+            <ref role="1NtTu8" to="yot6:h4APPx9" resolve="elementActionMap" />
             <node concept="1sVBvm" id="hF4w_SK" role="1sWHZn">
               <node concept="3F0A7n" id="hF4w_SL" role="2wV5jI">
                 <property role="1Intyy" value="true" />
@@ -952,7 +952,7 @@
           </node>
           <node concept="3F1sOY" id="hF4w_SS" role="3EZMnx">
             <property role="1$x2rV" value="&lt;default&gt;" />
-            <ref role="1NtTu8" to="yot6:gXk68OO" />
+            <ref role="1NtTu8" to="yot6:gXk68OO" resolve="elementMenuDescriptor" />
             <node concept="VPXOz" id="hFayl71" role="3F10Kt">
               <property role="VOm3f" value="true" />
             </node>
@@ -978,7 +978,7 @@
           </node>
           <node concept="3F1sOY" id="6k6gsLy9nOE" role="3EZMnx">
             <ref role="1ERwB7" to="tpc5:6k6gsLy9Jgf" resolve="CellModel_RefNodeList_AddHint_Actions" />
-            <ref role="1NtTu8" to="yot6:6k6gsLy95p6" />
+            <ref role="1NtTu8" to="yot6:6k6gsLy95p6" resolve="addHints" />
           </node>
           <node concept="2iRfu4" id="6k6gsLy9nOF" role="2iSdaV" />
         </node>
@@ -995,7 +995,7 @@
           </node>
           <node concept="3F1sOY" id="6k6gsLy9nOK" role="3EZMnx">
             <ref role="1ERwB7" to="tpc5:6k6gsLy9tOQ" resolve="CellModel_RefNodeList_RemoveHint_Actions" />
-            <ref role="1NtTu8" to="yot6:6k6gsLy95p7" />
+            <ref role="1NtTu8" to="yot6:6k6gsLy95p7" resolve="removeHints" />
           </node>
           <node concept="2iRfu4" id="6k6gsLy9nOL" role="2iSdaV" />
         </node>
@@ -1038,7 +1038,7 @@
                 <node concept="2OqwBi" id="5SQJARUxraE" role="2Oq$k0">
                   <node concept="7Obwk" id="5SQJARUxqV_" role="2Oq$k0" />
                   <node concept="3TrEf2" id="5SQJARUxrV0" role="2OqNvi">
-                    <ref role="3Tt5mk" to="yot6:3ZqNA5Aj2vB" />
+                    <ref role="3Tt5mk" to="yot6:3ZqNA5Aj2vB" resolve="usesFoldingCondition" />
                   </node>
                 </node>
                 <node concept="2DeJnY" id="5SQJARUxtCw" role="2OqNvi" />
@@ -1144,7 +1144,7 @@
   </node>
   <node concept="PKFIW" id="7FZiyulhhKI">
     <property role="TrG5h" value="DummyForGrammarCells" />
-    <ref role="1XX52x" to="tpck:gw2VY9q" />
+    <ref role="1XX52x" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="3F0ifn" id="7FZiyulhhKJ" role="2wV5jI">
       <property role="3F0ifm" value="Workaround to fix contributions to BaseConcept generated by grammarCells." />
     </node>

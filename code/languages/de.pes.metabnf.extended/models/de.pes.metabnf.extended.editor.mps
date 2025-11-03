@@ -599,7 +599,7 @@
                                   <ref role="ehGHo" to="gm16:7egTi9LFaPK" resolve="IImplementsExternalConcepts" />
                                 </node>
                                 <node concept="37vLTw" id="1UvZxkWCeum" role="33vP2m">
-                                  <ref role="3cqZAo" node="1UvZxkWBKyN" resolve="it" />
+                                  <ref role="3cqZAo" node="1UvZxkWBKyN" resolve="itIface" />
                                 </node>
                               </node>
                             </node>
@@ -1012,7 +1012,7 @@
           <ref role="1k5W1q" to="ef3c:4j82FZZ71NE" resolve="NodeAttributeDefault" />
         </node>
         <node concept="3F1sOY" id="1nL_s$DmS$q" role="3EZMnx">
-          <ref role="1NtTu8" to="gm16:1nL_s$Di$5w" />
+          <ref role="1NtTu8" to="gm16:1nL_s$Di$5w" resolve="extends" />
           <ref role="1k5W1q" node="4novjIaNqEI" resolve="InterfaceRepresentationRef" />
         </node>
         <node concept="2iRfu4" id="1nL_s$Di$5A" role="2iSdaV" />
@@ -1285,7 +1285,7 @@
           </node>
         </node>
         <node concept="3F1sOY" id="7egTi9LNmjD" role="3EZMnx">
-          <ref role="1NtTu8" to="gm16:7egTi9LFblj" />
+          <ref role="1NtTu8" to="gm16:7egTi9LFblj" resolve="concept" />
         </node>
         <node concept="PMmxH" id="7egTi9LFblA" role="3EZMnx">
           <ref role="PMmxG" to="1mfk:4j82FZZ8kx0" resolve="EditorBreakPoint" />
@@ -2154,7 +2154,7 @@
                   <ref role="3cqZAo" node="r82NTN2aVq" resolve="scrollSize" />
                 </node>
                 <node concept="37vLTw" id="r82NTN24n6" role="3uHU7B">
-                  <ref role="3cqZAo" node="r82NTN1YLC" resolve="scrollSize" />
+                  <ref role="3cqZAo" node="r82NTN1YLC" resolve="scrollNumber" />
                 </node>
               </node>
               <node concept="3eOVzh" id="r82NTN1JKD" role="3K4Cdx">
@@ -2162,7 +2162,7 @@
                   <ref role="3cqZAo" node="r82NTNRpBN" resolve="cnt" />
                 </node>
                 <node concept="37vLTw" id="r82NTN23Ch" role="3uHU7w">
-                  <ref role="3cqZAo" node="r82NTN1YLC" resolve="scrollSize" />
+                  <ref role="3cqZAo" node="r82NTN1YLC" resolve="scrollNumber" />
                 </node>
               </node>
             </node>
@@ -2570,7 +2570,7 @@
         <property role="3F0ifm" value="RefNodeList:" />
       </node>
       <node concept="1iCGBv" id="5SQJARTt2ER" role="3EZMnx">
-        <ref role="1NtTu8" to="yot6:5SQJARTsWlE" />
+        <ref role="1NtTu8" to="yot6:5SQJARTsWlE" resolve="ref" />
         <node concept="1sVBvm" id="5SQJARTt2ET" role="1sWHZn">
           <node concept="3SHvHV" id="5SQJARTt2EX" role="2wV5jI" />
         </node>
@@ -2601,7 +2601,7 @@
     <ref role="aqKnT" to="gm16:5SQJARTsWl$" resolve="EBNFCustomCellModel_ListRef" />
     <node concept="22hDWj" id="5SQJARTISf4" role="22hAXT" />
     <node concept="3XHNnq" id="5SQJARTISf5" role="3ft7WO">
-      <ref role="3XGfJA" to="yot6:5SQJARTsWlE" />
+      <ref role="3XGfJA" to="yot6:5SQJARTsWlE" resolve="ref" />
       <node concept="1WAQ3h" id="5SQJARTISf7" role="3PHfNJ">
         <node concept="3clFbS" id="5SQJARTISf8" role="2VODD2">
           <node concept="3clFbJ" id="5SQJARTISz1" role="3cqZAp">
@@ -2646,7 +2646,7 @@
     <ref role="aqKnT" to="gm16:5SQJARRmzdE" resolve="EBNFCustomCellModel_Property" />
     <node concept="22hDWj" id="5SQJARUiJCh" role="22hAXT" />
     <node concept="3XHNnq" id="5SQJARUiJCi" role="3ft7WO">
-      <ref role="3XGfJA" to="gm16:5SQJARRogth" />
+      <ref role="3XGfJA" to="gm16:5SQJARRogth" resolve="ref" />
       <node concept="1WAQ3h" id="5SQJARUiJCj" role="3PHfNJ">
         <node concept="3clFbS" id="5SQJARUiJCk" role="2VODD2">
           <node concept="Jncv_" id="5UlvvpOr2cF" role="3cqZAp">
@@ -2841,7 +2841,7 @@
           </node>
           <node concept="3F1sOY" id="55my_QKPih8" role="3EZMnx">
             <ref role="1ERwB7" to="tpc5:55my_QKP_mV" resolve="CellModel_RefNode_AddHint_Actions" />
-            <ref role="1NtTu8" to="gm16:55my_QKP5Sf" />
+            <ref role="1NtTu8" to="gm16:55my_QKP5Sf" resolve="addHints" />
           </node>
           <node concept="2iRfu4" id="55my_QKPih9" role="2iSdaV" />
         </node>
@@ -2858,7 +2858,7 @@
           </node>
           <node concept="3F1sOY" id="55my_QKPihe" role="3EZMnx">
             <ref role="1ERwB7" to="tpc5:55my_QKPFFX" resolve="CellModel_RefNode_RemoveHint_Actions" />
-            <ref role="1NtTu8" to="gm16:55my_QKP5Sg" />
+            <ref role="1NtTu8" to="gm16:55my_QKP5Sg" resolve="removeHints" />
           </node>
           <node concept="2iRfu4" id="55my_QKPihf" role="2iSdaV" />
         </node>
@@ -2879,7 +2879,7 @@
     <ref role="aqKnT" to="gm16:4yuOb1eJDGV" resolve="EBNFCustomCellModel_Ref" />
     <node concept="22hDWj" id="4yuOb1eW$x0" role="22hAXT" />
     <node concept="3XHNnq" id="4yuOb1eW$x1" role="3ft7WO">
-      <ref role="3XGfJA" to="gm16:4yuOb1eJHku" />
+      <ref role="3XGfJA" to="gm16:4yuOb1eJHku" resolve="ref" />
       <node concept="1WAQ3h" id="4yuOb1eW$x2" role="3PHfNJ">
         <node concept="3clFbS" id="4yuOb1eW$x3" role="2VODD2">
           <node concept="3clFbJ" id="4yuOb1eW$LH" role="3cqZAp">
@@ -2955,7 +2955,7 @@
           <node concept="2iRfu4" id="3qzrKNPqCvi" role="2iSdaV" />
         </node>
         <node concept="PMmxH" id="3qzrKNPv8VN" role="3EZMnx">
-          <ref role="PMmxG" to="ef3c:3qzrKNPtONn" resolve="OptionalName_Component" />
+          <ref role="PMmxG" to="ef3c:3qzrKNPtONn" resolve="OptionalNameComponent" />
         </node>
         <node concept="3F0ifn" id="3qzrKNPAff_" role="3EZMnx">
           <property role="3F0ifm" value="&gt;&gt;" />

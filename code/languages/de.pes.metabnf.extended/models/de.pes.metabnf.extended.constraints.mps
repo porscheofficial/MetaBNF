@@ -1289,7 +1289,7 @@
                     <ref role="3cqZAo" node="5SQJARRrP2y" resolve="root" />
                   </node>
                   <node concept="2qgKlT" id="DIcUYn8WCb" role="2OqNvi">
-                    <ref role="37wK5l" to="zbpa:1UvZxkZLnfl" resolve="getTarget" />
+                    <ref role="37wK5l" to="zbpa:1UvZxkZLnfl" resolve="getAncestorNode" />
                   </node>
                 </node>
               </node>
@@ -1304,7 +1304,7 @@
     <property role="3GE5qa" value="Attributes.editor.custom" />
     <ref role="1M2myG" to="gm16:5SQJARTsWl$" resolve="EBNFCustomCellModel_ListRef" />
     <node concept="1N5Pfh" id="5SQJARTwMiy" role="1Mr941">
-      <ref role="1N5Vy1" to="yot6:5SQJARTsWlE" />
+      <ref role="1N5Vy1" to="yot6:5SQJARTsWlE" resolve="ref" />
       <node concept="3dgokm" id="5SQJARTwMot" role="1N6uqs">
         <node concept="3clFbS" id="5SQJARTwMou" role="2VODD2">
           <node concept="3cpWs8" id="5SQJARTwMFg" role="3cqZAp">
@@ -1348,7 +1348,7 @@
                 <ref role="3cqZAo" node="5SQJARTwMFh" resolve="rootEditor" />
               </node>
               <node concept="2qgKlT" id="1UvZxkZN36h" role="2OqNvi">
-                <ref role="37wK5l" to="zbpa:1UvZxkZLnfl" resolve="getAncesterNode" />
+                <ref role="37wK5l" to="zbpa:1UvZxkZLnfl" resolve="getAncestorNode" />
               </node>
             </node>
             <node concept="3clFbS" id="1UvZxkZN0Rf" role="Jncv$">
@@ -1561,7 +1561,7 @@
                   <ref role="3cqZAo" node="4yuOb1eMMZm" resolve="rootEditor" />
                 </node>
                 <node concept="2qgKlT" id="4HmnLbvphp8" role="2OqNvi">
-                  <ref role="37wK5l" to="zbpa:1UvZxkZLnfl" resolve="getAncesterNode" />
+                  <ref role="37wK5l" to="zbpa:1UvZxkZLnfl" resolve="getAncestorNode" />
                 </node>
               </node>
             </node>
@@ -1586,7 +1586,7 @@
           <node concept="Jncv_" id="4yuOb1eMNBr" role="3cqZAp">
             <ref role="JncvD" to="p1cl:7egTi9LqCwB" resolve="IBNFBaseStatementConcept" />
             <node concept="37vLTw" id="4HmnLbvphpc" role="JncvB">
-              <ref role="3cqZAo" node="4HmnLbvphp5" resolve="ancesterNode" />
+              <ref role="3cqZAo" node="4HmnLbvphp5" resolve="ancestorNode" />
             </node>
             <node concept="3clFbS" id="4yuOb1eMNBx" role="Jncv$">
               <node concept="3clFbF" id="2EDx4BbgmRt" role="3cqZAp">
@@ -1601,7 +1601,7 @@
                           <ref role="1M0zk5" node="4yuOb1eMNCw" resolve="bnfTerm" />
                         </node>
                         <node concept="3TrEf2" id="DIcUYmErDU" role="2OqNvi">
-                          <ref role="3Tt5mk" to="p1cl:7egTi9LqCwC" />
+                          <ref role="3Tt5mk" to="p1cl:7egTi9LqCwC" resolve="expr" />
                         </node>
                       </node>
                       <node concept="2Rf3mk" id="DIcUYmErDV" role="2OqNvi">
@@ -1628,7 +1628,7 @@
                           <ref role="1M0zk5" node="4yuOb1eMNCw" resolve="bnfTerm" />
                         </node>
                         <node concept="3TrEf2" id="DIcUYmEHJb" role="2OqNvi">
-                          <ref role="3Tt5mk" to="p1cl:7egTi9LqCwC" />
+                          <ref role="3Tt5mk" to="p1cl:7egTi9LqCwC" resolve="expr" />
                         </node>
                       </node>
                       <node concept="2Rf3mk" id="DIcUYmEHJc" role="2OqNvi">
