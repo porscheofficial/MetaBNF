@@ -3020,5 +3020,28 @@
       <node concept="2iRfu4" id="3fZzwZi2qo3" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="6oeWmk_k7nA">
+    <property role="3GE5qa" value="Attributes.generator" />
+    <ref role="1XX52x" to="gm16:6oeWmk_k7mv" resolve="EBNFAttributeBuildGenerator" />
+    <node concept="3EZMnI" id="6oeWmk_k7Iq" role="2wV5jI">
+      <node concept="3EZMnI" id="6oeWmk_k7Iu" role="3EZMnx">
+        <ref role="1k5W1q" to="ef3c:4j82FZZ71NE" resolve="NodeAttributeDefault" />
+        <node concept="PMmxH" id="6oeWmk_k7Iv" role="3EZMnx">
+          <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+        </node>
+        <node concept="3F0ifn" id="6oeWmk_k7Iw" role="3EZMnx">
+          <property role="3F0ifm" value=":" />
+        </node>
+        <node concept="3F0A7n" id="6oeWmk_k7I_" role="3EZMnx">
+          <ref role="1NtTu8" to="gm16:6oeWmk_k7n_" resolve="configuration" />
+        </node>
+        <node concept="PMmxH" id="6oeWmk_k7Iy" role="3EZMnx">
+          <ref role="PMmxG" to="1mfk:4j82FZZ8kx0" resolve="EditorBreakPoint" />
+        </node>
+        <node concept="2iRfu4" id="6oeWmk_k7Iz" role="2iSdaV" />
+      </node>
+      <node concept="2iRkQZ" id="6oeWmk_k7It" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

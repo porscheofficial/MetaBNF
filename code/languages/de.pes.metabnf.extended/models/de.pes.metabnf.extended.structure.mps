@@ -322,7 +322,7 @@
     <node concept="PrWs8" id="1nL_s$Dm0KC" role="PzmwI">
       <ref role="PrY4T" node="1nL_s$DlNQ9" resolve="IConceptExtendsConceptRef" />
     </node>
-    <node concept="PrWs8" id="39om$4724Wd" role="PzmwI">
+    <node concept="PrWs8" id="4oxqGQT0qIc" role="PzmwI">
       <ref role="PrY4T" to="yot6:T845Ys479E" resolve="IBNFExpressionReference" />
     </node>
     <node concept="1TJgyj" id="7egTi9KQJcQ" role="1TKVEi">
@@ -976,6 +976,33 @@
       <property role="20kJfa" value="iface" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="4novjIaNn1X" resolve="EBNFIFaceDefinitionTermRef" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6oeWmk_k7mv">
+    <property role="EcuMT" value="7354080658262619551" />
+    <property role="TrG5h" value="EBNFAttributeBuildGenerator" />
+    <property role="34LRSv" value="Build Generator" />
+    <property role="3GE5qa" value="Attributes.generator" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="6oeWmk_k7nw" role="PzmwI">
+      <ref role="PrY4T" to="p1cl:4novjIaNO1Z" resolve="INodeAnnotationAttribute" />
+    </node>
+    <node concept="1TJgyi" id="6oeWmk_k7n_" role="1TKVEl">
+      <property role="IQ2nx" value="7354080658262619621" />
+      <property role="TrG5h" value="configuration" />
+      <ref role="AX2Wp" node="6oeWmk_k7ny" resolve="BuildGeneratorConfigurationEnum" />
+    </node>
+  </node>
+  <node concept="25R3W" id="6oeWmk_k7ny">
+    <property role="3F6X1D" value="7354080658262619618" />
+    <property role="TrG5h" value="BuildGeneratorConfigurationEnum" />
+    <node concept="25R33" id="6oeWmk_k7nz" role="25R1y">
+      <property role="3tVfz5" value="7354080658262619619" />
+      <property role="TrG5h" value="default" />
+    </node>
+    <node concept="25R33" id="6oeWmk_k7n$" role="25R1y">
+      <property role="3tVfz5" value="7354080658262619620" />
+      <property role="TrG5h" value="skip" />
     </node>
   </node>
 </model>

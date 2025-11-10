@@ -715,7 +715,12 @@
                                   <node concept="H_c77" id="2Th5te3K1MP" role="1tU5fm" />
                                 </node>
                               </node>
-                              <node concept="3clFbH" id="1nlIT1LMgTB" role="3cqZAp" />
+                              <node concept="3cpWs8" id="4F1DO3Su1nK" role="3cqZAp">
+                                <node concept="3cpWsn" id="4F1DO3Su1nN" role="3cpWs9">
+                                  <property role="TrG5h" value="vPath" />
+                                  <node concept="17QB3L" id="4F1DO3Su1nI" role="1tU5fm" />
+                                </node>
+                              </node>
                               <node concept="1QHqEK" id="1nlIT1LCpxv" role="3cqZAp">
                                 <node concept="1QHqEC" id="1nlIT1LCpxw" role="1QHqEI">
                                   <node concept="3clFbS" id="1nlIT1LCpxx" role="1bW5cS">
@@ -793,6 +798,19 @@
                                         </node>
                                       </node>
                                     </node>
+                                    <node concept="3clFbF" id="4F1DO3Su4mD" role="3cqZAp">
+                                      <node concept="37vLTI" id="4F1DO3Su7m0" role="3clFbG">
+                                        <node concept="2OqwBi" id="4F1DO3SBHpH" role="37vLTx">
+                                          <node concept="pncrf" id="4F1DO3SBGOC" role="2Oq$k0" />
+                                          <node concept="3TrcHB" id="4F1DO3SBItf" role="2OqNvi">
+                                            <ref role="3TsBF5" to="x0c1:7egTi9L2V8k" resolve="virtualPath" />
+                                          </node>
+                                        </node>
+                                        <node concept="37vLTw" id="4F1DO3Su4mB" role="37vLTJ">
+                                          <ref role="3cqZAo" node="4F1DO3Su1nN" resolve="vPath" />
+                                        </node>
+                                      </node>
+                                    </node>
                                   </node>
                                 </node>
                                 <node concept="2OqwBi" id="1nlIT1LCpxC" role="ukAjM">
@@ -810,7 +828,7 @@
                                   <node concept="2OqwBi" id="1nlIT1LCpxJ" role="33vP2m">
                                     <node concept="pncrf" id="1nlIT1LCpxK" role="2Oq$k0" />
                                     <node concept="2qgKlT" id="1nlIT1LCpxL" role="2OqNvi">
-                                      <ref role="37wK5l" to="vofq:1nlIT1LCv0Q" resolve="createGenerator" />
+                                      <ref role="37wK5l" to="vofq:4F1DO3RME6D" resolve="createGeneratorLanguages" />
                                       <node concept="37vLTw" id="1nlIT1LCpxM" role="37wK5m">
                                         <ref role="3cqZAo" node="1nlIT1LCpxi" resolve="project" />
                                       </node>
@@ -822,6 +840,9 @@
                                       </node>
                                       <node concept="37vLTw" id="7OXTsFiDBOm" role="37wK5m">
                                         <ref role="3cqZAo" node="7OXTsFiDviw" resolve="declarationToSkip" />
+                                      </node>
+                                      <node concept="37vLTw" id="6$ViQTs4HiS" role="37wK5m">
+                                        <ref role="3cqZAo" node="4F1DO3Su1nN" resolve="vPath" />
                                       </node>
                                     </node>
                                   </node>
