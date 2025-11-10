@@ -42,7 +42,6 @@
       </concept>
     </language>
     <language id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi">
-      <concept id="9032177546942789331" name="jetbrains.mps.lang.modelapi.structure.ModelIdentity" flags="ngI" index="2$$0Hc" />
       <concept id="361130699826193248" name="jetbrains.mps.lang.modelapi.structure.ModelPointer" flags="ng" index="1dCxOl">
         <property id="1863527487546097494" name="modelId" index="1XweGQ" />
         <child id="679099339649067980" name="name" index="1j$8Uc" />
@@ -96,6 +95,9 @@
       <concept id="1581209635398197448" name="de.pes.metabnf.extended.structure.EBNFConceptExtendsConceptRef" flags="ng" index="WD3k1">
         <reference id="1581209635398197449" name="ref" index="WD3k0" />
       </concept>
+      <concept id="1581209635398356007" name="de.pes.metabnf.extended.structure.BNFDefinitionTermRefRef" flags="ng" index="WEpBI">
+        <reference id="8327407647093093174" name="ref" index="3ixok" />
+      </concept>
       <concept id="1581209635397447671" name="de.pes.metabnf.extended.structure.EBNFConceptExtendsConcept" flags="ng" index="WIVCY">
         <child id="1581209635397452128" name="extends" index="WIXiD" />
       </concept>
@@ -124,6 +126,11 @@
       <node concept="2AnsB" id="3gySEDtGS97" role="3f5NQZ">
         <property role="2AnsF" value="true" />
       </node>
+      <node concept="1Quhz" id="3BNe5dWbSDX" role="3f5NQZ">
+        <node concept="35c_gC" id="3BNe5dWbSDZ" role="2f51L">
+          <ref role="35c_gD" to="tpck:h0TrEE$" resolve="INamedConcept" />
+        </node>
+      </node>
       <node concept="gXCZ9" id="3gySEDtGS9l" role="2YAOa">
         <node concept="3f5gP6" id="3gySEDtGS9b" role="Iv2U_">
           <property role="TrG5h" value="content" />
@@ -142,7 +149,7 @@
       <property role="TrG5h" value="IIdent" />
       <node concept="gKEy2" id="7elZBZFISct" role="2YAOa">
         <node concept="gKozh" id="7LcVVINm97t" role="gKEy9">
-          <property role="TrG5h" value="Name" />
+          <property role="TrG5h" value="NamedChild" />
           <ref role="gKozg" node="7LcVVINm97r" resolve="SimpleTerm" />
         </node>
         <node concept="gX_XH" id="7LcVVINGpYw" role="gKEy8">
@@ -177,11 +184,6 @@
       <node concept="1Quhz" id="7B8MEK$Z7Uu" role="3f5NQZ">
         <node concept="35c_gC" id="7B8MEK$Z7Uw" role="2f51L">
           <ref role="35c_gD" to="tpck:h0TrEE$" resolve="INamedConcept" />
-        </node>
-      </node>
-      <node concept="3f3McH" id="7B8MEK_5L7N" role="3f5NQZ">
-        <node concept="3f05P1" id="7B8MEK_5L7P" role="3f2C7N">
-          <ref role="3f0eYx" node="3gySEDtGS9H" resolve="IIdent" />
         </node>
       </node>
     </node>
@@ -273,7 +275,7 @@
         </node>
       </node>
       <node concept="2l89Zc" id="6mcP9nJ6k$l" role="3f5NQZ">
-        <node concept="2l8w4U" id="6mcP9nJ6k$n" role="2l8CKc">
+        <node concept="2l8w4U" id="4oxqGQTKfn3" role="2l8CKc">
           <ref role="2l8w4T" node="7LcVVINm97s" />
         </node>
       </node>
@@ -328,6 +330,28 @@
         </node>
       </node>
     </node>
+    <node concept="gNmGs" id="6oeWmk_n4Eh" role="gNmGt" />
+    <node concept="gNqHd" id="6oeWmk_n4El" role="gNmGt">
+      <property role="TrG5h" value="SimpleTermImpl" />
+      <node concept="WIVCY" id="6oeWmk_n4Er" role="3f5NQZ">
+        <node concept="WEpBI" id="6oeWmk_n4Es" role="WIXiD">
+          <ref role="3ixok" node="7LcVVINm97r" resolve="SimpleTerm" />
+        </node>
+      </node>
+      <node concept="2l89Zc" id="6oeWmk_n4G_" role="3f5NQZ">
+        <node concept="2l8w4U" id="4oxqGQWhST6" role="2l8CKc">
+          <ref role="2l8w4T" node="6mcP9nJ5eWF" />
+        </node>
+      </node>
+      <node concept="3f3McH" id="6oeWmk_n4GC" role="3f5NQZ">
+        <node concept="3f05P1" id="6oeWmk_n4GE" role="3f2C7N">
+          <ref role="3f0eYx" node="3gySEDtGS99" resolve="IRootConceptContent" />
+        </node>
+      </node>
+      <node concept="gKozh" id="4oxqGQWhST5" role="2YAOa">
+        <ref role="gKozg" node="6yiLroY6_4P" resolve="valueList" />
+      </node>
+    </node>
     <node concept="gNmGs" id="3qzrKNPjdQj" role="gNmGt" />
     <node concept="gNmGs" id="3qzrKNP9U58" role="gNmGt" />
     <node concept="gNmGs" id="3qzrKNP9U59" role="gNmGt" />
@@ -345,7 +369,12 @@
       </node>
     </node>
     <node concept="1Xw6AR" id="3gySEDtGS9Q" role="3fKwUX">
-      <node concept="2$$0Hc" id="3gySEDtGS9R" role="1XwpL7" />
+      <node concept="1dCxOl" id="6$ViQTsblyZ" role="1XwpL7">
+        <property role="1XweGQ" value="r:3b7a42e9-8190-4fa9-b12a-8f9682f93edc" />
+        <node concept="1j_P7g" id="6$ViQTsblz0" role="1j$8Uc">
+          <property role="1j_P7h" value="de.pes.metabnf.sandbox.sample.structure" />
+        </node>
+      </node>
     </node>
   </node>
 </model>
