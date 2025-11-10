@@ -102,6 +102,9 @@
         <child id="1581209635397452128" name="extends" index="WIXiD" />
       </concept>
       <concept id="1581209635396084534" name="de.pes.metabnf.extended.structure.EBNFAbstractDefinitonTerm" flags="ng" index="WLfrZ" />
+      <concept id="7354080658262619551" name="de.pes.metabnf.extended.structure.EBNFAttributeBuildGenerator" flags="ng" index="13nCjU">
+        <property id="7354080658262619621" name="configuration" index="13nCi0" />
+      </concept>
       <concept id="3937112600693273850" name="de.pes.metabnf.extended.structure.EBNFExternalConceptTypeRef" flags="ng" index="33ExJQ">
         <child id="3937112600693332270" name="concept" index="33Ejoy" />
       </concept>
@@ -347,6 +350,9 @@
         <node concept="3f05P1" id="6oeWmk_n4GE" role="3f2C7N">
           <ref role="3f0eYx" node="3gySEDtGS99" resolve="IRootConceptContent" />
         </node>
+      </node>
+      <node concept="13nCjU" id="6$ViQTsqejg" role="3f5NQZ">
+        <property role="13nCi0" value="6oeWmk_k7n$/skip" />
       </node>
       <node concept="gKozh" id="4oxqGQWhST5" role="2YAOa">
         <ref role="gKozg" node="6yiLroY6_4P" resolve="valueList" />
