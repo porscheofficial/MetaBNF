@@ -3388,7 +3388,6 @@
     <node concept="2YIFZL" id="39om$45Uc04" role="jymVt">
       <property role="TrG5h" value="getPropertyDeclaration" />
       <node concept="3clFbS" id="39om$45Uc07" role="3clF47">
-        <node concept="3clFbH" id="39om$4699Sy" role="3cqZAp" />
         <node concept="3cpWs8" id="39om$45UztQ" role="3cqZAp">
           <node concept="3cpWsn" id="39om$45UztR" role="3cpWs9">
             <property role="TrG5h" value="node" />
