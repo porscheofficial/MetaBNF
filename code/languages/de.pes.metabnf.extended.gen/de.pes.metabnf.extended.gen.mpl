@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language namespace="de.pes.metabnf.extended.gen" uuid="aba1faaf-a5a0-44ea-8178-aed1dd3e1944" languageVersion="1" moduleVersion="0">
   <models>
-    <modelRoot type="default" contentPath="${module}">
+    <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
     </modelRoot>
   </models>
@@ -33,7 +33,6 @@
     <dependency reexport="false">990507d3-3527-4c54-bfe9-0ca3c9c6247a(com.dslfoundry.plaintextgen)</dependency>
     <dependency reexport="false">4755f87e-2a4b-42d9-9618-31bc36f204af(de.pes.metabnf.utils)</dependency>
     <dependency reexport="false">fcef6129-077e-482d-b29d-d74df3291d94(de.pes.metabnf.base)</dependency>
-    <dependency reexport="false">3ac18869-0828-4401-abad-822a47bf83f1(jetbrains.mps.lang.descriptor#9020561928507175817)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="12" />
@@ -109,7 +108,6 @@
     <module reference="af65afd8-f0dd-4942-87d9-63a55f2a9db1(jetbrains.mps.lang.behavior)" version="0" />
     <module reference="d936855b-48da-4812-a8a0-2bfddd633ac5(jetbrains.mps.lang.behavior.api)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
-    <module reference="3ac18869-0828-4401-abad-822a47bf83f1(jetbrains.mps.lang.descriptor#9020561928507175817)" version="0" />
     <module reference="a9e4c532-c5f5-4bb7-99ef-42abb73bbb70(jetbrains.mps.lang.descriptor.aspects)" version="0" />
     <module reference="18bc6592-03a6-4e29-a83a-7ff23bde13ba(jetbrains.mps.lang.editor)" version="0" />
     <module reference="b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)" version="0" />

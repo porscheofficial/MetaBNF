@@ -636,11 +636,6 @@
             <ref role="3bR37D" node="7LcVVIPHnaA" resolve="de.pes.metabnf.base" />
           </node>
         </node>
-        <node concept="1SiIV0" id="6$ViQTspyGC" role="3bR37C">
-          <node concept="3bR9La" id="6$ViQTspyGD" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:7YI57w6K0jH" resolve="jetbrains.mps.lang.descriptor#9020561928507175817" />
-          </node>
-        </node>
       </node>
       <node concept="1E1JtD" id="7vSfl_Uu_xB" role="2G$12L">
         <property role="BnDLt" value="true" />
