@@ -233,6 +233,9 @@
     <node concept="PrWs8" id="4j82FZZ71Nr" role="PzmwI">
       <ref role="PrY4T" to="p1cl:4novjIaNO1Z" resolve="INodeAnnotationAttribute" />
     </node>
+    <node concept="PrWs8" id="1Ac4378pCL9" role="PzmwI">
+      <ref role="PrY4T" to="p1cl:1Ac4378pCGf" resolve="IHaveTypeConstraint" />
+    </node>
     <node concept="1TJgyi" id="4j82FZZ71NI" role="1TKVEl">
       <property role="IQ2nx" value="4956223209656294638" />
       <property role="TrG5h" value="primitiveType" />

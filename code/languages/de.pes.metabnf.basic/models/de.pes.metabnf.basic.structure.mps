@@ -505,6 +505,11 @@
       <property role="TrG5h" value="uchar" />
       <property role="1L1pqM" value="unsigned char" />
     </node>
+    <node concept="25R33" id="1Ac4376PaYt" role="25R1y">
+      <property role="3tVfz5" value="1840864153662959517" />
+      <property role="TrG5h" value="enummeration" />
+      <property role="1L1pqM" value="ENUM Type" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1EU0USTES2q">
     <property role="EcuMT" value="1925855837481042074" />
@@ -575,6 +580,11 @@
         <ref role="trN6q" to="tpce:h0PrWoo" resolve="InterfaceConceptReference" />
       </node>
     </node>
+  </node>
+  <node concept="PlHQZ" id="1Ac4378pCGf">
+    <property role="EcuMT" value="1840864153689295631" />
+    <property role="3GE5qa" value="Types" />
+    <property role="TrG5h" value="IHaveTypeConstraint" />
   </node>
 </model>
 

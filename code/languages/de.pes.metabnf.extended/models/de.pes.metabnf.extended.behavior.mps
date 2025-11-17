@@ -216,6 +216,9 @@
         <reference id="1966870290088668516" name="memberDeclaration" index="2ViDtZ" />
       </concept>
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
+      <concept id="1240170042401" name="jetbrains.mps.lang.smodel.structure.SEnumerationMemberType" flags="in" index="2ZThk1">
+        <reference id="1240170836027" name="enum" index="2ZWj4r" />
+      </concept>
       <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
         <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
       </concept>
@@ -292,6 +295,24 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="1Ac4378pCOA" role="13h7CS">
+      <property role="TrG5h" value="getPrimitivType" />
+      <ref role="13i0hy" to="yrpt:1Ac4378pCGz" resolve="getPrimitivType" />
+      <node concept="3Tm1VV" id="1Ac4378pCOB" role="1B3o_S" />
+      <node concept="3clFbS" id="1Ac4378pCOE" role="3clF47">
+        <node concept="3clFbF" id="1Ac4378pCPE" role="3cqZAp">
+          <node concept="2OqwBi" id="1Ac4378pD6h" role="3clFbG">
+            <node concept="13iPFW" id="1Ac4378pCPD" role="2Oq$k0" />
+            <node concept="3TrcHB" id="1Ac4378pDnW" role="2OqNvi">
+              <ref role="3TsBF5" to="gm16:4j82FZZ71NI" resolve="primitiveType" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2ZThk1" id="1Ac4378pCOF" role="3clF45">
+        <ref role="2ZWj4r" to="p1cl:4j82FZZ71NK" resolve="PrimitiveTypes" />
       </node>
     </node>
   </node>
