@@ -1000,6 +1000,11 @@
       <property role="TrG5h" value="configuration" />
       <ref role="AX2Wp" node="6oeWmk_k7ny" resolve="BuildGeneratorConfigurationEnum" />
     </node>
+    <node concept="1TJgyi" id="5En1FBqnTHK" role="1TKVEl">
+      <property role="IQ2nx" value="6527693580199238512" />
+      <property role="TrG5h" value="showConceptName" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
   </node>
   <node concept="25R3W" id="6oeWmk_k7ny">
     <property role="3F6X1D" value="7354080658262619618" />
@@ -1015,6 +1020,10 @@
     <node concept="25R33" id="2GksuHERO$Z" role="25R1y">
       <property role="3tVfz5" value="3104231299089385791" />
       <property role="TrG5h" value="asAttribute" />
+    </node>
+    <node concept="25R33" id="5_bPlNFkJDG" role="25R1y">
+      <property role="3tVfz5" value="6434471087690676844" />
+      <property role="TrG5h" value="asValue" />
     </node>
   </node>
 </model>

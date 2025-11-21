@@ -589,6 +589,16 @@
           <ref role="1NtTu8" to="x0c1:QIIeF2rbpn" resolve="modelptrGenerator" />
         </node>
       </node>
+      <node concept="3EZMnI" id="5En1FBq6cnp" role="3EZMnx">
+        <node concept="VPM3Z" id="5En1FBq6cnq" role="3F10Kt" />
+        <node concept="3F0ifn" id="5En1FBq6cnr" role="3EZMnx">
+          <property role="3F0ifm" value="Build Only Generator for Defined BNF Terms:" />
+        </node>
+        <node concept="3F0A7n" id="5En1FBq6fg7" role="3EZMnx">
+          <ref role="1NtTu8" to="x0c1:5En1FBq6aAM" resolve="defaultGenBuild" />
+        </node>
+        <node concept="2iRfu4" id="5En1FBq6cnt" role="2iSdaV" />
+      </node>
       <node concept="3EZMnI" id="1FmrBQwsPmm" role="3EZMnx">
         <node concept="VPM3Z" id="1FmrBQwsPmo" role="3F10Kt" />
         <node concept="3F0ifn" id="1FmrBQwsQMi" role="3EZMnx">
@@ -744,6 +754,12 @@
                                   <node concept="17QB3L" id="4F1DO3Su1nI" role="1tU5fm" />
                                 </node>
                               </node>
+                              <node concept="3cpWs8" id="5En1FBq6tK9" role="3cqZAp">
+                                <node concept="3cpWsn" id="5En1FBq6tKc" role="3cpWs9">
+                                  <property role="TrG5h" value="skipDefault" />
+                                  <node concept="10P_77" id="5En1FBq6tK7" role="1tU5fm" />
+                                </node>
+                              </node>
                               <node concept="3cpWs8" id="2GksuHIWbKq" role="3cqZAp">
                                 <node concept="3cpWsn" id="2GksuHIWbKr" role="3cpWs9">
                                   <property role="TrG5h" value="namedConceptToSkip" />
@@ -856,6 +872,19 @@
                                         </node>
                                       </node>
                                     </node>
+                                    <node concept="3clFbF" id="5En1FBq6w95" role="3cqZAp">
+                                      <node concept="37vLTI" id="5En1FBq6xG5" role="3clFbG">
+                                        <node concept="2OqwBi" id="5En1FBq6z9N" role="37vLTx">
+                                          <node concept="pncrf" id="5En1FBq6yNC" role="2Oq$k0" />
+                                          <node concept="3TrcHB" id="5En1FBq6$gW" role="2OqNvi">
+                                            <ref role="3TsBF5" to="x0c1:5En1FBq6aAM" resolve="defaultGenBuild" />
+                                          </node>
+                                        </node>
+                                        <node concept="37vLTw" id="5En1FBq6w93" role="37vLTJ">
+                                          <ref role="3cqZAo" node="5En1FBq6tKc" resolve="skipDefault" />
+                                        </node>
+                                      </node>
+                                    </node>
                                   </node>
                                 </node>
                                 <node concept="2OqwBi" id="1nlIT1LCpxC" role="ukAjM">
@@ -891,6 +920,9 @@
                                       </node>
                                       <node concept="37vLTw" id="2GksuHIWM41" role="37wK5m">
                                         <ref role="3cqZAo" node="2GksuHIWbKr" resolve="namedConceptToSkip" />
+                                      </node>
+                                      <node concept="37vLTw" id="5En1FBq6IFR" role="37wK5m">
+                                        <ref role="3cqZAo" node="5En1FBq6tKc" resolve="skipDefault" />
                                       </node>
                                     </node>
                                   </node>
