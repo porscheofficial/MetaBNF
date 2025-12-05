@@ -1229,12 +1229,16 @@
                 <node concept="TSZUe" id="7aaqmzm_84W" role="2OqNvi">
                   <node concept="1rXfSq" id="7aaqmzm_84X" role="25WWJ7">
                     <ref role="37wK5l" node="7aaqmzlhrEN" resolve="getHorizontalConstantCollection" />
-                    <node concept="2OqwBi" id="7aaqmzm_84Y" role="37wK5m">
-                      <node concept="37vLTw" id="7aaqmzm_84Z" role="2Oq$k0">
-                        <ref role="3cqZAo" node="7aaqmzm_85d" resolve="prop" />
-                      </node>
-                      <node concept="3TrcHB" id="7aaqmzm_850" role="2OqNvi">
-                        <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                    <node concept="2YIFZM" id="7Tpoq1TRhFi" role="37wK5m">
+                      <ref role="37wK5l" to="ms2z:4oxqGQWy6Sf" resolve="deNormalizeName" />
+                      <ref role="1Pybhc" to="ms2z:7aaqmznbwEM" resolve="BNFUtils" />
+                      <node concept="2OqwBi" id="7aaqmzm_84Y" role="37wK5m">
+                        <node concept="37vLTw" id="7aaqmzm_84Z" role="2Oq$k0">
+                          <ref role="3cqZAo" node="7aaqmzm_85d" resolve="prop" />
+                        </node>
+                        <node concept="3TrcHB" id="7aaqmzm_850" role="2OqNvi">
+                          <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                        </node>
                       </node>
                     </node>
                   </node>
