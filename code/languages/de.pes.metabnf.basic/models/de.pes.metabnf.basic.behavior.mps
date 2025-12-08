@@ -768,16 +768,8 @@
       <node concept="3Tm1VV" id="6HVmriMlqvO" role="1B3o_S" />
       <node concept="3clFbS" id="6HVmriMlqvR" role="3clF47">
         <node concept="3clFbF" id="6HVmriMlqvU" role="3cqZAp">
-          <node concept="2OqwBi" id="6HVmriMlsdc" role="3clFbG">
-            <node concept="2OqwBi" id="6HVmriMlryN" role="2Oq$k0">
-              <node concept="13iPFW" id="6HVmriMlrh2" role="2Oq$k0" />
-              <node concept="3TrEf2" id="6HVmriMlrQz" role="2OqNvi">
-                <ref role="3Tt5mk" to="p1cl:fbptcj2IO3" resolve="ref" />
-              </node>
-            </node>
-            <node concept="3TrcHB" id="6HVmriMls_7" role="2OqNvi">
-              <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-            </node>
+          <node concept="BsUDl" id="2sGbx8Zh5dj" role="3clFbG">
+            <ref role="37wK5l" to="10gk:1EU0USSpIAN" resolve="getName" />
           </node>
         </node>
       </node>
