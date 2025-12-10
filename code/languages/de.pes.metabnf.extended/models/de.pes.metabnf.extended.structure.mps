@@ -949,6 +949,9 @@
     <node concept="PrWs8" id="5UlvvpOZqa7" role="PzmwI">
       <ref role="PrY4T" to="p1cl:7aaqmzlmc9L" resolve="IBNFEditorReprensentation" />
     </node>
+    <node concept="PrWs8" id="3NGMG8FAxZ9" role="PzmwI">
+      <ref role="PrY4T" to="p1cl:4novjIaNO23" resolve="ISupportNodeAnnotationAttribute" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3fZzwZhPzeS">
     <property role="EcuMT" value="3746869613591671736" />
