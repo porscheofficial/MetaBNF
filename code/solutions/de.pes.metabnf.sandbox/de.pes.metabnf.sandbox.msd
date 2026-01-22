@@ -21,8 +21,8 @@
     <language slang="l:b4d28e19-7d2d-47e9-943e-3a41f97a0e52:com.mbeddr.mpsutil.plantuml.node" version="0" />
     <language slang="l:fcef6129-077e-482d-b29d-d74df3291d94:de.pes.metabnf.base" version="0" />
     <language slang="l:926d63aa-027c-47a4-939e-98f42e63df1a:de.pes.metabnf.basic" version="0" />
-    <language slang="l:303ca9b8-0d32-4b0f-bc34-d1ebf972bfac:de.pes.metabnf.extended" version="0" />
-    <language slang="l:aba1faaf-a5a0-44ea-8178-aed1dd3e1944:de.pes.metabnf.extended.gen" version="0" />
+    <language slang="l:303ca9b8-0d32-4b0f-bc34-d1ebf972bfac:de.pes.metabnf.extended" version="2" />
+    <language slang="l:aba1faaf-a5a0-44ea-8178-aed1dd3e1944:de.pes.metabnf.extended.gen" version="1" />
     <language slang="l:97ffe80d-dc46-4f8f-8809-6a50ddfc0686:de.pes.metabnf.importer.xsd" version="0" />
     <language slang="l:f8634ac8-e358-4fe1-bbe2-4240dda0ce40:de.pes.metabnf.sandbox.sample" version="0" />
     <language slang="l:932cbcf5-4679-4210-818a-ca1d19c6f288:de.pes.metabnf.sandbox.sampleSpecialize" version="0" />

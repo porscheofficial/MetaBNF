@@ -314,7 +314,7 @@
                     </node>
                   </node>
                   <node concept="37vLTw" id="2dflEYgkeNO" role="37vLTJ">
-                    <ref role="3cqZAo" node="2dflEYgkeMj" resolve="node" />
+                    <ref role="3cqZAo" node="2dflEYgkeMj" resolve="nodeOperation" />
                   </node>
                 </node>
               </node>
@@ -405,19 +405,19 @@
                               <node concept="2pJPED" id="7LcVVIPqSJ_" role="2pJPEn">
                                 <ref role="2pJxaS" to="tpee:fIYIFW9" resolve="StaticMethodCall" />
                                 <node concept="2pIpSj" id="7LcVVIPqWLT" role="2pJxcM">
-                                  <ref role="2pIpSl" to="tpee:gDPybl6" />
+                                  <ref role="2pIpSl" to="tpee:gDPybl6" resolve="classConcept" />
                                   <node concept="36bGnv" id="7LcVVIPqYaL" role="28nt2d">
                                     <ref role="36bGnp" to="37g0:7LcVVIPsDBl" resolve="BNFBaseUtilHelper" />
                                   </node>
                                 </node>
                                 <node concept="2pIpSj" id="7LcVVIPr0Tp" role="2pJxcM">
-                                  <ref role="2pIpSl" to="tpee:fIYIWN3" />
+                                  <ref role="2pIpSl" to="tpee:fIYIWN3" resolve="staticMethodDeclaration" />
                                   <node concept="36bGnv" id="7LcVVIPr2fh" role="28nt2d">
                                     <ref role="36bGnp" to="37g0:7LcVVIP$0pp" resolve="executeIntentionEditorHelper" />
                                   </node>
                                 </node>
                                 <node concept="2pIpSj" id="7LcVVIPr50T" role="2pJxcM">
-                                  <ref role="2pIpSl" to="tpee:fz7wK6I" />
+                                  <ref role="2pIpSl" to="tpee:fz7wK6I" resolve="actualArgument" />
                                   <node concept="36be1Y" id="7LcVVIPrcU$" role="28nt2d">
                                     <node concept="2pJPED" id="7LcVVIPrWKY" role="36be1Z">
                                       <ref role="2pJxaS" to="tp3j:hmSf5oI" resolve="ConceptFunctionParameter_node" />

@@ -224,6 +224,85 @@
             <ref role="3cqZAo" node="7LcVVIOBaH6" resolve="foundChildren" />
           </node>
         </node>
+        <node concept="3clFbH" id="6DYZmP4MmGc" role="3cqZAp" />
+        <node concept="3clFbF" id="6DYZmP4MkRY" role="3cqZAp">
+          <node concept="2OqwBi" id="6DYZmP4MkRZ" role="3clFbG">
+            <node concept="2OqwBi" id="6DYZmP4MkS0" role="2Oq$k0">
+              <node concept="1eOMI4" id="6DYZmP4MkS1" role="2Oq$k0">
+                <node concept="10QFUN" id="6DYZmP4MkS2" role="1eOMHV">
+                  <node concept="3uibUv" id="6DYZmP4MkS3" role="10QFUM">
+                    <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
+                  </node>
+                  <node concept="37vLTw" id="6DYZmP4MkS4" role="10QFUP">
+                    <ref role="3cqZAo" node="7LcVVIO1sZD" resolve="node" />
+                  </node>
+                </node>
+              </node>
+              <node concept="liA8E" id="6DYZmP4MkS5" role="2OqNvi">
+                <ref role="37wK5l" to="mhbf:~SNode.getReferences()" resolve="getReferences" />
+              </node>
+            </node>
+            <node concept="liA8E" id="6DYZmP4MkS6" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~Iterable.forEach(java.util.function.Consumer)" resolve="forEach" />
+              <node concept="1bVj0M" id="6DYZmP4MkS7" role="37wK5m">
+                <node concept="gl6BB" id="6DYZmP4MkS8" role="1bW2Oz">
+                  <property role="TrG5h" value="p1" />
+                  <node concept="2jxLKc" id="6DYZmP4MkS9" role="1tU5fm" />
+                </node>
+                <node concept="3clFbS" id="6DYZmP4MkSa" role="1bW5cS">
+                  <node concept="3clFbJ" id="6DYZmP4MkSb" role="3cqZAp">
+                    <node concept="3clFbS" id="6DYZmP4MkSc" role="3clFbx">
+                      <node concept="3clFbF" id="6DYZmP4MkSd" role="3cqZAp">
+                        <node concept="37vLTI" id="6DYZmP4MkSe" role="3clFbG">
+                          <node concept="3clFbT" id="6DYZmP4MkSf" role="37vLTx">
+                            <property role="3clFbU" value="true" />
+                          </node>
+                          <node concept="37vLTw" id="6DYZmP4MkSg" role="37vLTJ">
+                            <ref role="3cqZAo" node="7LcVVIOBaH6" resolve="foundChildren" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3cpWs6" id="6DYZmP4MkSh" role="3cqZAp" />
+                    </node>
+                    <node concept="2OqwBi" id="6DYZmP4MkSi" role="3clFbw">
+                      <node concept="2OqwBi" id="6DYZmP4MkSj" role="2Oq$k0">
+                        <node concept="2OqwBi" id="6DYZmP4MkSk" role="2Oq$k0">
+                          <node concept="37vLTw" id="6DYZmP4MkSl" role="2Oq$k0">
+                            <ref role="3cqZAo" node="6DYZmP4MkS8" resolve="p1" />
+                          </node>
+                          <node concept="liA8E" id="6DYZmP4MkSm" role="2OqNvi">
+                            <ref role="37wK5l" to="mhbf:~SReference.getLink()" resolve="getLink" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="6DYZmP4MkSn" role="2OqNvi">
+                          <ref role="37wK5l" to="c17a:~SNamedElement.getName()" resolve="getName" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="6DYZmP4MkSo" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
+                        <node concept="37vLTw" id="6DYZmP4MkSp" role="37wK5m">
+                          <ref role="3cqZAo" node="6yiLrp19jJp" resolve="childName" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="6DYZmP4Mq8U" role="3cqZAp">
+          <node concept="3clFbS" id="6DYZmP4Mq8V" role="3clFbx">
+            <node concept="3cpWs6" id="6DYZmP4Mq8W" role="3cqZAp">
+              <node concept="3clFbT" id="6DYZmP4Mq8X" role="3cqZAk">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+          <node concept="37vLTw" id="6DYZmP4Mq8Y" role="3clFbw">
+            <ref role="3cqZAo" node="7LcVVIOBaH6" resolve="foundChildren" />
+          </node>
+        </node>
         <node concept="3clFbH" id="7LcVVIOD$_$" role="3cqZAp" />
         <node concept="3cpWs8" id="7LcVVIOD_Ny" role="3cqZAp">
           <node concept="3cpWsn" id="7LcVVIOD_Nz" role="3cpWs9">
@@ -328,7 +407,7 @@
               <node concept="liA8E" id="7LcVVINVbeE" role="2OqNvi">
                 <ref role="37wK5l" to="mhbf:~SNode.getUserObject(java.lang.Object)" resolve="getUserObject" />
                 <node concept="37vLTw" id="7LcVVIQ1drH" role="37wK5m">
-                  <ref role="3cqZAo" node="7LcVVIP$1le" resolve="childName" />
+                  <ref role="3cqZAo" node="7LcVVIP$1le" resolve="userObjectName" />
                 </node>
               </node>
             </node>
@@ -351,7 +430,7 @@
                 <node concept="liA8E" id="7LcVVINTGZz" role="2OqNvi">
                   <ref role="37wK5l" to="mhbf:~SNode.putUserObject(java.lang.Object,java.lang.Object)" resolve="putUserObject" />
                   <node concept="37vLTw" id="7LcVVIQ1dDy" role="37wK5m">
-                    <ref role="3cqZAo" node="7LcVVIP$1le" resolve="childName" />
+                    <ref role="3cqZAo" node="7LcVVIP$1le" resolve="userObjectName" />
                   </node>
                   <node concept="Xl_RD" id="7LcVVINTH9v" role="37wK5m">
                     <property role="Xl_RC" value="0" />
@@ -397,7 +476,7 @@
                   <node concept="liA8E" id="7LcVVINVevG" role="2OqNvi">
                     <ref role="37wK5l" to="mhbf:~SNode.putUserObject(java.lang.Object,java.lang.Object)" resolve="putUserObject" />
                     <node concept="37vLTw" id="7LcVVIQ1eog" role="37wK5m">
-                      <ref role="3cqZAo" node="7LcVVIP$1le" resolve="childName" />
+                      <ref role="3cqZAo" node="7LcVVIP$1le" resolve="userObjectName" />
                     </node>
                     <node concept="Xl_RD" id="7LcVVINVevI" role="37wK5m">
                       <property role="Xl_RC" value="1" />

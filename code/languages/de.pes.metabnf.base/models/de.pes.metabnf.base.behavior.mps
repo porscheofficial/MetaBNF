@@ -231,7 +231,7 @@
             <node concept="2OqwBi" id="5SQJARQ4boZ" role="2Oq$k0">
               <node concept="13iPFW" id="5SQJARQ4bbP" role="2Oq$k0" />
               <node concept="3TrEf2" id="5SQJARQ4bSd" role="2OqNvi">
-                <ref role="3Tt5mk" to="yot6:5SQJARPL5HE" />
+                <ref role="3Tt5mk" to="yot6:5SQJARPL5HE" resolve="ref" />
               </node>
             </node>
             <node concept="2qgKlT" id="5SQJARQ4cEI" role="2OqNvi">
@@ -262,7 +262,7 @@
           <node concept="2OqwBi" id="5SQJARSEMb8" role="3cqZAk">
             <node concept="13iPFW" id="5SQJARSELYZ" role="2Oq$k0" />
             <node concept="3TrEf2" id="5SQJARSEMBS" role="2OqNvi">
-              <ref role="3Tt5mk" to="yot6:5SQJARPL5HE" />
+              <ref role="3Tt5mk" to="yot6:5SQJARPL5HE" resolve="ref" />
             </node>
           </node>
         </node>
@@ -331,7 +331,7 @@
                 <node concept="2pJPED" id="5SQJARSw0HN" role="2pJPEn">
                   <ref role="2pJxaS" to="tpc2:66t_lskdtZC" resolve="EditorComponentDeclarationReference" />
                   <node concept="2pIpSj" id="5SQJARSw18d" role="2pJxcM">
-                    <ref role="2pIpSl" to="tpc2:66t_lskdu99" />
+                    <ref role="2pIpSl" to="tpc2:66t_lskdu99" resolve="editorComponent" />
                     <node concept="36biLy" id="5SQJARSw1bV" role="28nt2d">
                       <node concept="37vLTw" id="5SQJARSw1ck" role="36biLW">
                         <ref role="3cqZAo" node="5SQJARSw06S" resolve="node" />
@@ -371,7 +371,7 @@
             <node concept="2OqwBi" id="1UvZxkXSr3X" role="2Oq$k0">
               <node concept="13iPFW" id="1UvZxkXSr3Y" role="2Oq$k0" />
               <node concept="3TrEf2" id="1UvZxkXSr3Z" role="2OqNvi">
-                <ref role="3Tt5mk" to="yot6:5SQJARPL5HE" />
+                <ref role="3Tt5mk" to="yot6:5SQJARPL5HE" resolve="ref" />
               </node>
             </node>
             <node concept="2qgKlT" id="1UvZxkXSr40" role="2OqNvi">

@@ -313,7 +313,7 @@
         <node concept="3EZMnI" id="5UlvvpPogGC" role="2s_1zL">
           <node concept="2iRfu4" id="5UlvvpPogGD" role="2iSdaV" />
           <node concept="2Dr8O7" id="5UlvvpPogGT" role="3EZMnx">
-            <ref role="2DlV$W" node="5UlvvpPl6U$" />
+            <ref role="2DlV$W" node="5UlvvpPl6U$" resolve="enumValue" />
           </node>
         </node>
       </node>
@@ -435,7 +435,7 @@
     <node concept="3EZMnI" id="1vpfjfMgZ3Q" role="2FBUdJ">
       <node concept="2iRfu4" id="1vpfjfMgZ3T" role="2iSdaV" />
       <node concept="2BhnG9" id="1UvZxkXRrqd" role="3EZMnx">
-        <ref role="2BhnG7" node="5SQJARTsWlc" />
+        <ref role="2BhnG7" node="5SQJARTsWlc" resolve="le" />
       </node>
     </node>
     <node concept="gKozh" id="1vpfjfMgZ3P" role="2FTb_8">

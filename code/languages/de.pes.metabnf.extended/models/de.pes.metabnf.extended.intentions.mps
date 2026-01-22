@@ -147,7 +147,7 @@
             <node concept="2OqwBi" id="39om$448Z7o" role="2Oq$k0">
               <node concept="2Sf5sV" id="39om$448Z7p" role="2Oq$k0" />
               <node concept="3Tsc0h" id="39om$448Z7q" role="2OqNvi">
-                <ref role="3TtcxE" to="p1cl:4novjIaNO24" />
+                <ref role="3TtcxE" to="p1cl:4novjIaNO24" resolve="annotationAttribute" />
               </node>
             </node>
             <node concept="WFELt" id="39om$448Z7r" role="2OqNvi">
@@ -165,7 +165,7 @@
               <node concept="2OqwBi" id="39om$448WJ2" role="2Oq$k0">
                 <node concept="2Sf5sV" id="39om$448WJ3" role="2Oq$k0" />
                 <node concept="3Tsc0h" id="39om$448WJ4" role="2OqNvi">
-                  <ref role="3TtcxE" to="p1cl:4novjIaNO24" />
+                  <ref role="3TtcxE" to="p1cl:4novjIaNO24" resolve="annotationAttribute" />
                 </node>
               </node>
               <node concept="v3k3i" id="39om$448WJ5" role="2OqNvi">

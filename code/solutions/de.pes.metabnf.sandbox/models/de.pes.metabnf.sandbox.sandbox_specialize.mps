@@ -84,6 +84,12 @@
       <concept id="8327407647096148485" name="de.pes.metabnf.extended.structure.EBNFDefinitionTermAsRoot" flags="ng" index="2AnsB">
         <property id="8327407647096148489" name="asRoot" index="2AnsF" />
       </concept>
+      <concept id="8327407647095454770" name="de.pes.metabnf.extended.structure.EBNFReferenceTerm" flags="ng" index="3rx$g">
+        <reference id="4730254646649425637" name="ref" index="172NdJ" />
+      </concept>
+      <concept id="1925855837467923031" name="de.pes.metabnf.extended.structure.EBNFAttributeAttachSmartReference" flags="ng" index="yml7T">
+        <property id="1925855837467923033" name="value" index="yml7R" />
+      </concept>
       <concept id="1925855837428649371" name="de.pes.metabnf.extended.structure.EBNFExtendSpecializeExpressionRef" flags="ng" index="GdwSP">
         <reference id="1925855837428662871" name="ref" index="Gd$7T" />
       </concept>
@@ -157,7 +163,7 @@
       <property role="TrG5h" value="baseconceptIF" />
       <node concept="gXCZ9" id="1EPqwt0xDjp" role="2YAOa">
         <node concept="gKozh" id="1EPqwt0xDjr" role="Iv2U_">
-          <ref role="gKozg" node="1EPqwt0xDjl" resolve="valueList" />
+          <ref role="gKozg" node="1EPqwt0xDjl" resolve="valueList2" />
         </node>
       </node>
     </node>
@@ -166,7 +172,7 @@
       <property role="TrG5h" value="valueListSpecial" />
       <node concept="WIVCY" id="1EPqwt0xDjy" role="3f5NQZ">
         <node concept="WEpBI" id="1EPqwt0xDjz" role="WIXiD">
-          <ref role="3ixok" node="1EPqwt0xDjl" resolve="valueList" />
+          <ref role="3ixok" node="1EPqwt0xDjl" resolve="valueList2" />
         </node>
       </node>
       <node concept="gKPLD" id="4wkf$gP9$q$" role="2YAOa">
@@ -265,6 +271,16 @@
       <node concept="1Quhz" id="3L$HXb6wBqO" role="3f5NQZ">
         <node concept="35c_gC" id="3L$HXb6wBqP" role="2f51L">
           <ref role="35c_gD" to="tpck:h0TrEE$" resolve="INamedConcept" />
+        </node>
+      </node>
+    </node>
+    <node concept="gNmGs" id="3fZzwZiUHEl" role="gNmGt" />
+    <node concept="gNqHd" id="3fZzwZiUHEp" role="gNmGt">
+      <property role="TrG5h" value="SmartReferenceConcept" />
+      <node concept="3rx$g" id="3fZzwZiUHEq" role="2YAOa">
+        <ref role="172NdJ" node="r82NTOijVm" resolve="MyInterface" />
+        <node concept="yml7T" id="3fZzwZiUHEr" role="3f5NQZ">
+          <property role="yml7R" value="true" />
         </node>
       </node>
     </node>

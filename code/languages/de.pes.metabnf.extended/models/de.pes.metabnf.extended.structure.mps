@@ -233,6 +233,9 @@
     <node concept="PrWs8" id="4j82FZZ71Nr" role="PzmwI">
       <ref role="PrY4T" to="p1cl:4novjIaNO1Z" resolve="INodeAnnotationAttribute" />
     </node>
+    <node concept="PrWs8" id="1Ac4378pCL9" role="PzmwI">
+      <ref role="PrY4T" to="p1cl:1Ac4378pCGf" resolve="IHaveTypeConstraint" />
+    </node>
     <node concept="1TJgyi" id="4j82FZZ71NI" role="1TKVEl">
       <property role="IQ2nx" value="4956223209656294638" />
       <property role="TrG5h" value="primitiveType" />
@@ -322,7 +325,7 @@
     <node concept="PrWs8" id="1nL_s$Dm0KC" role="PzmwI">
       <ref role="PrY4T" node="1nL_s$DlNQ9" resolve="IConceptExtendsConceptRef" />
     </node>
-    <node concept="PrWs8" id="39om$4724Wd" role="PzmwI">
+    <node concept="PrWs8" id="4oxqGQT0qIc" role="PzmwI">
       <ref role="PrY4T" to="yot6:T845Ys479E" resolve="IBNFExpressionReference" />
     </node>
     <node concept="1TJgyj" id="7egTi9KQJcQ" role="1TKVEi">
@@ -425,7 +428,7 @@
       <ref role="PrY4T" to="p1cl:4novjIaNO1Z" resolve="INodeAnnotationAttribute" />
     </node>
     <node concept="PrWs8" id="7aaqmzmRqU5" role="PzmwI">
-      <ref role="PrY4T" to="yot6:7aaqmzmRqQF" resolve="IBNFEditorRepresentationConfig" />
+      <ref role="PrY4T" to="yot6:7aaqmzmRqQF" resolve="IBNFAttributeEditorRepresentationConfig" />
     </node>
     <node concept="PrWs8" id="DIcUYngkhN" role="PzmwI">
       <ref role="PrY4T" node="DIcUYnaIC_" resolve="IEBNFCustomEditorScopeProvider" />
@@ -438,6 +441,11 @@
     <node concept="1TJgyi" id="1vpfjfM_MyN" role="1TKVEl">
       <property role="IQ2nx" value="1718472026141173939" />
       <property role="TrG5h" value="onlyComponent" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="74wEyldGuZz" role="1TKVEl">
+      <property role="IQ2nx" value="8151702402734616547" />
+      <property role="TrG5h" value="inclAlias" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
     <node concept="1TJgyj" id="5SQJARPL5HZ" role="1TKVEi">
@@ -670,7 +678,7 @@
     <property role="3GE5qa" value="Attributes.Interface" />
     <property role="34LRSv" value="Define Default Instance" />
     <property role="R4oN_" value="Default Instance for Abstract or Interfaces" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="39om$47sxH6" role="1TKVEi">
       <property role="IQ2ns" value="3627748735191227206" />
       <property role="20kJfa" value="ref" />
@@ -679,6 +687,10 @@
     </node>
     <node concept="PrWs8" id="39om$47rzGO" role="PzmwI">
       <ref role="PrY4T" to="p1cl:4novjIaNO1Z" resolve="INodeAnnotationAttribute" />
+    </node>
+    <node concept="asaX9" id="3fZzwZiG0zI" role="lGtFl">
+      <property role="YLQ7P" value="is replaced by EBNFIFaceDefinitionTermRefRef" />
+      <property role="YLPcu" value="30.10.2025" />
     </node>
   </node>
   <node concept="PlHQZ" id="1EPqwt0ST7H">
@@ -692,7 +704,7 @@
     <property role="TrG5h" value="EBNFExtendEditorFromProperty" />
     <property role="34LRSv" value="From Property" />
     <property role="R4oN_" value="Choose Property to be added to editor" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="f_TKVDG" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="propertyDeclaration" />
@@ -710,7 +722,7 @@
     <property role="TrG5h" value="EBNFExtendEditorFromChildren" />
     <property role="34LRSv" value="From LinkDeclaration" />
     <property role="R4oN_" value="Choose LinkDeclaration to be added to editor" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1EPqwt1aAKa" role="1TKVEi">
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="linkDeclaration" />
@@ -726,7 +738,7 @@
     <property role="EcuMT" value="488652922420892901" />
     <property role="3GE5qa" value="Attributes.extend.editor" />
     <property role="TrG5h" value="PropertyDeclarationRef" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="r82NTNmDjA" role="1TKVEi">
       <property role="IQ2ns" value="488652922420892902" />
       <property role="20kJfa" value="ref" />
@@ -765,7 +777,7 @@
     <property role="3GE5qa" value="Attributes.extend.editor" />
     <property role="TrG5h" value="EBNFExtendEditorFromComponent" />
     <property role="34LRSv" value="From Editor Component" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="r82NTO6oaq" role="PzmwI">
       <ref role="PrY4T" node="1EPqwt0ST7H" resolve="IExtendEditorRepresentation" />
     </node>
@@ -936,6 +948,89 @@
     </node>
     <node concept="PrWs8" id="5UlvvpOZqa7" role="PzmwI">
       <ref role="PrY4T" to="p1cl:7aaqmzlmc9L" resolve="IBNFEditorReprensentation" />
+    </node>
+    <node concept="PrWs8" id="3NGMG8FAxZ9" role="PzmwI">
+      <ref role="PrY4T" to="p1cl:4novjIaNO23" resolve="ISupportNodeAnnotationAttribute" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3fZzwZhPzeS">
+    <property role="EcuMT" value="3746869613591671736" />
+    <property role="TrG5h" value="EBNFDefaultInstanceDeclaration" />
+    <property role="34LRSv" value="Define Default Interface Instance" />
+    <property role="R4oN_" value="Default Interface Instance for Abstract or Interfaces" />
+    <property role="3GE5qa" value="Attributes.Interface" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3fZzwZhPzeV" role="1TKVEi">
+      <property role="IQ2ns" value="3746869613591671739" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="namedValue" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3fZzwZi2pzv" resolve="EBNFIFaceDefinitionTermRefRef" />
+    </node>
+    <node concept="1TJgyj" id="3fZzwZhPzeU" role="1TKVEi">
+      <property role="IQ2ns" value="3746869613591671738" />
+      <property role="20kJfa" value="ref" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="p1cl:fbptcj1GUu" resolve="BNFDefinitionTerm" />
+    </node>
+    <node concept="PrWs8" id="3fZzwZhPzeT" role="PzmwI">
+      <ref role="PrY4T" to="p1cl:4novjIaNO1Z" resolve="INodeAnnotationAttribute" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3fZzwZi2pzv">
+    <property role="EcuMT" value="3746869613595039967" />
+    <property role="TrG5h" value="EBNFIFaceDefinitionTermRefRef" />
+    <property role="3GE5qa" value="Interfaces" />
+    <ref role="1TJDcQ" to="p1cl:fbptcj1GUz" resolve="BNFExpression" />
+    <node concept="1TJgyj" id="3fZzwZi2pzw" role="1TKVEi">
+      <property role="IQ2ns" value="3746869613595039968" />
+      <property role="20kJfa" value="iface" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4novjIaNn1X" resolve="EBNFIFaceDefinitionTermRef" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6oeWmk_k7mv">
+    <property role="EcuMT" value="7354080658262619551" />
+    <property role="TrG5h" value="EBNFAttributeBuildGenerator" />
+    <property role="34LRSv" value="Build Generator" />
+    <property role="3GE5qa" value="Attributes.generator" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="6oeWmk_k7nw" role="PzmwI">
+      <ref role="PrY4T" to="p1cl:4novjIaNO1Z" resolve="INodeAnnotationAttribute" />
+    </node>
+    <node concept="1TJgyi" id="6oeWmk_k7n_" role="1TKVEl">
+      <property role="IQ2nx" value="7354080658262619621" />
+      <property role="TrG5h" value="configuration" />
+      <ref role="AX2Wp" node="6oeWmk_k7ny" resolve="BuildGeneratorConfigurationEnum" />
+    </node>
+    <node concept="1TJgyi" id="5En1FBqnTHK" role="1TKVEl">
+      <property role="IQ2nx" value="6527693580199238512" />
+      <property role="TrG5h" value="showConceptName" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="25R3W" id="6oeWmk_k7ny">
+    <property role="3F6X1D" value="7354080658262619618" />
+    <property role="TrG5h" value="BuildGeneratorConfigurationEnum" />
+    <node concept="25R33" id="6oeWmk_k7nz" role="25R1y">
+      <property role="3tVfz5" value="7354080658262619619" />
+      <property role="TrG5h" value="default" />
+    </node>
+    <node concept="25R33" id="6oeWmk_k7n$" role="25R1y">
+      <property role="3tVfz5" value="7354080658262619620" />
+      <property role="TrG5h" value="skip" />
+    </node>
+    <node concept="25R33" id="2GksuHERO$Z" role="25R1y">
+      <property role="3tVfz5" value="3104231299089385791" />
+      <property role="TrG5h" value="asAttribute" />
+    </node>
+    <node concept="25R33" id="5_bPlNFkJDG" role="25R1y">
+      <property role="3tVfz5" value="6434471087690676844" />
+      <property role="TrG5h" value="asValue" />
+    </node>
+    <node concept="25R33" id="WIMgBKoIH8" role="25R1y">
+      <property role="3tVfz5" value="1094032804022512456" />
+      <property role="TrG5h" value="asOneLiner" />
     </node>
   </node>
 </model>

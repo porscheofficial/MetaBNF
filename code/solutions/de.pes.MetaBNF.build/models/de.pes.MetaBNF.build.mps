@@ -904,11 +904,6 @@
             <ref role="3bR37D" node="7hex6wUv$mQ" resolve="de.pes.metabnf.utils" />
           </node>
         </node>
-        <node concept="1SiIV0" id="40JQ8HiMEPq" role="3bR37C">
-          <node concept="3bR9La" id="40JQ8HiMEPr" role="1SiIV1">
-            <ref role="3bR37D" node="7vSfl_Uu_x9" resolve="de.pes.metabnf.basic" />
-          </node>
-        </node>
       </node>
     </node>
     <node concept="m$_wf" id="7LoZJl0udGv" role="3989C9">
