@@ -21,6 +21,11 @@
     <import index="1i04" ref="r:3270011d-8b2d-4938-8dff-d256a759e017(jetbrains.mps.lang.behavior.structure)" />
     <import index="tp3j" ref="r:00000000-0000-4000-0000-011c89590353(jetbrains.mps.lang.intentions.structure)" />
     <import index="yot6" ref="r:fa98198a-d052-48c6-a067-71419b7c2317(de.pes.metabnf.base.structure)" />
+    <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
+    <import index="alof" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.project(MPS.Platform/)" />
+    <import index="vofq" ref="r:dd50669b-d7bc-4c11-a9f3-1e747d93ea88(de.pes.metabnf.extended.gen.behavior)" />
+    <import index="4nm9" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.project(MPS.IDEA/)" />
+    <import index="z1c4" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.project(MPS.Platform/)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="tpcn" ref="r:00000000-0000-4000-0000-011c8959028b(jetbrains.mps.lang.structure.behavior)" implicit="true" />
   </imports>
@@ -51,8 +56,15 @@
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
       <concept id="1081236700938" name="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" flags="ig" index="2YIFZL" />
+      <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
+        <reference id="1144433194310" name="classConcept" index="1Pybhc" />
+      </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
+      <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
+        <child id="1070534934091" name="type" index="10QFUM" />
+        <child id="1070534934092" name="expression" index="10QFUP" />
+      </concept>
       <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
@@ -2146,6 +2158,99 @@
       </node>
     </node>
     <node concept="2tJIrI" id="1EPqwt0znEv" role="jymVt" />
+    <node concept="2YIFZL" id="YvRYzKxH7T" role="jymVt">
+      <property role="TrG5h" value="getLanguageInOpenProjects" />
+      <node concept="3clFbS" id="YvRYzKxH7W" role="3clF47">
+        <node concept="2Gpval" id="4mnDeZMWkk2" role="3cqZAp">
+          <node concept="2GrKxI" id="4mnDeZMWkk4" role="2Gsz3X">
+            <property role="TrG5h" value="p" />
+          </node>
+          <node concept="2OqwBi" id="4mnDeZMWmTP" role="2GsD0m">
+            <node concept="liA8E" id="4mnDeZMWo0a" role="2OqNvi">
+              <ref role="37wK5l" to="4nm9:~ProjectManager.getOpenProjects()" resolve="getOpenProjects" />
+            </node>
+            <node concept="2YIFZM" id="4mnDeZNao60" role="2Oq$k0">
+              <ref role="37wK5l" to="4nm9:~ProjectManager.getInstance()" resolve="getInstance" />
+              <ref role="1Pybhc" to="4nm9:~ProjectManager" resolve="ProjectManager" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="4mnDeZMWkk8" role="2LFqv$">
+            <node concept="3cpWs8" id="4mnDeZMWMZL" role="3cqZAp">
+              <node concept="3cpWsn" id="4mnDeZMWMZM" role="3cpWs9">
+                <property role="TrG5h" value="mpsProject" />
+                <node concept="3uibUv" id="4mnDeZMWMov" role="1tU5fm">
+                  <ref role="3uigEE" to="z1c4:~MPSProject" resolve="MPSProject" />
+                </node>
+                <node concept="2YIFZM" id="4mnDeZMWMZN" role="33vP2m">
+                  <ref role="37wK5l" to="alof:~ProjectHelper.fromIdeaProject(com.intellij.openapi.project.Project)" resolve="fromIdeaProject" />
+                  <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
+                  <node concept="2GrUjf" id="4mnDeZMWMZO" role="37wK5m">
+                    <ref role="2Gs0qQ" node="4mnDeZMWkk4" resolve="p" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2Gpval" id="4mnDeZN3cOW" role="3cqZAp">
+              <node concept="2GrKxI" id="4mnDeZN3cOY" role="2Gsz3X">
+                <property role="TrG5h" value="pm" />
+              </node>
+              <node concept="2OqwBi" id="4mnDeZN3gZO" role="2GsD0m">
+                <node concept="37vLTw" id="4mnDeZN3f1C" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4mnDeZMWMZM" resolve="mpsProject" />
+                </node>
+                <node concept="liA8E" id="4mnDeZN3iA0" role="2OqNvi">
+                  <ref role="37wK5l" to="z1c3:~ProjectBase.getProjectModules()" resolve="getProjectModules" />
+                </node>
+              </node>
+              <node concept="3clFbS" id="4mnDeZN3cP2" role="2LFqv$">
+                <node concept="3clFbJ" id="4mnDeZN3jzf" role="3cqZAp">
+                  <node concept="2OqwBi" id="4mnDeZN3D62" role="3clFbw">
+                    <node concept="2OqwBi" id="4mnDeZN3lu8" role="2Oq$k0">
+                      <node concept="2GrUjf" id="4mnDeZN3ku8" role="2Oq$k0">
+                        <ref role="2Gs0qQ" node="4mnDeZN3cOY" resolve="pm" />
+                      </node>
+                      <node concept="liA8E" id="4mnDeZN3mUZ" role="2OqNvi">
+                        <ref role="37wK5l" to="lui2:~SModule.getModuleName()" resolve="getModuleName" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="4mnDeZN3H5l" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
+                      <node concept="37vLTw" id="4mnDeZN3Ioy" role="37wK5m">
+                        <ref role="3cqZAo" node="YvRYzKxNwn" resolve="namePattern" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbS" id="4mnDeZN3jzh" role="3clFbx">
+                    <node concept="3cpWs6" id="YvRYzKywdw" role="3cqZAp">
+                      <node concept="10QFUN" id="YvRYzKyApb" role="3cqZAk">
+                        <node concept="2GrUjf" id="YvRYzKyApa" role="10QFUP">
+                          <ref role="2Gs0qQ" node="4mnDeZN3cOY" resolve="pm" />
+                        </node>
+                        <node concept="3uibUv" id="YvRYzKyAp9" role="10QFUM">
+                          <ref role="3uigEE" to="w1kc:~Language" resolve="Language" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="YvRYzKyEVu" role="3cqZAp">
+          <node concept="10Nm6u" id="YvRYzKyF8p" role="3cqZAk" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="YvRYzKxCgC" role="1B3o_S" />
+      <node concept="3uibUv" id="YvRYzKxLOy" role="3clF45">
+        <ref role="3uigEE" to="w1kc:~Language" resolve="Language" />
+      </node>
+      <node concept="37vLTG" id="YvRYzKxNwn" role="3clF46">
+        <property role="3TUv4t" value="true" />
+        <property role="TrG5h" value="namePattern" />
+        <node concept="17QB3L" id="YvRYzKxPd0" role="1tU5fm" />
+      </node>
+    </node>
     <node concept="3Tm1VV" id="7aaqmznbwEN" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="5SQJARQTKDn">
