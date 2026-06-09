@@ -10,6 +10,7 @@
   </languages>
   <imports>
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <import index="duwx" ref="r:775203e8-34a9-4168-9b21-0091c187b8d0(de.pes.metabnf.sandbox.example)" />
   </imports>
   <registry>
     <language id="926d63aa-027c-47a4-939e-98f42e63df1a" name="de.pes.metabnf.basic">
@@ -277,11 +278,6 @@
           <ref role="3f0eYx" node="6yiLroY2Wrq" resolve="IIDentTwo" />
         </node>
       </node>
-      <node concept="2l89Zc" id="6mcP9nJ6k$l" role="3f5NQZ">
-        <node concept="2l8w4U" id="4oxqGQTKfn3" role="2l8CKc">
-          <ref role="2l8w4T" node="7LcVVINm97s" />
-        </node>
-      </node>
     </node>
     <node concept="gNmGs" id="6yiLroY6_4A" role="gNmGt" />
     <node concept="gNqHd" id="6yiLroY6_4P" role="gNmGt">
@@ -297,7 +293,6 @@
           <ref role="gKozg" node="6yiLroY6_4P" resolve="valueList" />
         </node>
       </node>
-      <node concept="2l89Zc" id="6mcP9nJ5eWG" role="3f5NQZ" />
     </node>
     <node concept="gNmGs" id="6yiLroY6_4S" role="gNmGt" />
     <node concept="gNqHd" id="6yiLroY6_4W" role="gNmGt">
@@ -380,6 +375,21 @@
         <node concept="1j_P7g" id="6$ViQTsblz0" role="1j$8Uc">
           <property role="1j_P7h" value="de.pes.metabnf.sandbox.sample.structure" />
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="gNEbg" id="7u$eUmuZdnu">
+    <property role="TrG5h" value="secondWB" />
+    <node concept="gNqHd" id="7u$eUmuZdny" role="gNmGt">
+      <property role="TrG5h" value="AnotherInstance" />
+      <node concept="gKozh" id="7u$eUmvmOf1" role="2YAOa">
+        <ref role="gKozg" node="6yiLroY6_4P" resolve="valueList" />
+      </node>
+    </node>
+    <node concept="gNqHd" id="7u$eUmvnjyP" role="gNmGt">
+      <property role="TrG5h" value="someDependens" />
+      <node concept="gKozh" id="7u$eUmvnjyR" role="2YAOa">
+        <ref role="gKozg" to="duwx:67_E_JeVyQ0" resolve="EmptyLine" />
       </node>
     </node>
   </node>

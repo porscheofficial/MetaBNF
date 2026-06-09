@@ -190,6 +190,11 @@
       <node concept="13nCjU" id="67_E_JeVBjj" role="3f5NQZ">
         <property role="13nCi0" value="6oeWmk_k7nz/default" />
       </node>
+      <node concept="1Quhz" id="YvRYzKT_G2" role="3f5NQZ">
+        <node concept="35c_gC" id="YvRYzKT_G4" role="2f51L">
+          <ref role="35c_gD" to="tpck:h0TrEE$" resolve="INamedConcept" />
+        </node>
+      </node>
     </node>
     <node concept="gNmGs" id="67_E_JeV7f3" role="gNmGt" />
     <node concept="3f4ZRK" id="67_E_JeV7fj" role="gNmGt">
