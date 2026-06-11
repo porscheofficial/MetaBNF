@@ -186,6 +186,7 @@
       <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
         <child id="1145404616321" name="leftExpression" index="2JrQYb" />
       </concept>
+      <concept id="1212008292747" name="jetbrains.mps.lang.smodel.structure.Model_GetLongNameOperation" flags="nn" index="LkI2h" />
       <concept id="1181949435690" name="jetbrains.mps.lang.smodel.structure.Concept_NewInstance" flags="nn" index="LFhST" />
       <concept id="1171323947159" name="jetbrains.mps.lang.smodel.structure.Model_NodesOperation" flags="nn" index="2SmgA7">
         <child id="1758937410080001570" name="conceptArgument" index="1dBWTz" />
@@ -1068,12 +1069,25 @@
               <ref role="3cqZAo" node="39om$43dQAt" resolve="nodeConcept" />
             </node>
           </node>
-          <node concept="3cpWs3" id="39om$43PU_K" role="1gVpfI">
-            <node concept="37vLTw" id="39om$43PV8m" role="3uHU7w">
-              <ref role="3cqZAo" node="39om$43dQBD" resolve="conceptName" />
+          <node concept="3cpWs3" id="2eHPbb1Tp2D" role="1gVpfI">
+            <node concept="2OqwBi" id="2eHPbb1TuAd" role="3uHU7w">
+              <node concept="37vLTw" id="2eHPbb1TrTo" role="2Oq$k0">
+                <ref role="3cqZAo" node="39om$43p43r" resolve="struct" />
+              </node>
+              <node concept="LkI2h" id="2eHPbb1TwVD" role="2OqNvi" />
             </node>
-            <node concept="Xl_RD" id="39om$43PNUp" role="3uHU7B">
-              <property role="Xl_RC" value="Error, no concept found which is referenced in BNF Syntax! " />
+            <node concept="3cpWs3" id="2eHPbb1TfEO" role="3uHU7B">
+              <node concept="3cpWs3" id="39om$43PU_K" role="3uHU7B">
+                <node concept="Xl_RD" id="39om$43PNUp" role="3uHU7B">
+                  <property role="Xl_RC" value="Error, no concept found which is referenced in BNF Syntax! " />
+                </node>
+                <node concept="37vLTw" id="39om$43PV8m" role="3uHU7w">
+                  <ref role="3cqZAo" node="39om$43dQBD" resolve="conceptName" />
+                </node>
+              </node>
+              <node concept="Xl_RD" id="2eHPbb1TiDF" role="3uHU7w">
+                <property role="Xl_RC" value=" IN: " />
+              </node>
             </node>
           </node>
         </node>
