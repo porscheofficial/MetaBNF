@@ -327,7 +327,9 @@
       <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
         <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
       </concept>
-      <concept id="1182511038748" name="jetbrains.mps.lang.smodel.structure.Model_NodesIncludingImportedOperation" flags="nn" index="1j9C0f" />
+      <concept id="1182511038748" name="jetbrains.mps.lang.smodel.structure.Model_NodesIncludingImportedOperation" flags="nn" index="1j9C0f">
+        <child id="6750920497477143623" name="conceptArgument" index="3MHPCF" />
+      </concept>
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
       </concept>
@@ -1352,7 +1354,11 @@
                                     <node concept="13iPFW" id="6cg8O7PS76V" role="2Oq$k0" />
                                     <node concept="I4A8Y" id="6cg8O7PS76W" role="2OqNvi" />
                                   </node>
-                                  <node concept="1j9C0f" id="6kUcvz65IdE" role="2OqNvi" />
+                                  <node concept="1j9C0f" id="6kUcvz65IdE" role="2OqNvi">
+                                    <node concept="chp4Y" id="6kUcvz67ePd" role="3MHPCF">
+                                      <ref role="cht4Q" to="p1cl:1nL_s$DdmcT" resolve="BNFDefinitionTermBase" />
+                                    </node>
+                                  </node>
                                 </node>
                                 <node concept="1z4cxt" id="6cg8O7PS76Z" role="2OqNvi">
                                   <node concept="1bVj0M" id="6cg8O7PS770" role="23t8la">
