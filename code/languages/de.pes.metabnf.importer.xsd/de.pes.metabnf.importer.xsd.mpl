@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language namespace="de.pes.metabnf.importer.xsd" uuid="97ffe80d-dc46-4f8f-8809-6a50ddfc0686" languageVersion="0" moduleVersion="0">
   <models>
-    <modelRoot type="default" contentPath="${module}">
+    <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
     </modelRoot>
   </models>
@@ -23,7 +23,6 @@
     <dependency reexport="false">6f6d5be9-a352-48db-9081-851a6d5c535b(com.mbeddr.mpsutil.xmlImport)</dependency>
     <dependency reexport="false">760a0a8c-eabb-4521-8bfd-65db761a9ba3(jetbrains.mps.baseLanguage.logging)</dependency>
     <dependency reexport="false">86ef8290-12bb-4ca7-947f-093788f263a9(jetbrains.mps.lang.project)</dependency>
-    <dependency reexport="false">6e0ecb9a-2a59-4de8-8144-e0a4acaf65a1(de.pes.autosar.xsd.full)</dependency>
     <dependency reexport="false">d7931714-a11c-4108-aa0e-246d86070dad(com.mbeddr.mpsutil.smodule.runtime)</dependency>
   </dependencies>
   <languageVersions>
