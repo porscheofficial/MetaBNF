@@ -39,6 +39,7 @@
         <child id="3348158742936976577" name="members" index="25R1y" />
       </concept>
       <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9">
+        <property id="1225118929411" name="build" index="YLPcu" />
         <property id="1225118933224" name="comment" index="YLQ7P" />
       </concept>
       <concept id="6054523464627964745" name="jetbrains.mps.lang.structure.structure.AttributeInfo_AttributedConcept" flags="ng" index="trNpa">
@@ -53,6 +54,8 @@
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
+        <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -118,6 +121,10 @@
       <property role="IQ2ns" value="6689174622626787286" />
       <property role="20kJfa" value="bnf" />
       <ref role="20lvS9" to="p1cl:fbptcj1ss3" resolve="BNFWorkbook" />
+      <node concept="asaX9" id="YvRYzKa8c8" role="lGtFl">
+        <property role="YLPcu" value="2024.1.21" />
+        <property role="YLQ7P" value="Replaced by the flag of language per Workbook" />
+      </node>
     </node>
     <node concept="PrWs8" id="5NkIe3Ae_w4" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -137,18 +144,21 @@
       <property role="TrG5h" value="defaultGenBuild" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
+    <node concept="1TJgyi" id="7u$eUmuLu3G" role="1TKVEl">
+      <property role="IQ2nx" value="8621081169213382892" />
+      <property role="TrG5h" value="langPerWB" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="1TJgyj" id="7egTi9LkQif" role="1TKVEi">
       <property role="IQ2ns" value="8327407647100986511" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="modelptr" />
-      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="tp25:1Bs_61$nfRn" resolve="ModelPointerExpression" />
     </node>
     <node concept="1TJgyj" id="QIIeF2rbpn" role="1TKVEi">
       <property role="IQ2ns" value="985928686864479831" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="modelptrGenerator" />
-      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="tp25:1Bs_61$nfRn" resolve="ModelPointerExpression" />
     </node>
     <node concept="1TJgyj" id="1FmrBQwsGbz" role="1TKVEi">
@@ -215,6 +225,21 @@
     </node>
     <node concept="asaX9" id="7LcVVIPsBiF" role="lGtFl">
       <property role="YLQ7P" value="The concept was moved to language &quot;de.pes.metabnf.base&quot;" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7u$eUmuL2Hf">
+    <property role="EcuMT" value="8621081169213270863" />
+    <property role="TrG5h" value="BNFExportConfigModels" />
+    <property role="34LRSv" value="Export BNF List" />
+    <property role="R4oN_" value="Export all BNF in Models" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" node="5NkIe3AeyZh" resolve="BNFExportConfig" />
+    <node concept="1TJgyj" id="7u$eUmuLu3F" role="1TKVEi">
+      <property role="IQ2ns" value="8621081169213382891" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="srcModels" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" to="tp25:1Bs_61$nfRn" resolve="ModelPointerExpression" />
     </node>
   </node>
 </model>

@@ -287,6 +287,9 @@
       <node concept="m$_yC" id="4w7l5_xbi$R" role="m$_yJ">
         <ref role="m$_y1" to="al5i:4mEgncq7aaz" resolve="com.mbeddr.mpsutil.xmlImport" />
       </node>
+      <node concept="m$_yC" id="2_PrCG34Cfd" role="m$_yJ">
+        <ref role="m$_y1" to="al5i:5fGcQI8WTaQ" />
+      </node>
       <node concept="m$_yC" id="4w7l5_xbiAg" role="m$_yJ">
         <ref role="m$_y1" to="90a9:2NTGYE$JTH6" resolve="com.dslfoundry.plaintextgen" />
       </node>
@@ -722,6 +725,11 @@
         <node concept="1SiIV0" id="7ynLH_byFMG" role="3bR37C">
           <node concept="3bR9La" id="7ynLH_byFMH" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:7Kfy9QB6L2l" resolve="jetbrains.mps.baseLanguage.logging" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2_PrCG33J9U" role="3bR37C">
+          <node concept="3bR9La" id="2_PrCG33J9V" role="1SiIV1">
+            <ref role="3bR37D" to="al5i:lse_ua97Px" resolve="com.mbeddr.mpsutil.smodule.runtime" />
           </node>
         </node>
       </node>

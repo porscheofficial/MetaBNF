@@ -40,6 +40,7 @@
         <child id="1176475119347" name="componentProvider" index="3FoqZy" />
       </concept>
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
+        <property id="1140114345053" name="allowEmptyText" index="1O74Pk" />
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
@@ -235,6 +236,23 @@
           <ref role="1NtTu8" to="sjue:27zB$OC$UhO" resolve="skipCreate" />
         </node>
         <node concept="2iRfu4" id="27zB$OC$YAt" role="2iSdaV" />
+      </node>
+      <node concept="3EZMnI" id="7c$tkwDemhx" role="3EZMnx">
+        <node concept="VPM3Z" id="7c$tkwDemhy" role="3F10Kt" />
+        <node concept="3F0ifn" id="7c$tkwDen9U" role="3EZMnx">
+          <property role="3F0ifm" value="Structure Model by Pattern:" />
+        </node>
+        <node concept="3F0A7n" id="7c$tkwDenA3" role="3EZMnx">
+          <ref role="1NtTu8" to="sjue:7c$tkwDeiv$" resolve="ModelWBStructure" />
+        </node>
+        <node concept="3F0ifn" id="7c$tkwDenA6" role="3EZMnx">
+          <property role="3F0ifm" value="Pattern:" />
+        </node>
+        <node concept="3F0A7n" id="7c$tkwDenA9" role="3EZMnx">
+          <property role="1O74Pk" value="true" />
+          <ref role="1NtTu8" to="sjue:7c$tkwDeivz" resolve="splitPattern" />
+        </node>
+        <node concept="2iRfu4" id="7c$tkwDemh_" role="2iSdaV" />
       </node>
       <node concept="3EZMnI" id="27zB$OE0xln" role="3EZMnx">
         <node concept="VPM3Z" id="27zB$OE0xlp" role="3F10Kt" />

@@ -314,9 +314,6 @@
       </concept>
       <concept id="1212008292747" name="jetbrains.mps.lang.smodel.structure.Model_GetLongNameOperation" flags="nn" index="LkI2h" />
       <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
-      <concept id="1171323947159" name="jetbrains.mps.lang.smodel.structure.Model_NodesOperation" flags="nn" index="2SmgA7">
-        <child id="1758937410080001570" name="conceptArgument" index="1dBWTz" />
-      </concept>
       <concept id="1145567426890" name="jetbrains.mps.lang.smodel.structure.SNodeListCreator" flags="nn" index="2T8Vx0">
         <child id="1145567471833" name="createdType" index="2T96Bj" />
       </concept>
@@ -329,6 +326,9 @@
       </concept>
       <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
         <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
+      </concept>
+      <concept id="1182511038748" name="jetbrains.mps.lang.smodel.structure.Model_NodesIncludingImportedOperation" flags="nn" index="1j9C0f">
+        <child id="6750920497477143623" name="conceptArgument" index="3MHPCF" />
       </concept>
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
@@ -1354,8 +1354,8 @@
                                     <node concept="13iPFW" id="6cg8O7PS76V" role="2Oq$k0" />
                                     <node concept="I4A8Y" id="6cg8O7PS76W" role="2OqNvi" />
                                   </node>
-                                  <node concept="2SmgA7" id="6cg8O7PS76X" role="2OqNvi">
-                                    <node concept="chp4Y" id="6cg8O7PS76Y" role="1dBWTz">
+                                  <node concept="1j9C0f" id="6kUcvz65IdE" role="2OqNvi">
+                                    <node concept="chp4Y" id="6kUcvz67ePd" role="3MHPCF">
                                       <ref role="cht4Q" to="p1cl:1nL_s$DdmcT" resolve="BNFDefinitionTermBase" />
                                     </node>
                                   </node>
@@ -7451,7 +7451,7 @@
             <node concept="10Nm6u" id="7aaqmznmOjl" role="33vP2m" />
           </node>
         </node>
-        <node concept="1X3_iC" id="74wEyld9eSk" role="lGtFl">
+        <node concept="1X3_iC" id="2eHPbb3e1Bg" role="lGtFl">
           <property role="3V$3am" value="statement" />
           <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
           <node concept="2xdQw9" id="7aaqmzoKEUP" role="8Wnug">
